@@ -1,0 +1,25 @@
+High Ancillary Service Limit (HASL) 
+A dynamically calculated MW upper limit on a Resource to reserve the part of the Resource’s capacity committed for Ancillary Service, calculated as described in Section 6.5.7.2, Resource Limit Calculator.  HASL is also included in Section 5.7.4.1.1, Capacity Shortfall Ratio Share, Section 6.8.3.1.1, Capacity Shortfall Ratio Share for an LCAP Effective Period, and in the Reliability Unit Commitment (RUC) optimization but is not adjusted for Non-Frequency Responsive Capacity (NFRC) as in Section 6.5.7.2.
+[NPRR1013:  Delete the above definition “High Ancillary Service Limit (HASL)” upon system implementation of the Real-Time Co-Optimization (RTC) project.]
+High Emergency Limit (HEL)
+The limit established by the QSE describing the maximum temporary unsustainable energy production capability of a Resource.  This limit must be achievable for a time stated by the QSE, but not less than 30 minutes. 
+High Impact Outage (HIO) (see Outage)
+High Impact Transmission Element (HITE) (see Transmission Element)
+High Sustained Limit (HSL)
+[NPRR1014:  Insert the following definition “High Sustained Limit (HSL) for an Energy Storage Resource (ESR)” upon system implementation:]
+High Sustained Limit (HSL) for an Energy Storage Resource (ESR)
+The limit established by the Qualified Scheduling Entity (QSE), expressed as a MW value that may be less than, equal to, or greater than zero, continuously updated in Real-Time.  A positive HSL for an ESR describes the maximum sustained energy discharging capability of the ESR.  A negative HSL for an ESR describes the minimum temporary energy charging capability of the ESR.
+High Sustained Limit (HSL) for a Generation Resource
+The limit established by the Qualified Scheduling Entity (QSE), continuously updated in Real-Time, that describes the maximum sustained energy production capability of the Resource.  
+High Sustained Limit (HSL) for a Load Resource
+The limit calculated by ERCOT, using the Qualified Scheduling Entity (QSE)-established Maximum Power Consumption (MPC).  
+Hotline 
+The telecommunications capability of the ERCOT Wide Area Network (WAN) reserved for simultaneous communications with WAN Participants or their designated agents.    
+Hourly Reliability Unit Commitment (HRUC) 
+Any RUC executed after the DRUC.
+Hub 
+A designated Settlement Point consisting of a Hub Bus or group of Hub Buses and the associated Settlement price calculation methodology prescribed in the definition of the Hub in Section 3.5.2, Hub Definitions.  Hubs may only be created by an amendment to Section 3.5.2.  The list of Hub Buses and the Settlement price calculation methodology that define a Hub can never be modified, and a Hub, once defined, exists in perpetuity.
+Hub Bus
+(1)	In the Day-Ahead Market (DAM) and Congestion Revenue Right (CRR) Auction, an energized power flow bus or group of energized power flow buses are defined as a single element in the Hub definition.  The Locational Marginal Price (LMP) of the Hub Bus is the simple average of the LMPs assigned to each energized power flow bus in the Hub Bus.  If all power flow buses within a Hub Bus are de-energized, the LMP of the Hub does not include the de-energized Hub Bus.  If power flow buses within a Hub Bus are de-energized under contingency, the disconnected MWs are redistributed among remaining energized power flow buses. This is used solely for calculating the prices of existing Hub Buses defined in Section 3.5.2, Hub Definitions; or
+(2)	In the Real-Time Market (RTM), an energized Electrical Bus or group of energized Electrical Buses defined as a single element in the Hub definition.  The LMP of the Hub Bus is the simple average of the LMPs assigned to each energized Electrical Bus in the Hub Bus.  If all Electrical Buses within a Hub Bus are de-energized, the LMP of the Hub does not include the de-energized Hub Bus.  This is used solely for calculating the prices of existing Hub Buses defined in Section 3.5.2.
+Hub LMP (see Locational Marginal Price)

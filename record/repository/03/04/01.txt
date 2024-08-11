@@ -1,0 +1,6 @@
+3.4.1	Load Zone Types 
+(1)	The Load Zone types are:
+(a)	The Competitive Load Zones;  
+(b)	The Non-Opt-In Entity (NOIE) Load Zones created pursuant to Section 3.4.3, NOIE Load Zones; and 
+(c)	The Direct Current Tie (DC Tie) Load Zones as defined in Section 3.4.4, DC Tie Load Zones. 
+(2)	The Competitive Load Zones are the four zones in effect during the 2003 ERCOT market unless they are changed pursuant to Section 3.4.2, Load Zone Modifications, less any Electrical Buses that are assigned to a NOIE Load Zone or a DC Tie Load Zone.

@@ -1,0 +1,97 @@
+Data Agent-Only Qualified Scheduling Entity (QSE) (see Qualified Scheduling Entity (QSE))
+
+Data Aggregation
+The process of netting, grouping, and summing Load consumption data, applying appropriate profiles, Transmission Loss Factors (TLFs), and Distribution Loss Factors (DLFs) and calculating and allocating UFE to determine each QSE and/or Load Serving Entity’s (LSE’s) responsibility by Settlement Interval by Load Zone and by other prescribed aggregation determinants.
+
+Data Aggregation System (DAS)
+The database and communication system that collects meter data from TSPs, DSPs and ERCOT Polled Settlement (EPS) Meters.  The system performs aggregation functions to Load data in order to satisfy certain objectives, such as providing TSPs with Load share data to use in billing CRs, assigning QSE Load responsibility, and assisting CRs and QSEs in their Settlement responsibilities.  The data is also compiled along Load and Weather Zones.
+
+Data Archive
+An integrated normalized data structure of all the target source systems’ transactions. The population of the Data Archive is an extraction of data from the transaction systems without altering the data. The Data Archive is used to populate the Data Warehouse.
+
+Data Warehouse
+De-normalized data stored in a schema, physically optimized to handle high volumes of data and concurrent user access, and generally lightly indexed.
+
+Day-Ahead 
+The 24-hour period before the start of the Operating Day. 
+
+Day-Ahead Market (DAM)
+A daily, co-optimized market in the Day-Ahead for Ancillary Service capacity, certain CRRs, and forward financial energy transactions. 
+
+Day-Ahead Market (DAM)-Committed Interval
+A Settlement Interval for which the Resource has been committed due to a DAM award. 
+
+Day-Ahead Market (DAM) Energy Bid
+A proposal to buy energy in the DAM at a Settlement Point at a monotonically decreasing price with increasing quantity.
+
+Day-Ahead Market (DAM) Energy-Only Offer
+A QSE’s willingness to sell energy at or above a certain price and at a certain quantity at a specific Settlement Point in the DAM.  A DAM Energy-Only Offer Curve may be offered only in the DAM.  DAM Energy-Only Offer Curves are not Resource-specific.
+
+Day-Ahead Market (DAM) Resettlement Statement (see Settlement Statement)
+
+Day-Ahead Market (DAM) Statement (see Settlement Statement)
+
+Day-Ahead Operations
+The Day-Ahead process consisting of the DAM and Day-Ahead Reliability Unit Commitment (DRUC).
+
+Day-Ahead Reliability Unit Commitment (DRUC)
+A Reliability Unit Commitment (RUC) process performed for the next Operating Day. 
+[NPRR1013:  Insert the following definition “Day-Ahead System-Wide Offer Cap (DASWCAP)” upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+
+Day-Ahead System-Wide Offer Cap (DASWCAP)
+The DASWCAP shall be determined in accordance with Public Utility Commission of Texas (PUCT) Substantive Rules.
+Delivery Plan
+A plan by ERCOT containing the hours and levels of operation that a Reliability Must-Run (RMR) Unit is instructed to operate.
+Demand
+The amount of instantaneous electric power in MW delivered at any specified point or points on a system.
+Designated Representative
+A responsible natural person authorized by an Entity to register with ERCOT as a Renewable Energy Credit (REC) Account Holder or manage an REC Account.  
+Digital Certificate
+An electronic file installed on a programmatic interface or an individual’s assigned computer used to authenticate that the interface or individual is authorized for secure electronic messaging with ERCOT’s computer systems.
+Direct Current Tie (DC Tie) 
+Any non-synchronous transmission interconnections between ERCOT and non-ERCOT electric power systems.
+Direct Current Tie (DC Tie) Curtailment Notice
+A notification issued by ERCOT indicating the need for curtailment of DC Tie import or export schedules due to current system conditions.
+Direct Current Tie (DC Tie) Load
+A Load used to represent the withdrawal of power from the ERCOT System to a DC Tie.
+[NPRR857:  Insert the following definition “Direct Current Tie Operator (DCTO)” upon system implementation and satisfying the following conditions:  (1) Southern Cross provides ERCOT with funds to cover the entire estimated cost of the project; and (2) Southern Cross has signed an interconnection agreement with a TSP and the TSP gives ERCOT written notice that Southern Cross has provided it with:  (a) Notice to proceed with the construction of the interconnection; and (b) The financial security required to fund the interconnection facilities:]
+Direct Current Tie Operator (DCTO)
+An Entity that operates a Direct Current Tie (DC Tie) interconnected to the ERCOT System and that is registered as a DCTO.
+Direct Current Tie (DC Tie) Resource
+A Resource used to represent the injection of power into the ERCOT System from a DC Tie.
+Direct Current Tie (DC Tie) Schedule
+An energy schedule between ERCOT and a non-ERCOT Control Area and is represented by a corresponding Electronic Tag (e-Tag) that contains the physical transaction information such as the Settlement Point energy amount (MW), the associated DC Tie, and the buyer and seller.  
+Direct Load Control (DLC)
+The control of end-use equipment (e.g., air conditioning equipment, water heaters) to reduce or increase energy consumption during select periods.
+Dispatch
+The act of issuing Dispatch Instructions.
+Dispatch Instruction
+A specific command issued by ERCOT to a Qualified Scheduling Entity (QSE), Transmission Service Provider (TSP), or Distribution Service Provider (DSP) in the operation of the ERCOT System.
+[NPRR857:  Replace the above definition “Dispatch Instruction” with the following upon system implementation and satisfying the following conditions:  (1) Southern Cross provides ERCOT with funds to cover the entire estimated cost of the project; and (2) Southern Cross has signed an interconnection agreement with a TSP and the TSP gives ERCOT written notice that Southern Cross has provided it with:  (a) Notice to proceed with the construction of the interconnection; and (b) The financial security required to fund the interconnection facilities:]
+Dispatch Instruction
+A specific command issued by ERCOT to a Qualified Scheduling Entity (QSE), Transmission Service Provider (TSP), Direct Current Tie Operator (DCTO), or Distribution Service Provider (DSP) in the operation of the ERCOT System.
+Dispute Contact 
+The individual associated with a Market Participant who is the primary contact with ERCOT regarding the pursuit of an Alternative Dispute Resolution (ADR) request.
+Distributed Generation (DG)
+An electrical generating facility located at a Customer’s point of delivery (point of common coupling) ten megawatts (MW) or less and connected at a voltage less than or equal to 60 kilovolts (kV) which may be connected in parallel operation to the utility system. 
+Distributed Renewable Generation (DRG)
+Electric generation with a capacity of not more than 2,000 kW provided by a renewable energy technology that is installed on a retail electric Customer’s side of the meter.
+Distribution Generation Resource (see Resource)
+Distribution Loss Factor (DLF)
+The ratio of a DSP’s estimated Distribution Losses to the total amount of energy deemed consumed (Interval Data Recorder (IDR) plus profiled consumption) on the DSP’s system. 
+Distribution Losses
+The difference between the energy delivered to the Distribution System and the energy consumed by Customers connected to the Distribution System.
+Distribution Service Provider (DSP)
+An Entity that owns or operates a Distribution System for the delivery of energy from the ERCOT Transmission Grid to Customers.
+Distribution System
+That portion of an electric delivery system operating under 60 kV that provides electric service to Customers or Wholesale Customers.
+DUNS Number 
+A unique nine-digit common company identifier used in electronic commerce transactions, supplied by the Data Universal Numbering System (DUNS). 
+Dynamic Rating 
+The current-carrying capability of a Transmission Element adjusted to take into account the effect of ambient weather conditions. 
+Dynamic Rating Processor  
+A process used to establish ERCOT Transmission Element limits based upon factors such as ambient temperature and wind speed.
+Dynamically Scheduled Resource (DSR) (see Resource Attribute)
+Dynamically Scheduled Resource (DSR) Load
+A Load that a QSE designates to be followed by a Dynamically Scheduled Resource (DSR).
+[NPRR1000:  Delete the definition “Dynamically Scheduled Resource (DSR) Load” above upon system implementation.]

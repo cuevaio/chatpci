@@ -1,0 +1,24 @@
+Generation Entity
+The owner of a Generation Resource or Settlement Only Generator (SOG) and, unless otherwise specified in these Protocols, is registered as a Resource Entity.
+[NPRR995:  Replace the above definition “Generation Entity” with the following upon system implementation:]
+Generation Entity
+The owner of a Generation Resource, Energy Storage Resource (ESR), Settlement Only Energy Storage System (SOESS), or Settlement Only Generator (SOG) and, unless otherwise specified in these Protocols, is registered as a Resource Entity.
+Generation Resource (see Resource)
+Generator Step-Up (GSU)
+Transformer in a station with generation where the voltage is transformed from the voltage level of the generator terminals to a higher voltage.  If the higher voltage is at or above 60 kV, the GSU may also be referred to as a Main Power Transformer (MPT).
+Generic Transmission Constraint (GTC)
+A transmission constraint made up of one or more grouped Transmission Elements that is used to constrain flow between geographic areas of ERCOT for the purpose of managing stability, voltage, and other constraints that cannot otherwise be modeled directly in ERCOT’s powerflow and contingency analysis applications.
+Generic Transmission Limit (GTL)
+The value of the transmission flow limit associated with a GTC. 
+Generation To Be Dispatched (GTBD)
+A dynamically calculated system total generation MW requirement used by Security-Constrained Economic Dispatch (SCED) for resource dispatch, calculated every four seconds. 
+Good Utility Practice 
+Any of the practices, methods, and acts engaged in, or approved by, a significant portion of the electric utility industry during the relevant time period, or any of the practices, methods, and acts that, in the exercise of reasonable judgment in light of the facts known at the time the decision was made, could have been expected to accomplish the desired result at a reasonable cost consistent with good business practices, reliability, safety, and expedition.  Good Utility Practice is not intended to be limited to the optimum practice, method, or act, to the exclusion of all others, but rather is intended to include acceptable practices, methods, and acts generally accepted in the region. 
+Governmental Authority
+Any federal, state, local, or municipal body having jurisdiction over a Market Participant or ERCOT.  A Governmental Authority that is also a Market Participant may not exercise its jurisdiction in any matter that involves the interests of that Market Participant where that matter also involves the interests or responsibilities of any other Market Participant or ERCOT, unless the matter is one in which the Market Participant has exclusive jurisdiction. 
+Governmental Cybersecurity Oversight Agency
+A state or federal agency with cybersecurity oversight responsibility.  Cybersecurity oversight includes the review, monitoring, supervision, and/or enforcement of cybersecurity laws, programs, activities, and policies.
+Governor
+The electronic, digital, or mechanical device that implements Primary Frequency Response of generating units/generating facilities or other system elements.
+Governor Dead-Band
+The range of deviations of system frequency (+/-) that produces no Primary Frequency Response.

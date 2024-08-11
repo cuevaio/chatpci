@@ -1,0 +1,8 @@
+3.17.2	Responsive Reserve Service 
+(1)	Responsive Reserve (RRS) is a service used to restore or maintain the frequency of the ERCOT System in response to a significant frequency deviation.  
+(2)	RRS is automatically self-deployed by Resources in a manner that results in real power increases or decreases.
+(3)	RRS may be provided by:  
+(a)	On-Line Generation Resource capable of providing Primary Frequency Response with the capacity excluding Non-Frequency Responsive Capacity (NFRC); 
+(b)	Resources capable of providing Fast Frequency Response (FFR) and sustaining their response for up to 15 minutes; 
+(c)	Load Resources controlled by high-set under-frequency relays; and
+(d)	Generation Resources operating in synchronous condenser fast-response mode as defined in the Operating Guides.

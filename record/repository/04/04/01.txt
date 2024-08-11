@@ -1,0 +1,19 @@
+4.4.1	Capacity Trades 
+(1)	A Capacity Trade is the information for a Qualified Scheduling Entity (QSE)-to-QSE transaction that transfers financial responsibility for capacity between a buyer and a seller. 
+(2)	A Capacity Trade for hours in the Operating Day that is reported to ERCOT before 1430 in the Day-Ahead creates:
+(a)	A capacity supply in the Day-Ahead Reliability Unit Commitment (DRUC) process for the buyer; and
+(b)	A capacity obligation in the DRUC process for the seller. 
+(3)	A Capacity Trade submitted at or after 1430 in the Day-Ahead for the Operating Day creates a capacity supply or obligation in any Hourly Reliability Unit Commitment (HRUC) processes executed after the Capacity Trade is reported to ERCOT.  Capacity Trades submitted after the DRUC snapshot are considered in the Adjustment Period snapshot.
+(4)	As soon as practicable, ERCOT shall notify each QSE through the Messaging System of any of its Capacity Trades that are invalid Capacity Trades.  The QSE may correct and resubmit any invalid Capacity Trade within the appropriate market timeline.
+4.4.1.1	Capacity Trade Criteria
+(1)	A Capacity Trade must be submitted by a QSE and must include the following:
+(a)	The buying QSE;
+(b)	The selling QSE;
+(c)	The quantity in MW; and
+(d)	The first hour and last hour of the trade.   
+(2)	A Capacity Trade must be confirmed by both the buyer and seller to be considered valid.
+4.4.1.2	Capacity Trade Validation
+(1)	A validated Capacity Trade is a Capacity Trade that ERCOT has determined meets the criteria listed in Section 4.4.1.1, Capacity Trade Criteria.  Only one confirmed Capacity Trade is allowed for the same buying and selling QSEs for each hour.
+(2)	When a Capacity Trade is reported to ERCOT, ERCOT shall notify both the buying and selling QSEs by using the Messaging System, if available, and on the Market Information System (MIS) Certified Area.  ERCOT shall also post to the MIS Certified Area any unconfirmed Capacity Trades for QSEs on an hourly basis for all remaining hours of the current Operating Day and all hours of the next Operating Day. 
+(3)	ERCOT shall continuously validate Capacity Trades and continuously display on the MIS Certified Area information that allows any QSE named in a Capacity Trade to view confirmed and unconfirmed Capacity Trades. 
+(4)	The QSE that first reports the Capacity Trade to ERCOT is deemed to have confirmed the Capacity Trade unless it subsequently affirmatively rejects it.  The QSE that first reports a Capacity Trade may reject, edit, or delete a Capacity Trade that its counterpart has not confirmed.  The counterpart is deemed to have confirmed the Capacity Trade when it submits to ERCOT an identical Capacity Trade.  After both the buyer and seller have confirmed a Capacity Trade, either party may reject it at any time, but the rejection is effective only for any ERCOT Settlement process for which the deadline for reporting Capacity Trades has not yet passed.

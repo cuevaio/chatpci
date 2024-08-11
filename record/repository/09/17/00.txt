@@ -1,0 +1,2 @@
+9.17	Transmission Billing Determinant Calculation
+(1)	ERCOT shall provide Market Participants with the key parameters and formula components required by a Transmission Service Provider (TSP) or Distribution Service Provider (DSP) in determining the billing charges for the use of its Transmission Facilities or Distribution Facilities (“Transmission Billing Determinants”).  ERCOT is not responsible for billing, collection, or disbursal of payments associated with transmission access service.

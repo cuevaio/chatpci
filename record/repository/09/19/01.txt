@@ -1,0 +1,254 @@
+9.19.1	Default Uplift Invoices
+(1)	ERCOT shall collect the total short-pay amount for all Settlement Invoices for a month, less the total payments expected from a payment plan, from Qualified Scheduling Entities (QSEs) and CRR Account Holders.  ERCOT must pay the funds it collects from payments on Default Uplift Invoices to the Entities previously short-paid.  ERCOT shall notify those Entities of the details of the payment.
+(2)	Each Counter-Party’s share of the uplift is calculated using the best available Settlement data for each Operating Day in the month prior to the month in which the default occurred (the “reference month”), and is calculated as follows:
+DURSCPcp = TSPA * MMARScp
+Where:
+MMARS cp = MMA cp / MMATOT
+      MMA cp = Max { ∑mp (URTMG mp + URTDCIMP mp + USOGTOT mp), 
+∑mp (URTAML mp + UWSLTOT mp), 
+      ∑mp URTQQES mp, 
+      ∑mp URTQQEP mp, 
+      ∑mp UDAES mp, 
+      ∑mp UDAEP mp,
+      ∑mp (URTOBL mp + URTOBLLO mp), 
+      ∑mp (UDAOPT mp + UDAOBL mp + UOPTS mp + UOBLS mp), 
+      ∑mp (UOPTP mp + UOBLP mp)}
+[NPRR995, NPRR1012, and NPRR1201:  Replace applicable portions of the formula “MMA cp” above with the following upon system implementation for NPRR995 or NPRR1201; or upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1012:]
+      MMA cp = Max { ∑mp (URTMG mp + URTDCIMP mp + USOGTOT mp), 
+∑mp (URTAML mp + UWSLTOT mp + USOCLTOT mp), 
+      ∑mp URTQQES mp, 
+      ∑mp URTQQEP mp, 
+      ∑mp UDAES mp, 
+      ∑mp UDAEP mp,
+      ∑mp (URTOBL mp + URTOBLLO mp), 
+      ∑mp (UDAOPT mp + UDAOBL mp), 
+      ∑mp UDAASOAWD mp}
+MMATOT = ∑cp (MMAcp)
+Where:
+URTMG mp = ∑p, r, i (RTMG mp, p, r, i), excluding RTMG for RMR Resources and RTMG in Reliability Unit Commitment (RUC)-Committed Intervals for RUC-committed Resources
+URTDCIMP mp = ∑p, i (RTDCIMP mp, p, i) / 4
+URTAML mp = max(0,∑p, i (RTAML mp, p, i))
+URTQQES mp = ∑p, i (RTQQES mp, p, i) / 4
+URTQQEP mp = ∑p, i (RTQQEP mp, p, i) / 4
+UDAES mp = ∑p, h (DAES mp, p, h)
+UDAEP mp = ∑p, h (DAEP mp, p, h)
+URTOBL mp = ∑(j, k), h (RTOBL mp, (j, k), h)
+URTOBLLO mp = ∑(j, k), h (RTOBLLO mp, (j, k), h)
+UDAOPT mp = ∑(j, k), h (DAOPT mp, (j, k), h)
+UDAOBL mp = ∑(j, k), h (DAOBL mp, (j, k), h)
+UOPTS mp = ∑(j, k), h (OPTS mp, (j, k), h) 
+UOBLS mp = ∑(j, k), h (OBLS mp, (j, k), h)
+UOPTP mp = ∑(j, k), h (OPTP mp, j, h)
+UOBLP mp = ∑(j, k), h (OBLP mp, (j, k), h)
+[NPRR1201:  Delete the formulas “UOPTS mp”, “UOBLS mp”, “UOPTP mp”, and “UOBLP mp” above upon system implementation.]
+UWSLTOT mp = (-1) * ∑r, b (MEBL mp, r, b)
+[NPRR1012:  Insert the formula “UDAASOAWD mp” below upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+UDAASOAWD mp  = ∑h (DARUOAWD mp, h  + DARDOAWD mp, h + DARROAWD mp, h + DANSOAWD mp, h + DAECROAWD mp, h )
+USOGTOT mp = ∑gsc (MEBSOGNET mp, gsc) + ∑ p, i (RTMGSOGZ mp, p, i) 
+[NPRR995:  Insert the formula “USOCLTOT mp” below upon system implementation:]
+USOCLTOT mp = (-1) * ∑gsc, b (WSOL mp, gsc, b)
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+DURSCP cp
+$
+Default Uplift Ratio Share per Counter-Party—The Counter-Party’s pro rata portion of the total short-pay amount for all Day-Ahead Market (DAM) and Real-Time Market (RTM) Invoices for a month. 
+TSPA
+$
+Total Short Pay Amount—The total short-pay amount calculated by ERCOT to be collected through the Default Uplift Invoice process.
+MMARS cp
+None
+Maximum MWh Activity Ratio Share—The Counter-Party’s pro rata share of Maximum MWh Activity in the reference month.
+MMA cp
+MWh
+Maximum MWh Activity—The maximum MWh activity of all Market Participants represented by the Counter-Party in the DAM, RTM and CRR Auction in the reference month.
+MMATOT
+MWh
+Maximum MWh Activity Total—The sum of all Counter-Party’s Maximum MWh Activity in the reference month.
+RTMG mp, p, r, i
+MWh
+Real-Time Metered Generation per Market Participant per Settlement Point per Resource—The Real-Time energy produced by the Generation Resource r represented by Market Participant mp, at Resource Node p, for the 15-minute Settlement Interval i, where the Market Participant is a QSE.
+URTMG mp
+MWh
+Uplift Real-Time Metered Generation per Market Participant—The monthly sum of Real-Time energy produced by Generation Resources represented by Market Participant mp, excluding generation for RMR Resources and generation in RUC-Committed Intervals, where the Market Participant is a QSE assigned to the registered Counter-Party. 
+RTDCIMP mp, p, i
+MW
+Real-Time DC Import per QSE per Settlement Point—The aggregated Direct Current Tie (DC Tie) Schedule submitted by Market Participant mp, as an importer into the ERCOT System through DC Tie p, for the 15-minute Settlement Interval i, where the Market Participant is a QSE.
+URTDCIMP mp
+MW
+Uplift Real-Time DC Import per Market Participant—The monthly sum of the aggregated DC Tie Schedule submitted by Market Participant mp, as an importer into the ERCOT System where the Market Participant is a QSE assigned to a registered Counter-Party.
+RTAML mp, p, i
+MWh
+Real-Time Adjusted Metered Load per Market Participant per Settlement Point—The sum of the Adjusted Metered Load (AML) at the Electrical Buses that are included in Settlement Point p represented by Market Participant mp for the 15-minute Settlement Interval i, where the Market Participant is a QSE.
+URTAML mp
+MWh
+Uplift Real-Time Adjusted Metered Load per Market Participant—The monthly sum of the AML represented by Market Participant mp, where the Market Participant is a QSE assigned to the registered Counter-Party.
+RTQQES mp, p, i
+MW
+QSE-to-QSE Energy Sale per Market Participant per Settlement Point—The amount of MW sold by Market Participant mp through Energy Trades at Settlement Point p for the 15-minute Settlement Interval i, where the Market Participant is a QSE.
+URTQQES mp
+MWh
+Uplift QSE-to-QSE Energy Sale per Market Participant—The monthly sum of MW sold by Market Participant mp through Energy Trades, where the Market Participant is a QSE assigned to the registered Counter-Party.
+RTQQEP mp, p, i
+MW
+QSE-to-QSE Energy Purchase per Market Participant per Settlement Point—The amount of MW bought by Market Participant mp through Energy Trades at Settlement Point p for the 15-minute Settlement Interval i, where the Market Participant is a QSE.
+URTQQEP mp
+MWh
+Uplift QSE-to-QSE Energy Purchase per Market Participant—The monthly sum of MW bought by Market Participant mp through Energy Trades, where the Market Participant is a QSE assigned to the registered Counter-Party.
+DAES mp, p, h
+MW
+Day-Ahead Energy Sale per Market Participant per Settlement Point per hour—The total amount of energy represented by Market Participant mp’s cleared Three-Part Supply Offers in the DAM and cleared DAM Energy-Only Offers at Settlement Point p, for the hour h, where the Market Participant is a QSE.
+UDAES mp
+MWh
+Uplift Day-Ahead Energy Sale per Market Participant—The monthly total of energy represented by Market Participant mp’s cleared Three-Part Supply Offers in the DAM and cleared DAM Energy-Only Offer Curves, where the Market Participant is a QSE assigned to the registered Counter-Party.
+DAEP mp, p, h
+MW
+Day-Ahead Energy Purchase per Market Participant per Settlement Point per hour—The total amount of energy represented by Market Participant mp’s cleared DAM Energy Bids at Settlement Point p for the hour h, where the Market Participant is a QSE.
+UDAEP mp
+MWh
+Uplift Day-Ahead Energy Purchase per Market Participant—The monthly total of energy represented by Market Participant mp’s cleared DAM Energy Bids, where the Market Participant is a QSE assigned to the registered Counter-Party.
+RTOBL mp, (j, k), h
+MW
+Real-Time Obligation per Market Participant per source and sink pair per hour—The number of Market Participant mp’s Point-to-Point (PTP) Obligations with the source j and the sink k settled in Real-Time for the hour h, and where the Market Participant is a QSE.
+URTOBL mp
+MWh
+Uplift Real-Time Obligation per Market Participant—The monthly total of Market Participant mp’s PTP Obligations settled in Real-Time, counting the quantity only once per source and sink pair, and where the Market Participant is a QSE assigned to the registered Counter-Party.
+RTOBLLO q, (j, k)
+MW
+Real-Time Obligation with Links to an Option per QSE per pair of source and sinkRThe total MW of the QSE’s PTP Obligation with Links to an Option Bids cleared in the DAM and settled in Real-Time for the source j and the sink k for the hour.
+URTOBLLO q, (j, k)
+MW
+Uplift Real-Time Obligation with Links to an Option per QSE per pair of source and sinkUThe monthly total of Market Participant mp’s MW of PTP Obligation with Links to Options Bids cleared in the DAM and settled in Real-Time for the source j and the sink k for the hour, where the Market Participant is a QSE assigned to the registered Counter-Party.
+DAOPT mp, (j, k), h
+MW
+Day-Ahead Option per Market Participant per source and sink pair per hourDThe number of Market Participant mp’s PTP Options with the source j and the sink k owned in the DAM for the hour h, and where the Market Participant is a CRR Account Holder. 
+UDAOPT mp
+MWh
+Uplift Day-Ahead Option per Market ParticipantUThe monthly total of Market Participant mp’s PTP Options owned in the DAM, counting the ownership quantity only once per source and sink pair, and where the Market Participant is a CRR Account Holder assigned to the registered Counter-Party.
+DAOBL mp, (j, k), h
+MW
+Day-Ahead Obligation per Market Participant per source and sink pair per hour—The number of Market Participant mp’s PTP Obligations with the source j and the sink k owned in the DAM for the hour h, and where the Market Participant is a CRR Account Holder.  
+UDAOBL mp
+MWh
+Uplift Day-Ahead Obligation per Market ParticipantUThe monthly total of Market Participant mp’s PTP Obligations owned in the DAM, counting the ownership quantity only once per source and sink pair, where the Market Participant is a CRR Account Holder assigned to the registered Counter-Party.
+OPTS mp, (j, k), a, h
+MW
+PTP Option Sale per Market Participant per source and sink pair per CRR Auction per hour—The MW quantity that represents the total of Market Participant mp’s PTP Option offers with the source j and the sink k awarded in CRR Auction a, for the hour h, where the Market Participant is a CRR Account Holder.
+UOPTS mp
+MWh
+Uplift PTP Option Sale per Market Participant—The MW quantity that represents the monthly total of Market Participant mp’s PTP Option offers awarded in CRR Auctions, counting the awarded quantity only once per source and sink pair, where the Market Participant is a CRR Account Holder assigned to the registered Counter-Party.
+OBLS mp, (j, k), a, h
+MW
+PTP Obligation Sale per Market Participant per source and sink pair per CRR Auction per hour—The MW quantity that represents the total of Market Participant mp’s PTP Obligation offers with the source j and the sink k awarded in CRR Auction a, for the hour h, where the Market Participant is a CRR Account Holder.
+UOBLS mp
+MWh
+Uplift PTP Obligation Sale per Market Participant—The MW quantity that represents the monthly total of Market Participant mp’s PTP Obligation offers awarded in CRR Auctions, counting the quantity only once per source and sink pair, where the Market Participant is a CRR Account Holder assigned to the registered Counter-Party.
+OPTP mp, (j, k), a, h
+MW
+PTP Option Purchase per Market Participant per source and sink pair per CRR Auction per hour—The MW quantity that represents the total of Market Participant mp’s PTP Option bids with the source j and the sink k awarded in CRR Auction a, for the hour h, where the Market Participant is a CRR Account Holder.
+UOPTP mp
+MWh
+Uplift PTP Option Purchase per Market Participant—The MW quantity that represents the monthly total of Market Participant mp’s PTP Option bids awarded in CRR Auctions, counting the quantity only once per source and sink pair, where the Market Participant is a CRR Account Holder assigned to the registered Counter-Party.
+OBLP mp, (j, k), a, h
+MW
+PTP Obligation Purchase per Market Participant per source and sink pair per CRR Auction per hour—The MW quantity that represents the total of Market Participant mp’s PTP Obligation bids with the source j and the sink k awarded in CRR Auction a, for the hour h, where the Market Participant is a CRR Account Holder.
+UOBLP mp
+MWh
+Uplift PTP Obligation Purchase per Market Participant—The MW quantity that represents the monthly total of Market Participant mp’s PTP Obligation bids awarded in CRR Auctions, counting the quantity only once per source and sink pair, where the Market Participant is a CRR Account Holder assigned to the registered Counter-Party.
+[NPRR1201:  Delete the variables “OPTS mp, (j, k), a, h”, “UOPTS mp”, “OBLS mp, (j, k), a, h”, “UOBLS mp”, “OPTP mp, (j, k), a, h”, “UOPTP mp”, “OBLP mp, (j, k), a, h”, “UOBLP mp” above upon system implementation.]
+UWSLTOT mp
+MWh
+Uplift Metered Energy for Wholesale Storage Load at bus per Market ParticipantLThe monthly sum of Market Participant mp’s Wholesale Storage Load (WSL) energy metered by the Settlement Meter which measures WSL.
+MEBL mp, r, b
+MWh
+Metered Energy for Wholesale Storage Load at busLThe WSL energy metered by the Settlement Meter which measures WSL for the 15-minute Settlement Interval represented as a negative value, for the Market Participant mp, Resource r, at bus b.  
+[NPRR1012:  Insert the variables below upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+UDAASOAWD mp
+MWh
+Uplift Day-Ahead Ancillary Service Only Award per Market Participant—The monthly total of Market Participant mp’s Ancillary Service Only Offers awarded in DAM, where the Market Participant is a QSE assigned to the registered Counter-Party.
+DARUOAWD mp, h
+MW
+Day-Ahead Reg-Up Only Award per Market ParticipantDThe Reg-Up Only capacity quantity awarded in the DAM to the Market Participant mp for the hour h.
+DARDOAWD mp, h
+MW
+Day-Ahead Reg-Down Only Award per Market Participant The Reg-Down Only capacity quantity awarded in the DAM to the Market Participant mp for the hour h.
+DARROAWD mp, h
+MW
+Day-Ahead Responsive Reserve Only Award per Market Participant  The Responsive Reserve (RRS) Only capacity quantity awarded in the DAM to the Market Participant mp for the hour h.
+DANSOAWD mp, h
+MW
+Day-Ahead Non-Spin Only Award per Market Participant The Non-Spin Only capacity quantity awarded in the DAM to the Market Participant mp for the hour h.
+DAECROAWD mp, h
+MW
+Day-Ahead ERCOT Contingency Reserve Service Only Award per Market Participant The ERCOT Contingency Reserve Service (ECRS) Only capacity quantity awarded in the DAM to the Market Participant mp for the hour h.
+USOGTOT mp
+MWh
+Uplift Real-Time Settlement Only Generator Site per Market Participant—The monthly sum of Real-Time energy produced by Settlement Only Generators (SOGs) represented by Market Participant mp, where the Market Participant is a QSE assigned to the registered Counter-Party. 
+[NPRR995:  Replace the definition above with the following upon system implementation:]
+Uplift Real-Time Settlement Only Generator Site per Market Participant—The monthly sum of Real-Time energy produced by Settlement Only Generators (SOGs), Settlement Only Distribution Generators (SODGs), Settlement Only Transmission Generators (SOTGs), Settlement Only Distribution Energy Storage Systems (SODESSs), or Settlement Only Transmission Energy Storage Systems (SOTESSs) represented by Market Participant mp, where the Market Participant is a QSE assigned to the registered Counter-Party.
+[NPRRR995:  Insert the variable “USOCLTOT mp” below upon system implementation:]
+USOCLTOT mp
+MWh
+Uplift Real-Time Settlement Only Charging Load per Market Participant—The monthly sum of Real-Time charging Load that is WSL by SODESSs and SOTESSs represented by Market Participant mp, where the Market Participant is a QSE assigned to the registered Counter-Party. 
+RTMGSOGZ mp. p, i
+MWh
+Real-Time Metered Generation from Settlement Only Generators Zonal per QSE per Settlement Point—The total Real-Time energy produced by Settlement Only Transmission Self-Generators (SOTSGs) for the Market Participant mp in Load Zone Settlement Point p, for the 15-minute Settlement Interval.  MWh quantities for Energy Storage System (ESS), Settlement Only Distribution Generators (SODGs), and Settlement Only Transmission Generators (SOTGs) at sites where the ESS capacity constitutes more than 50% of the total SOG nameplate capacity will be included in this value.  MWh quantities for SODGs and SOTGs that opted out of nodal pricing pursuant to Section 6.6.3.8, Real-Time Payment or Charge for Energy from a Settlement Only Distribution Generator (SODG) or a Settlement Only Transmission Generator (SOTG), will also be included in this value.
+[NPRR995:  Replace the definition above with the following upon system implementation:]
+Real-Time Metered Generation from Settlement Only Generators Zonal per QSE per Settlement Point—The total Real-Time energy produced by Settlement Only Transmission Self-Generators (SOTSGs) for the Market Participant mp in Load Zone Settlement Point p, for the 15-minute Settlement Interval.  MWh quantities for Energy Storage System (ESS), SODGs, and SOTGs at sites where the ESS capacity constitutes more than 50% of the total SOG nameplate capacity will be included in this value.  MWh quantities for SODGs and SOTGs that opted out of nodal pricing pursuant to Section 6.6.3.8, Real-Time Payment or Charge for Energy from a Settlement Only Distribution Generator (SODG), Settlement Only Transmission Generator (SOTG), Settlement Only Distribution Energy Storage System (SODESS), or Settlement Only Transmission Energy Storage System (SOTESS), will also be included in this value.
+MEBSOGNET q, gsc
+MWh
+Net Metered energy at gsc for an SODG or SOTG SiteNThe net sum for all Settlement Meters for SODG or SOTG site gsc represented by QSE q.  A positive value indicates an injection of power to the ERCOT System.
+[NPRR995:  Replace the definition above with the following upon system implementation:]
+Net Metered energy at gsc for an SODG, SOTG, SODESS, or SOTESS Site The net sum for all Settlement Meters for SODG, SOTG, SODESS, or SOTESS site gsc represented by QSE q for the 15-minute Settlement Interval.  A positive value indicates an injection of power to the ERCOT System.
+[NPRRR995:  Insert the variable “WSOL mp, gsc, b” below upon system implementation:]
+WSOL mp, gsc, b
+MWh
+WSL for an SODESS or SOTESS Site The WSL as measured for an for SODESS or SOTESS site gsc at Electrical Bus b, represented by the Market Participant mp, represented as a negative value, for the 15-minute Settlement Interval.
+cp
+none
+A registered Counter-Party.
+mp
+none
+A Market Participant with MWh activity in the reference month that is a currently-registered QSE or CRR Account Holder or that voluntarily terminated its QSE or CRR Account Holder registration.
+j
+none
+A source Settlement Point.
+k
+none
+A sink Settlement Point.
+a
+none
+A CRR Auction.
+p
+none
+A Settlement Point.
+i
+none
+A 15-minute Settlement Interval.
+h
+none
+The hour that includes the Settlement Interval i. 
+r
+none 
+A Resource. 
+gsc
+none
+A generation site code.
+b
+none
+An Electrical Bus.
+(3)	The uplifted short-paid amount will be allocated to the Market Participants (QSEs or CRR Account Holders) assigned to a registered Counter-Party based on the pro-rata share of MWhs that the QSE or CRR Account Holder contributed to its Counter-Party’s maximum MWh activity ratio share.
+(4)	Any uplifted short-paid amount greater than $2,500,000 must be scheduled so that no amount greater than $2,500,000 is charged on each set of Default Uplift Invoices until ERCOT uplifts the total short-paid amount.  ERCOT must issue Default Uplift Invoices at least 30 days apart from each other.
+(5)	ERCOT shall issue Default Uplift Invoices no earlier than 90 days following a short-pay of a Settlement Invoice on the date specified in the Settlement Calendar.  The Invoice Recipient is responsible for accessing the Invoice on the MIS Certified Area once posted by ERCOT.
+(6)	Each Default Uplift Invoice must contain:
+(a)	The Invoice Recipient’s name;
+(b)	The ERCOT identifier (Settlement identification number issued by ERCOT);
+(c)	Net Amount Due or Payable – the aggregate summary of all charges owed by a Default Uplift Invoice Recipient;
+(d)	Run Date – the date on which ERCOT created and published the Default Uplift Invoice;
+(e)	Invoice Reference Number – a unique number generated by the ERCOT applications for payment tracking purposes;
+(f)	Default Uplift Invoice Reference – an identification code used to reference the amount uplifted;
+(g)	Payment Date and Time – the date and time that Default Uplift Invoice amounts must be paid;
+(h)	Remittance Information Details – details including the account number, bank name, and electronic transfer instructions of the ERCOT account to which any amounts owed by the Invoice Recipient are to be paid or of the Invoice Recipient’s account from which ERCOT may draw payments due; and
+(i)	Overdue Terms – the terms that would apply if the Market Participant makes a late payment.
+(7)	Each Invoice Recipient shall pay any net debit shown on the Default Uplift Invoice on the payment due date whether or not there is any Settlement and billing dispute regarding the amount of the debit.

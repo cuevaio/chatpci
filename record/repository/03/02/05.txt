@@ -1,0 +1,186 @@
+3.2.5	Publication of Resource and Load Information
+(1)	Two days after the applicable Operating Day, ERCOT shall post on the ERCOT website for the ERCOT System and, if applicable, for each Disclosure Area, the information derived from the first complete execution of Security-Constrained Economic Dispatch (SCED) in each 15-minute Settlement Interval.  The Disclosure Area is the 2003 ERCOT CMZs.  Posting requirements will be applicable to Generation Resources and Controllable Load Resources physically located in the defined Disclosure Area.  This information shall not be posted if the posting of the information would reveal any individual Market Participant’s Protected Information.  The information posted by ERCOT shall include:
+[NPRR1007 and NPRR1014:  Replace applicable portions of paragraph (1) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1007; or upon system implementation for NPRR1014:]
+(1)	Two days after the applicable Operating Day, ERCOT shall post on the ERCOT website for the ERCOT System and, if applicable, for each Disclosure Area, the information derived from each execution of SCED.  The Disclosure Area is the 2003 ERCOT CMZs.  Posting requirements will be applicable to Generation Resources, ESRs, and Controllable Load Resources physically located in the defined Disclosure Area.  This information shall not be posted if the posting of the information would reveal any individual Market Participant’s Protected Information.  The information posted by ERCOT shall include:
+(a)	An aggregate energy supply curve based on non-IRR Generation Resources with Energy Offer Curves that are available to SCED.  The energy supply curves will be calculated beginning at the sum of the Low Sustained Limits (LSLs) and ending at the sum of the HSLs for non-IRR Generation Resources with Energy Offer Curves, with the dispatch for each Generation Resource constrained between the Generation Resource’s LSL and HSL.  The result will represent the ERCOT System energy supply curve economic dispatch of the non-IRR Generation Resources with Energy Offer Curves at various pricing points, not taking into consideration any physical limitations of the ERCOT System; 
+(b)	An aggregate energy supply curve based on Wind-powered Generation Resources (WGRs) with Energy Offer Curves that are available to SCED.  The energy supply curves will be calculated beginning at the sum of the LSLs and ending at the sum of the HSLs for WGRs with Energy Offer Curves, with the dispatch for each WGR constrained between the WGR’s LSL and HSL.  The result will represent the ERCOT System energy supply curve economic dispatch of the WGRs with Energy Offer Curves at various pricing points, not taking into consideration any physical limitations of the ERCOT System;
+(c)	An aggregate energy supply curve based on PhotoVoltaic Generation Resources (PVGRs) with Energy Offer Curves that are available to SCED.  The energy supply curves will be calculated beginning at the sum of the LSLs and ending at the sum of the HSLs for PVGRs with Energy Offer Curves, with the dispatch for each PVGR constrained between the PVGR’s LSL and HSL.  The result will represent the ERCOT System energy supply curve economic dispatch of the PVGRs with Energy Offer Curves at various pricing points, not taking into consideration any physical limitations of the ERCOT System;
+[NPRR1014:  Insert paragraph (d) below upon system implementation and renumber accordingly:] 
+(d)	An aggregated energy supply and demand curve based on Energy Bid/Offer Curves that are available to SCED.  The curves will be calculated beginning at the sum of the LSLs and ending at the sum of the HSLs for the Energy Bid/Offer Curves, with the dispatch for each Resource constrained between the Resource’s LSL and HSL.  The result will represent the ERCOT System energy supply and demand curve economic dispatch of the ESRs with Energy Bid/Offer Curves at various pricing points, not taking into consideration any physical limitations of the ERCOT System;
+(d)	The sum of LSLs, sum of Output Schedules, and sum of HSLs for Generation Resources without Energy Offer Curves;
+[NPRR1014:  Replace paragraph (d) above with the following upon system implementation:]
+(e)	The sum of LSLs, sum of Output Schedules, and sum of HSLs for Generation Resources without Energy Offer Curves and ESRs without Energy Bid/Offer Curves;
+(e)	The sum of the Base Points, High Ancillary Service Limit (HASL) and Low Ancillary Service Limit (LASL) of non-IRR Generation Resources with Energy Offer Curves, sum of the Base Points, HASL and LASL of WGRs with Energy Offer Curves, sum of the Base Points, HASL and LASL of PVGRs with Energy Offer Curves, and the sum of the Base Points, HASL and LASL of all remaining Generation Resources dispatched in SCED; 
+[NPRR1007 and NPRR1014:  Replace applicable portions of paragraph (e) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1007; or upon system implementation for NPRR1014:]
+(f)	The sum of the Base Points of non-IRR Generation Resources with Energy Offer Curves, sum of the Base Points of WGRs with Energy Offer Curves, sum of the Base Points of PVGRs with Energy Offer Curves, sum of the Base Points of ESRs with Energy Bid/Offer Curves, and the sum of the Base Points of all remaining Resources dispatched in SCED;
+(f)	The sum of the telemetered Generation Resource net output used in SCED; and
+(g)	An aggregate energy Demand curve based on the Real-Time Market (RTM) Energy Bid curves available to SCED.  The energy Demand curve will be calculated beginning at the sum of the Low Power Consumptions (LPCs) and ending at the sum of the Maximum Power Consumptions (MPCs) for Controllable Load Resources with RTM Energy Bids, with the dispatch for each Controllable Load Resource constrained between the Controllable Load Resource’s LPC and MPC.  The result will represent the ERCOT System Demand response capability available to SCED of the Controllable Load Resources with RTM Energy Bids at various pricing points, not taking into consideration any physical limitations of the ERCOT System.
+[NPRR1014:  Replace paragraph (g) above with the following upon system implementation:]
+(h)	An aggregate energy Demand curve based on the Real-Time Market (RTM) Energy Bid curves available to SCED.  The energy Demand curve will be calculated beginning at the sum of the Low Power Consumptions (LPCs) and ending at the sum of the Maximum Power Consumptions (MPCs), with the dispatch for each Controllable Load Resource constrained between the Controllable Load Resource’s LPC and MPC.  The result will represent the ERCOT System Demand response capability available to SCED of the Controllable Load Resources with RTM Energy Bids at various pricing points, not taking into consideration any physical limitations of the ERCOT System;
+[NPRR1007 and NPRR1014:  Insert applicable portions of paragraphs (i)-(k) below upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1007; or upon system implementation for NPRR1014:]
+(i)	The aggregate Ancillary Service Offers (prices and quantities) in the RTM, for each type of Ancillary Service.  For Responsive Reserve (RRS) and ERCOT Contingency Reserve Service (ECRS), ERCOT shall separately post aggregated offers from Generation Resources, Energy Storage Resources (ESRs), Controllable Load Resources, and Load Resources other than Controllable Load Resources.  Linked Ancillary Service Offers will be included as non-linked Ancillary Service Offers;
+(j)	The sum of the Base Points of ESRs in discharge mode; and
+(k)	The sum of the Base Points of ESRs in charge mode.
+(2)	Two days after the applicable Operating Day, ERCOT shall post on the ERCOT website for the ERCOT System the following information derived from the first complete execution of SCED in each 15-minute Settlement Interval:
+[NPRR1007 and NPRR1014:  Replace applicable portions of paragraph (2) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1007; or upon system implementation for NPRR1014:]
+(2)	Two days after the applicable Operating Day, ERCOT shall post on the ERCOT website for the ERCOT System the following information derived from each execution of SCED:
+(a)	Each telemetered Dynamically Scheduled Resource (DSR) Load, and the telemetered DSR net output(s) associated with each DSR Load; and
+[NPRR1000:  Delete paragraph (a) above upon system implementation and renumber accordingly.]
+(b)	The actual ERCOT Load as determined by subtracting the DC Tie Resource actual telemetry from the sum of the telemetered Generation Resource net output as used in SCED.
+(3)	Two days after the applicable Operating Day, ERCOT shall post on the ERCOT website the following information for the ERCOT System and, if applicable, for each Disclosure Area from the Day-Ahead Market (DAM) for each hourly Settlement Interval:
+(a)	An aggregate energy supply curve based on all energy offers that are available to the DAM, not taking into consideration Resource Startup Offer or Minimum-Energy Offer or any physical limitations of the ERCOT System.  The result will represent the energy supply curve at various pricing points for energy offers available in the DAM;
+(b)	Aggregate minimum energy supply curves based on all Minimum-Energy Offers that are available to the DAM;
+(c)	An aggregate energy Demand curve based on the DAM Energy Bid curves available to the DAM, not taking into consideration any physical limitations of the ERCOT System;
+(d)	The aggregate amount of cleared energy bids and offers including cleared Minimum-Energy Offer quantities;
+(e)	The aggregate Ancillary Service Offers (prices and quantities) in the DAM, for each type of Ancillary Service regardless of a Resource’s On-Line or Off-Line status.  For Responsive Reserve (RRS), ERCOT shall separately post aggregated offers from Resources providing Primary Frequency Response, Fast Frequency Response (FFR), and Load Resources controlled by high-set under-frequency relays.  For ERCOT Contingency Reserve Service (ECRS), ERCOT shall separately post aggregated offers from Resources that are SCED-dispatchable and those that are manually dispatched.  Linked Ancillary Service Offers will be included as non-linked Ancillary Service Offers;
+(f)	The aggregate Self-Arranged Ancillary Service Quantity, for each type of service, by hour.  For RRS, ERCOT shall separately post aggregated Self-Arranged Ancillary Service Quantities from Resources providing Primary Frequency Response, FFR, and Load Resources controlled by high-set under-frequency relays.  For ECRS, ERCOT shall separately post aggregated Self-Arranged Ancillary Service Quantities from Resources that are SCED-dispatchable and those that are manually dispatched;
+(g)	The aggregate amount of cleared Ancillary Service Offers.  For RRS, ERCOT shall separately post aggregated Ancillary Service Offers from Resources providing Primary Frequency Response, FFR, and Load Resources controlled by high-set under-frequency relays.  For ECRS, ERCOT shall separately post aggregated Ancillary Service Offers from Resources that are SCED-dispatchable and those that are manually dispatched; and
+(h)	The aggregate Point-to-Point (PTP) Obligation bids (not-to-exceed price and quantities) for the ERCOT System and the aggregate PTP Obligation bids that sink in the Disclosure Area for each Disclosure Area.
+[NPRR1007 and NPRR1014:  Replace applicable portions of paragraph (3) above with the following upon system implementation for NPRR1014; or upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1007:]
+(3)	Two days after the applicable Operating Day, ERCOT shall post on the ERCOT website the following information for the ERCOT System and, if applicable, for each Disclosure Area from the DAM for each hourly Settlement Interval:
+(a)	An aggregate energy supply curve based on all energy offers that are available to the DAM, including the offer portion of Energy Bid/Offer Curves submitted for ESRs, not taking into consideration Resource Startup Offer or Minimum-Energy Offer or any physical limitations of the ERCOT System.  The result will represent the energy supply curve at various pricing points for energy offers available in the DAM;
+(b)	Aggregate minimum energy supply curves based on all Minimum-Energy Offers that are available to the DAM;
+(c)	An aggregate energy Demand curve based on the DAM Energy Bid curves and including the bid portion of Energy Bid/Offer Curves available to the DAM, not taking into consideration any physical limitations of the ERCOT System;
+(d)	The aggregate amount of cleared energy bids and offers including cleared Minimum-Energy Offer quantities;
+(e)	The aggregate Ancillary Service Offers (prices and quantities) in the DAM, for each type of Ancillary Service regardless of a Resource’s On-Line or Off-Line status and including Ancillary Service Only Offers.  For RRS, ERCOT shall separately post aggregated offers from Resources providing Primary Frequency Response (including Ancillary Service Only Offers), Fast Frequency Response (FFR), and Load Resources controlled by high-set under-frequency relays.  For ERCOT Contingency Reserve Service (ECRS), ERCOT shall separately post aggregated offers from Resources that are SCED-dispatchable (including Ancillary Service Only Offers) and those that are manually dispatched.  Linked Ancillary Service Offers will be included as non-linked Ancillary Service Offers;
+(f)	The aggregate Self-Arranged Ancillary Service Quantity, for each type of service, by hour.  For RRS, ERCOT shall separately post aggregated Self-Arranged Ancillary Service Quantities from Resources providing Primary Frequency Response, FFR, and Load Resources controlled by high-set under-frequency relays.  For ECRS, ERCOT shall separately post aggregated Self-Arranged Ancillary Service Quantities from Resources that are SCED-dispatchable and those that are manually dispatched;
+(g)	The aggregate amount of cleared Resource-specific Ancillary Service Offers and Ancillary Service Only Offers.  For RRS, ERCOT shall separately post aggregated Ancillary Service Offers from Resources providing Primary Frequency Response (including Ancillary Service Only Offers), FFR, and Load Resources controlled by high-set under-frequency relays.  For ECRS, ERCOT shall separately post aggregated Ancillary Service Offers from Resources that are SCED-dispatchable (including Ancillary Service Only Offers) and those that are manually dispatched; and
+(h)	The aggregate Point-to-Point (PTP) Obligation bids (not-to-exceed price and quantities) for the ERCOT System and the aggregate PTP Obligation bids that sink in the Disclosure Area for each Disclosure Area.
+(4)	ERCOT shall post on the ERCOT website the following information for each Resource for each 15-minute Settlement Interval 60 days prior to the current Operating Day:
+[NPRR1007 and NPRR1014:  Replace applicable portions of paragraph (4) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1007; or upon system implementation for NPRR1014:]
+(4)	ERCOT shall post on the ERCOT website the following information for each Resource for each execution of SCED 60 days prior to the current Operating Day:
+(a)	The Generation Resource name and the Generation Resource’s Energy Offer Curve (prices and quantities):
+(i)	As submitted;
+(ii)	As submitted and extended (or truncated) with proxy Energy Offer Curve logic by ERCOT to fit to the operational HSL and LSL values that are available for dispatch by SCED; and
+(iii)	As mitigated and extended for use in SCED, including the Incremental and Decremental Energy Offer Curves for DSRs;
+[NPRR1000:  Replace paragraph (iii) above with the following upon system implementation:]
+(iii)	As mitigated and extended for use in SCED;
+[NPRR1007 and NPRR1014:  Insert applicable portions of paragraph (b) below upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1007; or upon system implementation for NPRR1014; and renumber accordingly:]
+(b) 	The Resource name and the Resource’s Ancillary Service Offer Curve (prices and quantities) for each type of Ancillary Service:
+(i)	As submitted; and
+(ii)	As submitted and extended with proxy Ancillary Service Offer Curve logic by ERCOT.
+(b)	The Load Resource name and the Load Resource’s bid to buy (prices and quantities);
+(c)	The Generation Resource name and the Generation Resource’s Output Schedule;
+(d)	For a DSR, the DSR Load and associated DSR name and DSR net output;
+[NPRR1000:  Delete paragraph (d) above upon system implementation and renumber accordingly.]
+(e)	The Generation Resource name and actual metered Generation Resource net output;
+(f)	The self-arranged Ancillary Service by service for each QSE;
+(g)	The following Generation Resource data using a single snapshot during the first SCED execution in each Settlement Interval: 
+(i)	The Generation Resource name;
+(ii)	The Generation Resource status;
+(iii)	The Generation Resource HSL, LSL, HASL, LASL, High Dispatch Limit (HDL), and Low Dispatch Limit (LDL);
+(iv)	The Generation Resource Base Point from SCED;
+(v)	The telemetered Generation Resource net output used in SCED;
+(vi)	The Ancillary Service Resource Responsibility for each Ancillary Service;
+(vii)	The Generation Resource Startup Cost and minimum energy cost used in the Reliability Unit Commitment (RUC); and
+[NPRR1007 and NPRR1014:  Replace applicable portions of paragraph (g) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1007; or upon system implementation for NPRR1014:]
+(h)	The following Generation Resource data using a snapshot from each execution of SCED: 
+(i)	The Generation Resource name;
+(ii)	The Generation Resource status;
+(iii)	The Generation Resource HSL, LSL, High Dispatch Limit (HDL), and Low Dispatch Limit (LDL);
+(iv)	The Generation Resource Base Point from SCED;
+(v)	The telemetered Generation Resource net output used in SCED;
+(vi)	The Ancillary Service Resource awards for each Ancillary Service;
+(vii)	The Generation Resource Startup Cost and minimum energy cost used in the Reliability Unit Commitment (RUC);
+(viii) 	The telemetered Normal Ramp Rates; 
+(ix) 	The telemetered Ancillary Service capabilities; and
+(h)	The following Load Resource data using a single snapshot during the first SCED execution in each Settlement Interval: 
+(i)	The Load Resource name;
+(ii)	The Load Resource status;
+(iii)	The MPC for a Load Resource;
+(iv)	The LPC for a Load Resource;
+(v)	The Load Resource HASL, LASL, HDL, and LDL, for a Controllable Load Resource that has a Resource Status of ONRGL or ONCLR for the interval snapshot;
+(vi)	The Load Resource Base Point from SCED, for a Controllable Load Resource that has a Resource Status of ONRGL or ONCLR for the interval snapshot;
+(vii)	The telemetered real power consumption; and
+(viii)	The Ancillary Service Resource Responsibility for each Ancillary Service. 
+[NPRR1007, NPRR1014, and NPRR1204:  Replace applicable portions of paragraph (h) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1007 and NPRR1204; or upon system implementation for NPRR1014:]
+(i)	The following Load Resource data using a snapshot from each execution of SCED: 
+(i)	The Load Resource name;
+(ii)	The Load Resource status;
+(iii)	The MPC for a Load Resource;
+(iv)	The LPC for a Load Resource;
+(v)	The Load Resource HDL and LDL, for a Controllable Load Resource that has a Resource Status of ONL;
+(vi)	The Load Resource Base Point from SCED, for a Controllable Load Resource that has a Resource Status of ONL;
+(vii)	The telemetered real power consumption;
+(viii)	The Ancillary Service Resource awards for each Ancillary Service;
+(ix)	The telemetered self-provided Ancillary Service amount for each Ancillary Service;
+(x)	The telemetered Normal Ramp Rates; 
+(xi) 	The telemetered Ancillary Service capabilities; and
+(j)	The ESR name and the ESR’s Energy Bid/Offer Curve (prices and quantities):
+(i)	As submitted; and
+(ii)	As submitted and extended with proxy Energy Offer Curve logic by ERCOT to fit to the operational HSL and LSL values that are available for dispatch by SCED;
+(k)	The following ESR data using a snapshot from each execution of SCED: 
+(i)	The ESR name;
+(ii)	The ESR status;
+(iii)	The ESR HSL, LSL, High Dispatch Limit (HDL), and Low Dispatch Limit (LDL);
+(iv)	The ESR Base Point from SCED;
+(v)	The telemetered ESR net output used in SCED;
+(vi)	The Ancillary Service Resource awards for each Ancillary Service;
+(vii) 	The telemetered Normal Ramp Rates; 
+(viii) 	The telemetered Ancillary Service capabilities;
+(ix)	The telemetered State of Charge in MWh;
+(x)	The telemetered Minimum State of Charge (MinSOC) in MWh; and
+(xi)	The telemetered Maximum State of Charge (MaxSOC) in MWh.
+[NPRR1007 and NPRR1058:  Insert applicable portions of paragraph (5) below upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1007; or upon system implementation for NPRR1058; and renumber accordingly:]
+(5)	ERCOT shall post on the ERCOT website for each Resource for each Operating Hour 60 days prior to the current Operating Day a count of the number of times for each Ancillary Service that the Resource’s Ancillary Service Offer quantity or price was updated within the Operating Period.  ERCOT shall post on the ERCOT website for each Resource for each Operating Hour 60 days prior to the current Operating Day, a count of the number of times a Resource’s Energy Offer quantity or price was updated within the Operating Hour, including any reason accompanying the update.
+(5)	If any Real-Time Locational Marginal Price (LMP) exceeds 50 times the Fuel Index Price (FIP) during any 15-minute Settlement Interval for the applicable Operating Day, ERCOT shall post on the ERCOT website the portion of any Generation Resource’s as-submitted and as-mitigated and extended Energy Offer Curve that is at or above 50 times the FIP for each 15-minute Settlement Interval seven days after the applicable Operating Day. 
+[NPRR1007 and NPRR1014:  Replace applicable portions of paragraph (5) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1007; or upon system implementation for NPRR1014:]
+(6)	If any Real-Time Locational Marginal Price (LMP) exceeds 50 times the Fuel Index Price (FIP) during any SCED interval for the applicable Operating Day, ERCOT shall post on the ERCOT website the portion of any Generation Resource’s as-submitted and as-mitigated and extended Energy Offer Curve or any ESR’s as-submitted and as-mitigated and extended Energy Bid/Offer Curve that is at or above 50 times the FIP for that SCED interval seven days after the applicable Operating Day.
+(6)	If any Market Clearing Price for Capacity (MCPC) for an Ancillary Service exceeds 50 times the FIP for any Operating Hour in a DAM or Supplemental Ancillary Services Market (SASM) for the applicable Operating Day, ERCOT shall post on the ERCOT website the portion on any Resource’s Ancillary Service Offer that is at or above 50 times the FIP for that Ancillary Service for each Operating Hour seven days after the applicable Operating Day.
+[NPRR1007 and NPRR1014:  Replace applicable portions of paragraph (6) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1007; or upon system implementation for NPRR1014:]
+(7)	If any Market Clearing Price for Capacity (MCPC) for an Ancillary Service exceeds 50 times the FIP for any Operating Hour in a DAM or any SCED interval in the RTM for the applicable Operating Day, ERCOT shall post on the ERCOT website the portion on any Resource’s Ancillary Service Offer that is at or above 50 times the FIP for that Ancillary Service for that Operating Hour for the DAM or SCED interval for the RTM seven days after the applicable Operating Day.
+(7)	ERCOT shall post on the ERCOT website the offer price and the name of the Entity submitting the offer for the highest-priced offer selected or Dispatched by SCED three days after the end of the applicable Operating Day.  If multiple Entities submitted the highest-priced offers selected, all Entities shall be identified on the ERCOT website.
+(8)	ERCOT shall post on the ERCOT website the bid price and the name of the Entity submitting the bid for the highest-priced bid selected or Dispatched by SCED three days after the end of the applicable Operating Day.  If multiple Entities submitted the highest-priced bids selected, all Entities shall be identified on the ERCOT website.
+(9)	ERCOT shall post on the ERCOT website the offer price and the name of the Entity submitting the offer for the highest-priced Ancillary Service Offer selected in the DAM for each Ancillary Service three days after the end of the applicable Operating Day.  This same report shall also include the highest-priced Ancillary Service Offer selected for any SASMs cleared for that same Operating Day.  If multiple Entities submitted the highest-priced offers selected, all Entities shall be identified on the ERCOT website.  The report shall specify whether the Ancillary Service Offer was selected in a DAM or a SASM.
+[NPRR1007 and NPRR1014:  Replace applicable portions of paragraph (9) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1007; or upon system implementation for NPRR1014:]
+(10)	ERCOT shall post on the ERCOT website the offer price and the name of the Entity submitting the offer for the highest-priced Ancillary Service Offer selected in the DAM or RTM for each Ancillary Service three days after the end of the applicable Operating Day.  If multiple Entities submitted the highest-priced offers selected, all Entities shall be identified on the ERCOT website.  The report shall specify whether the Ancillary Service Offer was selected in a DAM or RTM.
+(10)	ERCOT shall post on the ERCOT website for each Operating Day the following information for each Resource: 
+(a)	The Resource name;
+(b)	The name of the Resource Entity;
+(c)	Except for Load Resources that are not SCED qualified, the name of the Decision Making Entity (DME) controlling the Resource, as reflected in the Managed Capacity Declaration submitted by the Resource Entity in accordance with Section 3.6.2, Decision Making Entity for a Resource; and
+(d)	Flag for Reliability Must-Run (RMR) Resources.
+(11)	ERCOT shall post on the ERCOT website the following information from the DAM for each hourly Settlement Interval for the applicable Operating Day 60 days prior to the current Operating Day:
+(a)	The Generation Resource name and the Generation Resource’s Three-Part Supply Offer (prices and quantities), including Startup Offer and Minimum-Energy Offer, available for the DAM; 
+(b)	For each Settlement Point, individual DAM Energy-Only Offer Curves available for the DAM and the name of the QSE submitting the offer; 
+(c)	The Resource name and the Resource’s Ancillary Service Offers available for the DAM; 
+[NPRR1007 and NPRR1014:  Insert applicable portions of paragraph (d) below upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1007; or upon system implementation for NPRR1014; and renumber accordingly:]
+(d) 	The Ancillary Service Only Offer for each Ancillary Service and the name of the QSE submitting the offer;
+(d)	For each Settlement Point, individual DAM Energy Bids available for the DAM and the name of the QSE submitting the bid;
+(e)	For each Settlement Point, individual PTP Obligation bids available to the DAM that sink at the Settlement Point and the QSE submitting the bid;
+(f)	The awards for each Ancillary Service from DAM for each Generation Resource;
+(g)	The awards for each Ancillary Service from DAM for each Load Resource;
+(h)	The award of each Three-Part Supply Offer from the DAM and the name of the QSE receiving the award;
+(i)	For each Settlement Point, the award of each DAM Energy-Only Offer from the DAM and the name of the QSE receiving the award;
+(j)	For each Settlement Point, the award of each DAM Energy Bid from the DAM and the name of the QSE receiving the award; and
+(k)	For each Settlement Point, the award of each PTP Obligation bid from the DAM that sinks at the Settlement Point, including whether or not the PTP Obligation bid was linked to an Option, and the QSE submitting the bid.
+[NPRR1014:  Insert items (m)-(o) below upon system implementation:]
+(m)	The ESR name and the ESR’s Energy Bid/Offer Curve (prices and quantities), available for the DAM;
+(n)	The awards for each Ancillary Service from the DAM for each ESR; and
+(o)	The award of each Energy Bid/Offer Curve from the DAM and the name of the QSE receiving the award.
+(12)	ERCOT shall post on the ERCOT website the following information from any applicable SASMs for each hourly Settlement Interval for the applicable Operating Day 60 days prior to the current Operating Day:
+(a)	The Resource name and the Resource’s Ancillary Service Offers available for any applicable SASMs;
+(b)	The awards for each Ancillary Service from any applicable SASMs for each Generation Resource; and
+(c)	The awards for each Ancillary Service from any applicable SASMs for each Load Resource.
+[NPRR1007:  Delete paragraph (12) above upon system implementation of the Real-Time Co-Optimization (RTC) project.]
+3.2.5.1	Unregistered Distributed Generation Reporting Requirements for Non Opt-In Entities
+(1)	This Section describes the data that shall be submitted to ERCOT for the unregistered Distributed Generation (DG) behind Non-Opt-In Entity (NOIE) boundary metering points.
+(2)	Within ten Business Days after the end of each quarter, each NOIE shall submit to ERCOT electronically the required data described below as of the last day of the prior quarter by submitting the designated form provided on the ERCOT website.  NOIEs that have an unregistered DG capacity of more than two MW, based upon the aggregate capacity of all sites that are less than 50 kW, shall report the total of all unregistered DG MW capacity, inclusive of systems used to support self-serve Load.  All other NOIEs shall report the aggregate unregistered DG capacity of only those sites greater than or equal to 50 kW, inclusive of systems used to support self-serve Load.  NOIEs shall report their capacity by Load Zone and by primary fuel type as follows:
+(a)	Solar; 
+(b)	Wind; 
+(c) 	Other renewable; and
+(d) 	Other non-renewable.
+(3)	NOIEs not reporting DG MW capacity less than 50 kW on a quarterly basis as described in paragraph (2) above shall submit to ERCOT by March 1 of each year their annual aggregate unregistered DG MW capacity, inclusive of systems used to support self-serve Load, for the preceding calendar year.  NOIEs shall report their capacity by Load Zone and by primary fuel type as follows:
+(a)	Solar; 
+(b)	Wind; 
+(c) 	Other renewable; and
+(d) 	Other non-renewable.
+(4)	Each of the above reports is required to include only the capacity known to the NOIE at the time that its report is being prepared, and shall not require the NOIE to conduct new survey activities for its service territory to identify unknown unregistered DG installations.  Any NOIE may obtain a reporting exemption for the annual report required in 2020 by notifying ERCOT of the exemption claim in writing on or before March 1, 2020.
+3.2.5.2	Unregistered Distributed Generation Reporting Requirements for Competitive Areas
+(1)	The data for competitive areas will be compiled from the reports submitted to ERCOT as found in the Load Profiling Guide, Appendix D, Load Profiling Decision Tree, DG Tab.
+3.2.5.3	Unregistered Distributed Generation Reporting Requirements for ERCOT
+(1)	Within 30 days after the end of each quarter, ERCOT shall publish the unregistered DG report on the ERCOT website.  This report shall include the aggregated data compiled for NOIE and competitive areas.  This report shall include the total unregistered DG MW capacity, as provided in accordance with Section 3.2.5.1, Unregistered Distributed Generation Reporting Requirements for Non Opt-In Entities, and Section 3.2.5.2, Unregistered Distributed Generation Reporting Requirements for Competitive Areas, above, by Load Zone and by primary fuel type as follows:
+(a)	Solar; 
+(b)	Wind; 
+(c)	Other renewable; and 
+(d)	Other non-renewable. 
+(2)	ERCOT shall update the appropriate TAC subcommittee on an as needed basis on the unregistered DG report.

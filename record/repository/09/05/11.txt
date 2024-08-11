@@ -1,0 +1,2 @@
+9.5.11	Validation of the True-Up Statement for the Real-Time Market
+(1)	The Statement Recipient is considered to have validated each RTM True-Up Statement unless it has filed a Settlement and billing dispute or reported an exception within ten Business Days after the RTM True-Up Statement has been posted on the MIS Certified Area.

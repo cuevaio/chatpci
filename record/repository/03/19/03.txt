@@ -1,0 +1,11 @@
+3.19.3	Long-Term Constraint Competitiveness Test
+(1)	The Long-Term CCT process is executed once a year and provides a projection of Competitive Constraints for the month with the highest forecasted Demand in the following year.  
+(2)	The Long-Term CCT performs analysis on a selected set of constraints.  
+(3)	A constraint is classified as a Competitive Constraint for the monthly case if it meets all of the following conditions:
+(a)	The ECI is less than ECIT1 on the import side of the constraint;
+(b)	The constraint can be resolved by eliminating all Available Capacity for a Resource on the import side, except nuclear capacity and minimum-energy amounts of coal and lignite capacity, that is Managed Capacity for a DME during peak Load conditions; and
+(c)	There are negative Shift Factors corresponding to Electrical Buses with Available Capacity for a Resource that have an absolute value greater than or equal to SFP2.
+[NPRR1182:  Replace paragraph (c) above with the following upon system implementation:]
+(c)	There are Shift Factors corresponding to Electrical Buses with Available Capacity for a Resource that can help resolve the constraint by increasing power injection or reducing power withdrawal that have an absolute value greater than or equal to SFP2.
+(4)	Any constraint that is analyzed and does not meet the conditions in paragraph (3) above will be designated as a Non-Competitive Constraint for the monthly case.
+(5)	ERCOT shall update and post the list of Competitive Constraints identified by the Long-Term CCT on the MIS Secure Area.  The list of Competitive Constraints shall be posted at least 30 days prior to the first of the year.

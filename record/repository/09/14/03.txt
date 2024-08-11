@@ -1,0 +1,17 @@
+9.14.3	Contents of Notice
+(1)	ERCOT shall reject a dispute that does not contain the data elements listed in this Section.
+(2)	ERCOT shall provide automatic field population techniques or drop-down boxes for appropriate data elements below.  The notice of Settlement and billing dispute must state clearly:
+(a)	Disputing Entity;
+(b)	Dispute contact person(s);
+(c)	Dispute contact information;
+(d)	Operating Day or Invoice date in dispute;
+(e)	Charge Type;
+(f)	Time period in dispute;
+(g)	Amount in dispute;
+(h)	Settlement and billing dispute type; and
+(i)	Reasons for the dispute.
+(3)	Each Settlement and billing dispute must specify an Operating Day or Invoice date and a Charge Type.  If a condition causing a dispute affects multiple Operating Days or Charge Types, a Settlement Statement Recipient or Invoice Recipient may file a dispute form for each Charge Type for one or more Operating Days affected on a single dispute that are all in the same calendar month.
+(4)	A Settlement Statement Recipient or Invoice Recipient may pursue the dispute through any process provided by ERCOT for resolving differences in Settlement determinants.
+(5)	Forms for entering a Settlement and billing dispute must be provided on the MIS Certified Area.
+(6)	The Market Participant must submit the Settlement and billing dispute to ERCOT with sufficient evidence to support the claim.  
+(7)	The Market Participant must submit a dispute using an ERCOT-approved electronic format.  ERCOT shall provide a dispute tracking identifier to the Settlement Statement Recipient or Invoice Recipient.

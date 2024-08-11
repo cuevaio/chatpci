@@ -1,0 +1,2 @@
+9.19.3	Default Uplift Supporting Data Reporting
+(1)	ERCOT shall post once each month on the MIS Certified Area, the Maximum MWh Activity (MMA), Maximum MWh Activity Total (MMATOT), Maximum MWh Activity Ratio Share (MMARS), and the Counter-Party level components of MMA calculation as defined in paragraph (2) of Section 9.19.1, Default Uplift Invoices.  Each month’s report shall be updated with Final and True-Up Settlement data when ERCOT’s systems contain the necessary information to complete the report with the updated data.

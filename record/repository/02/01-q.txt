@@ -1,0 +1,27 @@
+Qualified Scheduling Entity (QSE)
+A Market Participant that is qualified by ERCOT in accordance with Section 16, Registration and Qualification of Market Participants, for communication with ERCOT for Resource Entities and Load Serving Entities (LSEs) and for settling payments and charges with ERCOT. 
+Data Agent-Only Qualified Scheduling Entity (QSE)
+A limited type of QSE that is registered with ERCOT pursuant to Section 16.2.1.2, Data Agent-Only Qualified Scheduling Entities, for the sole purpose of acting as an agent for a QSE that meets all the criteria of Section 16.2.1, Criteria for Qualification as a Qualified Scheduling Entity, relating to the exchange of certain communications and data over the ERCOT Wide Area Network (WAN), as provided in Nodal Operating Guide Section 7, Telemetry and Communication.
+Master Qualified Scheduling Entity (QSE)
+A QSE designated by Resource Entities owning or controlling a Generation Resource that has been split into two or more Split Generation Resources as set forth in Section 3.8.1, Split Generation Resources, that provides ERCOT data and dispatch on total Generation Resource basis in accordance with the Protocols. 
+Qualified Scheduling Entity (QSE) Clawback Interval 
+Any QSE-Committed Interval that is part of a contiguous block that includes at least one RUC-Committed Hour unless it is:
+(a)	QSE-committed in the COP and Trades Snapshot before the first RUC instruction for any RUC-Committed Hour in that contiguous block;  
+(b)	Part of a contiguous block of a QSE-Committed Intervals, at least one of which was committed by the QSE in the COP and Trades Snapshot before the RUC instruction described in paragraph (a) above; or
+(c)	Part of a contiguous block of QSE-Committed Intervals, at least one of which is a RUC Buy-Back Hour.
+[NPRR1013:  Replace the definition “Qualified Scheduling Entity (QSE) Clawback Interval” above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+Qualified Scheduling Entity (QSE) Clawback Interval 
+Any QSE-Committed Interval that is part of a contiguous block that includes at least one Reliability Unit Commitment (RUC)-Committed Hour unless it is:
+(a)	QSE-committed in the RUC Snapshot before the first RUC instruction for any RUC-Committed Hour in that contiguous block;  
+(b)	Part of a contiguous block of a QSE-Committed Intervals, at least one of which was committed by the QSE in the RUC Snapshot before the RUC instruction described in paragraph (a) above; or
+(c)	Part of a contiguous block of QSE-Committed Intervals, at least one of which is a RUC Buy-Back Hour.
+Qualified Scheduling Entity (QSE)-Committed Interval
+A Settlement Interval for which the QSE for a Resource has committed the Resource without a Reliability Unit Commitment (RUC) instruction to commit it.  For Settlement purposes, a Resource with a Current Operating Plan (COP) Resource Status of OFFQS will not be considered as QSE-committed for the Settlement Interval unless that interval has been committed due to a Day-Ahead Market (DAM) award for energy.
+Qualifying Facility (QF)
+A qualifying small power production facility or qualifying cogeneration facility under regulatory qualification criteria as defined in 16 U.S.C.A. § 796(17)(C) and (18)(B).
+Qualifying Force Majeure Provision 
+A force majeure provision that provides that:
+(a)	Before the pipeline or storage provider may suspend its performance due to force majeure, the pipeline or storage provider must exercise due diligence and incur reasonable cost to prevent or overcome the event of force majeure;
+(b)	The pipeline or storage provider will not be entitled to the benefit of force majeure to the extent its performance is affected solely by: its own negligence or willful misconduct; economic hardship (including the pipeline or storage provider’s ability to sell natural gas, natural gas transportation service, or natural gas storage service at a higher or more advantageous fee than the fee provided in the contract); breakdown, failure, freezing or breakage of, or the necessity for making repairs or alterations to, any facilities or equipment caused by a failure to properly maintain such facilities or equipment that is reasonably foreseeable; or a failure to satisfy weatherization requirements under applicable law;
+(c)	Upon declaring force majeure, the pipeline or storage provider must provide notice and reasonably full details describing such force majeure in ‎writing to the Generation Entity; and 
+(d)	Within ten days of a notice by a party of an event or occurrence of force majeure, the unaffected party shall have the right, at its own expense and upon reasonable notice to the other party, to audit and examine copies of the relevant portion of the records and recordings of the other party to the extent reasonably necessary to verify the full details of the event or occurrence of force majeure as described in the notice.

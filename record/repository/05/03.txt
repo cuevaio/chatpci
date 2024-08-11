@@ -1,0 +1,15 @@
+5.3	ERCOT Security Sequence Responsibilities
+(1)	ERCOT shall start the Day-Ahead Reliability Unit Commitment (DRUC) process at 1430 in the Day-Ahead.
+(2)	For each DRUC, ERCOT shall use a snapshot of Resource commitments taken at 1430 in the Day-Ahead for Reliability Unit Commitment (RUC) Settlement.  For each Hourly Reliability Unit Commitment (HRUC), ERCOT shall use a snapshot of Resource commitments from each Qualified Scheduling Entity’s (QSE’s) most recently submitted Current Operating Plan (COP) before HRUC execution for RUC Settlement.  
+(3)	For each RUC process, ERCOT shall: 
+(a)	Execute the Security Sequence described in Section 5.5, Security Sequence, Including RUC, including:
+(i)	Validating Three-Part Supply Offers, defined in Section 4.4.9.1, Three-Part Supply Offers;
+[NPRR1009 and NPRR1014:  Replace item (i) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1009; or upon system implementation for NPRR1014:]
+(i)	Validating Three-Part Supply Offers, defined in Section 4.4.9.1, Three-Part Supply Offers, Energy Bid/Offer Curves, defined in Section 4.4.9.7, Energy Bid/Offer Curve, and Ancillary Service Offers, defined in Section 4.4.7.2, Ancillary Service Offers;
+(ii)	Reviewing the Resource commitment recommendations made by the RUC algorithm; and
+(iii)	Reviewing the list of Off-Line Available Resources having a start-up time of one hour or less;
+(b)	Post to the Market Information System (MIS) Secure Area all Resources that were committed or decommitted by the RUC process including verbal RUC commitments and decommitments and Weekly Reliability Unit Commitment (WRUC) instructions; 
+(c)	Post to the ERCOT website all active and binding transmission constraints (contingency and overloaded element pair information where available) used as inputs to the RUC;
+(d)	Issue Dispatch Instructions to notify each QSE of its Resource commitments or decommitments; and
+(e)	Post to the MIS Secure Area all Resources that were committed by the RUC process, including verbal RUC commitments, but were subsequently cancelled by the ERCOT Operator.
+(4)	ERCOT shall provide each QSE with the information necessary to pre-validate their data for DRUC and HRUC, including publishing validation rules for offers, bids, and trades.

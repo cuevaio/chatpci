@@ -1,0 +1,12 @@
+3.8.5	Energy Storage Resources
+(1)	The Resource Entity and QSE representing an Energy Storage Resource (ESR) which is jointly registered with ERCOT as a Generation Resource and a Controllable Load Resource, pursuant to paragraph (6) of Section 16.5, Registration of a Resource Entity, are responsible for following all requirements in these Protocols associated with Generation Resources and Controllable Load Resources.
+[NPRR1002:  Replace paragraph (1) above with the following upon system implementation:]
+(1)	For the purposes of all ERCOT Protocols and Other Binding Documents, all requirements that apply to Generation Resources and Controllable Load Resources shall be understood to apply to Energy Storage Resources (ESRs) to the same extent, except where the Protocols explicitly provide otherwise.
+(2)	A QSE representing an ESR may update the telemetered HSL and/or Maximum Power Consumption (MPC) for the ESR in Real-Time to ensure the ability to meet the ESR’s full Ancillary Service Resource Responsibility for the current Operating Hour.  This provision only applies when the MOC for an ESR is set at the System-Wide Offer Cap (SWCAP) pursuant to paragraph (1)(b) of Section 4.4.9.4.1, Mitigated Offer Cap.
+[NPRR1075:  Delete paragraph (2) above upon system implementation of the Real-Time Co-Optimization (RTC) project.]
+(3)	A QSE representing an ESR may update the telemetered HSL and/or MPC for the ESR in Real-Time to reflect state of charge limitations. 
+[NPRR1075:  Replace paragraph (3) above with the following upon system implementation of NPRR1014:]
+(3)	A QSE representing an ESR may update the telemetered HSL and/or LSL for the ESR in Real-Time to reflect state of charge limitations. 
+(4)	A QSE representing an ESR co-located with a Generation Resource may reduce the telemetered MPC of the Controllable Load Resource modeled to represent the charging side of the ESR when self-charging using output from the Generation Resource.  Such reduction in MPC shall be equal to the MW level of self-charge. 
+[NPRR1075:  Replace paragraph (4) above with the following upon system implementation of NPRR1014:]
+(4)	A QSE representing an ESR co-located with a Generation Resource may update the telemetered LSL of the ESR when self-charging (using output from the Generation Resource).  The updated LSL shall be equal to the MW level of self-charge.

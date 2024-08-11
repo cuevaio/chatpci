@@ -1,0 +1,172 @@
+4.4.10	Credit Requirement for DAM Bids and Offers
+(1)	Each QSE’s ability to bid and offer in the DAM is subject to credit exposure from the QSE’s bids and offers being within the credit limit for DAM participation established for the entire Counter-Party of which the QSE is part, as specified in item (1) of Section 16.11.4.6.2, Credit Requirements for DAM Participation, and taking into account the credit exposure of accepted DAM bid and offers of the Counter-Party’s other QSEs. 
+(2)	DAM bids and offers of all QSEs of the Counter-Party are accepted in the order submitted while ensuring that the credit exposure from accepted bids and offers do not exceed the Counter-Party’s credit limit for DAM participation. 
+(3)	ERCOT shall reject the QSE’s individual bids and offers whose credit exposure, as calculated in item (6) below, exceeds the Counter-Party’s credit limit for DAM participation as described in items (1) and (2) above, and shall notify the QSE through the MIS Certified Area as soon as practicable. 
+(4) 	The QSE may revise and resubmit such rejected bids and offers described in item (3) above, provided that the resubmitted bids and offers are valid and within the Counter-Party’s credit limit for DAM participation adjusted for all accepted DAM bids and offers of the Counter-Party’s QSE’s limit and that such resubmission occurs prior to 1000 of the Operating Day. 
+(5)	The DAM shall use the Counter-Party’s credit limit for DAM participation provided and adjusted for accepted bids and offers for DAM transactions cleared, until a new credit limit for DAM participation is available.
+(6)	ERCOT shall calculate credit exposure for bids and offers in the DAM as follows: 
+(a)	For a DAM Energy Bid, the credit exposure shall be calculated as the quantity of the bid multiplied by a bid exposure price that is calculated as follows:  
+(i)	If the price of the DAM Energy Bid is less than or equal to zero, the bid exposure price for that quantity will equal zero.
+(ii)	If the price of the DAM Energy Bid is greater than zero, the bid exposure price for that quantity will equal the greater of zero or the sum of (A) and (B):
+(A)	The lesser of:
+(1)	The dth percentile of the Day-Ahead Settlement Point Price (DASPP) for the hour over the previous 30 days; and 
+(2)	The bid price.
+(B)	The value e1 multiplied by (bid price minus (A)) when the bid price is greater than (A).
+(1)	The value e1 is computed as the ep1th percentile of Ratio1 for the  30 days prior to the Operating Day, where Ratio1 is calculated daily as follows:
+Ratio1 = Min[1, Max[0, (∑h=1,24 (Qcleared Bids*PDAM - Qcleared Offers*PDAM))/ (∑ h=1,24 Qcleared Bids*PDAM)]] 
+      
+      except Ratio1 = 1 when ∑ h=1,24 Qcleared Bids*PDAM = 0
+(2)	ERCOT may adjust e1 by changing the quantity of bids or offers to the values reported by the Counter-Party in paragraph (8) below or based on information available to ERCOT.
+(iii)	For DAM Energy Bids of curve quantity type, the credit exposure shall be the credit exposure, as calculated above, at the price and MW quantity of the bid curve that produces the maximum credit exposure for the DAM Energy Bid.
+[NPRR1014:  Replace paragraph (a) above with the following upon system implementation:]
+(a)	For a DAM Energy Bid or for each MW portion of the bid portion of an Energy Bid/Offer Curve, the credit exposure shall be calculated as the quantity of the bid multiplied by a bid exposure price that is calculated as follows:  
+(i)	If the price of the DAM Energy Bid or the price on the bid portion of an Energy Bid/Offer Curve is less than or equal to zero, the bid exposure price for that quantity will equal zero.
+(ii)	If the price of the DAM Energy Bid or the price on the bid portion of an Energy Bid/Offer Curve is greater than zero, the bid exposure price for that quantity will equal the greater of zero or the sum of (A) and (B):
+(A)	The lesser of:
+(1)	The dth percentile of the Day-Ahead Settlement Point Price (DASPP) for the hour over the previous 30 days; and 
+(2)	The bid price.
+(B)	The value e1 multiplied by (bid price minus (A)) when the bid price is greater than (A).
+(1)	The value e1 is computed as the ep1th percentile of Ratio1 for the  30 days prior to the Operating Day, where Ratio1 is calculated daily as follows:
+Ratio1 = Min[1, Max[0, (∑h=1,24 (Qcleared Bids*PDAM - Qcleared Offers*PDAM))/ (∑ h=1,24 Qcleared Bids*PDAM)]] 
+      
+      except Ratio1 = 1 when ∑ h=1,24 Qcleared Bids*PDAM = 0
+(2)	ERCOT may adjust e1 by changing the quantity of bids or offers to the values reported by the Counter-Party in paragraph (8) below or based on information available to ERCOT.
+(iii)	For DAM Energy Bids or bid portions of Energy Bid/Offer Curves of curve quantity type, the credit exposure shall be the credit exposure, as calculated above, at the price and MW quantity of the bid curve that produces the maximum credit exposure for the DAM Energy Bid or bid portions of Energy Bid/Offer Curves.
+(b)	For each MW portion of a DAM Energy-Only Offer:
+(i)	That has an offer price that is less than or equal to the ath percentile of the DASPP for the hour over the previous 30 days, the sum of (A) and (B) shall apply.   
+(A)	Credit exposure will be:
+(1)	Reduced (when the bth percentile Settlement Point Price for the hour is positive).  The reduction shall be the quantity of the offer multiplied by the bth percentile of the DASPP for the hour over the previous 30 days multiplied by the value e2.
+(a)	The value e2 is computed as the ep2th percentile of Ratio2 for the 30 days prior to the Operating Day, where Ratio2 is calculated daily as follows:
+Ratio2 = 1 - Max[0, (∑h=1,24 (Qcleared Offers - Qcleared-Bids))/(∑ h=1,24 (Qcleared Offers))]
+except Ratio2 = 0 when ∑ h=1,24 Qcleared Offers = 0
+(b)	ERCOT may adjust the value of e2 by changing the quantity of bids or offers to the values reported by the Counter-Party in paragraph (7) below or based on information available to ERCOT; or
+(2)	Increased (when the bth percentile Settlement Point Price for the hour is negative).  The increase shall be the quantity of the offer multiplied by the bth percentile of the DASPP for the hour over the previous 30 days.  
+(B)	Credit exposure will be increased by the product of the quantity of the offer multiplied by the dpth percentile of any positive hourly difference of Real-Time Settlement Point Price and DASPP over the previous 30 days for the hour multiplied by e3.
+(ii)	That has an offer price that is greater than the ath percentile of the DASPP for the hour over the previous 30 days, credit exposure will be increased by the product of the quantity of the offer multiplied by the dpth percentile of any positive hourly difference of Real-Time Settlement Point Price and DASPP over the previous 30 days for the hour multiplied by e3.  
+(iii)	ERCOT may, in its sole discretion, use a percentile other than the dpth percentile of any positive hourly difference of Real-Time Settlement Point Price and DASPP over the previous 30 days of the hour in determining credit exposure per this paragraph (6)(b) in evaluating DAM Energy-Only Offers.  
+(c)	For each MW portion of the Energy Offer Curve of a Three-Part Supply Offer:
+[NPRR1014:  Replace paragraph (c) above with the following upon system implementation:]
+(c)	For each MW portion of the Energy Offer Curve of a Three-Part Supply Offer or for each MW portion of the offer portion of an Energy Bid/Offer Curve:
+(i)	That has an offer price that is less than or equal to the yth percentile of the DASPP for the hour over the previous 30 days, credit exposure will be reduced (when the zth percentile Settlement Point Price is positive) or increased (when the zth percentile Settlement Point Price is negative) by the quantity of the offer multiplied by the zth percentile of the DASPP for the hour over the previous 30 days.  
+(ii)	That has an offer price that is greater than the yth percentile of the DASPP for the hour over the previous 30 days, the credit exposure will be zero.
+(iii)	For a Combined Cycle Generation Resource with Three-Part Supply Offers for multiple generator configurations, the reduction in credit exposure will be the maximum credit exposure reduction created by the individual Three-Part Supply Offers’ Offer Curves (when the zth percentile Settlement Point Price is positive).  If the Three-Part Supply Offer causes a credit increase (when the zth percentile Settlement Point Price is negative), the increase in credit exposure will be the maximum credit exposure increase created by the individual Three-Part Supply Offers.
+(d)	For PTP Obligation Bids:
+(i)	That have a bid price greater than zero, the sum of the quantity of the bid multiplied by the bid price, plus the uth percentile of the hourly positive price difference between the source Real-Time Settlement Point Price minus the sink Real-Time Settlement Point Price over the previous 30 days multiplied by the quantity of the bid.
+(ii)	That have a bid price less than or equal to zero, the uth percentile of the hourly positive price difference between the source Real-Time Settlement Point Price minus the sink Real-Time Settlement Point Price over the previous 30 days multiplied by the quantity of the bid.
+(iii)	Each tenth of a MW quantity (0.1 MW) of an expiring CRR for a Counter-Party can provide credit reduction for only one-tenth of a MW (0.1 MW) of a PTP Obligation bid for that Counter-Party.  
+(A)	The QSE must submit the PTP Obligation bid at the same source and sink pair for the same hour, for the same operating date where the QSE submitting the PTP Obligation bid is represented by the same Counter-Party as the CRR Account Holder that is the owner of record for an expiring CRR, or group of CRRs.
+(B)	A portion or all of the PTP Obligation bid quantity must be less than or equal to the total of the quantity of all expiring CRRs at the specified source and sink pair and delivery period, less all valid previously submitted PTP Obligation bids at the specified source and sink pair and delivery period.
+(iv)	For qualified PTP Obligation bids with a bid price greater than zero, ERCOT shall reduce the credit exposure in paragraph (6)(d)(i) above as follows: 
+Credit Reduction = Reduction Factor * min[PTP bid quantity, remaining expiring CRR MWs] * bid price. 
+The Reduction Factor is bd%.  The factor can be adjusted up or down at ERCOT’s sole discretion with at least two Bank Business Days’ notice.  ERCOT may adjust this factor up with less notice, if needed.  The expiring CRR may be PTP Options and/or PTP Obligations.  If a QSE later cancels the PTP Obligation bid then the amount of exposure credited back to the Counter-Party will be treated as though this PTP Obligation bid was previously offset by expiring CRRs if a matching CRR source and sink pair exists up to the maximum expiring CRR quantity.  If a QSE updates the PTP Obligation bid then it will be treated as a cancel followed by a new submission for purposes of credit exposure calculation.  Outcome of this calculation is dependent of the sequence of submittals for updates and cancels.
+(e)	For PTP Obligation bids with Links to an Option with a bid price greater than zero:
+Credit Reduction = (1- Reduction Factor bd) * (bid quantity * bid price) 
+(f)	For Ancillary Service Obligations not self-arranged, the product of the quantity of Ancillary Service Obligation not self-arranged multiplied by the tth percentile of the hourly MCPC for that Ancillary Service over the previous 30 days for that hour.  For negative Self-Arranged Ancillary Service Quantities, the absolute value of the product of the quantity of the negative Self-Arranged Ancillary Service Quantity times the tth percentile of the hourly MCPC for that Ancillary Service over the previous 30 days for that hour.  
+[NPRR1008 and NPRR1014:  Insert applicable portions of paragraph (g) below upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1008; or upon system implementation for NPRR1014; and renumber accordingly:]
+(g)	For Ancillary Service Only Offers, credit exposure will be increased by the sum of the quantity of the Ancillary Service Only Offer multiplied by the dpth percentile of the positive hourly difference for that Ancillary Service between RTMCPC and DAMCPC for that Ancillary Service over the previous 30 days for the Operating Hour of the Ancillary Service Only Offer.
+(g)	Values e1, e2, or e3, which are applicable to items (a) and (b) above, under conditions described below, will be determined and applied at ERCOT’s sole discretion.  Within the application parameters identified below, ERCOT shall establish values for e1, e2, and e3 and provide notice to an affected Counter-Party of any changes to e1, e2, or e3 before 0900 generally two Bank Business Days prior to the normally scheduled DAM 1000 by a minimum of two of these methods:  written, electronic, posting to the MIS Certified Area or telephonic.  However, ERCOT may adjust any DAM credit parameter immediately if, in its sole discretion, ERCOT determines that the parameter(s) set for a Counter-Party do not adequately match the financial risk created by that Counter-Party’s activities in the market.  ERCOT shall review the values for e1, e2, or e3 for each Counter-Party no less than once every two weeks.  ERCOT shall provide written or electronic notice to the Counter-Party of the basis for ERCOT’s assessment, or change of assessment, of the exposure adjustment variable established for the Counter-Party and the impact of the adjustment.
+(i)	The value of each exposure adjustment e1, e2, and e3 is a value between zero and one, rounded to the nearest hundredth decimal place, set by ERCOT by Counter-Party.  The values ERCOT establishes for e1, e2, and e3 for a Counter-Party shall be applied equally to the portfolio of all QSEs represented by such Counter-Party.
+(h)	ERCOT must re-examine DAM credit parameters immediately if Counter-Party exceeds 90% of its Available Credit Limit (ACL) available to DAM.
+(7)	A Counter-Party may request more favorable parameters from ERCOT by agreeing to all of the conditions below: 
+(a)	The Counter-Party shall notify ERCOT of any expected changes to Ratio1 or Ratio2, due to change in activity, as described below, and the likely duration of such change as soon as practicable, but no later than two Business Days in advance of the change:
+(i)	If Ratio1 as defined in paragraph (6)(a)(ii)(B) above is likely to be greater than the Counter-Party's currently assigned value of e1 for particular day(s), then the estimated daily values of Ratio1 specifying the day(s) along with the daily DAM Energy Bid, Energy-Only Offer, and Three-Part Supply Offer quantity assumptions used to arrive at those values; and
+(ii)	If Ratio2 as defined in paragraph (6)(b)(i)(A)(1) above is likely to be lower than the Counter-Party's currently assigned value of e2 for particular day(s), then the estimated daily values of Ratio2 specifying the day(s) along with the daily DAM Energy Bid, Energy-Only Offer, and Three-Part Supply Offer quantity assumption used to arrive at those values.
+[NPRR1014:  Replace paragraph (a) above with the following upon system implementation:]
+(a)	The Counter-Party shall notify ERCOT of any expected changes to Ratio1 or Ratio2, due to change in activity, as described below, and the likely duration of such change as soon as practicable, but no later than two Business Days in advance of the change:
+(i)	If Ratio1 as defined in paragraph (6)(a)(ii)(B) above is likely to be greater than the Counter-Party's currently assigned value of e1 for particular day(s), then the estimated daily values of Ratio1 specifying the day(s) along with the daily DAM Energy Bid, Energy-Only Offer, Energy Bid/Offer Curves, and Three-Part Supply Offer quantity assumptions used to arrive at those values; and
+(ii)	If Ratio2 as defined in paragraph (6)(b)(i)(A)(1) above is likely to be lower than the Counter-Party's currently assigned value of e2 for particular day(s), then the estimated daily values of Ratio2 specifying the day(s) along with the daily DAM Energy Bid, Energy-Only Offer, Energy Bid/Offer Curves, and Three-Part Supply Offer quantity assumption used to arrive at those values.
+(b)	ERCOT, in its sole discretion, will determine the adequacy of the disclosures made in item (a) above and may require additional information as needed to evaluate whether a Counter- Party is eligible for favorable treatment.
+(c)	ERCOT may change the requirements for providing information, as described in item (a) above, to ensure that reasonable information is obtained from Counter-Parties.
+(d)	ERCOT may, but is not required, to use information provided by a Counter-Party to re-evaluate DAM credit parameters and may take other information into consideration as needed.    
+(e)	If ERCOT determines that information provided to ERCOT is erroneous or that ERCOT has not been notified of required changes, ERCOT may set all parameters for the Counter-Party to the default values with a possible adder on the e1 variable, at ERCOT's sole discretion, for a period of not less than seven days and until ERCOT is satisfied that the Counter-Party has and will comply with the conditions set forth in this Section.  In no case shall the adder result in an e1 value greater than one.
+(8)	Beginning no later than 0800 and ending at 0945 each Business Day, ERCOT shall post to the MIS Certified Area, approximately every 15 minutes, each active Counter-Party’s remaining Available Credit Limit (ACL) for that day’s DAM and the time at which the report was run. 
+(9)	After the DAM results are posted, ERCOT shall post once each Business Day on the MIS Certified Area each active Counter-Party’s calculated aggregate DAM credit exposure and its aggregate DAM credit exposure per transaction type, to the extent available, as it pertains to the most recent DAM Operating Day.  The transaction types are:
+(a)	DAM Energy Bids; 
+(b)	DAM Energy Only Offers;
+(c)	PTP Obligation Bids;
+(d)	Three-Part Supply Offers; and
+(e)	Ancillary Services.
+[NPRR1008 and NPRR1014:  Replace applicable portions of item (e) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1008; or upon system implementation for NPRR1014; and renumber accordingly:]
+(e)	Ancillary Services related to Self-Arranged Ancillary Service Quantities;
+(f)	Ancillary Service Only Offers;
+(g) 	Energy Bid/Offer Curves.
+(10)     The parameters in this Section are defined as follows:
+(a) The default values of the parameters are:
+Parameter
+Unit
+Current Value*
+d
+percentile
+85
+ep1
+percentile
+95
+a
+percentile
+50
+b
+percentile
+45
+dp
+percentile
+90
+ep2
+percentile
+0
+e3
+value
+1
+y
+percentile
+45
+z
+percentile
+50
+u
+percentile
+90
+bd
+%
+90
+t
+percentile
+50
+* The current value for the parameters referenced in this table above will be recommended by TAC and approved by the ERCOT Board.  ERCOT shall update parameter values on the first day of the month following ERCOT Board approval unless otherwise directed by the ERCOT Board.  ERCOT shall provide a Market Notice prior to implementation of a revised parameter value.
+(b) The values of the parameters for Entities that meet the requirements in paragraph (7) above for more favorable treatment are:
+Parameter
+Unit
+Current Value
+d
+percentile
+85
+ep1
+percentile
+75
+a
+percentile
+50
+b
+percentile
+45
+dp
+percentile
+90
+ep2
+percentile
+25
+e3
+value
+1
+y
+percentile
+45
+z
+percentile
+50
+u
+percentile
+90
+t
+percentile
+50
+* The current value for the parameters referenced in this table above will be recommended by TAC and approved by the ERCOT Board.  ERCOT shall update parameter values on the first day of the month following ERCOT Board approval unless otherwise directed by the ERCOT Board.  ERCOT shall provide a Market Notice prior to implementation of a revised parameter value.

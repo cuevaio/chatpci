@@ -1,0 +1,14 @@
+3.22.2	Subsynchronous Resonance Vulnerability Assessment Criteria
+(1)	A Generation Resource is considered to be potentially vulnerable to SSR in the topology-check if a Generation Resource will become radial to a series capacitors(s) in the event of less than 14 concurrent transmission Outages.  A frequency scan assessment and/or a detailed SSR assessment shall be required to screen for system conditions causing potential SSR vulnerability.
+(2)	In determining whether a Generation Resource is considered to be potentially vulnerable to SSR in the frequency scan assessment results, the following criteria shall be considered:
+(a) 	Induction Generator Effect (IGE) and Subsynchronous Control Interaction (SSCI): 
+(i)	When considering the total impedance of the generator and the applicable part of the ERCOT System, if the total resistance is negative at a reactance crossover of zero Ohms from negative to positive with increasing frequency, then the generator is considered to be potentially vulnerable to IGE/SSCI; 
+(b) 	Torsional Interaction: 
+(i)	If the sum of the electrical damping (De) plus the mechanical damping (Dm) results in a negative value then the generator is potentially vulnerable to Torsional Interaction.  Dm at +/- 1 Hz of the modal frequency may be utilized to compare to De; and 
+(c) 	Torque Amplification: 
+(i)	When considering the total impedance of the generator and the ERCOT system, if a 5% or greater reactance dip, or a reactance crossover of zero Ohms from negative to positive with increasing frequency, occurs within a +/- 3 Hz complement of the modal frequency, then the generator is considered to be potentially vulnerable to Torque Amplification.  The percentage of a reactance dip is on the basis of the reactance maximum at the first inflection point of the dip where the reactance begins to decrease with increasing frequency.
+(3)	The detailed SSR assessment shall include an electromagnetic transient program analysis or similar analysis.  A Generation Resource is considered to be vulnerable to SSR if any of the following criteria are met:
+(a)	The SSR vulnerability results in more than 50% of fatigue life expenditure over the expected lifetime of the unit;   
+(i)	If the fatigue life expenditure is not available, the highest torsional torque caused by SSR is more than 110% of the torque experienced during a transmission fault with the series capacitors bypassed;
+(b)	The oscillation, if occurred, is not damped; or
+(c)	The oscillation, if occurred, results in disconnection of any transmission and generation facilities.

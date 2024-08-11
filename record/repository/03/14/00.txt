@@ -1,0 +1,4 @@
+3.14	Contracts for Reliability Resources and Emergency Response Service Resources
+(1)	ERCOT shall procure Reliability Must-Run (RMR) Service, Black Start Service (BSS) or Emergency Response Service (ERS) through Agreements.
+[NPRR885:  Replace paragraph (1) above with the following upon system implementation:]
+(1)	ERCOT shall procure Reliability Must-Run (RMR) Service, Must-Run Alternative (MRA) Service, Black Start Service (BSS), or Emergency Response Service (ERS) through Agreements.

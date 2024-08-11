@@ -1,0 +1,1077 @@
+﻿
+9.1	General
+9.1.1	Settlement and Billing Process Overview
+(1)	Settlement is the process used to resolve financial obligations between a Market Participant and ERCOT, including administrative and miscellaneous charges.  Settlement also provides Transmission Billing Determinants to Transmission Service Providers (TSPs) and Distribution Service Providers (DSPs).  The Settlement and billing timeline and process for the Day-Ahead Market (DAM) is separate from the Settlement and billing timeline and process for  the Day-Ahead Reliability Unit Commitment (DRUC) process, the Adjustment Period, and Real-Time operations (after this referred to together in this Section as the Real-Time Market (RTM)). 
+9.1.2	Settlement Calendar 
+(1)	ERCOT shall post and maintain on the ERCOT website a Settlement Calendar to denote, for each Operating Day, when:
+(a)	Each scheduled Settlement Statement for the DAM will be issued under Section 9.2.4, DAM Statement, and Section 9.2.5, DAM Resettlement Statement;  
+(b)	Each scheduled Settlement Statement for the RTM will be issued under Section 9.5.4, RTM Initial Statement, Section 9.5.5, RTM Final Statement, Section 9.5.6, RTM Resettlement Statement, and Section 9.5.8, RTM True-Up Statement; 
+(c)	Each Settlement Invoice will be issued under Section 9.6, Settlement Invoices for the Day-Ahead Market and Real-Time Market; 
+(d)	Payments for the Settlement Invoice are due under Section 9.7, Payment Process for the Settlement Invoices; 
+(e)	Each Default Uplift Invoice will be issued under Section 9.19, Partial Payments by Invoice Recipients;
+(f)	Payments for Default Uplift Invoices are due under Section 9.19.1, Default Uplift Invoices;
+(g)	Each Congestion Revenue Right (CRR) Auction Invoice will be issued under Section 9.8, CRR Auction Award Invoices; 
+(h)	Payments for CRR Auction Invoices are due under Section 9.9, Payment Process for CRR Auction Invoices;
+(i)	Each CRR Auction Revenue Distribution (CARD) Invoice will be issued under Section 9.10, CRR Auction Revenue Distribution Invoices;
+(j)	Payments for CARD Invoices are due under Section 9.11, Payment Process for CRR Auction Revenue Distribution;
+(k)	Each CRR Balancing Account (CRRBA) Invoice will be issued under Section 9.12, CRR Balancing Account Invoices; 
+(l)	Payments for CRRBA Invoices are due under Section 9.13, Payment Process for the CRR Balancing Account;
+(m)	Securitization Default Charge Invoices will be issued in accordance with Section 26.3, Securitization Default Charge Invoices; 
+(n)	Payments for Securitization Default Charge Invoices are due under Section 26.3.1, Payment Process for Securitization Default Charge Invoices;
+(o)	Each Securitization Uplift Charge Initial Invoice will be issued under Section 27.4.1, Securitization Uplift Charge Initial Invoices; 
+(p)	Payments for Securitization Uplift Charge Initial Invoices are due under Section 27.4.3, Payment Process for Securitization Uplift Charge Initial Invoices; 
+(q)	Each Securitization Uplift Charge Reallocation Invoice will be issued under Section 27.4.2, Securitization Uplift Charge Reallocation Invoices; 
+(r)	Payments for Securitization Uplift Charge Reallocation Invoices are due under Section 27.4.5, Payment Process for Securitization Uplift Charge Reallocation Invoices; and
+(s)	Settlement and billing disputes for each scheduled Settlement Statement of an Operating Day and Settlement Invoice must be submitted under Section 9.14, Settlement and Billing Dispute Process.
+(2)	ERCOT shall notify Market Participants if any of the aforementioned data will not be available on the date specified in the Settlement Calendar.
+9.1.3	Settlement Statement and Invoice Access 
+(1)	A Statement or Invoice Recipient may access its Settlement Statements or Invoices electronically, using either of the following methods:
+(a)	Secured entry on the Market Information System (MIS) Certified Area;
+(b)	eXtensible Markup Language (XML) access to the MIS Certified Area.
+9.1.4	Settlement Statement and Invoice Timing
+(1)	Unless expressly stated otherwise, the publication of each Settlement Statement and Invoice can occur as late as 2400 on its scheduled publication date. 
+9.1.5	Settlement Payment Convention
+(1)	A Settlement Statement or Invoice containing a negative amount represents a payment due by ERCOT to the Market Participant that received the Statement or Invoice.  A Settlement Statement or Invoice containing a positive amount represents a payment due to ERCOT by the Market Participant that received the Statement or Invoice.
+9.2	Settlement Statements for the Day-Ahead Market
+9.2.1	Settlement Statement Process for the DAM
+(1)	ERCOT shall produce daily Settlement Statements for the Day-Ahead Market (DAM), as defined in Section 9.2.2, Settlement Statements for the DAM, that show a breakdown of Charge Types incurred in the DAM, including any administrative and miscellaneous charges applicable to the DAM.  “Charge Types” are the various categories of specific charges referenced in Section 9.15.1, Charge Type Matrix.
+9.2.2	 Settlement Statements for the DAM
+(1)	ERCOT shall make each Settlement Statement for a DAM available on the date specified on the Settlement Calendar for that DAM by posting it on the Market Information System (MIS) Certified Area for the applicable Market Participant to which the Settlement Statement is addressed (Statement Recipient).
+(2)	A Settlement Statement for the DAM can be: 
+(a)	A “DAM Statement,” which is the Settlement Statement issued for a particular DAM;
+(b)	A “DAM Resettlement Statement,” which corrects a DAM Statement.
+(3)	The Statement Recipient is responsible for accessing the statement from the MIS Certified Area.
+(4)	ERCOT shall create a DAM Statement for each DAM.  
+(5)	ERCOT may create a DAM Resettlement Statement for the DAM, depending on the criteria set forth in Section 9.2.5, DAM Resettlement Statement.
+(6)	Each Settlement Statement for the DAM must denote:
+(a)	The applicable Operating Day;
+(b)	The Statement Recipient’s name;
+(c)	The ERCOT identifier (settlement identification number issued by ERCOT);
+(d)	Status of the statement (DAM Statement  or DAM Resettlement Statement);
+(e)	Statement version number;
+(f)	Unique statement identification code; and
+(g)	Charge Types settled.
+(7)	Settlement Statements for the DAM must break fees down by Charge Types into the appropriate one-hour Settlement Interval for that type.  
+(8)	The Settlement Statement for the DAM must have a summary page of the corresponding detailed documentation.
+9.2.3	DAM Settlement Charge Types
+(1)	ERCOT shall provide, on each Settlement Statement, the dollar amount for each DAM Settlement charge and payment.  The DAM settlement “Charge Types” are:
+(a)	Section 4.6.2.1, Day-Ahead Energy Payment;
+(b)	Section 4.6.2.2, Day-Ahead Energy Charge;
+(c)	Section 4.6.2.3.1, Day-Ahead Make-Whole Payment;
+(d)	Section 4.6.2.3.2, Day-Ahead Make-Whole Charge;
+(e)	Section 4.6.3, Settlement for PTP Obligations Bought in DAM;
+(f)	Section 4.6.4.1.1, Regulation Up Service Payment;
+(g)	Section 4.6.4.1.2, Regulation Down Service Payment;
+(h)	Section 4.6.4.1.3, Responsive Reserve Payment;
+(i)	Section 4.6.4.1.4, Non-Spinning Reserve Service Payment;
+(j)	Section 4.6.4.1.5, ERCOT Contingency Reserve Service Payment;
+(k)	Section 4.6.4.2.1, Regulation Up Service Charge;
+(l)	Section 4.6.4.2.2, Regulation Down Service Charge;
+(m)	Section 4.6.4.2.3, Responsive Reserve Charge;
+(n)	Section 4.6.4.2.4, Non-Spinning Reserve Service Charge;
+(o)	Section 4.6.4.2.5, ERCOT Contingency Reserve Service Charge;
+(p)	Section 7.9.1.1, Payments and Charges for PTP Obligations Settled in DAM;
+(q)	Section 7.9.1.2, Payments for PTP Options Settled in DAM;
+(r)	Section 7.9.1.4, Payments for FGRs Settled in DAM;
+(s)	Section 7.9.1.5, Payments and Charges for PTP Obligations with Refund Settled in DAM;
+(t)	Section 7.9.1.6, Payments for PTP Options with Refund Settled in DAM; and
+(u)	Paragraph (2) of Section 7.9.3.3, Shortfall Charges to CRR Owners.
+9.2.4	DAM Statement
+(1)	ERCOT shall produce a DAM Statement for each Statement Recipient for the given DAM on the second Business Day after the Operating Day.
+9.2.5	DAM Resettlement Statement
+(1)	ERCOT shall issue DAM Resettlement Statements for a given Operating Day if the ERCOT Board finds that the DAM Locational Marginal Prices (LMPs), Market Clearing Prices for Capacity (MCPCs), or Settlement Point Prices are significantly affected by a software or other error under Section 4.5.3, Communicating DAM Results.  ERCOT shall also produce DAM Resettlement Statements required by resolution of Settlement and billing disputes and the correction of errors other than price errors pursuant to this Section.  In addition, the ERCOT Board may, in its discretion, direct ERCOT to run a resettlement of any Operating Day, at any time, to address unusual circumstances.
+(2)	ERCOT shall issue a DAM Resettlement Statement for a given Operating Day due to errors other than errors in prices when:
+(a)	The total of all errors other than price errors results in an absolute value impact greater than 2% of the total DAM Statement amount for any single Statement Recipient for the Operating Day;
+(b)	The impact to the Statement Recipient is greater than $200.00; and
+(c)	The error is discovered, and a Market Notice of the error is provided to Market Participants, within one year of the Operating Day at issue.
+(3)	ERCOT shall issue a DAM Resettlement Statement for an Operating Day if an error in the DAM Settlement, which does not otherwise meet the Protocol requirements for resettlement as specified in paragraphs (1) and (2) above, will prevent ERCOT from achieving revenue neutrality.
+(4) 	No later than 150 days after each affected Operating Day, ERCOT shall resettle Operating Days with errors, other than errors in prices, with cumulative impacts that do not meet the threshold described in paragraph (2) above if the cumulative effect of errors to a single Statement Recipient in the 150 day window results in an absolute value impact greater than 1% of the total DAM Statement amounts for any Statement Recipient for the affected Operating Days, if this impact to the Statement Recipient is greater than $5,000.00.
+(5)	A DAM Resettlement Statement must reflect differences to financial records generated on the previous Settlement Statement for the given DAM.
+(6)	ERCOT may issue DAM Resettlement Statements after the timeline referenced in paragraph (2) above if directed by the ERCOT Board, the result of a resolution of an Alternative Dispute Resolution (ADR) procedure, or under the procedure for Return of Settlement Funds.  
+(7)	If ERCOT is required to issue a Resettlement Statement per this Section, but resettlement is not practicable due to system limitations, ERCOT shall make the adjustments through a separate Invoice that is produced outside of normal Settlement Invoices.  The appropriate payments and charges, along with Settlement-quality information, shall be supplied to all impacted Market Participants.
+9.2.6	Notice of Resettlement for the DAM
+(1)	While maintaining confidentiality of all Market Participants, ERCOT shall send a Market Notice in conjunction with the resettlement, indicating the resettlement of the DAM for a specific Operating Day and the date of issuance of the Resettlement Statements for the DAM.  ERCOT shall include the following information in the notice of resettlement:
+(a)	Detailed description of reason(s) for resettlement;
+(b)	For the applicable Operating Day;
+(c)	Affected Charge Types; and
+(d)	Total resettled amount, by Charge Type.
+9.2.7	Confirmation of Statement for the DAM
+(1)	It is the responsibility of each Statement Recipient to notify ERCOT if a Settlement Statement for the DAM is not available on the MIS Certified Area on the date specified for posting of that Settlement Statement in the Settlement Calendar.  Each Settlement Statement for the DAM is deemed to have been available on the posting date specified on the Settlement Calendar, unless ERCOT is notified to the contrary.  If ERCOT receives notice that a Settlement Statement is not available, ERCOT shall make reasonable attempts to provide the Settlement Statement to the Statement Recipient, and ERCOT shall modify the Settlement and billing timeline accordingly for that Settlement Statement.  
+9.2.8	Validation of the Settlement Statement for the DAM
+(1)	The Statement Recipient is deemed to have validated each Settlement Statement for the DAM unless it has raised a Settlement and billing dispute under Section 9.14, Settlement and Billing Dispute Process. 
+9.2.9	Suspension of Issuing Settlement Statements for the DAM
+(1)	The ERCOT Board may direct ERCOT to suspend the issuance of any Settlement Statement for the DAM to address unusual circumstances.  Any proposal to suspend settlements must be presented to the Technical Advisory Committee (TAC) for review and comment, in a reasonable manner under the circumstances, prior to such suspension.
+9.3	[RESERVED]
+9.4	[RESERVED]
+9.5	Settlement Statements for Real-Time Market
+9.5.1	Settlement Statement Process for the Real-Time Market 
+(1)	ERCOT shall produce daily Settlement Statements for the Real-Time Market (RTM), as defined in Section 9.5.2, Settlement Statements for the RTM, that show a breakdown of Charge Types incurred in the RTM, including any administrative and miscellaneous charges applicable to the RTM.
+9.5.2	Settlement Statements for the RTM
+(1)	ERCOT shall make each Settlement Statement for the RTM for an Operating Day available on the date specified on the Settlement Calendar for that Operating Day by posting it to the Market Information System (MIS) Certified Area for the applicable Statement Recipient. 
+(2)	A Settlement Statement for the RTM can be: 
+(a)	An “RTM Initial Statement,” which is the first iteration of a Settlement Statement issued for a particular Operating Day;
+(b)	An “RTM Final Statement,” which is the statement issued at the end of the 55th day following the Operating Day; 
+(c)	An “RTM Resettlement Statement,” which is the statement using corrected Settlement data due to resolution of disputes and correction of data errors; or
+(d)	An “RTM True-Up Statement,” which is a statement issued at the end of the 180th day after the Operating Day.
+(3)	The Statement Recipient is responsible for accessing the Statement from the MIS Certified Area.
+(4)	To issue an RTM Settlement Statement, ERCOT may use estimated, disputed, or calculated meter data.
+(5)	ERCOT shall create an RTM Initial Statement, RTM Final Statement, and RTM True-Up Statement for each Operating Day.
+(6)	ERCOT may create an RTM Resettlement Statement for any Operating Day, depending on the criteria set forth in Section 9.5.6, RTM Resettlement Statement.  When actual validated data is available and all of the Settlement and billing disputes raised by Statement Recipients in accordance with Section 9.14.4, ERCOT Processing of Disputes, during the validation process have been resolved, ERCOT shall recalculate the amounts payable and receivable by the affected RTM Statement Recipients, as described in Section 9.5.6.
+(7)	Each RTM Settlement Statement must denote:
+(a)	Operating Day;
+(b)	The Statement Recipient’s name;
+(c)	The ERCOT identifier (settlement identification number issued by ERCOT);
+(d)	Status of the statement (Initial, Final, Resettlement, or True-Up);
+(e)	Statement version number;
+(f)	Unique statement identification code; and
+(g)	Charge Types settled.
+(8)	A Settlement Statement for the RTM must break the fees down by Charge Type into the appropriate 15-minute or one-hour Settlement Interval for that type. 
+(9)	An RTM Settlement Statement must have a summary page of the corresponding detailed documentation.
+9.5.3	Real-Time Market Settlement Charge Types
+(1)	ERCOT shall provide, on each RTM Settlement Statement, the dollar amount for each RTM Settlement charge and payment.  The RTM Settlement “Charge Types” are:
+(a)	Section 5.7.1, RUC Make-Whole Payment;
+(b)	Section 5.7.2, RUC Clawback Charge;
+(c)	Section 5.7.3, Payment When ERCOT Decommits a QSE-Committed Resource;
+(d)	Section 5.7.4.1, RUC Capacity-Short Charge;
+(e)	Section 5.7.4.2, RUC Make-Whole Uplift Charge;
+(f)	Section 5.7.5, RUC Clawback Payment;
+(g)	Section 5.7.6, RUC Decommitment Charge;
+(h)	Section 6.6.3.1, Real-Time Energy Imbalance Payment or Charge at a Resource Node; 
+(i)	Section 6.6.3.2, Real-Time Energy Imbalance Payment or Charge at a Load Zone;
+(j)	Section 6.6.3.3, Real-Time Energy Imbalance Payment or Charge at a Hub;
+(k)	Section 6.6.3.4, Real-Time Energy Payment for DC Tie Import;
+(l)	Section 6.6.3.5, Real-Time Payment for a Block Load Transfer Point;
+(m)	Section 6.6.3.6, Real-Time High Dispatch Limit Override Energy Payment;
+(n)	Section 6.6.3.7, Real-Time High Dispatch Limit Override Energy Charge;
+(o)	Section 6.6.3.8, Real-Time Payment or Charge for Energy from a Settlement Only Distribution Generator (SODG) or a Settlement Only Transmission Generator (SOTG);
+(p)	Section 6.6.4, Real-Time Congestion Payment or Charge for Self-Schedules;
+(q)	Section 6.6.5.1.1.1, Base Point Deviation Charge for Over Generation; 
+(r)	Section 6.6.5.1.1.2, Base Point Deviation Charge for Under Generation; 
+(s)	Section 6.6.5.2, IRR Generation Resource Base Point Deviation Charge; 
+(t)	Section 6.6.5.4, Base Point Deviation Payment;
+(u)	Section 6.6.6.1, RMR Standby Payment;
+(v)	Section 6.6.6.2, RMR Payment for Energy;
+(w)	Section 6.6.6.3, RMR Adjustment Charge;
+(x)	Section 6.6.6.4, RMR Charge for Unexcused Misconduct;
+(y)	Section 6.6.6.5, RMR Service Charge;
+(z) 	Section 6.6.6.6, Method for Reconciling RMR Actual Eligible Costs, RMR and MRA Contributed Capital Expenditures, and Miscellaneous RMR Incurred Expenses;
+(aa)	Paragraph (2) of Section 6.6.7.1, Voltage Support Service Payments;
+(bb)	Paragraph (4) of Section 6.6.7.1;
+(cc)	Section 6.6.7.2, Voltage Support Charge;
+(dd)	Section 6.6.8.1, Black Start Hourly Standby Fee Payment;
+(ee)	Section 6.6.8.2, Black Start Capacity Charge;
+(ff)	Section 6.6.9.1, Payment for Emergency Power Increase Directed by ERCOT;
+(gg)	Section 6.6.9.2, Charge for Emergency Power Increases;
+(hh)	Section 6.6.10, Real-Time Revenue Neutrality Allocation;
+(ii)	Section 6.6.14.2, Firm Fuel Supply Service Hourly Standby Fee Payment and Fuel Replacement Cost Recovery;
+(jj)	Section 6.6.14.3, Firm Fuel Supply Service Capacity Charge;
+(kk)	Paragraph (1)(a) of Section 6.7.1, Payments for Ancillary Service Capacity Sold in a Supplemental Ancillary Services Market (SASM) or Reconfiguration Supplemental Ancillary Services Market (RSASM);
+(ll)	Paragraph (1)(b) of Section 6.7.1;
+(mm)	Paragraph (1)(c) of Section 6.7.1;
+(nn)	Paragraph (1)(d) of Section 6.7.1; 
+(oo)	Paragraph (1)(e) of Section 6.7.1; 
+(pp)	Paragraph (1)(a) of Section 6.7.2, Payments for Ancillary Service Capacity Assigned in Real-Time Operations;
+(qq)	Paragraph (1)(b) of Section 6.7.2;
+(rr)	Paragraph (1)(c) of Section 6.7.2; 
+(ss)	Paragraph (1)(a) of Section 6.7.2.1, Charges for Infeasible Ancillary Service Capacity Due to Transmission Constraints;
+(tt)	Paragraph (1)(b) of Section 6.7.2.1;
+(uu)	Paragraph (1)(c) of Section 6.7.2.1;
+(vv)	Paragraph (1)(d) of Section 6.7.2.1;
+(ww)	Paragraph (1)(e) of Section 6.7.2.1;
+(xx)	Paragraph (1)(a) of Section 6.7.3, Charges for Ancillary Service Capacity Replaced Due to Failure to Provide;
+(yy)	Paragraph (1)(b) of Section 6.7.3;
+(zz)	Paragraph (1)(c) of Section 6.7.3;
+(aaa)	Paragraph (1)(d) of Section 6.7.3;
+(bbb)	Paragraph (1)(e) of Section 6.7.3;
+(ccc)	Paragraph (2) of Section 6.7.4, Adjustments to Cost Allocations for Ancillary Services Procurement;
+(ddd)	Paragraph (3) of Section 6.7.4;
+(eee)	Paragraph (4) of Section 6.7.4;
+(fff)	Paragraph (5) of Section 6.7.4; 
+(ggg)	Paragraph (6) of Section 6.7.4;
+(hhh)	Paragraph (7) of Section 6.7.5, Real-Time Ancillary Service Imbalance Payment or Charge (Real-Time Ancillary Service Imbalance Amount);
+(iii)	Paragraph (7) of Section 6.7.5, (Real-Time Reliability Deployment Ancillary Service Imbalance Amount);
+(jjj)	Paragraph (8) of Section 6.7.5, (Real-Time RUC Ancillary Service Reserve Amount); 
+(kkk)	Paragraph (8) of Section 6.7.5, (Real-Time Reliability Deployment RUC Ancillary Service Reserve Amount); 
+(lll)	Section 6.7.6, Real-Time Ancillary Service Imbalance Revenue Neutrality Allocation (Load-Allocated Ancillary Service Imbalance Revenue Neutrality Amount);
+(mmm)	Section 6.7.6, (Load-Allocated Reliability Deployment Ancillary Service Imbalance Revenue Neutrality Amount);
+(nnn)	Section 7.9.2.1, Payments and Charges for PTP Obligations Settled in Real-Time; and
+(ooo)	Section 9.16.1, ERCOT System Administration Fee.
+[NPRR841, NPRR885, NPRR963, NPRR995, NPRR1012, and NPRR1014:  Replace applicable portions of paragraph (1) above with the following upon system implementation for NPRR841, NPRR885, NPRR963, NPRR995, or NPRR1014; or upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1012:]
+(1)	ERCOT shall provide, on each RTM Settlement Statement, the dollar amount for each RTM Settlement charge and payment.  The RTM Settlement “Charge Types” are:
+(a)	Section 5.7.1, RUC Make-Whole Payment;
+(b)	Section 5.7.2, RUC Clawback Charge;
+(c)	Section 5.7.3, Payment When ERCOT Decommits a QSE-Committed Resource;
+(d)	Section 5.7.4.1, RUC Capacity-Short Charge;
+(e)	Section 5.7.4.2, RUC Make-Whole Uplift Charge;
+(f)	Section 5.7.5, RUC Clawback Payment;
+(g)	Section 5.7.6, RUC Decommitment Charge;
+(h)	Section 6.6.3.1, Real-Time Energy Imbalance Payment or Charge at a Resource Node; 
+(i)	Section 6.6.3.2, Real-Time Energy Imbalance Payment or Charge at a Load Zone;
+(j)	Section 6.6.3.3, Real-Time Energy Imbalance Payment or Charge at a Hub;
+(k)	Section 6.6.3.4, Real-Time Energy Payment for DC Tie Import;
+(l)	Section 6.6.3.5, Real-Time Payment for a Block Load Transfer Point;
+(m)	Section 6.6.3.6, Real-Time High Dispatch Limit Override Energy Payment;
+(n)	Section 6.6.3.7, Real-Time High Dispatch Limit Override Energy Charge;
+(o)	Section 6.6.3.8, Real-Time Payment or Charge for Energy from a Settlement Only Distribution Generator (SODG), Settlement Only Transmission Generator (SOTG), Settlement Only Distribution Energy Storage System (SODESS), or Settlement Only Transmission Energy Storage System (SOTESS); 
+(p)	Section 6.6.4, Real-Time Congestion Payment or Charge for Self-Schedules;
+(q)	Section 6.6.5.2, Set Point Deviation Charge for Over Generation; 
+(r)	Section 6.6.5.2.1, Set Point Deviation Charge for Under Generation; 
+(s)	Section 6.6.5.3, Controllable Load Resource Set Point Deviation Charge for Over Consumption; 
+(t)	Section 6.6.5.3.1, Controllable Load Resource Set Point Deviation Charge for Under Consumption;
+(u)	Section 6.6.5.4, IRR Generation Resource Set Point Deviation Charge; 
+(v)	Section 6.6.5.4, Set Point Deviation Payment;
+(w)	Section 6.6.5.5, Energy Storage Resource Set Point Deviation Charge for Over Performance; 
+(x)	Section 6.6.5.5.1, Energy Storage Resource Set Point Deviation Charge for Under Performance; 
+(y)	Section 6.6.6.1, RMR Standby Payment;
+(z)	Section 6.6.6.2, RMR Payment for Energy;
+(aa)	Section 6.6.6.3, RMR Adjustment Charge;
+(bb)	Section 6.6.6.4, RMR Charge for Unexcused Misconduct;
+(cc)	Section 6.6.6.5, RMR Service Charge;
+(dd)	Section 6.6.6.6, Method for Reconciling RMR Actual Eligible Costs, RMR and MRA Contributed Capital Expenditures, and Miscellaneous RMR Incurred Expenses;
+(ee)	Section 6.6.6.7, MRA Standby Payment;
+(ff)	Section 6.6.6.8, MRA Contributed Capital Expenditures Payment;
+(gg)	Section 6.6.6.9, MRA Payment for Deployment Event;
+(hh)	Section 6.6.6.10, MRA Variable Payment for Deployment; 
+(ii)	Section 6.6.6.11, MRA Charge for Unexcused Misconduct;
+(jj)	Section 6.6.6.12, MRA Service Charge;
+(kk)	Paragraph (3) of Section 6.6.7.1, Voltage Support Service Payments;
+(ll)	Paragraph (5) of Section 6.6.7.1;
+(mm)	Section 6.6.7.2, Voltage Support Charge;
+(nn)	Section 6.6.8.1, Black Start Hourly Standby Fee Payment;
+(oo)	Section 6.6.8.2, Black Start Capacity Charge;
+(pp)	Section 6.6.9.1, Payment for Emergency Operations Settlement;
+(qq)	Section 6.6.9.2, Charge for Emergency Operations Settlement;
+(rr)	Section 6.6.10, Real-Time Revenue Neutrality Allocation;
+(ss)	Section 6.6.11.1, Emergency Response Service Capacity Payments; 
+(tt)	Section 6.6.11.2, Emergency Response Service Capacity Charge; 
+(uu)	Section 6.6.14.2, Firm Fuel Supply Service Hourly Standby Fee Payment and Fuel Replacement Cost Recovery;
+(vv)	Section 6.6.14.3, Firm Fuel Supply Service Capacity Charge;
+(ww)	Section 6.7.4, Real-Time Settlement for Updated Day-Ahead Market Ancillary Service Obligations;
+(xx)	Section 6.7.5.2, Regulation Up Service Payments and Charges;
+(yy)	Section 6.7.5.3, Regulation Down Service Payments and Charges;
+(zz)	Section 6.7.5.4, Responsive Reserve Payments and Charges;
+(aaa)	Section 6.7.5.5	, Non-Spinning Reserve Service Payments and Charges;
+(bbb)	Section 6.7.5.6	, ERCOT Contingency Reserve Service Payments and Charges;
+(ccc)	Section 6.7.5.7	, Real-Time Derated Ancillary Service Capability Payment;
+(ddd)	Section 6.7.5.8	, Real-Time Derated Ancillary Service Capability Charge;
+(eee)	Section 6.7.6, Real-Time Ancillary Service Revenue Neutrality Allocation;
+(fff)	Section 7.9.2.1, Payments and Charges for PTP Obligations Settled in Real-Time; and
+(ggg)	Section 9.16.1, ERCOT System Administration Fee.
+(2)	In the event that ERCOT is unable to execute the Day-Ahead Market (DAM), ERCOT shall provide, on each RTM Settlement Statement, the dollar amount for the following RTM Congestion Revenue Right (CRR) Settlement charges and payments:
+(a)	Section 7.9.2.4, Payments for FGRs in Real-Time; and
+(b)	Section 7.9.2.5, Payments and Charges for PTP Obligations with Refund in Real-Time.
+9.5.4	RTM Initial Statement
+(1)	ERCOT shall issue an RTM Initial Statement for each Statement Recipient for a given Operating Day on the fifth day after the Operating Day, unless that fifth day is not a Business Day.  If the fifth day is not a Business Day, then ERCOT shall issue the RTM Initial Statement on the next Business Day after the fifth day.  Notwithstanding the above, if the fifth day after the Operating Day is on or prior to the Business Day on which Real-Time prices are final pursuant to paragraph (7) of Section 6.3, Adjustment Period and Real-Time Operations Timeline, then ERCOT shall issue the RTM Initial Statement on the first Business Day after the Real-Time prices are final.
+9.5.5	RTM Final Statement
+(1)	ERCOT shall issue an RTM Final Statement for each Statement Recipient for a given Operating Day on the 55th day after the Operating Day, unless that 55th day is not a Business Day.  If the 55th day is not a Business Day, then ERCOT shall issue the RTM Final Statement on the first Business Day after the 55th day.
+(2)	An RTM Final Statement will reflect differences to financial records generated on the previous Settlement Statement for the given Operating Day. 
+9.5.6	RTM Resettlement Statement
+(1)	ERCOT shall issue a RTM Resettlement Statement using corrected Settlement data due to resolution of Settlement and billing disputes and the correction of errors other than price errors pursuant to this Section.  Any resettlement occurring after an RTM True-Up Statement has been issued must meet the same Interval Data Recorder (IDR) Meter Data Threshold requirements defined in Section 9.5.8, RTM True-Up Statement, and is subject to the same limitations for filing a dispute.  Despite the preceding sentence, the ERCOT Board may, in its discretion, direct ERCOT to run a resettlement of any Operating Day, at any time, to address unusual circumstances.
+(2)	ERCOT shall issue a RTM Resettlement Statement for a given Operating Day due to errors other than errors in prices when:
+(a)	The total of all errors other than price errors results in an absolute value impact greater than 4% of the total RTM Statement amount for any single Statement Recipient for the Operating Day;
+(b)	The impact to the Statement Recipient is greater than $400.00; and
+(c)	The error is discovered, and a Market Notice of the error is provided to Market Participants, within one year of the Operating Day at issue.
+(3)	Changes to meter data managed through a process other than a dispute or Alternative Dispute Resolution will not require evaluation of a resettlement defined in paragraph (2) above.
+(4)	For any Settlement and billing disputes resolved prior to issuance of the RTM Final Statement, ERCOT shall effect the dispute’s resolution on the RTM Final Statement for that Operating Day.  If a dispute is submitted by 15 Business Days after the issuance of the RTM Initial Statement for an Operating Day and is not resolved on the RTM Final Statement, ERCOT will affect the dispute’s resolution on an RTM Resettlement Statement for that Operating Day.  ERCOT shall issue such an RTM Resettlement Statement within a reasonable time after resolving the Settlement and billing dispute.  
+(5)	ERCOT must effect the resolution of any dispute submitted more than 15 Business Days after the issuance of the RTM Initial Statement on the next available Resettlement or RTM True-Up statement for that Operating Day.  For Settlement and billing disputes resolved under Section 9.14, Settlement and Billing Dispute Process, and submitted at least 20 Business Days before the scheduled date for issuance of the RTM True-Up Statement, ERCOT will include adjustments relating to the dispute on the RTM True-Up Statement.  Resolved disputes must be included on the next available Settlement Invoice after ERCOT has issued the RTM True-Up Statement.
+(6)	ERCOT may not issue an RTM Resettlement Statement less than 20 days before a scheduled RTM Final Statement or RTM True-Up Statement for the relevant Operating Day.  An RTM Resettlement Statement will reflect differences to financial records generated on the previous Settlement Statement for the given Operating Day.
+(7)	ERCOT may issue an RTM Resettlement Statement after the issuance of an RTM Final Statement in order to resolve approved disputes related to Section 5.6.5.2, RUC Make-Whole Payment and RUC Clawback Charge for Resources Receiving OSAs.
+(8)	ERCOT may issue RTM Resettlement Statements after the timeline referenced in paragraph (2) above if directed by the ERCOT Board, the result of a resolution of an Alternative Dispute Resolution (ADR) procedure, or under the procedure for Return of Settlement Funds.
+(9)	If ERCOT is required to issue a Resettlement Statement per this Section, but resettlement is not practicable due to system limitations, ERCOT shall make the adjustments through a separate Invoice that is produced outside of normal Settlement Invoices.  The appropriate payments and charges, along with Settlement quality information, shall be supplied to all impacted Market Participants.  
+9.5.7	Notice of Resettlement for the Real-Time Market
+(1)	While maintaining confidentiality of all Market Participants, ERCOT shall send a Market Notice in conjunction with the resettlement, indicating the resettlement of a specific Operating Day and the date of issuance of the RTM Resettlement Statements.  ERCOT shall include the following information in the notice of resettlement:
+(a)	Detailed description of reason(s) for resettlement;
+(b)	Affected Operating Days;
+(c)	Affected settlement Charge Types; and
+(d)	Total resettled amount, by Charge Type.
+9.5.8	RTM True-Up Statement
+(1)	ERCOT shall use the best available Settlement data, as described in Section 9.5.2, Settlement Statements for the RTM, to produce an RTM True-Up Statement for each Statement Recipient for each given Operating Day.
+(2)	ERCOT shall issue RTM True-Up Statements 180 days following the Operating Day, if ERCOT has received and validated usage data from at least 99% of the total number of Electric Service Identifiers (ESI IDs) with a BUSIDRRQ Load Profile Type code and if ERCOT has received and validated usage data from at least 90% of the total number of ESI IDs with a BUSIDRRQ Load Profile Type code from each Meter Reading Entity (MRE) representing at least 20 Interval Data Recorder (IDR) ESI IDs (IDR Meter Data Threshold).  If the above conditions have not been met, then ERCOT shall issue RTM True-Up Statements as soon as the IDR Meter data becomes available for that Operating Day.  If no RTM True-Up Statement has been issued 365 days after the Operating Day, then ERCOT shall issue a RTM True-Up Statement for that Operating Day.  If any RTM True-Up Statement issuance date does not fall on a Business Day, then the RTM True-Up Statement must be issued by the end of the next Business Day after the RTM True-Up Settlement date.
+(3)	An RTM True-Up Statement will reflect differences to financial records generated on the previous Settlement Statement for the given Operating Day. 
+9.5.9	Notice of True-Up Settlement Timeline Changes for the Real-Time Market
+(1)	If the IDR Meter Data Threshold has not been met by the 180th day after the Operating Day (or, if the 180th day is not a Business Day, by the next day thereafter that is a Business Day), then ERCOT shall send a Market Notice about the delay of any RTM True-Up Statement issuance indicating the IDR Meter Data Threshold has not been met.
+(2)	For any delayed RTM True-Up Statement, ERCOT shall send a Market Notice indicating that it will issue an RTM True-Up Statement for a specific Operating Day within two Business Days after discovering the delay.  As soon as practicable, ERCOT shall send a Market Notice with the revised date on which the delayed RTM True-Up Statement will be issued.
+9.5.10	Confirmation for the Real-Time Market
+(1)	It is the responsibility of each Statement Recipient to notify ERCOT if a Settlement Statement for the RTM is not available on the MIS Certified Area on the date specified for posting of that Settlement Statement in the Settlement Calendar.  Each Settlement Statement for the RTM is deemed to have been available on the posting date specified on the Settlement Calendar, unless it notifies ERCOT to the contrary.  If ERCOT receives notice that a Settlement Statement is not available, ERCOT shall make reasonable attempts to provide the Settlement Statement to the Statement Recipient, and ERCOT shall modify the Settlement and billing timeline accordingly for that Settlement Statement.  
+9.5.11	Validation of the True-Up Statement for the Real-Time Market
+(1)	The Statement Recipient is considered to have validated each RTM True-Up Statement unless it has filed a Settlement and billing dispute or reported an exception within ten Business Days after the RTM True-Up Statement has been posted on the MIS Certified Area.  
+9.5.12	Suspension of Issuing Settlement Statements for the Real-Time Market
+(1)	The ERCOT Board may direct ERCOT to suspend the issuance of any Settlement Statement for the RTM to address unusual circumstances.  Any proposal to suspend settlements must be presented to the Technical Advisory Committee (TAC) for review and comment, in a reasonable manner under the circumstances, before such suspension.
+9.6	Settlement Invoices for the Day-Ahead Market and Real-Time Market
+(1)	ERCOT shall prepare Settlement Invoices on a net basis based on Day-Ahead Market (DAM) Statements, DAM Resettlement Statements, Real-Time Market (RTM) Initial Statements, RTM Final Statements, RTM True-Up Statements and RTM Resettlement Statements.  ERCOT shall issue the Settlement Invoices on the same Business Day as the day that the DAM and RTM Statements are posted to the Market Information System (MIS) Certified Area.  ERCOT will post the actual dates that it will issue the Settlement Invoices under Section 9.1.2, Settlement Calendar.  The Market Participant to whom the Settlement Invoice is addressed (“Invoice Recipient”) is either a net payee or net payor.  
+(2)	Each Invoice Recipient shall pay any net debit and be entitled to receive any net credit shown on the Settlement Invoice on the payment due date, whether or not there is any Settlement and billing dispute regarding the amount of the debit or credit.
+(3)	ERCOT shall post Settlement Invoices on the MIS Certified Area.  The Invoice Recipient is responsible for accessing the Settlement Invoice on the MIS Certified Area once posted by ERCOT. 
+(4)	Settlement Invoice items must be grouped by DAM, DAM Resettlement, RTM Initial, RTM Final, RTM Resettlement, and RTM True-Up categories and must be sorted by Operating Day within each category.  Settlement Invoices must contain the following information:
+(a)	The Invoice Recipient’s name;
+(b)	The ERCOT identifier (Settlement identification number issued by ERCOT);
+(c)	Net Amount Due/Payable – the aggregate summary of all charges owed by or due to the Invoice Recipient;
+(d)	Time Periods – the time period covered for each line item;
+(e)	Run Date – the date on which the Invoice was created and published;
+(f)	Invoice Reference Number – a unique number generated by ERCOT for payment tracking purposes;
+(g)	Statement Reference – an identification code used to reference each Settlement Statement invoiced;
+(h)	Payment Date and Time – the date and time that Invoice amounts are to be paid or received;
+(i)	Remittance Information Details – details including the account number, bank name and electronic transfer instructions of the ERCOT account to which any amounts owed by the Invoice Recipient are to be paid or of the Invoice Recipient’s account from which ERCOT may draw payments due; and
+(j)	Overdue Terms – the terms that would be applied if payments were received late.
+9.7	Payment Process for the Settlement Invoices
+(1)	Payments for the Settlement Invoices are due on a Business Day and Bank Business Day basis in a two-day, two-step process as detailed below.
+9.7.1	Invoice Recipient Payment to ERCOT for the Settlement Invoices
+(1)	The payment due date and time for the Settlement Invoice, with funds owed by an Invoice Recipient, is 1700 on the second Bank Business Day after the Settlement Invoice date, unless the second Bank Business Day is not a Business Day.  If the second Bank Business Day is not a Business Day, the payment is due by 1700 on the next Bank Business Day after the second Bank Business Day that is also a Business Day.
+(2)	All Settlement Invoices due, with funds owed by an Invoice Recipient, must be paid to ERCOT in U.S. Dollars (USDs) by Electronic Funds Transfer (EFT) in immediately available or good funds (i.e., not subject to reversal) on or before the payment due date. 
+9.7.2	ERCOT Payment to Invoice Recipients for the Settlement Invoices
+(1)	Subject to the availability of funds as discussed in paragraph (2) below, ERCOT must pay Settlement Invoices with funds owed to an Invoice Recipient by 1700 on the next Bank Business Day after payments are due for that Settlement Invoice under Section 9.7.1, Invoice Recipient Payment to ERCOT for the Settlement Invoices, subject to ERCOT’s right to withhold payments for any reason set forth in these Protocols or as a matter of law, unless that next Bank Business Day is not a Business Day.  If that next Bank Business Day is not a Business Day, the payment is due on the next Bank Business Day thereafter that is also a Business Day. 
+(2)	ERCOT shall give irrevocable instructions to the ERCOT financial institution to remit to each Invoice Recipient for same day value the amounts determined by ERCOT to be available for payment to that Invoice Recipient under paragraph (d) of Section 9.19, Partial Payments by Invoice Recipients. 
+9.7.3	Enforcing the Financial Security of a Short-Paying Invoice Recipient
+(1)	ERCOT shall make reasonable efforts to enforce the Financial Security of the short-paying Invoice Recipient (pursuant to Section 16.11.6, Payment Breach and Late Payments by Market Participants) to the extent necessary to cover the short-pay.  A short-paying Invoice Recipient shall restore the level of its Financial Security under Section 16, Registration and Qualification of Market Participants.
+(2)	ERCOT shall provide to all Market Participants payment details on all short payments and subsequent reimbursements of short pays.  Details must include the identity of each short-paying Invoice Recipient and the dollar amount attributable to that Invoice Recipient, broken down by Invoice numbers.  In addition, ERCOT shall provide the aggregate total of all amounts due to all Invoice Recipients before applying the amount not paid on the Invoice.
+9.8	CRR Auction Award Invoices
+(1)	ERCOT shall prepare invoices for each Congestion Revenue Right (CRR) Auction (CRR Auction Invoice) on a net basis.  Invoices must be issued on the first Business Day following the completion of a CRR Auction on the date specified in the Settlement Calendar.  For each CRR Auction Invoice, the CRR Account Holder to whom the Invoice is addressed (“Invoice Recipient”) is either a net payee or net payor.  The Invoice Recipient is responsible for accessing the CRR Auction Invoice on the Market Information System (MIS) Certified Area once posted by ERCOT.
+(2)	Each Invoice Recipient shall pay any net debit and be entitled to receive any net credit shown on the CRR Auction Invoice on the payment due date.  Payments for CRR Auction Invoices are due on the applicable payment due date, whether or not there is any Settlement and billing dispute regarding the amount of the payment. 
+(3)	ERCOT shall post on the MIS Certified Area for each Invoice Recipient a CRR Auction Invoice based on CRR Auction charges and payments as set forth in:
+(a)	Section 7.5.6.1, Payment of an Awarded CRR Auction Offer;
+(b)	Section 7.5.6.2, Charge of an Awarded CRR Auction Bid; and
+(c)	Section 7.5.6.3, Charge of PCRRs Pertaining to a CRR Auction. 
+(d)	Section 7.7, Point-to-Point (PTP) Option Award Charge.
+(4)	CRR Auction Invoices must contain the following information:
+(a)	The Invoice Recipient’s name;
+(b)	The ERCOT identifier (Settlement identification number issued by ERCOT);
+(c)	Net Amount Due/Payable – the aggregate summary of all charges owed to or due from the Invoice Recipient summarized by CRR Auction;
+(d)	Time Period – the CRR Auction for which the Invoice is generated;
+(e)	Run Date – the date on which ERCOT created and published the Invoice;
+(f)	Invoice Reference Number – a unique number generated by ERCOT for payment tracking purposes;
+(g)	Product Description – a description of each product awarded in, sold in, or allocated before the CRR Auctions, or of any applicable charge;
+(h)	Payment Date – the date and time that Invoice amounts are to be paid or received; and
+(i)	Remittance Information Details – details including the account number, bank name and electronic transfer instructions of the ERCOT account to which any amounts owed by the Invoice Recipient are to be paid or of the Invoice Recipient’s account from which ERCOT may draw payments due.
+9.9	Payment Process for CRR Auction Invoices
+(1)	Payments for the Congestion Revenue Right (CRR) Auction are due on a Business Day and Bank Business Day basis in a two-day, two-step process as detailed below.
+9.9.1	Invoice Recipient Payment to ERCOT for the CRR Auction
+(1)	The payment due date and time for the CRR Auction Invoice, with funds owed by an Invoice Recipient, is 1700 on the third Bank Business Day after the CRR Auction Invoice date, unless third Bank Business Day is not a Business Day.  If the third Bank Business Day is not a Business Day, the payment is due by 1700 on the next Bank Business Day after the third Bank Business Day that is also a Business Day.
+(2)	All CRR Auction Invoices due, with funds owed by an Invoice Recipient, must be paid to ERCOT in U.S. Dollars (USDs) by Electronic Funds Transfer (EFT) in immediately available or good funds (i.e., not subject to reversal) on or before the payment due date. 
+(3)	All CRR Auction Invoices must be paid in full on the Invoice due date.
+9.9.2	ERCOT Payment to Invoice Recipients for the CRR Auction
+(1)	CRR Auction Invoices with funds owed to an Invoice Recipient must be paid by ERCOT to the Invoice Recipient by 1700 on the next day that is both a Business Day and a Bank Business Day after the day that payments are due for that CRR Auction Invoice under Section 9.9.1, Invoice Recipient Payment to ERCOT for the CRR Auction, subject to ERCOT’s right to withhold payments under Section 16, Registration and Qualification of Market Participants or pursuant to the common law. 
+(2)	ERCOT shall give irrevocable instructions to the ERCOT financial institution to remit, to each Invoice Recipient for same day value the amounts owed to each Invoice Recipient.
+9.9.3	Enforcing the Security of a Short-Paying CRR Auction Invoice Recipient
+(1)	ERCOT shall make reasonable efforts to enforce the security of the short-paying Invoice Recipient (pursuant to Section 16.11.6, Payment Breach and Late Payments by Market Participants) to the extent necessary to cover the short-pay.  A short-paying Invoice Recipient shall restore the level of its security under Section 16, Registration and Qualification of Market Participants.  
+9.10	CRR Auction Revenue Distribution Invoices
+(1)	ERCOT shall prepare Invoices for Congestion Revenue Right (CRR) Auction Revenue Distribution (CARD) on a monthly basis on the first Business Day following the Real-Time Market (RTM) Initial Settlement posting of the last day of the month on the date specified in the Settlement Calendar.
+(2)	ERCOT shall true up the distribution of monthly CRR Auction revenues by posting additional Settlement Invoices on the first Business Day following the RTM Final Settlement posting of the last day of the month on the date specified in the Settlement Calendar.  A trued up CARD Invoice will reflect differences to financial records generated on the previous CARD Invoice for a given month.
+(3)	For each cycle, the Market Participant to whom the CARD Invoice is addressed (“Invoice Recipient”) is either a payee or payor.  The Invoice Recipient is responsible for accessing the CARD Invoice on the Market Information System (MIS) Certified Area once posted by ERCOT.
+(4)	Each Invoice Recipient shall pay any debit and be entitled to receive any credit shown on the CARD Invoice on the payment due date.  Payments for CARD Invoices are due on the applicable payment due date whether or not there is any Settlement and billing dispute regarding the amount of the payment.
+(5)	ERCOT shall post on the MIS Certified Area for each Invoice Recipient a CARD Invoice based the calculations located:
+(a)	Section 7.5.6.4, CRR Auction Revenues; and
+(b)	Section 7.5.7, Method for Distributing CRR Auction Revenues.
+(6)	CARD Invoices must contain the following information: 
+(a)	The Invoice Recipient’s name;
+(b)	The ERCOT identifier (Settlement identification number issued by ERCOT); 
+(c)	Net Amount Due/Payable – the aggregate summary of all charges owed to or due from the Invoice Recipient summarized by CRR Auction revenue month;
+(d)	Time Period – the CRR Auction revenue month for which the Invoice is generated, including Initial or Final distribution;
+(e)	Run Date – the date on which ERCOT created and published the Invoice;
+(f)	Invoice Reference Number – a unique number generated by ERCOT for payment tracking purposes;
+(g)	Payment Date – the date and time that Invoice amounts are to be paid or received; and
+(h)	Remittance Information Details – details including the account number, bank name and electronic transfer instructions of the ERCOT account to which any amounts owed by the Invoice Recipient are to be paid or of the Invoice Recipient’s account from which ERCOT may draw payments due.
+9.11	Payment Process for CRR Auction Revenue Distribution
+(1)	Payments for Congestion Revenue Right (CRR) Auction Revenue Distribution (CARD) Invoices are due on a Business Day and Bank Business Day basis in a two-day, two-step process as detailed below.
+9.11.1	Invoice Recipient Payment to ERCOT for CRR Auction Revenue Distribution
+(1)	The payment due date and time for the CARD Invoice, with funds owed by an Invoice Recipient, is 1700 on the fifth Bank Business Day after the CARD Invoice date, unless the fifth Bank Business Day is not a Business Day.  If the fifth Bank Business Day is not a Business Day, the payment is due by 1700 on the next Bank Business Day after the fifth Bank Business Day that is also a Business Day.
+(2)	All CARD Invoices due, with funds owed by an Invoice Recipient, must be paid to ERCOT in U.S. Dollars (USDs) by Electronic Funds Transfer (EFT) in immediately available or good funds (i.e., not subject to reversal) on or before the payment due date. 
+9.11.2	ERCOT Payment to Invoice Recipients for CRR Auction Revenue Distribution
+(1)	CARD Invoices with funds owed to an Invoice Recipient must be paid by ERCOT to the Invoice Recipient by 1700 on the next day that is both a Business Day and a Bank Business Day after the day that payments are due for that CARD Invoice under Section 9.11.1, Invoice Recipient Payment to ERCOT for CRR Auction Revenue Distribution, subject to ERCOT’s right to withhold payments under Section 16 and pursuant to common law. 
+(2)	ERCOT shall give irrevocable instructions to the ERCOT financial institution to remit, to each Invoice Recipient for same day value, the amounts owed to each Invoice Recipient. 
+9.11.3	Partial Payments by Invoice Recipients for CRR Auction Revenue Distribution
+(1)	If at least one Invoice Recipient owing funds does not pay its CARD Invoice in full (short-pay), ERCOT shall follow the procedure set forth below:
+(a)	ERCOT shall make every reasonable attempt to collect payment from each short-paying Invoice Recipient before any payments owed by ERCOT for that month’s distribution of CRR Auction revenues is due to be paid to applicable Invoice Recipient(s). 
+(b)	ERCOT shall draw on any available security pledged to ERCOT by each short-paying Invoice Recipient that did not pay the amount due under paragraph (a) above.  If the amount of any such draw is greater than the amount of the short-paying Invoice Recipient’s cash collateral held in excess of that required to cover its Total Potential Exposure (TPE) (“Excess Collateral”), then a draw on available security for a short-paying Invoice Recipient shall be considered a Late Payment for purposes of Section 16.11.6, Payment Breach and Late Payments by Market Participants.
+(c)	ERCOT shall offset or recoup any amounts owed, or to be owed, by ERCOT to a short-paying Invoice Recipient against amounts not paid by that Invoice Recipient and ERCOT shall apply the amount offset or recouped to cover payment shortages by that Invoice Recipient.
+(d)	If, after taking the actions set forth in paragraphs (a), (b) and (c), above, ERCOT still does not have sufficient funds to pay all amounts that it owes to CARD Invoice Recipients in full, ERCOT shall reduce payments to all CARD Invoice Recipients owed monies from ERCOT.  The reductions shall be based on a pro rata basis of monies owed to each CARD Invoice Recipient, to the extent necessary to clear ERCOT’s accounts on the payment due date to achieve revenue neutrality for ERCOT.  ERCOT shall provide to all Market Participants payment details on all short payments and subsequent reimbursements of short pays.  Details must include the identity of each short-paying Invoice Recipient and the dollar amount attributable to that Invoice Recipient, broken down by Invoice numbers.  In addition, ERCOT shall provide the aggregate total of all amounts due to all Invoice Recipients before applying the amount not paid on the CARD Invoice.
+9.11.4	Enforcing the Security of a Short-Paying CARD Invoice Recipient
+(1)	ERCOT shall make reasonable efforts to enforce the security of the short-paying Invoice Recipient (pursuant to Section 16.11.6, Payment Breach and Late Payments by Market Participants) to the extent necessary to cover the short-pay.  A short-paying Invoice Recipient shall restore the level of its security under Section 16, Registration and Qualification of Market Participants.
+9.12	CRR Balancing Account Invoices
+(1)	ERCOT shall prepare Invoices for the Congestion Revenue Right (CRR) Balancing Account (CRRBA) on a monthly basis on the first Business Day following the Real-Time Market (RTM) Initial Settlement posting of the last day of the month on the date specified in the Settlement Calendar.
+(2)	ERCOT shall true up the distribution of monthly the CRRBA by posting additional Settlement Invoices on the first Business Day following the RTM Final Settlement posting of the last day of the month on the date specified in the Settlement Calendar.  A trued up CRRBA Invoice will reflect differences to financial records generated on the previous CRRBA Invoice for a given month.
+(3)	ERCOT shall prepare resettlement Invoices in the event that the balance in the CRRBA for the month changes due to a Day-Ahead Market (DAM) resettlement after the initial balancing account Invoices for that month have been posted as specified in the Settlement Calendar.  The Monthly Load Ratio Share (MLRS) as described in Section 7.9.3.5, CRR Balancing Account Closure, used for the resettlement CRRBA Invoice will be the same one used for the most recently posted balancing account Invoices.  A resettlement CRRBA Invoice will reflect differences to financial records generated on the previous CRRBA Invoice for a given month.
+(4)	For each Invoice cycle, the Market Participant to whom the CRRBA Invoice is addressed (“Invoice Recipient”) is a payee.  The Invoice Recipient is responsible for accessing the CRRBA Invoice on the Market Information System (MIS) Certified Area once posted by ERCOT.
+(5)	ERCOT shall post on the MIS Certified Area for each Invoice Recipient a CRRBA Invoice based on the calculations located in Sections 7.9.3.4, Monthly Refunds to Short-Paid CRR Owners, and 7.9.3.5.
+(6)	CRRBA Invoices must contain the following information: 
+(a)	The Invoice Recipient’s name;
+(b)	The ERCOT identifier (Settlement identification number issued by ERCOT); 
+(c)	Net Amount Payable – the aggregate summary of all amounts owed to the Invoice Recipient summarized by month;
+(d)	Time Period – the time period covered for each line item;
+(e)	Run Date – the date on which the ERCOT created and published Invoice;
+(f)	Invoice Reference Number – a unique number generated by ERCOT for payment tracking purposes; and
+(g)	Payment Date – the date and time that Invoice amounts are to be received.
+(7)	Each Invoice Recipient shall receive any credit shown on the CRRBA Invoice on the payment due date.  Credit shown on the CRRBA Invoice will be paid on due date whether or not there is any Settlement and billing dispute regarding the amount of the payment.
+9.13	Payment Process for the CRR Balancing Account
+9.13.1	Payment Process for the Initial CRR Balancing Account
+(1)	Payments for the Congestion Revenue Right (CRR) Balancing Account (CRRBA) are due on a Business Day and Bank Business Day basis in a one-day, one-step process, as detailed below.
+(a)	By 1700 on the first day that is both a Business Day and a Bank Business Day following the due date of the Settlement Invoice that includes the Real-Time Market (RTM) Initial Settlement Statement for the last day of the month and subject to ERCOT’s right to withhold payments under Section 16, Registration and Qualification of Market Participants, and pursuant to common law, ERCOT shall pay on a net credit shown on the CRRBA Invoice based on amounts due:
+(i)	To each short-paid CRR Owner a monthly refund from the positive balance in the CRRBA, with the amount paid to each CRR Owner as calculated in Section 7.9.3.4, Monthly Refunds to Short-Paid CRR Owners; and  
+(ii)	To each Qualified Scheduling Entity (QSE), any remaining positive balance in the CRRBA, with the amount paid to each QSE as calculated in Section 7.9.3.5, CRR Balancing Account Closure.
+(b)	ERCOT shall give irrevocable instructions to the ERCOT financial institution to remit, to each CRR Owner or QSE, for same day value, the amounts determined by ERCOT to be available for payment. 
+9.13.2 	Payment Process for Resettlement of the CRR Balancing Account
+(1)	In the event that a resettlement CRRBA Invoice is required, payments for the resettlement CRRBA Invoice are due on a Business Day and Bank Business Day basis in a two-day, two-step process as detailed below in Section 9.13.2.1, Invoice Recipient Payment to ERCOT for Resettlement of the CRR Balancing Account. 
+9.13.2.1	Invoice Recipient Payment to ERCOT for Resettlement of the CRR Balancing Account
+(1)	The payment due date and time for the resettlement CRRBA Invoice, with funds owed by an Invoice Recipient, is 1700 on the fifth Bank Business Day after the resettlement CRRBA Invoice date, unless the fifth Bank Business Day is not a Business Day.  If the fifth Bank Business Day is not a Business Day, the payment is due by 1700 on the next Bank Business Day after the fifth Bank Business Day that is also a Business Day.
+(2)	All resettlement CRRBA Invoices due, with funds owed by an Invoice Recipient, must be paid to ERCOT in U.S. Dollars (USDs) by Electronic Funds Transfer (EFT) in immediately available or good funds (i.e., not subject to reversal) on or before the payment due date. 
+9.13.2.2	ERCOT Payment to Invoice Recipients for Resettlement of the CRR Balancing Account
+(1)	Resettlement CRRBA Invoices with funds owed to an Invoice Recipient must be paid by ERCOT to the Invoice Recipient by 1700 on the next day that is both a Business Day and a Bank Business Day after the day that payments are due for that resettlement CRRBA Invoice as described in paragraph (1) of Section 9.13.2.1, Invoice Recipient Payment to ERCOT for Resettlement of CRR Balancing Account.  The Invoice Recipient payment to ERCOT for resettlement of the CRRBA is subject to ERCOT’s right to withhold payments under Section 16, Registration and Qualification of Market Participants.
+(2)	ERCOT shall give irrevocable instructions to the ERCOT financial institution to remit to each Invoice Recipient for same day value, the amounts owed to each Invoice Recipient. 
+9.13.2.3	Partial Payments by Invoice Recipients for Resettlement of CRR Balancing Account
+(1)	If at least one Invoice Recipient owing funds does not pay its resettlement CRRBA Invoice in full (short-pay), ERCOT shall follow the procedure set forth below:
+(a)	ERCOT shall make every reasonable attempt to collect payment from each short-paying Invoice Recipient before any payments owed by ERCOT for that month’s distribution of resettlement CRRBA revenues is due to be paid to applicable Invoice Recipient(s). 
+(b)	ERCOT shall draw on any available security pledged to ERCOT by each short-paying Invoice Recipient that did not pay the amount due under paragraph (a) above.  If the amount of any such draw is greater than the amount of the short-paying Invoice Recipient’s cash collateral held in excess of that required to cover its Total Potential Exposure (TPE) (“Excess Collateral”), then a draw on available security for a short-paying Invoice Recipient shall be considered a Late Payment for purposes of Section 16.11.6, Payment Breach and Late Payments by Market Participants.
+(c)	ERCOT shall offset or recoup any amounts owed, or to be owed, by ERCOT to a short-paying Invoice Recipient against amounts not paid by that Invoice Recipient and ERCOT shall apply the amount offset or recouped to cover payment shortages by that Invoice Recipient.
+(d)	If, after taking the actions set forth in paragraphs (a), (b) and (c) above, ERCOT still does not have sufficient funds to pay all amounts that it owes to resettlement CRRBA Invoice Recipients in full, ERCOT shall reduce payments to all resettlement CRRBA Invoice Recipients owed monies from ERCOT.  The reductions shall be based on a pro rata basis of monies owed to each resettlement CRRBA Invoice Recipient, to the extent necessary to clear ERCOT’s accounts on the payment due date to achieve revenue neutrality for ERCOT.  ERCOT shall provide to all Market Participants payment details on all short payments and subsequent reimbursements of short pays.  Details must include the identity of each short-paying Invoice Recipient and the dollar amount attributable to that Invoice Recipient, broken down by Invoice numbers.  In addition, ERCOT shall provide the aggregate total of all amounts due to all Invoice Recipients before applying the amount not paid on the resettlement CRRBA Invoice.
+9.14	Settlement and Billing Dispute Process
+9.14.1	Data Review, Validation, Confirmation, and Dispute of Settlement Statements
+(1)	Settlement Statement Recipients and Invoice Recipients for the Day-Ahead Market (DAM), Real-Time Market (RTM), and Congestion Revenue Right (CRR) Auction are responsible for reviewing their Settlement Statements and Settlement Invoices to verify the accuracy of the data used to produce them.  Other than disputes related to resettlement arising from a completed Alternative Dispute Resolution (ADR) proceeding, Settlement Statement Recipients and Invoice Recipients must submit any dispute related to a Settlement Statement or Settlement Invoice pursuant to this Section.  A Market Participant who wishes to dispute a resettlement arising from a completed ADR proceeding must appeal ERCOT’s disposition of that proceeding in accordance with paragraph (4) of Section 20.9, Resolution of Alternative Dispute Resolution Proceedings and Notification to Market Participants.
+9.14.2	Notice of Dispute
+(1)	A Settlement Statement Recipient may dispute items or calculations in the most recently issued Settlement Statement for an Operating Day, except as limited for RTM True-Up Statements in paragraph (3) below.  The dispute will apply to the Operating Day in question, not to the associated Settlement Statement.  The Market Participant must enter the Settlement and billing dispute electronically through the ERCOT dispute tool provided on the Market Information System (MIS) Certified Area.  In processing disputes under this Section, ERCOT will analyze the latest Settlement Statement issued.    
+(2)	An Invoice Recipient may dispute elements of an Invoice that are not the result of a Settlement Statement that are contained on the Invoice.  The Invoice Recipient must file the Invoice dispute within ten Business Days of the date on which ERCOT posted the Invoice.
+(3)	The Settlement Statement Recipient is deemed to have validated each RTM True-Up Statement or Resettlement Statement arising from the True-Up Statement unless it has raised a Settlement and billing dispute or reported an exception within ten Business Days of the date on which ERCOT issued the Settlement Statement.  With respect to an RTM True-Up Statement or any subsequent Resettlement Statement after ERCOT issued the True-Up Statement, ERCOT will consider only Settlement and billing disputes associated with incremental changes between the RTM True-Up Statement or Resettlement Statement, and the most recent previous Settlement Statement for that Operating Day.  The Settlement Statement Recipient may recover only the amounts associated with the incremental monetary change between the prior statement and the statement from which the dispute arose.  ERCOT shall reject late-filed Settlement and billing disputes.  Once the deadline for filing a dispute has passed, the RTM True-Up Statement binds the Settlement Statement Recipient to which it relates unless ERCOT issues a subsequent Resettlement Statement pursuant to this Section.    
+(4)	ERCOT shall reject Settlement and billing disputes for a given Operating Day during the 20 Business Days before the scheduled date for issuance of the RTM True-Up Statement for that Operating Day. 
+(5)	However, to the extent a disputing party claims that the Settlement or billing dispute relates to information made available under Section 1.3.3, Expiration of Confidentiality, the disputing party must register the Settlement and billing dispute with ERCOT by electronic means within 60 days after the date the information became available.  All communication to and from ERCOT concerning disputes must be made through either the MIS Certified Area or other electronic communication.
+(6)	The Settlement Statement Recipient is deemed to have validated each DAM Settlement or Resettlement Statement unless it has raised a Settlement and billing dispute or reported an exception within ten Business Days of the date on which ERCOT issued the Settlement or Resettlement Statement.  With respect to a DAM Resettlement Statement, ERCOT will consider only Settlement and billing disputes associated with incremental changes between the DAM Resettlement Statement and the most recent previous Settlement Statement for that Operating Day.  The Settlement Statement Recipient may recover only the amounts associated with the incremental monetary change between the prior statement and the statement from which the dispute arose.  ERCOT shall reject late-filed Settlement and billing disputes.  Once the deadline for filing a dispute has passed, a DAM Statement binds the Settlement Statement Recipient to which it relates unless ERCOT issues a subsequent Resettlement Statement.
+(7)	A CRR Auction Invoice, CRR Auction Revenue Distribution (CARD) Invoice, or CRR Balancing Account (CRRBA) Invoice Recipient may dispute elements of an Invoice that are contained on the Invoice.  The Invoice Recipient must file the CRR Invoice dispute within ten Business Days of the date on which ERCOT posted the Invoice.
+9.14.3	Contents of Notice
+(1)	ERCOT shall reject a dispute that does not contain the data elements listed in this Section.
+(2)	ERCOT shall provide automatic field population techniques or drop-down boxes for appropriate data elements below.  The notice of Settlement and billing dispute must state clearly:
+(a)	Disputing Entity;
+(b)	Dispute contact person(s);
+(c)	Dispute contact information;
+(d)	Operating Day or Invoice date in dispute;
+(e)	Charge Type;
+(f)	Time period in dispute;
+(g)	Amount in dispute;
+(h)	Settlement and billing dispute type; and
+(i)	Reasons for the dispute.
+(3)	Each Settlement and billing dispute must specify an Operating Day or Invoice date and a Charge Type.  If a condition causing a dispute affects multiple Operating Days or Charge Types, a Settlement Statement Recipient or Invoice Recipient may file a dispute form for each Charge Type for one or more Operating Days affected on a single dispute that are all in the same calendar month.
+(4)	A Settlement Statement Recipient or Invoice Recipient may pursue the dispute through any process provided by ERCOT for resolving differences in Settlement determinants.
+(5)	Forms for entering a Settlement and billing dispute must be provided on the MIS Certified Area.
+(6)	The Market Participant must submit the Settlement and billing dispute to ERCOT with sufficient evidence to support the claim.  
+(7)	The Market Participant must submit a dispute using an ERCOT-approved electronic format.  ERCOT shall provide a dispute tracking identifier to the Settlement Statement Recipient or Invoice Recipient.
+9.14.4	ERCOT Processing of Disputes
+(1)	ERCOT shall process disputes in accordance with this Section, Section 9.14.2, Notice of Dispute, and the required data in Section 9.14.3, Contents of Notice.
+(2)	If ERCOT requires additional data to resolve the dispute, ERCOT shall send the Settlement Statement Recipient or Invoice Recipient a list of the required additional data within seven Business Days of the date the dispute was filed.  The Settlement Statement Recipient or Invoice Recipient shall respond with the entire set of required data within five Business Days of ERCOT’s request or by a date agreed upon by ERCOT and the Market Participant that is no later than eight Business Days prior to the posting of the True-Up Settlement Statement for the disputed Operating Day.  If ERCOT does not receive the data within that time frame, ERCOT shall deny the dispute.
+(3)	On each Business Day, ERCOT shall issue an aggregated Settlement and billing dispute resolution report on the MIS Secure Area containing information related to all disputes that are not yet closed or that have been closed recently.  Additionally, on each Business Day and for each Settlement Statement Recipient or Invoice Recipient, ERCOT shall issue a report on the MIS Certified Area containing the status of each submitted dispute.  The report shall identify the disputed charge type(s), status of the dispute, resolution and resolution date, if applicable, and a financial impact in dollars of the dispute as submitted by disputing Entity.
+(4)	ERCOT shall make all reasonable attempts to complete all RTM Settlement and billing disputes submitted within 15 Business Days of the issuance of the RTM Initial Statement in time for inclusion on the RTM Final Statement for the relevant Operating Day.
+(5)	All complete disputes of the DAM received within ten Business Days after ERCOT posts that day’s DAM Settlement Statement shall be included in a Resettlement of the DAM Operating Day under Section 9.2.5, DAM Resettlement Statement.  
+(6)	For Settlement and billing disputes requiring complex research or additional time for resolution, ERCOT shall notify the Invoice Recipient or Settlement Statement Recipient of the length of time expected to research and resolve those disputes and, if ERCOT grants a portion or all of the dispute, ERCOT shall post the necessary adjustments on the next available Settlement Statement for the Operating Day.  
+(7)	Settlement Statement Recipients or Invoice Recipients have the right to proceed to the ADR process in Section 20, Alternative Dispute Resolution Procedure and Procedure for Return of Settlement Funds, for filed disputes that cannot be resolved through the Settlement and billing dispute process outlined in Section 9.14, Settlement and Billing Dispute Process.
+(8)	All complete disputes of the CRR Market received within ten Business Days after ERCOT posts that day’s CRR Settlement Statement shall be resolved as soon as practicable.  
+ 9.14.4.1	Status of Dispute 
+(1)	ERCOT will assign a status to each dispute as defined in the following Sections.
+9.14.4.1.1	Not Started
+(1)	The status of a Settlement and billing dispute will initially be set to “Not Started” when the Market Participant enters the dispute into the ERCOT dispute resolution system. 
+9.14.4.1.2	Open 
+(1)	The status of a Settlement and billing dispute is set to “Open” when the Settlement Statement or Invoice Recipient submits a dispute to ERCOT and ERCOT begins the resolution process. 
+9.14.4.1.3	Closed
+(1)	When the status is set to “Closed,” no updates or additions are permitted to the dispute record.  The status of the dispute is “Closed” when one of the following conditions occurs:
+(a)	If, after 45 days from receiving notice of a denied dispute, the Settlement Statement Recipient or Invoice Recipient does not begin the ADR process, ERCOT will close the dispute.  
+(b)	If ERCOT grants a Settlement and billing dispute, ERCOT will close the dispute no sooner than the date ERCOT publishes the next available Settlement Statement or Invoice for the associated Operating Day.  
+(c)	If ERCOT grants a dispute with exceptions, ERCOT will close the dispute no sooner than ten Business Days after ERCOT publishes the resolution.  If the Settlement Statement Recipient or Invoice Recipient disagrees with ERCOT’s exceptions, ERCOT will close dispute upon completion of further investigation and resolution in accordance with Section 9.14.4.2.3, Granted with Exceptions.
+9.14.4.1.4	Rejected
+(1)	ERCOT shall set the status of a Settlement and billing dispute to “Rejected” when one of the following circumstances is met:
+(a) 	The dispute is filed late, unless filed in accordance with paragraph (5) of Section 9.14.2, Notice of Dispute, due to an expiration of confidentiality as defined under Section 1.3.3, Expiration of Confidentiality. 
+(b)	During the 20 Business Days before the scheduled date for issuance of the RTM True-Up Statement for that Operating Day. 
+(c)	The dispute does not contain the required data as set forth in Section 9.14.3, Contents of Notice.  ERCOT shall provide specific Protocol language supporting the reasons that data provided by the Settlement Statement Recipient or Invoice Recipient is insufficient.  If able to do so timely, an Invoice Recipient or Settlement Statement Recipient may resubmit the dispute with additional information under Section 9.14.2.  Once the Settlement Statement Recipient or Invoice Recipient submits the required information and ERCOT determines the Settlement and billing dispute is timely and complete, the dispute status is changed to “Open.”
+9.14.4.1.5	Withdrawn
+(1)	A Market Participant who submitted a Settlement and billing dispute may withdraw that dispute at any time.  If withdrawal occurs, the Dispute status is set to “Withdrawn” and any research and resolution activities on that dispute will cease. 
+9.14.4.1.6	ADR
+(1)	Requests for ADR shall be considered Protected Information in accordance with paragraph (1)(ff) of Section 1.3.1.1, Items Considered Protected Information, and Section 20, Alternative Dispute Resolution Procedure and Procedure for Return of Settlement Funds.  As soon as practicable after ERCOT receives a written request for ADR pursuant to Section 20.4, Initiation of ADR Proceedings, ERCOT shall post a Settlement and billing dispute status of “ADR” to the aggregated Settlement and billing dispute resolution report on the MIS Secure Area.  The dispute will remain in the ADR status as long as the Market Participant has an active ADR.  At the end of the ADR process, ERCOT shall post a Settlement and billing dispute status of “Closed” to the aggregated Settlement and billing dispute resolution report on the MIS Secure Area.
+9.14.4.2	Resolution of Dispute
+(1)	Each resolved dispute will have a resolution as defined in the following Sections.
+9.14.4.2.1	Denied
+(1)	If ERCOT concludes that the Settlement Statement or Invoice is correct, ERCOT shall deny the Settlement and billing dispute.  ERCOT shall notify the Settlement Statement Recipient or Invoice Recipient when it denies a Settlement and billing dispute and provide the Settlement Statement Recipient or Invoice Recipient the reasons and supporting data for the denial, while maintaining the confidentiality of Protected Information.  
+(2)	If the Settlement Statement Recipient or Invoice Recipient is not satisfied with the outcome of a denied Settlement and billing dispute, the Settlement Statement Recipient or Invoice Recipient may proceed to ADR as described in Section 20, Alternative Dispute Resolution Procedure and Procedure for Return of Settlement Funds.  
+9.14.4.2.2	Granted
+(1)	When ERCOT determines that the disputed Settlement Statement or Invoice are in error as alleged in the Settlement and billing dispute, ERCOT shall grant the Settlement and billing dispute and notify the Settlement Statement or Invoice Recipient of the resolution and provide it the reasons and supporting data for resolution, while maintaining the confidentiality of Protected Information.  ERCOT shall make available to all other Settlement Statement or Invoice Recipients the financial impact, as submitted by disputing Entity, on the Settlement and billing dispute resolution report per paragraph (3) of Section 9.14.4, ERCOT Processing of Disputes.  Upon resolution of the issue, ERCOT shall process the dispute’s resolution on the next available Settlement Statement for the affected Operating Day.
+9.14.4.2.3	Granted with Exceptions
+(1)	ERCOT may determine that a Settlement and billing dispute is “Granted with Exceptions” when ERCOT deems the basis for the Settlement and billing dispute partially correct.  ERCOT shall provide the exception information to the Settlement Statement or Invoice Recipient.  ERCOT shall notify the Settlement Statement or Invoice Recipient of the “Granted with Exceptions” resolution and shall provide the reasons and supporting data, while maintaining the confidentiality of Protected Information for the resolution.  ERCOT shall make available to all other Settlement Statement or Invoice Recipients the financial impact, as submitted by the disputing Entity, on the Settlement and billing dispute resolution report per paragraph (3) of Section 9.14.4, ERCOT Processing of Disputes.  The Settlement Statement or Invoice Recipient of the dispute granted with exceptions shall acknowledge receipt of the notice within ten Business Days after ERCOT publishes the resolution as “Granted with Exceptions”.  The acknowledgement must indicate acceptance or rejection of the documented exceptions to the granting of the dispute.  If the Settlement Statement or Invoice Recipient does not timely reject the dispute outcome, it shall be deemed accepted.  If the Market Participant accepts the exceptions, ERCOT shall post the necessary adjustments on the next available Settlement Statement for the affected Operating Day. 
+(2)	If a Settlement Invoice or Statement Recipient rejects the outcome of a dispute “Granted with Exceptions,” ERCOT must investigate the dispute further.  ERCOT must include the granted portion of the dispute on the next Settlement Statement for the affected Operating Day.  After further investigation, if ERCOT subsequently grants the Settlement and billing dispute, ERCOT must process the dispute on the next available Settlement Statement for the affected Operating Day.  If exceptions to the dispute still exist, the Settlement Statement or Invoice Recipient may either accept the dispute for resolution as “Granted with Exceptions” or begin ADR according to Section 20, Alternative Dispute Resolution Procedure and Procedure for Return of Settlement Funds.
+9.14.5	Settlement of Emergency Response Service
+(1)	ERCOT shall post the settlement for each Emergency Response Service (ERS) type and Time Period in an ERS Contract Period 20 days after the final Settlement of the last Operating Day of the ERS Standard Contract Term is posted, as described in paragraph (1) of Section 9.5.5, RTM Final Statement.  If the 20th day is not a Business Day, ERCOT will post the ERS Settlement on the next Business Day thereafter.  All disputes for the Settlement of the ERS Contract Period are due ten Business Days after the date that the ERS settlement was posted.  ERCOT shall resolve any approved disputes upon resettlement of the ERS Contract Period, as described in paragraph (2) below.
+(2)	ERCOT shall post the resettlement for each ERS type and Time Period in an ERS Contract Period on the True-Up Settlement for the Operating Day on which the charge was first settled as described in paragraph (1) above.  ERS disputes filed based on a change in Load after the True-Up Settlement will be approved only if the Qualified Scheduling Entity’s (QSE’s) Load changes by 10% or more.  ERCOT shall resolve any approved ERS disputes no later than 30 Business Days after the date that the ERS resettlement was posted. 
+9.14.6	Disputes for Operations Decisions
+(1)	Settlement Statement or Invoice Recipients may not dispute a Settlement Statement or Invoice due to a decision made by ERCOT in its operation of the ERCOT System, unless the Market Participant alleged the decision violated these Protocols.  Inquiries or disputes concerning such decisions, Protocols, or Operating Guides must be handled through the Protocol change process set forth in Section 21, Revision Request Process.
+9.14.7	Disputes for RUC Make-Whole Payment for Fuel Costs
+(1)	If the actual price paid for delivered natural gas for a specific Resource during a Reliability Unit Commitment (RUC)-Committed Interval is greater than Fuel Index Price (FIP) adjusted by the proxy fuel adder, X, defined in the Verifiable Cost Manual (i.e., FIP * (1+X)), then the QSE may file a Settlement dispute for that Resource’s RUC Make-Whole Payment.  The maximum amount that may be recovered through this dispute process is the difference between the RUC Guarantee based on the actual price paid and the RUC Guarantee based on the fuel index price FIP * (1+X).  When calculating the RUC Guarantee based on the actual price paid for Resources with approved verifiable costs, the RUC Guarantee may be adjusted to reflect the cost difference between the fuel burned and the fuel calculated based on verifiable cost rates.  This adjustment will allow for the RUC Guarantee to include the fuel cost of the actual fuel burned, as documented by an invoice or equivalent document, up to 120% of the fuel quantity calculated based on verifiable cost data.  If due to extraordinary circumstances the fuel burned exceeded 120% of the fuel quantity calculated based on verifiable cost data, the QSE may submit an attestation attesting to the accuracy of the fuel data along with an explanation for the higher fuel quantities.  ERCOT may include the cost of this additional fuel in the adjustment to the RUC Guarantee.  The QSE must provide documentation (invoices or contracts, as applicable) that identifies intra-day, same-day, or spot market costs of natural gas consumed during the RUC-Committed Interval.  Such documentation is necessary to justify recovery of natural gas costs, which is limited to the actual fuel amount (MMBtus) consumed during RUC-Committed Intervals.  All documentation submitted by the QSE for natural gas costs incurred intra-day, same-day, or via spot market must show a nexus from the seller or distributor of natural gas products to the QSE, Resource Entity or Generation Entity as the ultimate buyer.  The QSE must demonstrate that the seller or distributor has procured natural gas fuel intra-day, same-day, or via spot market.  A Power Purchase or Tolling Agreement (PPA) filed as documentation of proof of fuel costs will not be accepted unless the PPA was signed prior to July 16, 2008, and is not between Affiliates, subsidiaries, or partners.
+(2)	If the QSE submitting a Settlement dispute under paragraph (1) above, or the Resource Entity for the Resource, has an executed and enforceable transportation contract (together with any associated statement of operating conditions), on an interstate or intrastate pipeline, for the Generation Resource that received the RUC instruction, the QSE must show proof that the QSE or Resource Entity (or another entity acting on behalf of the Resource Entity with respect to fuel procurement) purchased and nominated fuel in sufficient quantities to start and operate the Resource at its Low Sustained Limit (LSL) during the RUC-Committed Intervals. 
+(3)	The QSE or Resource Entity must purchase and nominate fuel as described in paragraph (2) above unless one or more of the conditions below applies:
+(a)	The Resource received an initial RUC instruction for less than 12 contiguous hours within the same gas delivery day;
+(b)	The QSE or Resource Entity did not have sufficient time to procure and nominate fuel after receiving the RUC instruction;
+(c)	The RUC instruction was instructed outside of Business Hours or otherwise at a time when the Resource was unable to procure fuel.  
+(4)	If the QSE or Resource Entity did not or was not able to nominate fuel for the RUC-Committed Intervals, ERCOT may require proof that following a reasonable effort to secure fuel, the QSE or Resource Entity was not able to both purchase and nominate fuel for reasons beyond the QSE’s or Resource Entity’s control, or that nominating such fuel would have resulted in higher overall fuel costs.  ERCOT may require an attestation signed by an officer or executive with authority to bind the QSE stating that the information contained in the dispute is accurate and that the costs included are variable based on the dispatch of the Resource, to the best of knowledge and belief. 
+(a)	A QSE or Resource Entity is not required to procure and nominate fuel after the initial RUC instruction for incremental RUC instructed hours unless the extended RUC instruction individually meets the requirements under paragraphs (2) and (3) above.
+(5)	Notwithstanding the provision in paragraph (1) above, the cost of fuel may also include penalties for fuel delivery outside of RUC-Committed Intervals in accordance with the ratable delivery obligations and costs as specified in the enforceable transportation agreement.  In addition, if the QSE or Resource Entity (or another entity acting on behalf of the Resource with respect to fuel procurement) has purchased sufficient fuel quantities to start and operate the Resource at its LSL during the RUC-Committed Intervals and is eligible to receive a Startup Cost, as described in Section 5.6.2, RUC Startup Cost Eligibility, or Section 5.6.3, Forced Outage of a RUC-Committed Resource, but trips Off-Line, the QSE is eligible to recover associated fuel penalties incurred through the end of the gas day, including the net cost of fuel that was purchased and nominated for the gas delivery day to operate the Resource at LSL for the RUC-Instructed hours, but was not used.  A QSE or Resource Entity shall make a commercially reasonable effort to sell the fuel that was not used and shall provide the residual value for any fuel not used or sold.
+(6)	If the actual price paid for the delivered fuel oil used to replace oil consumed during a RUC-Committed Interval is greater than Fuel Oil Price (FOP) adjusted by the proxy fuel adder, X, defined in the Verifiable Cost Manual (i.e., FOP * (1+X)), then the QSE may file a Settlement dispute for the Resource’s RUC Make-Whole Payment.  The maximum amount that may be recovered through this dispute process is the difference between the RUC Guarantee based on the actual price paid and the adjusted price, FOP * (1+X).  
+(7)	If the QSE representing the Generation Resource made a Three-Part Supply Offer into the DAM based on FIP and had to run on fuel oil in a RUC-Committed Hour with an active Three-Part Supply Offer based on the adjusted FIP, the QSE may file a Settlement dispute to recover the difference between the RUC Guarantee based actual price paid for delivered fuel oil and the fuel price of FIP * (1+X).  
+(8)	When filing a Settlement dispute under paragraph (6) or (7) above, the QSE must provide documentation (invoices) that identifies purchases of fuel oil by the QSE, Resource Entity, or Generation Entity to replace oil consumed for a RUC-Committed Interval.  In addition, the QSE must provide proof that the Resource actually consumed fuel oil during the RUC-Committed Interval.  Proof of actual consumption may be based on the Resource’s technical specifications or flow meters as appropriate.  Documentation of fuel oil purchases must show that these were made no later than seven Business Days after the end of the last consecutive RUC-Committed Interval.  Replacement fuel oil costs are limited to the actual gallons/barrels of fuel oil consumed during RUC-Committed Intervals.
+(9)	ERCOT may, in its sole discretion, consider documentation types other than those specifically listed in paragraphs (1) and (8) above when offered by a QSE in support of its recovery of fuel costs for RUC deployments.  For example, ERCOT may require the Resource input-output equation or average heat rate curve that allows for verification of fuel consumption for operation at and above LSL.
+(10)	When calculating the RUC Guarantee as described in paragraph (1), (6) or (7) above, the Startup Price per start (SUPR) and the Minimum-Energy Price (MEPR), as defined in paragraph (6) of Section 5.7.1.1, RUC Guarantee, will be set to the Startup Cap (SUCAP) and Minimum-Energy Cap (MECAP), respectively, utilizing the actual fuel price paid.
+(11)	In order to recover fuel costs above LSL for a RUC-Committed Interval, the QSE must also submit proof of the volume-weighted average actual price paid for fuel consumed by the Resource during a RUC-Committed Interval for generation above LSL.  ERCOT will adjust the RUC Guarantee (RUCG) to include the additional fuel costs above LSL filed by the QSE.
+[NPRR1140: Replace paragraph (11) above with the following upon system implementation:]
+(11)	In order to recover fuel costs above LSL for a RUC-Committed Interval, the QSE must also submit proof of the volume-weighted average actual price paid for fuel consumed by the Resource during a RUC-Committed Interval for generation above LSL.  
+9.14.8	Disputes for Settlement Application of Integrated Telemetry for Split Generation Resources
+(1)	Settlement and billing disputes related to application of integrated Real-Time telemetry of MW or MVAr from a Generation Resource that has been split to function as two or more Split Generation Resources require a signed affidavit by all QSEs representing associated Split Generation Resources.  Data values submitted with the affidavit must be integrated to the applicable Settlement Interval format related to the Settlement and billing charge type in dispute.
+9.14.9	Incremental Fuel Costs for Switchable Generation Make-Whole Payment Disputes 
+(1)	For the purposes of any Settlement and billing dispute submitted pursuant to paragraph (1)(c) of Section 6.6.12, Make-Whole Payment for Switchable Generation Resources Committed for Energy Emergency Alert (EEA), if the actual price paid for delivered natural gas for a specific Switchable Generation Resource (SWGR) for an instructed hour is greater than FIP plus the fuel adder, then the QSE may recover the fuel costs incurred for that SWGR in the Settlement and billing dispute.  The QSE must provide documentation (invoices) that identifies intra-day costs of natural gas consumed.  All documentation submitted by the QSE for natural gas costs incurred intra-day must show a nexus from the seller or distributor of natural gas products to the QSE, Resource Entity or Generation Entity as the ultimate buyer.  The QSE must demonstrate that the seller or distributor has procured natural gas fuel intra-day.  
+(2)	For the purposes of any Settlement and billing dispute submitted pursuant to paragraph (1)(c) of Section 6.6.12, if the actual price paid for the delivered fuel oil used to replace oil consumed for an instructed hour is greater than FOP plus the fuel adder, then the QSE may recover the fuel costs incurred for that SWGR in the dispute.  The QSE must provide documentation that identifies purchases of fuel oil by the QSE, Resource Entity, or Generation Entity to replace oil consumed.  In addition, the QSE must provide proof that the SWGR actually consumed fuel oil for the instructed hour.  Proof of actual consumption may be based on the Resource’s technical specifications or flow meters as appropriate.  Documentation of fuel oil purchases must show that these were made no later than seven Business Days after the end of the last consecutive instructed hour. 
+(3)	A QSE submitting documents for the recovery of RUC-related fuel costs other than those specifically discussed in paragraph (1) or (2) above must request to have such documents approved by the ERCOT Board during an Executive Session at the next regularly scheduled meeting of the ERCOT Board.  If the ERCOT Board approves the inclusion of such documentation as proof of fuel purchases, the QSE must file an NPRR in accordance with Section 21, Revision Request Process, to add this category of documentation to the process for approval of Switchable Generation Make-Whole Payments.
+9.14.10	Settlement for Market Participants Impacted by Omitted Procedures or Manual Actions to Resolve the DAM 
+(1)	A Market Participant that has been directly impacted by an action or omission by ERCOT to resolve the DAM, as described in paragraph (4) of Section 4.1.2, Day-Ahead Process and Timing Deviations, may seek recovery by filing a Settlement and billing dispute as defined in Section 9.14.  Where ERCOT determines that the Market Participant seeking recovery has been directly impacted by such ERCOT action or omission, the following provisions apply:
+(a)	No resettlement of the DAM will occur as a result of a Market Participant’s recovery under this Section;
+(b)	Where a Market Participant’s submissions were not cleared in the DAM, ERCOT will establish a set of DAM Energy Bids, DAM Energy Offers, Ancillary Service Offers, and Point-to-Point (PTP) bids that would have cleared given the settled prices of the DAM;
+(c)	Startup Costs and minimum energy costs will not be considered for recovery;
+(d)	For linked offers of energy and Ancillary Services, the available capacity will be allocated to the offers that would have created the greatest value for the Market Participant seeking recovery;
+(e)	All impacted positions will be summed based on their positive or negative value with respect to Real-Time prices;
+      Day-Ahead Energy Sales Impact
+      DAMSQSEAMT q = (-1) *   ((DASPP p – RTSPP p) * (1/4)* DAES q, p)
+      Day-Ahead Energy Purchase Impact
+      DAMPQSEAMT q = (-1) *  ((RTSPP p – DASPP p) * (1/4)* DAEP q, p)
+      Day-Ahead Ancillary Services Sales Impact
+DAMASQSEAMT q = (-1) *  (((MCPCRU DAM – RUOPR q, r, DAM) * PCRUR q, r, DAM) 
++ ((MCPCRD DAM – RDOPR q, r, DAM) * PCRDR q, r, DAM)
++ ((MCPCRR DAM – RROPR q, r, DAM) * PCRRR q, r, DAM)  
++ ((MCPCECR DAM – ECRSOPR q, r, DAM) * PCECRR q, r, DAM)
++ ((MCPCNS DAM – NSOPR q, r, DAM) * PCNSR q, r, DAM))
+Day-Ahead Point-to-Point Obligation Impact
+DAMRTPTPQSEAMT q = (-1) *   ((RTOBLPR (j, k) – DAOBLPR (j, k)) * RTOBL q, (j, k))
+Where:
+RTOBLPR (j, k)   = (RTSPP (k,i) – RTSPP (j,i )) / 4
+DAOBLPR (j, k)  =  DASPP k – DASPP j
+(f)	If any RUC short charges occur for any Operating Hour involved in a Market Participant’s recovery under this Section, ERCOT will evaluate the Market Participant’s revised position to determine if the Market Participant is entitled to a refund, or should be charged for RUC short charge;
+(g)	Any resulting charge or payment to the Market Participant will be invoiced using a miscellaneous Invoice, but allocated with the method outlined in paragraphs (2) through (4) of Section 9.19.1, Default Uplift Invoices.
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+DAMSQSEAMT q
+$
+Day-Ahead Market Energy Sales Amount by QSE—The sum of the DAM Energy Sales positions compared to Real-Time results, for the QSE q, for the 15-minute Settlement Interval.  
+DAMPQSEAMT q
+$
+Day-Ahead Market Energy Purchases Amount by QSE—The sum of the DAM Energy purchases compared to Real-Time results, for the QSE q, for the 15-minute Settlement Interval.  
+DAMASQSEAMT q
+$
+Day-Ahead Market Ancillary Service Amount by QSE—The sum of the DAM Ancillary Service awarded amounts compared to Real-Time results, for the QSE q, for the hour.  
+DAMRTPTPQSEAMT q
+$
+Day-Ahead Market Real-Time Point-to-Point Obligation Amount by QSE—The sum of the PTP Obligation bids cleared in the DAM compared to Real-Time results, for the QSE q, for the hour.  
+DASPP p
+$/MWh
+Day-Ahead Settlement Point Price per Settlement Point—The DAM Settlement Point Price at Settlement Point p, for the hour.
+RTOBL q, (j, k)
+MW
+Real-Time Obligation per QSE per pair of source and sink—The total MW of QSE q’s PTP Obligation bids that would have cleared in the DAM and settled in Real-Time for the source j, and the sink k, for the hour.
+RTSPP p
+$/MWh
+Real-Time Settlement Point Price—The Real-Time Settlement Point Price at the Settlement Point for the 15-minute Settlement Interval within the hour.
+DAES q, p
+MW
+Day-Ahead Energy Sale per QSE per Settlement PointDThe total amount of energy represented by QSE q’s Three-Part Supply Offers that would have cleared in the DAM and DAM Energy-Only Offer Curves that would have cleared in the DAM at Settlement Point p, for the hour.
+DAEP q, p
+MW
+Day-Ahead Energy Purchase per QSE per Settlement PointDThe total amount of energy represented by QSE q’s DAM Energy Bids that would have cleared at Settlement Point p, for the hour.
+PCRUR q, r, DAM 
+MW
+Procured Capacity for Regulation Up from Resource per QSE per Resource in DAM—The Regulation Up Service (Reg-Up) capacity quantity that would have been awarded to QSE q in the DAM for Resource r, for the hour.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+PCRDR q, r, DAM
+MW
+Procured Capacity for Regulation Down from Resource per QSE per Resource in DAM—The Regulation Down Service (Reg-Down) capacity quantity that would have been awarded to QSE q in the DAM for Resource r, for the hour.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+PCRRR q, r, DAM 
+MW
+Procured Capacity for Responsive Reserve from Resource per QSE per Resource in DAM—The Responsive Reserve (RRS) capacity quantity that would have been awarded to QSE q in the DAM for Resource r, for the hour.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+PCNSR q, r, DAM
+MW
+Procured Capacity for Non-Spinning Reserve from Resource per QSE per Resource in DAM—The Non-Spinning Reserve (Non-Spin) capacity quantity that would have been awarded to QSE q in the DAM for Resource r, for the hour.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+PCECRR q, r, DAM
+MW
+Procured Capacity for ERCOT Contingency Reserve Service from Resource per QSE per Resource in DAM—The ERCOT Contingency Reserve Service (ECRS) capacity quantity that would have been awarded to QSE q in the DAM for Resource r, for the hour.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+RUOPR q, r, DAM
+
+$/MW per hour
+Regulation Up Offer Price—The offer price for Resource r represented by QSE q, for the impacted Reg-Up Ancillary Service Offers.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+RDOPR q, r, DAM
+$/MW per hour
+Regulation Down Offer Price—The offer price for Resource r represented by QSE q, for the impacted Reg-Down Ancillary Service Offers.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+RROPR q, r, DAM
+$/MW per hour
+Responsive Reserve Offer Price—The offer price for Resource r represented by QSE q, for the impacted RRS Ancillary Service Offers.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+ECRSOPR q, r, DAM
+$/MW per hour
+ERCOT Contingency Reserve Service Offer Price—The offer price for Resource r represented by QSE q, for the impacted ECRS Ancillary Service Offers.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+NSOPR q, r, DAM
+$/MW per hour
+Non-Spinning Reserve Offer Price—The offer price for Resource r represented by QSE q, for the impacted Non-Spin Ancillary Service Offers.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+MCPCRU DAM
+$/MW per hour
+Market Clearing Price for Capacity for Regulation Up in DAM—The DAM Market Clearing Price for Capacity (MCPC) for Reg-Up, for the hour.
+MCPCRD DAM
+$/MW per hour
+Market Clearing Price for Capacity for Regulation Down in DAM—The DAM MCPC for Reg-Down, for the hour.
+MCPCRR DAM
+$/MW per hour
+Market Clearing Price for Capacity for Responsive Reserve in DAM—The DAM MCPC for RRS, for the hour.
+MCPCNS DAM
+$/MW per hour
+Market Clearing Price for Capacity for Non-Spinning Reserve in DAM—The DAM MCPC for Non-Spin, for the hour.
+MCPCECR DAM
+$/MW per hour
+Market Clearing Price for Capacity for ERCOT Contingency Reserve Service in DAM—The DAM MCPC for ECRS, for the hour.
+
+DAOBLPR (j, k)
+$/MWh
+Day-Ahead Obligation Price per pair of source and sinkDThe DAM clearing price of a PTP Obligation bid with the source j, and the sink k, for the hour.
+RTOBLPR (j, k)   
+$/MWh
+Real-Time Obligation Price per pair of source and sinkRThe Real-Time calculated price of a PTP Obligation bid with the source j, and the sink k, for the 15 minute period.
+q
+none
+A QSE.
+r
+none
+A Resource.
+i
+none
+A 15-minute Settlement Interval.
+k
+none
+A sink Settlement Point.
+p
+none
+A Settlement Point.
+j
+none
+A source Settlement Point.
+9.15	Settlement Charges
+(1)	The calculations to be used for Settlement charges are contained in Section 4, Day-Ahead Operations, Section 5, Transmission Security Analysis and Reliability Unit Commitment, Section 6, Adjustment Period and Real-Time Operations, Section 7, Congestion Revenue Rights, and Section 9, Settlement and Billing.  
+9.15.1	Charge Type Matrix	
+(1)	ERCOT shall post a Charge Type Matrix on the ERCOT website that summarizes each Charge Type by variable name used in the Protocols, description, and Protocol section number reference.  ERCOT post changes to this Charge Type Matrix at least ten days before implementation of change.  
+9.16	ERCOT System Administration and User Fees	
+9.16.1	ERCOT System Administration Fee
+(1)	The Public Utility Commission of Texas (PUCT) has authorized ERCOT to charge the ERCOT System Administration fee to fund ERCOT’s budget.  ERCOT converts the fee into a charge to each Qualified Scheduling Entity (QSE) using the formula set forth in paragraph (3) below.
+(2)	ERCOT shall post the ERCOT System Administration fee on the ERCOT website.  Within two Business Days following PUCT approval of a change in the ERCOT System Administration fee, ERCOT shall post the changed fee and effective date on the ERCOT website.
+(3)	Each QSE shall pay the ERCOT System Administration fee.  The ERCOT System Administration fee is for each 15-minute Settlement Interval for each QSE.
+ESACAMT q	=		LAFF * max(0,RTAML q, p)
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+ESACAMT q
+$
+ERCOT System Administration Fee—The ERCOT System Administration fee for each QSE per 15-minute Settlement Interval.
+RTAML q, p
+MWh
+Real-Time Adjusted Metered Load— The sum of the Adjusted Metered Load (AML) at the Electrical Buses included in Settlement Point p, represented by QSE q, for the 15-minute Settlement Interval.
+LAFF
+$/MWh
+Load Administration Fee Factor—The ERCOT System Administration fee.
+q
+none
+A QSE.
+p
+none
+A Settlement Point.  The summation is over all of the Settlement Points.
+9.16.2	User Fees
+(1)	The ERCOT Board approves user fees for products and services provided by ERCOT to a Market Participant or other Entity.  Such user fees are approved in accordance with the ERCOT Board Policies and Procedures.  User fees may include, but are not limited to, application fees, private Wide Area Network (WAN) costs, and interconnection study fees.  
+(2)	ERCOT shall post user fees approved by the ERCOT Board in the ERCOT Fee Schedule on the ERCOT website.  ERCOT shall post the ERCOT Fee Schedule and effective date on the ERCOT website within two Business Days of change. 
+(3)	A Market Participant or other Entity shall pay applicable user fees approved by the ERCOT Board.
+9.17	Transmission Billing Determinant Calculation
+(1)	ERCOT shall provide Market Participants with the key parameters and formula components required by a Transmission Service Provider (TSP) or Distribution Service Provider (DSP) in determining the billing charges for the use of its Transmission Facilities or Distribution Facilities (“Transmission Billing Determinants”).  ERCOT is not responsible for billing, collection, or disbursal of payments associated with transmission access service.
+9.17.1	Billing Determinant Data Elements
+(1)	ERCOT shall calculate and provide to Market Participants on the ERCOT website the following data elements annually to be used by TSPs and DSPs as billing determinants for transmission access service.  This data must be provided by December 1 of each year.  This calculation must be made under the requirements of P.U.C. SUBST. R. 25.192, Transmission Service Rates.  ERCOT shall use the most recent aggregate data produced by the ERCOT Settlement system to perform these calculations.
+(a)	The 4-Coincident Peak (4-CP) for each DSP and External Load Serving Entity (ELSE), as applicable;
+(b)	The ERCOT average 4-CP;
+(c)	The average 4-CP for each DSP and ELSE, as applicable, coincident to the ERCOT average 4-CP.
+(2)	ERCOT average 4-CP is defined as the average of the coincidental MW peaks occurring during the months of June, July, August, and September.
+(3)	Coincidental MW peak is defined as the highest monthly Settlement Interval 15-minute MW peak for the entire ERCOT Transmission Grid as calculated per the following formula:  The sum of all net energy produced by Generation Resources + Settlement Only Generators (SOGs) + Block Load Transfers (BLTs) from ERCOT to another Control Area that have been registered for Settlement purposes + actual Direct Current Tie (DC Tie) imports - BLTs to ERCOT from another Control Area that are not reflected in a Non-Opt-In Entity’s (NOIE’s) Load - actual DC Tie exports - Wholesale Storage Load (WSL).
+[NPRR995:  Replace paragraph (3) above with the following upon system implementation:]
+(3)	Coincidental MW peak is defined as the highest monthly Settlement Interval 15-minute MW peak for the entire ERCOT Transmission Grid as calculated per the following formula:  The sum of all net energy produced by Generation Resources + Settlement Only Generators (SOGs) + Settlement Only Energy Storage Systems (SOESSs) + Block Load Transfers (BLTs) from ERCOT to another Control Area that have been registered for Settlement purposes + actual Direct Current Tie (DC Tie) imports - BLTs to ERCOT from another Control Area that are not reflected in a Non-Opt-In Entity’s (NOIE’s) Load - actual DC Tie exports - Wholesale Storage Load (WSL).
+(4)	Any difference between the coincidental MW peak (converted to MWh) and the ERCOT Settlement volumes, excluding DC Tie exports, BLTs to ERCOT from another Control Area that are not reflected in a NOIE’s Load, and WSL, shall be allocated amongst all DSPs and ELSEs that are included in the ERCOT 4-CP Report on a pro rata basis as per the formula below:
+LTDSP_4CP tdsp = (PLTDSP4CPLRS tdsp * NLADJ) + PLTDSP4CP tdsp
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+LTDSP_4CP tdsp
+MWh
+Load by TDSP for 4-CP - The load for each DSP and ELSE coincident to the coincidental MW peak adjusted for NLADJ
+PLTDSP4CPLRS tdsp
+%
+Preliminary Load by TDSP for 4-CP Load Ratio Share - The Load Ratio Share (LRS) for each DSP and ELSE coincident to the coincidental MW peak prior to adjusting for NLADJ
+NLADJ
+MWh
+Native Load Adjustment - The difference between the coincidental MW peak (converted to MWh) and the ERCOT settlement volumes, excluding DC Tie exports, BLTs to ERCOT from another Control Area that are not reflected in a NOIE’s Load, and WSL
+PLTDSP4CP tdsp
+MWh
+Preliminary Load by TDSP for 4CP - The Load for each DSP and ELSE coincident to the coincidental MW peak prior to adjusting for NLADJ
+tdsp
+None
+A DSP or ELSE
+9.17.2	Direct Current Tie Schedule Information
+(1)	Within ten Business Days of receipt of a request by a TSP or DSP for data pertaining to transactions over the DC Ties for the immediately preceding month, ERCOT shall provide the following Electronic Tag (e-Tag) data:
+(a)	Tagging identifier (Tag Code);
+(b)	Date of transaction; 
+(c)	Megawatt-hours (MWh) actually transferred;
+(d)	Sending Generation Control Area (GCA);
+(e)	Receiving Load Control Area (LCA);
+(f)	Purchasing / Scheduling Entity (PSE);
+(g)	Entity scheduling the export of power over a DC Tie; and
+(h)	Status of Transaction (Implement, Withdrawn, Cancelled, Conditional, etc.).
+(2)	ERCOT shall maintain and provide the requesting TSP or DSP data pertaining to transactions over the DC Ties for the period from June 2001 to the present.  For each transaction, the same data as specified in paragraph (1) above, must be provided.
+9.18	Profile Development Cost Recovery Fee for Non-ERCOT Sponsored Load Profile Segment
+(1)	Paragraph (e)(3) of P.U.C. SUBST. R. 25.131, Load Profiling and Load Research, requires that ERCOT establish and implement a process to collect a fee from any Retail Electric Provider (REP) who seeks to assign customers to a non-ERCOT sponsored profile segment.  The process must include a method for other REPs who use the profile segment to compensate the original requestor of the new profile segment and for ERCOT to notify Distribution Service Providers (DSPs) which REPs are authorized to use the new profile segment.  This profile development cost recovery fee is overseen by ERCOT.
+(2)	Within 30 days after a profile segment receives final approval from ERCOT, the requestor shall submit to ERCOT documentation of the costs it incurred in developing the profile segment change request.  All such documentation must be available for review by any Market Participant.  Any costs submitted more than 30 days after approval of the profile segment will not be recoverable.  Recoverable costs must be directly attributable to the creation of the profile segment change request, incurred no earlier than 24 months preceding the original submission date of the profile segment change request, and must be further limited to:
+(a)	Costs for Load research as paid to DSPs or ERCOT, documented by a copy of all DSP or ERCOT Invoices or other evidence of payment, including but not limited to:
+(i)	Buying and installing Interval Data Recorders (IDRs);
+(ii)	Installing communication equipment such as phone lines or cell phones; and
+(iii)	Reading the meters and translating the data.
+(b)	Reasonable costs paid to third parties, including a copy of all third-party invoices or other documentary evidence of payment, including:
+(i)	Defining the request, such as identifying population, profile, data, etc.;
+(ii)	Preparing the request, such as collecting and analyzing data and presenting the case; and
+(iii)	Undertaking the review process such as meeting with ERCOT, Profiling Working Group (PWG), Retail Market Subcommittee (RMS), Technical Advisory Committee (TAC), and the ERCOT Board.
+(c)	Requestor’s reasonable internal documented costs itemizing all persons, hours, and other expenses associated with developing the request per paragraphs (1) and (2) above.
+(3)	Within 60 days after ERCOT approves a profile segment, ERCOT shall evaluate the costs submitted and shall disallow any costs not meeting these criteria.  The remaining costs must comprise the total reimbursable cost.  Within the same 60-day period, ERCOT shall post a report on the ERCOT website summarizing the allowed expenses by paragraphs (1) and (2) above.  If a Market Participant, including the requestor, disagrees with the ERCOT determination with respect to the total reimbursable cost, the Market Participant may submit a dispute as outlined in Section 20, Alternative Dispute Resolution Procedure and Procedure for Return of Settlement Funds.  No disputes may be submitted after 45 days from posting of the total reimbursable cost to the ERCOT website. 
+(4)	The fee is calculated as follows:
+If a REP is the requestor, then:  FEE = $C / n
+If the requestor is not a REP, then:
+FEE = $C / (n + 1)
+The above variables are defined as follows:
+Variable
+Definition
+n
+The number of REPs subscribing to the profile segment
+$C
+The total reimbursable cost
+(5)	The fee must be paid by each successive subscribing REP to the requestor and any previous subscribing REPs per instructions and validation by ERCOT.  As additional REPs subscribe to the profile segment, the fee is recalculated and reallocated equally among all subscribing REPs and the requestor, if the requestor is not a REP.
+(6)	Beginning four years after the date on which the profile segment becomes available for Settlement, any REP may request assignment of Electric Service Identifiers (ESI IDs) to the profile segment without being assessed the profile development cost recovery fee.
+9.19	Partial Payments by Invoice Recipients
+(1)	If at least one Invoice Recipient owing funds does not pay its Settlement Invoice in full (short-pay), ERCOT shall follow the procedure set forth below:
+(a)	ERCOT shall make every reasonable attempt to collect payment from each short-paying Invoice Recipient prior to four hours preceding the close of the Bank Business Day Central Prevailing Time (CPT) on the day that payments by ERCOT are due to be paid to applicable Invoice Recipient(s). 
+(b)	ERCOT shall draw on any available Financial Security pledged to ERCOT by each short-paying Invoice Recipient that did not pay the amount due under paragraph (a) above.  If the amount of any such draw is greater than the amount of the short-paying Invoice Recipient’s cash collateral held in excess of that required to cover its Total Potential Exposure (TPE) (“Excess Collateral”), then a draw on available security for a short-paying Invoice Recipient shall be considered a Late Payment for purposes of Section 16.11.6, Payment Breach and Late Payments by Market Participants.  ERCOT may, in its sole discretion, hold up to 5% of Financial Security of each short-paying Invoice Recipient and use those funds to pay subsequent Settlement Invoices as they become due.  Any funds still held will be applied to unpaid Invoices in conjunction with the default uplift process outlined in Section 9.19.1, Default Uplift Invoices.
+(c)	ERCOT shall offset or recoup any amounts owed, or to be owed, by ERCOT to a short-paying Invoice Recipient against amounts not paid by that Invoice Recipient, and ERCOT shall apply the amount offset or recouped to cover short pays by that Invoice Recipient.  ERCOT may, in its sole discretion, hold credit Invoices and use those funds to pay subsequent Settlement Invoices as they become due.  Any funds still held will be offset or recouped against unpaid Invoices in conjunction with the default uplift process outlined in Section 9.19.1.
+(d)	If, after taking the actions set forth in paragraphs (a), (b) and (c) above, ERCOT still does not have sufficient funds to pay all amounts that it owes to Settlement Invoice Recipients in full, ERCOT shall deduct any applicable administrative fees as specified in Section 9.16, ERCOT System Administration and User Fees, payments for Reliability Must-Run (RMR) Services, and the Congestion Revenue Right (CRR) Balancing Account (CRRBA) from the amount received or collected and then reduce payments to all Settlement Invoice Recipients owed monies from ERCOT.  The reductions must be based on a pro rata basis of monies owed to each Settlement Invoice Recipient, to the extent necessary to clear ERCOT’s accounts on the payment due date to achieve revenue neutrality for ERCOT.  ERCOT shall provide to all Market Participants payment details on all short pays and subsequent reimbursements of short pays.  Details must include the identity of each short-paying Invoice Recipient and the dollar amount attributable to that Invoice Recipient, broken down by Invoice numbers.  In addition, ERCOT shall provide the aggregate total of all amounts due to all Invoice Recipients before applying the amount not paid on the Settlement Invoice.
+(e)	If sufficient funds continue to be unavailable for ERCOT to pay all amounts in full to short-paid Entities for that Settlement Invoice and the short-paying Entity is not complying with a payment plan designed to enable ERCOT to pay all amounts in full to short-paid Entities, ERCOT shall uplift short-paid amounts through the Default Uplift process described below in Section 9.19.1 and Section 9.19.2, Payment Process for Default Uplift Invoices.
+(f)	When ERCOT enters into a payment plan with a short-pay Invoice Recipient, ERCOT shall post to the Market Information System (MIS) Secure Area:
+(i)	The short-pay plan;
+(ii)	The schedule of quantifiable expected payments, updated if and when modifications are made to the payment schedule; and
+(iii)	Invoice dates to which the payments will be applied.
+(g)	To the extent ERCOT is able to collect past due funds owed by a short-paying Invoice Recipient before the default uplift process defined in Section 9.19.1, ERCOT shall allocate the collected funds to the earliest short-paid Invoice for that short-paying Invoice Recipient.  ERCOT shall use its best efforts to distribute collected funds quarterly by the 15th Business Day following the end of a calendar quarter for a short paying Entity when the cumulative amount of undistributed funds held exceed $50,000 on a pro rata basis of monies owed.  Subsequently collected funds that have not previously been distributed will be applied against unpaid Invoices in conjunction with the uplift process outlined in Section 9.19.1. 
+(h)	To the extent ERCOT is able to collect past due funds owed by a short-paying Invoice Recipient, after the default uplift process defined in Section 9.19.1, ERCOT shall allocate the collected funds using the same allocation method as in the default uplift process.  ERCOT shall use its best efforts to distribute subsequently collected funds quarterly by the 15th Business Day following the end of a calendar quarter for a short paying Entity when the cumulative amount of undistributed funds held exceed $50,000.
+9.19.1	Default Uplift Invoices
+(1)	ERCOT shall collect the total short-pay amount for all Settlement Invoices for a month, less the total payments expected from a payment plan, from Qualified Scheduling Entities (QSEs) and CRR Account Holders.  ERCOT must pay the funds it collects from payments on Default Uplift Invoices to the Entities previously short-paid.  ERCOT shall notify those Entities of the details of the payment.
+(2)	Each Counter-Party’s share of the uplift is calculated using the best available Settlement data for each Operating Day in the month prior to the month in which the default occurred (the “reference month”), and is calculated as follows:
+DURSCPcp = TSPA * MMARScp
+Where:
+MMARS cp = MMA cp / MMATOT
+      MMA cp = Max { ∑mp (URTMG mp + URTDCIMP mp + USOGTOT mp), 
+∑mp (URTAML mp + UWSLTOT mp), 
+      ∑mp URTQQES mp, 
+      ∑mp URTQQEP mp, 
+      ∑mp UDAES mp, 
+      ∑mp UDAEP mp,
+      ∑mp (URTOBL mp + URTOBLLO mp), 
+      ∑mp (UDAOPT mp + UDAOBL mp + UOPTS mp + UOBLS mp), 
+      ∑mp (UOPTP mp + UOBLP mp)}
+[NPRR995, NPRR1012, and NPRR1201:  Replace applicable portions of the formula “MMA cp” above with the following upon system implementation for NPRR995 or NPRR1201; or upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1012:]
+      MMA cp = Max { ∑mp (URTMG mp + URTDCIMP mp + USOGTOT mp), 
+∑mp (URTAML mp + UWSLTOT mp + USOCLTOT mp), 
+      ∑mp URTQQES mp, 
+      ∑mp URTQQEP mp, 
+      ∑mp UDAES mp, 
+      ∑mp UDAEP mp,
+      ∑mp (URTOBL mp + URTOBLLO mp), 
+      ∑mp (UDAOPT mp + UDAOBL mp), 
+      ∑mp UDAASOAWD mp}
+MMATOT = ∑cp (MMAcp)
+Where:
+URTMG mp = ∑p, r, i (RTMG mp, p, r, i), excluding RTMG for RMR Resources and RTMG in Reliability Unit Commitment (RUC)-Committed Intervals for RUC-committed Resources
+URTDCIMP mp = ∑p, i (RTDCIMP mp, p, i) / 4
+URTAML mp = max(0,∑p, i (RTAML mp, p, i))
+URTQQES mp = ∑p, i (RTQQES mp, p, i) / 4
+URTQQEP mp = ∑p, i (RTQQEP mp, p, i) / 4
+UDAES mp = ∑p, h (DAES mp, p, h)
+UDAEP mp = ∑p, h (DAEP mp, p, h)
+URTOBL mp = ∑(j, k), h (RTOBL mp, (j, k), h)
+URTOBLLO mp = ∑(j, k), h (RTOBLLO mp, (j, k), h)
+UDAOPT mp = ∑(j, k), h (DAOPT mp, (j, k), h)
+UDAOBL mp = ∑(j, k), h (DAOBL mp, (j, k), h)
+UOPTS mp = ∑(j, k), h (OPTS mp, (j, k), h) 
+UOBLS mp = ∑(j, k), h (OBLS mp, (j, k), h)
+UOPTP mp = ∑(j, k), h (OPTP mp, j, h)
+UOBLP mp = ∑(j, k), h (OBLP mp, (j, k), h)
+[NPRR1201:  Delete the formulas “UOPTS mp”, “UOBLS mp”, “UOPTP mp”, and “UOBLP mp” above upon system implementation.]
+UWSLTOT mp = (-1) * ∑r, b (MEBL mp, r, b)
+[NPRR1012:  Insert the formula “UDAASOAWD mp” below upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+UDAASOAWD mp  = ∑h (DARUOAWD mp, h  + DARDOAWD mp, h + DARROAWD mp, h + DANSOAWD mp, h + DAECROAWD mp, h )
+USOGTOT mp = ∑gsc (MEBSOGNET mp, gsc) + ∑ p, i (RTMGSOGZ mp, p, i) 
+
+[NPRR995:  Insert the formula “USOCLTOT mp” below upon system implementation:]
+USOCLTOT mp = (-1) * ∑gsc, b (WSOL mp, gsc, b)
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+DURSCP cp
+$
+Default Uplift Ratio Share per Counter-Party—The Counter-Party’s pro rata portion of the total short-pay amount for all Day-Ahead Market (DAM) and Real-Time Market (RTM) Invoices for a month. 
+TSPA
+$
+Total Short Pay Amount—The total short-pay amount calculated by ERCOT to be collected through the Default Uplift Invoice process.
+MMARS cp
+None
+Maximum MWh Activity Ratio Share—The Counter-Party’s pro rata share of Maximum MWh Activity in the reference month.
+MMA cp
+MWh
+Maximum MWh Activity—The maximum MWh activity of all Market Participants represented by the Counter-Party in the DAM, RTM and CRR Auction in the reference month.
+MMATOT
+MWh
+Maximum MWh Activity Total—The sum of all Counter-Party’s Maximum MWh Activity in the reference month.
+RTMG mp, p, r, i
+MWh
+Real-Time Metered Generation per Market Participant per Settlement Point per Resource—The Real-Time energy produced by the Generation Resource r represented by Market Participant mp, at Resource Node p, for the 15-minute Settlement Interval i, where the Market Participant is a QSE.
+URTMG mp
+MWh
+Uplift Real-Time Metered Generation per Market Participant—The monthly sum of Real-Time energy produced by Generation Resources represented by Market Participant mp, excluding generation for RMR Resources and generation in RUC-Committed Intervals, where the Market Participant is a QSE assigned to the registered Counter-Party. 
+RTDCIMP mp, p, i
+MW
+Real-Time DC Import per QSE per Settlement Point—The aggregated Direct Current Tie (DC Tie) Schedule submitted by Market Participant mp, as an importer into the ERCOT System through DC Tie p, for the 15-minute Settlement Interval i, where the Market Participant is a QSE.
+URTDCIMP mp
+MW
+Uplift Real-Time DC Import per Market Participant—The monthly sum of the aggregated DC Tie Schedule submitted by Market Participant mp, as an importer into the ERCOT System where the Market Participant is a QSE assigned to a registered Counter-Party.
+RTAML mp, p, i
+MWh
+Real-Time Adjusted Metered Load per Market Participant per Settlement Point—The sum of the Adjusted Metered Load (AML) at the Electrical Buses that are included in Settlement Point p represented by Market Participant mp for the 15-minute Settlement Interval i, where the Market Participant is a QSE.
+URTAML mp
+MWh
+Uplift Real-Time Adjusted Metered Load per Market Participant—The monthly sum of the AML represented by Market Participant mp, where the Market Participant is a QSE assigned to the registered Counter-Party.
+RTQQES mp, p, i
+MW
+QSE-to-QSE Energy Sale per Market Participant per Settlement Point—The amount of MW sold by Market Participant mp through Energy Trades at Settlement Point p for the 15-minute Settlement Interval i, where the Market Participant is a QSE.
+URTQQES mp
+MWh
+Uplift QSE-to-QSE Energy Sale per Market Participant—The monthly sum of MW sold by Market Participant mp through Energy Trades, where the Market Participant is a QSE assigned to the registered Counter-Party.
+RTQQEP mp, p, i
+MW
+QSE-to-QSE Energy Purchase per Market Participant per Settlement Point—The amount of MW bought by Market Participant mp through Energy Trades at Settlement Point p for the 15-minute Settlement Interval i, where the Market Participant is a QSE.
+URTQQEP mp
+MWh
+Uplift QSE-to-QSE Energy Purchase per Market Participant—The monthly sum of MW bought by Market Participant mp through Energy Trades, where the Market Participant is a QSE assigned to the registered Counter-Party.
+DAES mp, p, h
+MW
+Day-Ahead Energy Sale per Market Participant per Settlement Point per hour—The total amount of energy represented by Market Participant mp’s cleared Three-Part Supply Offers in the DAM and cleared DAM Energy-Only Offers at Settlement Point p, for the hour h, where the Market Participant is a QSE.
+UDAES mp
+MWh
+Uplift Day-Ahead Energy Sale per Market Participant—The monthly total of energy represented by Market Participant mp’s cleared Three-Part Supply Offers in the DAM and cleared DAM Energy-Only Offer Curves, where the Market Participant is a QSE assigned to the registered Counter-Party.
+DAEP mp, p, h
+MW
+Day-Ahead Energy Purchase per Market Participant per Settlement Point per hour—The total amount of energy represented by Market Participant mp’s cleared DAM Energy Bids at Settlement Point p for the hour h, where the Market Participant is a QSE.
+UDAEP mp
+MWh
+Uplift Day-Ahead Energy Purchase per Market Participant—The monthly total of energy represented by Market Participant mp’s cleared DAM Energy Bids, where the Market Participant is a QSE assigned to the registered Counter-Party.
+RTOBL mp, (j, k), h
+MW
+Real-Time Obligation per Market Participant per source and sink pair per hour—The number of Market Participant mp’s Point-to-Point (PTP) Obligations with the source j and the sink k settled in Real-Time for the hour h, and where the Market Participant is a QSE.
+URTOBL mp
+MWh
+Uplift Real-Time Obligation per Market Participant—The monthly total of Market Participant mp’s PTP Obligations settled in Real-Time, counting the quantity only once per source and sink pair, and where the Market Participant is a QSE assigned to the registered Counter-Party.
+RTOBLLO q, (j, k)
+MW
+Real-Time Obligation with Links to an Option per QSE per pair of source and sinkRThe total MW of the QSE’s PTP Obligation with Links to an Option Bids cleared in the DAM and settled in Real-Time for the source j and the sink k for the hour.
+URTOBLLO q, (j, k)
+MW
+Uplift Real-Time Obligation with Links to an Option per QSE per pair of source and sinkUThe monthly total of Market Participant mp’s MW of PTP Obligation with Links to Options Bids cleared in the DAM and settled in Real-Time for the source j and the sink k for the hour, where the Market Participant is a QSE assigned to the registered Counter-Party.
+DAOPT mp, (j, k), h
+MW
+Day-Ahead Option per Market Participant per source and sink pair per hourDThe number of Market Participant mp’s PTP Options with the source j and the sink k owned in the DAM for the hour h, and where the Market Participant is a CRR Account Holder. 
+UDAOPT mp
+MWh
+Uplift Day-Ahead Option per Market ParticipantUThe monthly total of Market Participant mp’s PTP Options owned in the DAM, counting the ownership quantity only once per source and sink pair, and where the Market Participant is a CRR Account Holder assigned to the registered Counter-Party.
+DAOBL mp, (j, k), h
+MW
+Day-Ahead Obligation per Market Participant per source and sink pair per hour—The number of Market Participant mp’s PTP Obligations with the source j and the sink k owned in the DAM for the hour h, and where the Market Participant is a CRR Account Holder.  
+UDAOBL mp
+MWh
+Uplift Day-Ahead Obligation per Market ParticipantUThe monthly total of Market Participant mp’s PTP Obligations owned in the DAM, counting the ownership quantity only once per source and sink pair, where the Market Participant is a CRR Account Holder assigned to the registered Counter-Party.
+OPTS mp, (j, k), a, h
+MW
+PTP Option Sale per Market Participant per source and sink pair per CRR Auction per hour—The MW quantity that represents the total of Market Participant mp’s PTP Option offers with the source j and the sink k awarded in CRR Auction a, for the hour h, where the Market Participant is a CRR Account Holder.
+UOPTS mp
+MWh
+Uplift PTP Option Sale per Market Participant—The MW quantity that represents the monthly total of Market Participant mp’s PTP Option offers awarded in CRR Auctions, counting the awarded quantity only once per source and sink pair, where the Market Participant is a CRR Account Holder assigned to the registered Counter-Party.
+OBLS mp, (j, k), a, h
+MW
+PTP Obligation Sale per Market Participant per source and sink pair per CRR Auction per hour—The MW quantity that represents the total of Market Participant mp’s PTP Obligation offers with the source j and the sink k awarded in CRR Auction a, for the hour h, where the Market Participant is a CRR Account Holder.
+UOBLS mp
+MWh
+Uplift PTP Obligation Sale per Market Participant—The MW quantity that represents the monthly total of Market Participant mp’s PTP Obligation offers awarded in CRR Auctions, counting the quantity only once per source and sink pair, where the Market Participant is a CRR Account Holder assigned to the registered Counter-Party.
+OPTP mp, (j, k), a, h
+MW
+PTP Option Purchase per Market Participant per source and sink pair per CRR Auction per hour—The MW quantity that represents the total of Market Participant mp’s PTP Option bids with the source j and the sink k awarded in CRR Auction a, for the hour h, where the Market Participant is a CRR Account Holder.
+UOPTP mp
+MWh
+Uplift PTP Option Purchase per Market Participant—The MW quantity that represents the monthly total of Market Participant mp’s PTP Option bids awarded in CRR Auctions, counting the quantity only once per source and sink pair, where the Market Participant is a CRR Account Holder assigned to the registered Counter-Party.
+OBLP mp, (j, k), a, h
+MW
+PTP Obligation Purchase per Market Participant per source and sink pair per CRR Auction per hour—The MW quantity that represents the total of Market Participant mp’s PTP Obligation bids with the source j and the sink k awarded in CRR Auction a, for the hour h, where the Market Participant is a CRR Account Holder.
+UOBLP mp
+MWh
+Uplift PTP Obligation Purchase per Market Participant—The MW quantity that represents the monthly total of Market Participant mp’s PTP Obligation bids awarded in CRR Auctions, counting the quantity only once per source and sink pair, where the Market Participant is a CRR Account Holder assigned to the registered Counter-Party.
+[NPRR1201:  Delete the variables “OPTS mp, (j, k), a, h”, “UOPTS mp”, “OBLS mp, (j, k), a, h”, “UOBLS mp”, “OPTP mp, (j, k), a, h”, “UOPTP mp”, “OBLP mp, (j, k), a, h”, “UOBLP mp” above upon system implementation.]
+
+UWSLTOT mp
+MWh
+Uplift Metered Energy for Wholesale Storage Load at bus per Market ParticipantLThe monthly sum of Market Participant mp’s Wholesale Storage Load (WSL) energy metered by the Settlement Meter which measures WSL.
+MEBL mp, r, b
+MWh
+Metered Energy for Wholesale Storage Load at busLThe WSL energy metered by the Settlement Meter which measures WSL for the 15-minute Settlement Interval represented as a negative value, for the Market Participant mp, Resource r, at bus b.  
+[NPRR1012:  Insert the variables below upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+UDAASOAWD mp
+MWh
+Uplift Day-Ahead Ancillary Service Only Award per Market Participant—The monthly total of Market Participant mp’s Ancillary Service Only Offers awarded in DAM, where the Market Participant is a QSE assigned to the registered Counter-Party.
+DARUOAWD mp, h
+MW
+Day-Ahead Reg-Up Only Award per Market ParticipantDThe Reg-Up Only capacity quantity awarded in the DAM to the Market Participant mp for the hour h.
+DARDOAWD mp, h
+MW
+Day-Ahead Reg-Down Only Award per Market Participant The Reg-Down Only capacity quantity awarded in the DAM to the Market Participant mp for the hour h.
+DARROAWD mp, h
+MW
+Day-Ahead Responsive Reserve Only Award per Market Participant  The Responsive Reserve (RRS) Only capacity quantity awarded in the DAM to the Market Participant mp for the hour h.
+DANSOAWD mp, h
+MW
+Day-Ahead Non-Spin Only Award per Market Participant The Non-Spin Only capacity quantity awarded in the DAM to the Market Participant mp for the hour h.
+DAECROAWD mp, h
+MW
+Day-Ahead ERCOT Contingency Reserve Service Only Award per Market Participant The ERCOT Contingency Reserve Service (ECRS) Only capacity quantity awarded in the DAM to the Market Participant mp for the hour h.
+
+
+USOGTOT mp
+MWh
+Uplift Real-Time Settlement Only Generator Site per Market Participant—The monthly sum of Real-Time energy produced by Settlement Only Generators (SOGs) represented by Market Participant mp, where the Market Participant is a QSE assigned to the registered Counter-Party. 
+[NPRR995:  Replace the definition above with the following upon system implementation:]
+Uplift Real-Time Settlement Only Generator Site per Market Participant—The monthly sum of Real-Time energy produced by Settlement Only Generators (SOGs), Settlement Only Distribution Generators (SODGs), Settlement Only Transmission Generators (SOTGs), Settlement Only Distribution Energy Storage Systems (SODESSs), or Settlement Only Transmission Energy Storage Systems (SOTESSs) represented by Market Participant mp, where the Market Participant is a QSE assigned to the registered Counter-Party.
+
+[NPRRR995:  Insert the variable “USOCLTOT mp” below upon system implementation:]
+USOCLTOT mp
+MWh
+Uplift Real-Time Settlement Only Charging Load per Market Participant—The monthly sum of Real-Time charging Load that is WSL by SODESSs and SOTESSs represented by Market Participant mp, where the Market Participant is a QSE assigned to the registered Counter-Party. 
+
+
+RTMGSOGZ mp. p, i
+MWh
+Real-Time Metered Generation from Settlement Only Generators Zonal per QSE per Settlement Point—The total Real-Time energy produced by Settlement Only Transmission Self-Generators (SOTSGs) for the Market Participant mp in Load Zone Settlement Point p, for the 15-minute Settlement Interval.  MWh quantities for Energy Storage System (ESS), Settlement Only Distribution Generators (SODGs), and Settlement Only Transmission Generators (SOTGs) at sites where the ESS capacity constitutes more than 50% of the total SOG nameplate capacity will be included in this value.  MWh quantities for SODGs and SOTGs that opted out of nodal pricing pursuant to Section 6.6.3.8, Real-Time Payment or Charge for Energy from a Settlement Only Distribution Generator (SODG) or a Settlement Only Transmission Generator (SOTG), will also be included in this value.
+[NPRR995:  Replace the definition above with the following upon system implementation:]
+Real-Time Metered Generation from Settlement Only Generators Zonal per QSE per Settlement Point—The total Real-Time energy produced by Settlement Only Transmission Self-Generators (SOTSGs) for the Market Participant mp in Load Zone Settlement Point p, for the 15-minute Settlement Interval.  MWh quantities for Energy Storage System (ESS), SODGs, and SOTGs at sites where the ESS capacity constitutes more than 50% of the total SOG nameplate capacity will be included in this value.  MWh quantities for SODGs and SOTGs that opted out of nodal pricing pursuant to Section 6.6.3.8, Real-Time Payment or Charge for Energy from a Settlement Only Distribution Generator (SODG), Settlement Only Transmission Generator (SOTG), Settlement Only Distribution Energy Storage System (SODESS), or Settlement Only Transmission Energy Storage System (SOTESS), will also be included in this value.
+
+MEBSOGNET q, gsc
+MWh
+Net Metered energy at gsc for an SODG or SOTG SiteNThe net sum for all Settlement Meters for SODG or SOTG site gsc represented by QSE q.  A positive value indicates an injection of power to the ERCOT System.
+[NPRR995:  Replace the definition above with the following upon system implementation:]
+Net Metered energy at gsc for an SODG, SOTG, SODESS, or SOTESS Site The net sum for all Settlement Meters for SODG, SOTG, SODESS, or SOTESS site gsc represented by QSE q for the 15-minute Settlement Interval.  A positive value indicates an injection of power to the ERCOT System.
+
+[NPRRR995:  Insert the variable “WSOL mp, gsc, b” below upon system implementation:]
+WSOL mp, gsc, b
+MWh
+WSL for an SODESS or SOTESS Site The WSL as measured for an for SODESS or SOTESS site gsc at Electrical Bus b, represented by the Market Participant mp, represented as a negative value, for the 15-minute Settlement Interval.
+
+
+
+cp
+none
+A registered Counter-Party.
+mp
+none
+A Market Participant with MWh activity in the reference month that is a currently-registered QSE or CRR Account Holder or that voluntarily terminated its QSE or CRR Account Holder registration.
+j
+none
+A source Settlement Point.
+k
+none
+A sink Settlement Point.
+a
+none
+A CRR Auction.
+p
+none
+A Settlement Point.
+i
+none
+A 15-minute Settlement Interval.
+h
+none
+The hour that includes the Settlement Interval i. 
+r
+none 
+A Resource. 
+gsc
+none
+A generation site code.
+b
+none
+An Electrical Bus.
+
+(3)	The uplifted short-paid amount will be allocated to the Market Participants (QSEs or CRR Account Holders) assigned to a registered Counter-Party based on the pro-rata share of MWhs that the QSE or CRR Account Holder contributed to its Counter-Party’s maximum MWh activity ratio share.
+(4)	Any uplifted short-paid amount greater than $2,500,000 must be scheduled so that no amount greater than $2,500,000 is charged on each set of Default Uplift Invoices until ERCOT uplifts the total short-paid amount.  ERCOT must issue Default Uplift Invoices at least 30 days apart from each other.
+(5)	ERCOT shall issue Default Uplift Invoices no earlier than 90 days following a short-pay of a Settlement Invoice on the date specified in the Settlement Calendar.  The Invoice Recipient is responsible for accessing the Invoice on the MIS Certified Area once posted by ERCOT.
+(6)	Each Default Uplift Invoice must contain:
+(a)	The Invoice Recipient’s name;
+(b)	The ERCOT identifier (Settlement identification number issued by ERCOT);
+(c)	Net Amount Due or Payable – the aggregate summary of all charges owed by a Default Uplift Invoice Recipient;
+(d)	Run Date – the date on which ERCOT created and published the Default Uplift Invoice;
+(e)	Invoice Reference Number – a unique number generated by the ERCOT applications for payment tracking purposes;
+(f)	Default Uplift Invoice Reference – an identification code used to reference the amount uplifted;
+(g)	Payment Date and Time – the date and time that Default Uplift Invoice amounts must be paid;
+(h)	Remittance Information Details – details including the account number, bank name, and electronic transfer instructions of the ERCOT account to which any amounts owed by the Invoice Recipient are to be paid or of the Invoice Recipient’s account from which ERCOT may draw payments due; and
+(i)	Overdue Terms – the terms that would apply if the Market Participant makes a late payment.
+(7)	Each Invoice Recipient shall pay any net debit shown on the Default Uplift Invoice on the payment due date whether or not there is any Settlement and billing dispute regarding the amount of the debit.
+9.19.2	Payment Process for Default Uplift Invoices
+(1)	Payments for Default Uplift Invoices are due on a Bank Business Day and Business Day basis in a two-day, two-step process as detailed in this Section 9.19.2.
+9.19.2.1	Invoice Recipient Payment to ERCOT for Default Uplift
+(1)	The payment due date and time for the Default Uplift Invoice with funds owed by an Invoice Recipient is 1700 on the fifth Bank Business Day after the Default Uplift Invoice date, unless fifth Bank Business Day is not a Business Day.  If the fifth Bank Business Day is not a Business Day, then the payment is due by 1700 on the next Bank Business Day after the fifth Bank Business Day that is also a Business Day.
+(2)	All Default Uplift Invoices due, with funds owed by an Invoice Recipient, must be paid to ERCOT in U.S. Dollars (USDs) by Electronic Funds Transfer (EFT) in immediately available or good funds (i.e., not subject to reversal) on or before the payment due date.
+9.19.2.2	ERCOT Payment to Invoice Recipients for Default Uplift
+(1)	Subject to the availability of funds as discussed in paragraph (2) below, uplifted funds received from Default Uplift Invoices must be paid by ERCOT to short-paid Invoice Recipients by 1700 on the next Bank Business Day after payments are due for that Default Uplift Invoice under Section 9.19.2.1, Invoice Recipient Payment to ERCOT for Default Uplift, subject to ERCOT’s right to withhold payments under Section 16, Registration and Qualification of Market Participants, or pursuant to common law unless that next Bank Business Day is not a Business Day.  If that next Bank Business Day is not a Business Day, the payment is due on the next Bank Business Day thereafter that is also a Business Day. 
+(2)	ERCOT shall give irrevocable instructions to the ERCOT financial institution to remit to each short-paid Invoice Recipient for same day value the amounts determined by ERCOT to be available for payment to that short-paid Invoice Recipient under paragraph (1)(d) of Section 9.19, Partial Payments by Invoice Recipients. 
+(3)	Any short payments of Default Uplift Invoices must be handled under Section 9.19, Partial Payments by Invoice Recipients.
+9.19.3	Default Uplift Supporting Data Reporting
+(1)	ERCOT shall post once each month on the MIS Certified Area, the Maximum MWh Activity (MMA), Maximum MWh Activity Total (MMATOT), Maximum MWh Activity Ratio Share (MMARS), and the Counter-Party level components of MMA calculation as defined in paragraph (2) of Section 9.19.1, Default Uplift Invoices.  Each month’s report shall be updated with Final and True-Up Settlement data when ERCOT’s systems contain the necessary information to complete the report with the updated data.
+9.19.4	Exemption for Central Counter-Party Clearinghouses Regulated as Derivatives Clearing Organizations
+(1)	Notwithstanding any other provision of Section 9.19, Partial Payments by Invoice Recipients, or these Protocols, ERCOT shall not issue a Default Uplift Invoice to, and shall not otherwise collect any short-pay amounts from, any QSE that:  
+(a) 	Otherwise would be subject to an uplift charge solely as a result of acting as a central Counter-Party clearinghouse in wholesale market transactions in ERCOT; and 
+(b) 	Is regulated as a Derivatives Clearing Organization as defined by the Commodity Exchange Act, 7 U.S.C. § 1a.
+[NPRR1208:  Insert Section 9.20 below upon system implementation:]
+9.20	ERCOT Invoice Report
+(1)	ERCOT will post daily, on the Market Information System (MIS) Certified Area, a Counter-Party report that lists the following Invoices that were issued for the current day and prior day to the Qualified Scheduling Entity(s) (QSE(s)) and Congestion Revenue Right (CRR) Account Holder(s) represented by the Counter-Party:
+(a)	Settlement Invoice;
+(b)	CRR Auction Invoice;
+(c)	CRR Auction Revenue Distribution Invoice;
+(d)	CRR Balancing Account Invoice;
+(e)	Miscellaneous Invoice;
+(f)	Default Uplift Invoice;
+(g)	Securitization Uplift Charge Initial Invoice;
+(h)	Securitization Uplift Charge Reallocation Invoice;
+(i)	Securitization Default Charge Invoice;
+(j)	Electric Reliability Organization (ERO) Invoice;
+(k)	Wide Area Network (WAN) Invoice; and
+(l)	Weatherization Inspection Invoice.
+
+SECTION 9: TABLE OF CONTENTS
+
+ERCOT NODAL PROTOCOLS – MAY 1, 2024
+PUBLIC
+
+
+
+PUBLIC
+
+SECTION 9:  TABLE OF CONTENTS
+
+ERCOT NODAL PROTOCOLS – MAY 1, 2024
+PUBLIC
+
+SECTION 9:  SETTLEMENT AND BILLING
+
+ERCOT NODAL PROTOCOLS – MAY 1, 2024		9-23
+PUBLIC
+

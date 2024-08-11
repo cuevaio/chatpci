@@ -1,0 +1,1919 @@
+3.5.2	Hub Definitions
+3.5.2.1	North 345 kV Hub (North 345)
+(1)	The North 345 kV Hub is composed of the following Hub Buses:
+ERCOT Operations
+No.
+Hub Bus
+kV
+Hub
+1
+ANASW
+345
+NORTH
+2
+CN345
+345
+NORTH
+3
+WLSH
+345
+NORTH
+4
+FMRVL
+345
+NORTH
+5
+LPCCS
+345
+NORTH
+6
+MNSES
+345
+NORTH
+7
+PRSSW
+345
+NORTH
+8
+SSPSW
+345
+NORTH
+9
+VLSES
+345
+NORTH
+10
+ALNSW
+345
+NORTH
+11
+ALLNC
+345
+NORTH
+12
+BNDVS
+345
+NORTH
+13
+BNBSW
+345
+NORTH
+14
+BBSES
+345
+NORTH
+15
+BOSQUESW
+345
+NORTH
+16
+CDHSW
+345
+NORTH
+17
+CNTRY
+345
+NORTH
+18
+CRLNW
+345
+NORTH
+19
+CMNSW
+345
+NORTH
+20
+CNRSW
+345
+NORTH
+21
+CRTLD
+345
+NORTH
+22
+DCSES
+345
+NORTH
+23
+EMSES
+345
+NORTH
+24
+ELKTN
+345
+NORTH
+25
+ELMOT
+345
+NORTH
+26
+EVRSW
+345
+NORTH
+27
+KWASS
+345
+NORTH
+28
+FGRSW
+345
+NORTH
+29
+FORSW
+345
+NORTH
+30
+FRNYPP
+345
+NORTH
+31
+GIBCRK
+345
+NORTH
+32
+HKBRY
+345
+NORTH
+33
+VLYRN
+345
+NORTH
+34
+JEWET
+345
+NORTH
+35
+KNEDL
+345
+NORTH
+36
+KLNSW
+345
+NORTH
+37
+LCSES
+345
+NORTH
+38
+LIGSW
+345
+NORTH
+39
+LEG 
+345
+NORTH
+40
+LFKSW
+345
+NORTH
+41
+LWSSW
+345
+NORTH
+42
+MLSES
+345
+NORTH
+43
+MCCREE
+345
+NORTH
+44
+MDANP
+345
+NORTH
+45
+ENTPR
+345
+NORTH
+46
+NCDSE
+345
+NORTH
+47
+NORSW
+345
+NORTH
+48
+NUCOR
+345
+NORTH
+49
+PKRSW
+345
+NORTH
+50
+KMCHI
+345
+NORTH
+51
+PTENN
+345
+NORTH
+52
+RENSW
+345
+NORTH
+53
+RCHBR
+345
+NORTH
+54
+RNKSW
+345
+NORTH
+55
+RKCRK
+345
+NORTH
+56
+RYSSW
+345
+NORTH
+57
+SGVSW
+345
+NORTH
+58
+SHBSW
+345
+NORTH
+59
+SHRSW
+345
+NORTH
+60
+SCSES
+345
+NORTH
+61
+SYCRK
+345
+NORTH
+62
+THSES
+345
+NORTH
+63
+TMPSW
+345
+NORTH
+64
+TNP_ONE
+345
+NORTH
+65
+TRCNR
+345
+NORTH
+66
+TRSES
+345
+NORTH
+67
+TOKSW
+345
+NORTH
+68
+VENSW
+345
+NORTH
+69
+WLVEE
+345
+NORTH
+70
+W_DENT
+345
+NORTH
+71
+WTRML
+345
+NORTH
+72
+WCSWS
+345
+NORTH
+73
+WEBBS
+345
+NORTH
+74
+WHTNY
+345
+NORTH
+75
+WCPP
+345
+NORTH
+(2)	The North 345 kV Hub Price uses the aggregated Shift Factors of the Hub Buses for each hour of the Settlement Interval of the Day-Ahead Market (DAM) in the Day-Ahead and is the simple average of the time-weighted Hub Bus prices for each 15-minute Settlement Interval in Real-Time, for each Hub Bus included in this Hub.
+(3)	The Day-Ahead Settlement Point Price of the Hub for a given Operating Hour is calculated as follows: 
+DASPP North345 =	DASL – █(Σ@c)(DAHUBSF North345, c * DASP c), 
+		if HBBC North345≠0
+DASPP North345 =	DASPP ERCOT345Bus, if HBBC North345=0
+Where:
+DAHUBSF North345, c	=	█(Σ@hb)(HUBDF hb, North345, c * DAHBSF hb, North345, c)
+DAHBSF hb, North345, c	=	█(Σ@pb)(HBDF pb, hb, North345, c * DASF pb, hb, North345, c)
+HUBDF hb, North345, c	=	IF(HB North345, c=0, 0, 1 / HB North345, c)
+HBDF pb, hb, North345, c	=	IF(PB hb, North345, c=0, 0, 1 / PB hb, North345, c)
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+DASPP North345
+$/MWh
+Day-Ahead Settlement Point PriceDThe DAM Settlement Point Price at the Hub, for the hour.
+DASL
+$/MWh
+Day-Ahead System LambdaSThe DAM Shadow Price for the system power balance constraint for the hour.
+DASP c
+$/MWh
+Day-Ahead Shadow Price for a binding transmission constraint The DAM Shadow Price for the constraint c for the hour.
+DAHUBSF North345,c
+none
+Day-Ahead Shift Factor of the Hub  The DAM aggregated Shift Factor of a Hub for the constraint c for the hour. 
+DAHBSF hb,North345,c
+none
+Day-Ahead Shift Factor of the Hub Bus The DAM aggregated Shift Factor of a Hub Bus hb for the constraint c for the hour. 
+DASF pb,hb,North345,c
+none
+Day-Ahead Shift Factor of the power flow bus The DAM Shift Factor of a power flow bus pb that is a component of Hub Bus hb for the constraint c for the hour. 
+HUBDF hb, North345,c
+none
+Hub Distribution Factor per Hub Bus in a constraintcThe distribution factor of Hub Bus hb for the constraint c for the hour.  
+HBDF pb, hb, North345,c
+none
+Hub Bus Distribution Factor per power flow bus of Hub Bus in a constraintHThe distribution factor of power flow bus pb that is a component of Hub Bus hb for the constraint c for the hour.  
+pb
+none
+An energized power flow bus that is a component of a Hub Bus for the constraint c.
+PB hb, North345,c
+none
+The total number of energized power flow buses in Hub Bus hb for the constraint c.
+hb
+none
+A Hub Bus that is a component of the Hub with at least one energized power flow bus for the constraint c.
+HBBC North345
+none
+The total number of Hub Buses in the Hub with at least one energized component in each Hub Bus in base case.
+HB North345,c
+none
+The total number of Hub Buses in the Hub with at least one energized component in each Hub Bus for the constraint c.
+c
+none
+A DAM binding transmission constraint for the hour caused by either base case or a contingency.
+(4)	The Real-Time Settlement Point Price of the Hub for a given 15-minute Settlement Interval is calculated as follows:
+RTSPP North345	=	Max [-$251, (RTRSVPOR + RTRDP + 
+		(HUBDF hb, North345 * ((RTHBP hb, North345, y * 
+		TLMP y) / (TLMP y))))], if HB North345≠0
+RTSPP North345	=	RTSPP ERCOT345Bus, if HB North345=0
+Where:
+RTRSVPOR 		=	(RNWF y * RTORPA y) 
+RTRDP                       =           (RNWF y * RTORDPA y)
+RNWF y		=	TLMP y / TLMP y
+RTHBP hb, North345, y	=	(HBDF b, hb, North345 * RTLMP b, hb, North345, y)
+HUBDF hb, North345	=	IF(HB North345=0, 0, 1 / HB North345)
+HBDF b, hb, North345	=	IF(B hb, North345=0, 0, 1 / B hb, North345)
+The above variables are defined as follows:
+Variable
+Unit
+Description
+RTSPP North345
+$/MWh
+Real-Time Settlement Point PriceRThe Real-Time Settlement Point Price at the Hub, for the 15-minute Settlement Interval.
+RTHBP hb, North345, y
+$/MWh
+Real-Time Hub Bus Price at Hub Bus per Security-Constrained Economic Dispatch (SCED) intervalSThe Real-Time energy price at Hub Bus hb for the SCED interval y.
+RTRSVPOR
+$/MWh
+Real-Time Reserve Price for On-Line ReservesRThe Real-Time Reserve Price for On-Line Reserves for the 15-minute Settlement Interval.
+RTORPA y
+$/MWh
+Real-Time On-Line Reserve Price Adder per intervalAThe Real-Time price adder for On-Line Reserves for the SCED interval y.
+RTRDP
+$/MWh
+Real-Time On-Line Reliability Deployment PriceRThe Real-Time price for the 15-minute Settlement Interval, reflecting the impact of reliability deployments on energy prices that are calculated from the Real-Time On-Line Reliability Deployment Price Adder.  
+RTORDPA y
+$/MWh
+Real-Time On-Line Reliability Deployment Price AdderRThe Real-Time price adder that captures the impact of reliability deployments on energy prices for the SCED interval y. 
+RNWF y
+none
+Resource Node Weighting Factor per intervalRThe weight used in the Resource Node Settlement Point Price calculation for the portion of the SCED interval y within the Settlement Interval.
+RTLMP b, hb, North345, y
+$/MWh
+Real-Time Locational Marginal Price at Electrical Bus of Hub Bus per intervalRThe Real-Time LMP at Electrical Bus b that is a component of Hub Bus hb, for the SCED interval y.
+TLMP y
+second
+Duration of SCED interval per intervalDThe duration of the portion of the SCED interval y within the 15-minute Settlement Interval
+HUBDF hb, North345
+none
+Hub Distribution Factor per Hub BusHThe distribution factor of Hub Bus hb.  
+HBDF b, hb, North345
+none
+Hub Bus Distribution Factor per Electrical Bus of Hub BusHThe distribution factor of Electrical Bus b that is a component of Hub Bus hb.  
+y
+none
+A SCED interval in the 15-minute Settlement Interval.  The summation is over the total number of SCED runs that cover the 15-minute Settlement Interval.
+b
+none
+An energized Electrical Bus that is a component of a Hub Bus.
+B hb, North345
+none
+The total number of energized Electrical Buses in Hub Bus hb.
+hb
+none
+A Hub Bus that is a component of the Hub.
+HB North345
+none
+The total number of Hub Buses in the Hub with at least one energized component in each Hub Bus.
+[NPRR1007 and NPRR1057:  Replace applicable portions of paragraph (4) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1007; or upon system implementation for NPRR1057:]
+(4)	The Real-Time Settlement Point Price of the Hub for a given 15-minute Settlement Interval is calculated as follows:
+RTSPP North345	=	Max [-$251, (RTRDP + 
+		(HUBLMP North345, y * RNWF y))]
+Where:
+RTRDP                       =           (RNWF y * RTRDPA y)
+RNWF y		=	TLMP y / TLMP y
+The above variables are defined as follows:
+Variable
+Unit
+Description
+RTSPP North345
+$/MWh
+Real-Time Settlement Point PricePThe Real-Time Settlement Point Price at the Hub, for the 15-minute Settlement Interval.
+RTRDP
+$/MWh
+Real-Time Reliability Deployment Price for Energy  The Real-Time price for the 15-minute Settlement Interval, reflecting the impact of reliability deployments on energy prices that are calculated from the Real-Time Reliability Deployment Price Adder for Energy.  
+RTRDPA y
+$/MWh
+Real-Time Reliability Deployment Price Adder for Energy  The Real-Time Price Adder that captures the impact of reliability deployments on energy prices for the SCED interval y. 
+RNWF y
+none
+Resource Node Weighting Factor per intervalRThe weight used in the Resource Node Settlement Point Price calculation for the portion of the SCED interval y within the Settlement Interval.
+HUBLMP North345, y
+$/MWh
+Hub Locational Marginal PriceHThe Hub LMP for the Hub for the SCED Interval y.
+TLMP y
+second
+Duration of SCED interval per intervalDThe duration of the portion of the SCED interval y within the 15-minute Settlement Interval
+y
+none
+A SCED interval in the 15-minute Settlement Interval.  The summation is over the total number of SCED runs that cover the 15-minute Settlement Interval.
+3.5.2.2	South 345 kV Hub (South 345)
+(1)	The South 345 kV Hub is composed of the following Hub Buses:
+ERCOT Operations
+No.
+Hub Bus
+kV
+Hub
+1
+AUSTRO
+345
+SOUTH
+2
+BLESSING
+345
+SOUTH
+3
+CAGNON
+345
+SOUTH
+4
+COLETO
+345
+SOUTH
+5
+CLEASP
+345
+SOUTH
+6
+NEDIN
+345
+SOUTH
+7
+FAYETT
+345
+SOUTH
+8
+FPPYD1
+345
+SOUTH
+9
+FPPYD2
+345
+SOUTH
+10
+GARFIE
+345
+SOUTH
+11
+GUADG
+345
+SOUTH
+12
+HAYSEN
+345
+SOUTH
+13
+HILLCTRY
+345
+SOUTH
+14
+HOLMAN
+345
+SOUTH
+15
+KENDAL
+345
+SOUTH
+16
+LA_PALMA
+345
+SOUTH
+17
+LON_HILL
+345
+SOUTH
+18
+LOSTPI
+345
+SOUTH
+19
+LYTTON_S
+345
+SOUTH
+20
+MARION
+345
+SOUTH
+21
+PAWNEE
+345
+SOUTH
+22
+RIOHONDO
+345
+SOUTH
+23
+RIONOG
+345
+SOUTH
+24
+SALEM
+345
+SOUTH
+25
+SANMIGL
+345
+SOUTH
+26
+SKYLINE
+345
+SOUTH
+27
+STP
+345
+SOUTH
+28
+CALAVERS
+345
+SOUTH
+29
+BRAUNIG
+345
+SOUTH
+30
+WHITE_PT
+345
+SOUTH
+31
+ZORN
+345
+SOUTH
+(2)	The South 345 kV Hub Price uses the aggregated Shift Factors of the Hub Buses for each hour of the Settlement Interval of the DAM in the Day-Ahead and is the simple average of the time-weighted Hub Bus prices for each 15-minute Settlement Interval in Real-Time, for each Hub Bus included in this Hub.
+(3)	The Day-Ahead Settlement Point Price of the Hub for a given Operating Hour is calculated as follows: 
+DASPP South345 =	DASL – █(Σ@c)(DAHUBSF South345, c * DASP c), 
+		if HBBC South345≠0
+DASPP South345 =		DASPP ERCOT345Bus, if HBBC South345=0
+Where:
+DAHUBSF South345, c	=	█(Σ@hb)(HUBDF hb, South345, c * DAHBSF hb, South345, c)
+DAHBSF hb, South345, c	=	█(Σ@pb)(HBDF pb, hb, South345, c * DASF pb, hb, South345, c)
+HUBDF hb, South345, c	=	IF(HB South345, c=0, 0, 1 / HB South345, c)
+HBDF pb, hb, South345, c	=	IF(PB hb, South345, c=0, 0, 1 / PB hb, South345, c)
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+DASPP South345
+$/MWh
+Day-Ahead Settlement Point PriceDThe DAM Settlement Point Price at the Hub, for the hour.
+DASL
+$/MWh
+Day-Ahead System LambdaDThe DAM Shadow Price for the system power balance constraint for the hour.
+DASP c
+$/MWh
+Day-Ahead Shadow Price for a binding transmission constraint The DAM Shadow Price for the constraint c for the hour.
+DAHUBSF South345,c
+none
+Day-Ahead Shift Factor of the Hub  The DAM aggregated Shift Factor of a Hub for the constraint c for the hour. 
+DAHBSF hb,South345,c
+none
+Day-Ahead Shift Factor of the Hub Bus The DAM aggregated Shift Factor of a Hub Bus hb for the constraint c for the hour. 
+DASF pb,hb,South345,c
+none
+Day-Ahead Shift Factor of the power flow bus The DAM Shift Factor of a power flow bus pb that is a component of Hub Bus hb for the constraint c for the hour. 
+HUBDF hb, South345,c
+none
+Hub Distribution Factor per Hub Bus in a constraintHThe distribution factor of Hub Bus hb for the constraint c for the hour.  
+HBDF pb, hb, South345,c
+none
+Hub Bus Distribution Factor per power flow bus of Hub Bus in a constraintHThe distribution factor of power flow bus pb that is a component of Hub Bus hb for the constraint c for the hour.  
+pb
+none
+An energized power flow bus that is a component of a Hub Bus for the constraint c.
+PB hb, South345,c
+none
+The total number of energized power flow buses in Hub Bus hb for the constraint c.
+hb
+none
+A Hub Bus that is a component of the Hub with at least one energized power flow bus for the constraint c.
+HBBC South345
+none
+The total number of Hub Buses in the Hub with at least one energized component in each Hub Bus in base case.
+HB South345,c
+none
+The total number of Hub Buses in the Hub with at least one energized component in each Hub Bus for the constraint c.
+c
+none
+A DAM binding transmission constraint for the hour caused by either base case or a contingency.
+(4)	The Real-Time Settlement Point Price of the Hub for a given 15-minute Settlement Interval is calculated as follows:
+RTSPP South345	=	Max [-$251, (RTRSVPOR + RTRDP +
+		(HUBDF hb, South345 * ((RTHBP hb, South345, y * TLMP y) / (TLMP y))))], if HB South345≠0
+RTSPP South345	=	RTSPP ERCOT345Bus, if HB South345=0
+Where:
+RTRSVPOR 		=	(RNWF  y * RTORPA y)
+RTRDP                                =              (RNWFy  * RTORDPAy)
+RNWF y		=	TLMP y / TLMP y 
+RTHBP hb, South345, y	=	(HBDF b, hb, South345 * RTLMP b, hb, South345, y)
+HUBDF hb, South345	=	IF(HB South345=0, 0, 1 / HB South345)
+HBDF b, hb, South345	=	IF(B hb, South345=0, 0, 1 / B hb, South345)
+The above variables are defined as follows:
+Variable
+Unit
+Description
+RTSPP South345
+$/MWh
+Real-Time Settlement Point PriceRThe Real-Time Settlement Point Price at the Hub, for the 15-minute Settlement Interval.
+RTHBP hb, South345, y
+$/MWh
+Real-Time Hub Bus Price at Hub Bus per SCED intervalRThe Real-Time energy price at Hub Bus hb for the SCED interval y.
+RTRSVPOR
+$/MWh
+Real-Time Reserve Price for On-Line ReservesRThe Real-Time Reserve Price for On-Line Reserves for the 15-minute Settlement Interval.
+RTORPA y
+$/MWh
+Real-Time On-Line Reserve Price Adder per intervalRThe Real-Time On-Line Reserve Price Adder for the SCED interval y.
+RTRDP
+$/MWh
+Real-Time On-Line Reliability Deployment Price-RThe Real-Time price for the 15-minute Settlement Interval, reflecting the impact of reliability deployments on energy prices that are calculated from the Real-Time On-Line Reliability Deployment Price Adder.  
+RTORDPA y
+$/MWh
+Real-Time On-Line Reliability Deployment Price Adder –The Real-Time price adder that captures the impact of reliability deployments on energy prices for the SCED interval y. 
+RNWF y
+none
+Resource Node Weighting Factor per intervalRThe weight used in the Resource Node Settlement Point Price calculation for the portion of the SCED interval y within the Settlement Interval.
+RTLMP b, hb, South345, y
+$/MWh
+Real-Time Locational Marginal Price at Electrical Bus of Hub Bus per intervaliThe Real-Time LMP at Electrical Bus b that is a component of Hub Bus hb, for the SCED interval y.
+TLMP y
+second
+Duration of SCED interval per intervalDThe duration of the portion of the SCED interval y within the 15-minute Settlement Interval.
+HUBDF hb, South345
+none
+Hub Distribution Factor per Hub BusHThe distribution factor of Hub Bus hb.  
+HBDF b, hb, South345
+none
+Hub Bus Distribution Factor per Electrical Bus of Hub BusHThe distribution factor of Electrical Bus b that is a component of Hub Bus hb.  
+y
+none
+A SCED interval in the 15-minute Settlement Interval.  The summation is over the total number of SCED runs that cover the 15-minute Settlement Interval.
+b
+none
+An energized Electrical Bus that is a component of a Hub Bus.
+B hb, South345
+none
+The total number of energized Electrical Buses in Hub Bus hb.
+hb
+none
+A Hub Bus that is a component of the Hub.
+HB South345
+none
+The total number of Hub Buses in the Hub with at least one energized component in each Hub Bus.
+[NPRR1007 and NPRR1057:  Replace applicable portions of paragraph (4) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1007; or upon system implementation for NPRR1057:]
+(4)	The Real-Time Settlement Point Price of the Hub for a given 15-minute Settlement Interval is calculated as follows:
+RTSPP South345	=	Max [-$251, (RTRDP +
+		(HUBLMP South345, y * RNWF y))]
+Where:
+RTRDP                                =              ( RNWFy  * RTRDPAy)
+RNWF y		=	TLMP y / TLMP y 
+The above variables are defined as follows:
+Variable
+Unit
+Description
+RTSPP South345
+$/MWh
+Real-Time Settlement Point PriceSThe Real-Time Settlement Point Price at the Hub, for the 15-minute Settlement Interval.
+RTRDP
+$/MWh
+Real-Time Reliability Deployment Price for Energy The Real-Time price for the 15-minute Settlement Interval, reflecting the impact of reliability deployments on energy prices that are calculated from the Real-Time Reliability Deployment Price Adder for Energy.  
+RTRDPA y
+$/MWh
+Real-Time Reliability Deployment Price Adder for Energy –The Real-Time Price Adder that captures the impact of reliability deployments on energy prices for the SCED interval y. 
+HUBLMP South345, y
+$/MWh
+Hub Locational Marginal PriceHThe Hub LMP for the Hub for the SCED Interval y.
+RNWF y
+none
+Resource Node Weighting Factor per intervaliThe weight used in the Resource Node Settlement Point Price calculation for the portion of the SCED interval y within the Settlement Interval.
+TLMP y
+second
+Duration of SCED interval per intervalDThe duration of the portion of the SCED interval y within the 15-minute Settlement Interval.
+y
+none
+A SCED interval in the 15-minute Settlement Interval.  The summation is over the total number of SCED runs that cover the 15-minute Settlement Interval.
+3.5.2.3	Houston 345 kV Hub (Houston 345)
+(1)	The Houston 345 kV Hub is composed of the following listed Hub Buses:
+ERCOT Operations
+No.
+Hub Bus
+kV
+Hub
+1
+ADK
+345
+HOUSTON
+2
+BI
+345
+HOUSTON
+3
+CBY
+345
+HOUSTON
+4
+CTR
+345
+HOUSTON
+5
+CHB
+345
+HOUSTON
+6
+DPW
+345
+HOUSTON
+7
+DOW
+345
+HOUSTON
+8
+RNS
+345
+HOUSTON
+9
+GBY
+345
+HOUSTON
+10
+JN
+345
+HOUSTON
+11
+KG
+345
+HOUSTON
+12
+KDL
+345
+HOUSTON
+13
+NB
+345
+HOUSTON
+14
+OB
+345
+HOUSTON
+15
+PHR
+345
+HOUSTON
+16
+SDN
+345
+HOUSTON
+17
+SMITHERS
+345
+HOUSTON
+18
+THW
+345
+HOUSTON
+19
+WAP
+345
+HOUSTON
+20
+WO
+345
+HOUSTON
+(2)	The Houston 345 kV Hub Price uses the aggregated Shift Factors of the Hub Buses for each hour of the Settlement Interval of the DAM in the Day-Ahead and is the simple average of the time-weighted Hub Bus prices for each 15-minute Settlement Interval in Real-Time, for each Hub Bus included in this Hub.
+(3)	The Day-Ahead Settlement Point Price of the Hub for a given Operating Hour is calculated as follows: 
+DASPP Houston345 =	DASL – █(Σ@c)(DAHUBSF Houston345, c * DASP c), 
+		if HBBC Houston345≠0
+DASPP Houston345 =	DASPP ERCOT345Bus, if HBBC Houston345=0
+Where:
+DAHUBSF Houston345, c	=	█(Σ@hb)(HUBDF hb, Houston345, c * DAHBSF hb, Houston345, c)
+DAHBSF hb, Houston345, c	=	█(Σ@pb)(HBDF pb, hb, Houston345, c * DASF pb, hb, Houston345, c)
+HUBDF hb, Houston345, c	=	IF(HB Houston345, c=0, 0, 1 / HB Houston345, c)
+HBDF pb, hb, Houston345, c	=	IF(PB hb, Houston345, c=0, 0, 1 / PB hb, Houston345, c)
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+DASPP Houston345
+$/MWh
+Day-Ahead Settlement Point PriceDThe DAM Settlement Point Price at the Hub, for the hour.
+DASL
+$/MWh
+Day-Ahead System LambdaDThe DAM Shadow Price for the system power balance constraint for the hour.
+DASP c
+$/MWh
+Day-Ahead Shadow Price for a binding transmission constraintbThe DAM Shadow Price for the constraint c for the hour.
+DAHUBSF Houston345,c
+none
+Day-Ahead Shift Factor of the Hub DThe DAM aggregated Shift Factor of a Hub for the constraint c for the hour. 
+DAHBSF hb,Houston345,c
+none
+Day-Ahead Shift Factor of the Hub BusDThe DAM aggregated Shift Factor of a Hub Bus hb for the constraint c for the hour. 
+DASF pb,hb,Houston345,c
+none
+Day-Ahead Shift Factor of the power flow busDThe DAM Shift Factor of a power flow bus pb that is a component of Hub Bus hb for the constraint c for the hour. 
+HUBDF hb, Houston345,c
+none
+Hub Distribution Factor per Hub Bus in a constraintHThe distribution factor of Hub Bus hb for the constraint c for the hour.  
+HBDF pb, hb, Houston345,c
+none
+Hub Bus Distribution Factor per power flow bus of Hub Bus in a constraint The distribution factor of power flow bus pb that is a component of Hub Bus hb for the constraint c for the hour.  
+pb
+none
+An energized power flow bus that is a component of a Hub Bus for the constraint c.
+PB hb, Houston345,c
+none
+The total number of energized power flow buses in Hub Bus hb for the constraint c.
+hb
+none
+A Hub Bus that is a component of the Hub with at least one energized power flow bus for the constraint c.
+HBBC Houston345
+none
+The total number of Hub Buses in the Hub with at least one energized component in each Hub Bus in base case.
+HB Houston345,c
+none
+The total number of Hub Buses in the Hub with at least one energized component in each Hub Bus for the constraint c.
+c
+none
+A DAM binding transmission constraint for the hour caused by either base case or a contingency.
+(4)	The Real-Time Settlement Point Price of the Hub for a given 15-minute Settlement Interval is calculated as follows:
+RTSPP Houston345	   =	Max [-$251, (RTRSVPOR + RTRDP + 
+		(HUBDF hb, Houston345 * ((RTHBP hb, Houston345, y * 
+		TLMP y) / (TLMP y))))], if HB Houston345≠0
+RTSPP Houston345   =	RTSPP ERCOT345Bus, if HB Houston345=0
+Where:
+RTRSVPOR 		=	(RNWF y * RTORPA y)
+RTRDP                       		=           (RNWF y * RTORDPA y)
+RNWF y		=	TLMP y / TLMP y
+RTHBP hb, Houston345, y	=	(HBDF b, hb, Houston345 * RTLMP b, hb, Houston345, y)
+HUBDF hb, Houston345	=	IF(HB Houston345=0, 0, 1 / HB Houston345)
+HBDF b, hb, Houston345	=	IF(B hb, Houston345=0, 0, 1 / B hb, Houston345)
+The above variables are defined as follows:
+Variable
+Unit
+Description
+RTSPP Houston345
+$/MWh
+Real-Time Settlement Point PriceRThe Real-Time Settlement Point Price at the Hub, for the 15-minute Settlement Interval.
+RTHBP hb, Houston345, y
+$/MWh
+Real-Time Hub Bus Price at Hub Bus per SCED intervalRThe Real-Time energy price at Hub Bus hb for the SCED interval y.
+RTRSVPOR
+$/MWh
+Real-Time Reserve Price for On-Line ReservesRThe Real-Time Reserve Price for On-Line Reserves for the 15-minute Settlement Interval.
+RTORPA y
+$/MWh
+Real-Time On-Line Reserve Price Adder per intervalRThe Real-Time On-Line Reserve Price Adder for the SCED interval y.
+RTRDP
+$/MWh
+Real-Time On-Line Reliability Deployment PriceRThe Real-Time price for the 15-minute Settlement Interval, reflecting the impact of reliability deployments on energy prices that are calculated from the Real-Time On-Line Reliability Deployment Price Adder.  
+RTORDPA y
+$/MWh
+Real-Time On-Line Reliability Deployment Price AdderRThe Real-Time price adder that captures the impact of reliability deployments on energy prices for the SCED interval y. 
+RNWF y
+none
+Resource Node Weighting Factor per intervalRThe weight used in the Resource Node Settlement Point Price calculation for the portion of the SCED interval y within the Settlement Interval.
+RTLMP b, hb, Houston345, y
+$/MWh
+Real-Time Locational Marginal Price at Electrical Bus of Hub Bus per intervalRThe Real-Time LMP at Electrical Bus b that is a component of Hub Bus hb, for the SCED interval y.
+TLMP y
+second
+Duration of SCED interval per intervalDThe duration of the portion of the SCED interval y within the 15-minute Settlement Interval
+HUBDF hb, Houston345
+none
+Hub Distribution Factor per Hub BusHThe distribution factor of Hub Bus hb.  
+HBDF b, hb, Houston345
+none
+Hub Bus Distribution Factor per Electrical Bus of Hub BusHThe distribution factor of Electrical Bus b that is a component of Hub Bus hb.  
+y
+none
+A SCED interval in the 15-minute Settlement Interval.  The summation is over the total number of SCED runs that cover the 15-minute Settlement Interval.
+b
+none
+An energized Electrical Bus that is a component of a Hub Bus.
+B hb, Houston345
+none
+The total number of energized Electrical Buses in Hub Bus hb.
+hb
+none
+A Hub Bus that is a component of the Hub.
+HB Houston345
+none
+The total number of Hub Buses in the Hub with at least one energized component in each Hub Bus.
+[NPRR1007 and NPRR1057:  Replace applicable portions of paragraph (4) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1007; or upon system implementation for NPRR1057:]
+(4)	The Real-Time Settlement Point Price of the Hub for a given 15-minute Settlement Interval is calculated as follows:
+RTSPP Houston345	   =	Max [-$251, (RTRDP + 
+		(HUBLMP Houston345, y * RNWF y ))]
+Where:
+RTRDP                       		=           (RNWF y * RTRDPA y)
+RNWF y		=	TLMP y / TLMP y
+The above variables are defined as follows:
+Variable
+Unit
+Description
+RTSPP Houston345
+$/MWh
+Real-Time Settlement Point PricePThe Real-Time Settlement Point Price at the Hub, for the 15-minute Settlement Interval.
+RTRDP
+$/MWh
+Real-Time Reliability Deployment Price for Energy  The Real-Time price for the 15-minute Settlement Interval, reflecting the impact of reliability deployments on energy prices that are calculated from the Real-Time Reliability Deployment Price Adder for Energy.  
+RTRDPA y
+$/MWh
+Real-Time Reliability Deployment Price Adder for Energy  The Real-Time Price Adder that captures the impact of reliability deployments on energy prices for the SCED interval y. 
+HUBLMP Houston345, y
+$/MWh
+Hub Locational Marginal PriceHThe Hub LMP for the Hub for the SCED Interval y.
+RNWF y
+none
+Resource Node Weighting Factor per intervalRThe weight used in the Resource Node Settlement Point Price calculation for the portion of the SCED interval y within the Settlement Interval.
+TLMP y
+second
+Duration of SCED interval per intervalDThe duration of the portion of the SCED interval y within the 15-minute Settlement Interval
+y
+none
+A SCED interval in the 15-minute Settlement Interval.  The summation is over the total number of SCED runs that cover the 15-minute Settlement Interval.
+3.5.2.4	West 345 kV Hub (West 345)
+(1)	The West 345 kV Hub is composed of the following listed Hub Buses:
+ERCOT Operations
+No.
+Hub Bus
+kV
+Hub
+1
+MULBERRY
+345
+WEST
+2
+BOMSW
+345
+WEST
+3
+OECCS
+345
+WEST
+4
+BITTCR
+345
+WEST
+5
+FSHSW
+345
+WEST
+6
+FLCNS
+345
+WEST
+7
+GRSES
+345
+WEST
+8
+JCKSW
+345
+WEST
+9
+MDLNE
+345
+WEST
+10
+MOSSW
+345
+WEST
+11
+MGSES
+345
+WEST
+12
+DCTM
+345
+WEST
+13
+ODEHV
+345
+WEST
+14
+OKLA
+345
+WEST
+15
+REDCREEK
+345
+WEST
+16
+SWESW
+345
+WEST
+17
+TWINBU
+345
+WEST
+(2)	The West 345 kV Hub Price uses the aggregated Shift Factors of the Hub Buses for each hour of the Settlement Interval of the DAM in the Day-Ahead and is the simple average of the time weighted Hub Bus prices for each 15-minute Settlement Interval in Real-Time, for each Hub Bus included in this Hub.
+(3)	The Day-Ahead Settlement Point Price of the Hub for a given Operating Hour is calculated as follows: 
+DASPP West345 =		DASL – █(Σ@c)(DAHUBSF West345, c * DASP c), 
+		if HBBC West345≠0
+DASPP West345 =		DASPP ERCOT345Bus, if HBBC West345=0
+Where:
+DAHUBSF West345, c	=	█(Σ@hb)(HUBDF hb, West345, c * DAHBSF hb, West345, c)
+DAHBSF hb, West345, c	=	█(Σ@pb)(HBDF pb, hb, West345, c * DASF pb, hb, West345, c)
+HUBDF hb, West345, c	=	IF(HB West345, c=0, 0, 1 / HB West345, c)
+HBDF pb, hb, West345, c	=	IF(PB hb, West345, c=0, 0, 1 / PB hb, West345, c)
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+DASPP West345
+$/MWh
+Day-Ahead Settlement Point PriceDThe DAM Settlement Point Price at the Hub, for the hour.
+DASL
+$/MWh
+Day-Ahead System LambdaDThe DAM Shadow Price for the system power balance constraint for the hour.
+DASP c
+$/MWh
+Day-Ahead Shadow Price for a binding transmission constraintDThe DAM Shadow Price for the constraint c for the hour.
+DAHUBSF West345,c
+none
+Day-Ahead Shift Factor of the Hub DThe DAM aggregated Shift Factor of a Hub for the constraint c for the hour. 
+DAHBSF hb,West345,c
+none
+Day-Ahead Shift Factor of the Hub BusDThe DAM aggregated Shift Factor of a Hub Bus hb for the constraint c for the hour. 
+DASF pb,hb,West345,c
+none
+Day-Ahead Shift Factor of the power flow busFThe DAM Shift Factor of a power flow bus pb that is a component of Hub Bus hb for the constraint c for the hour. 
+HUBDF hb, West345,c
+none
+Hub Distribution Factor per Hub Bus in a constraintHThe distribution factor of Hub Bus hb for the constraint c for the hour.  
+HBDF pb, hb, West345,c
+none
+Hub Bus Distribution Factor per power flow bus of Hub Bus in a constraint The distribution factor of power flow bus pb that is a component of Hub Bus hb for the constraint c for the hour.  
+pb
+none
+An energized power flow bus that is a component of a Hub Bus for the constraint c.
+PB hb, West345,c
+none
+The total number of energized power flow buses in Hub Bus hb for the constraint c.
+hb
+none
+A Hub Bus that is a component of the Hub with at least one energized power flow bus for the constraint c.
+HBBC West345
+none
+The total number of Hub Buses in the Hub with at least one energized component in each Hub Bus in base case.
+HB West345,c
+none
+The total number of Hub Buses in the Hub with at least one energized component in each Hub Bus for the constraint c.
+c
+none
+A DAM binding transmission constraint for the hour caused by either base case or a contingency.
+ (4)	The Real-Time Settlement Point Price of the Hub for a given 15-minute Settlement Interval is calculated as follows:
+RTSPP West345	=	Max [-$251, (RTRSVPOR + RTRDP + 
+		(HUBDF hb, West345 * ((RTHBP hb, West345, y * TLMP y) / (TLMP y))))], if HB West345≠0
+RTSPP West345	=	RTSPP ERCOT345Bus, if HB West345=0
+Where:
+RTRSVPOR 		=	(RNWF y * RTORPA y)
+RTRDP                      		=           (RNWF y * RTORDPA y)
+RNWF y		=	TLMP y / TLMP y
+RTHBP hb, West345, y	=	(HBDF b, hb, West345 * RTLMP b, hb, West345, y)
+HUBDF hb, West345	=	IF(HB West345=0, 0, 1 / HB West345)
+HBDF b, hb, West345	=	IF(B hb, West345=0, 0, 1 / B hb, West345)
+The above variables are defined as follows:
+Variable
+Unit
+Description
+RTSPP West345
+$/MWh
+Real-Time Settlement Point PriceRThe Real-Time Settlement Point Price at the Hub, for the 15-minute Settlement Interval.
+RTRSVPOR
+$/MWh
+Real-Time Reserve Price for On-Line ReservesRThe Real-Time Reserve Price for On-Line Reserves for the 15-minute Settlement Interval.
+RTORPA y
+$/MWh
+Real-Time On-Line Reserve Price Adder per intervalRThe Real-Time On-Line Reserve Price Adder for the SCED interval y.
+RTRDP
+$/MWh
+Real-Time On-Line Reliability Deployment PriceRThe Real-Time price for the 15-minute Settlement Interval, reflecting the impact of reliability deployments on energy prices that are calculated from the Real-Time On-Line Reliability Deployment Price Adder.  
+RTORDPA y
+$/MWh
+Real-Time On-Line Reliability Deployment Price AdderRThe Real-Time price adder that captures the impact of reliability deployments on energy prices for the SCED interval y. 
+RNWF y
+none
+Resource Node Weighting Factor per intervalRThe weight used in the Resource Node Settlement Point Price calculation for the portion of the SCED interval y within the Settlement Interval.
+RTHBP hb, West345, y
+$/MWh
+Real-Time Hub Bus Price at Hub Bus per SCED intervalRThe Real-Time energy price at Hub Bus hb for the SCED interval y.
+RTLMP b, hb, West345, y
+$/MWh
+Real-Time Locational Marginal Price at Electrical Bus of Hub Bus per intervalRThe Real-Time LMP at Electrical Bus b that is a component of Hub Bus hb, for the SCED interval y.
+TLMP y
+second
+Duration of SCED interval per intervalDThe duration of the portion of the SCED interval y within the 15-minute Settlement Interval.
+HUBDF hb, West345
+none
+Hub Distribution Factor per Hub BusHThe distribution factor of Hub Bus hb.  
+HBDF b, hb, West345
+none
+Hub Bus Distribution Factor per Electrical Bus of Hub BusHThe distribution factor of Electrical Bus b that is a component of Hub Bus hb.  
+y
+none
+A SCED interval in the 15-minute Settlement Interval.  The summation is over the total number of SCED runs that cover the 15-minute Settlement Interval.
+b
+none
+An energized Electrical Bus that is a component of a Hub Bus.
+B hb, West345
+none
+The total number of energized Electrical Buses in Hub Bus hb.
+hb
+none
+A Hub Bus that is a component of the Hub.
+HB West345
+none
+The total number of Hub Buses in the Hub with at least one energized component in each Hub Bus.
+[NPRR1007 and NPRR1057:  Replace applicable portions of paragraph (4) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1007; or upon system implementation of NPRR1057:]
+(4)	The Real-Time Settlement Point Price of the Hub for a given 15-minute Settlement Interval is calculated as follows:
+RTSPP West345	=	Max [-$251, (RTRDP + 
+		(HUBLMP West345, y * RNWF y))]
+Where:
+RTRDP                      		=           (RNWF y * RTRDPA y)
+RNWF y		=	TLMP y / TLMP y
+The above variables are defined as follows:
+Variable
+Unit
+Description
+RTSPP West345
+$/MWh
+Real-Time Settlement Point PriceRThe Real-Time Settlement Point Price at the Hub, for the 15-minute Settlement Interval.
+RTRDP
+$/MWh
+Real-Time Reliability Deployment Price for Energy The Real-Time price for the 15-minute Settlement Interval, reflecting the impact of reliability deployments on energy prices that are calculated from the Real-Time Reliability Deployment Price Adder for Energy.  
+RTRDPA y
+$/MWh
+Real-Time Reliability Deployment Price Adder for Energy The Real-Time Price Adder that captures the impact of reliability deployments on energy prices for the SCED interval y. 
+HUBLMP West345, y
+$/MWh
+Hub Locational Marginal PriceHThe Hub LMP for the Hub for the SCED Interval y.
+RNWF y
+none
+Resource Node Weighting Factor per intervaliThe weight used in the Resource Node Settlement Point Price calculation for the portion of the SCED interval y within the Settlement Interval.
+TLMP y
+second
+Duration of SCED interval per intervalDThe duration of the portion of the SCED interval y within the 15-minute Settlement Interval.
+y
+none
+A SCED interval in the 15-minute Settlement Interval.  The summation is over the total number of SCED runs that cover the 15-minute Settlement Interval.
+3.5.2.5	Panhandle 345 kV Hub (Pan 345)
+(1)	The Panhandle 345 kV Hub is composed of the following listed Hub Buses:
+ERCOT Operations
+No.
+Hub Bus
+kV
+Hub
+1
+ABERNATH
+345
+PAN
+2
+AJ_SWOPE
+345
+PAN
+3
+ALIBATES
+345
+PAN
+4
+CTT_CROS
+345
+PAN
+5
+CTT_GRAY
+345
+PAN
+6
+OGALLALA
+345
+PAN
+7
+RAILHEAD
+345
+PAN
+8
+TESLA
+345
+PAN
+9
+TULECNYN
+345
+PAN
+10
+W_CW_345
+345
+PAN
+11
+WHIT_RVR
+345
+PAN
+12
+WINDMILL
+345
+PAN
+(2)	The Panhandle 345 kV Hub Price uses the aggregated Shift Factors of the Hub Buses for each hour of the Settlement Interval of the DAM in the Day-Ahead and is the simple average of the time weighted Hub Bus prices for each 15-minute Settlement Interval in Real-Time, for each Hub Bus included in this Hub.
+(3)	The Day-Ahead Settlement Point Price of the Hub for a given Operating Hour is calculated as follows: 
+DASPP Pan345 =		DASL – █(Σ@c)(DAHUBSF Pan345, c * DASP c), 
+		if HBBC Pan345≠0
+DASPP Pan345 =		DASPP ERCOT345Bus, if HBBC Pan345=0
+Where:
+DAHUBSF Pan345, c	=	█(Σ@hb)(HUBDF hb, Pan345, c * DAHBSF hb, Pan345, c)
+DAHBSF hb, Pan345, c	=	█(Σ@pb)(HBDF pb, hb, Pan345, c * DASF pb, hb, Pan345, c)
+HUBDF hb, Pan345, c	=	IF(HB Pan345, c=0, 0, 1 / HB Pan345, c)
+HBDF pb, hb, Pan345, c	=	IF(PB hb, Pan345, c=0, 0, 1 / PB hb, Pan345, c)
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+DASPP Pan345
+$/MWh
+Day-Ahead Settlement Point PriceDThe DAM Settlement Point Price at the Hub, for the hour.
+DASL
+$/MWh
+Day-Ahead System LambdaDThe DAM Shadow Price for the system power balance constraint for the hour.
+DASP c
+$/MWh
+Day-Ahead Shadow Price for a binding transmission constraintDThe DAM Shadow Price for the constraint c for the hour.
+DAHUBSF Pan345,c
+none
+Day-Ahead Shift Factor of the Hub DThe DAM aggregated Shift Factor of a Hub for the constraint c for the hour. 
+DAHBSF hb,Pan345,c
+none
+Day-Ahead Shift Factor of the Hub BusDThe DAM aggregated Shift Factor of a Hub Bus hb for the constraint c for the hour. 
+DASF pb,hb,Pan345,c
+none
+Day-Ahead Shift Factor of the power flow buspThe DAM Shift Factor of a power flow bus pb that is a component of Hub Bus hb for the constraint c for the hour. 
+HUBDF hb, Pan345,c
+none
+Hub Distribution Factor per Hub Bus in a constraintHThe distribution factor of Hub Bus hb for the constraint c for the hour.  
+HBDF pb, hb, Pan345,c
+none
+Hub Bus Distribution Factor per power flow bus of Hub Bus in a constraint The distribution factor of power flow bus pb that is a component of Hub Bus hb for the constraint c for the hour.  
+pb
+none
+An energized power flow bus that is a component of a Hub Bus for the constraint c.
+PB hb, Pan345,c
+none
+The total number of energized power flow buses in Hub Bus hb for the constraint c.
+hb
+none
+A Hub Bus that is a component of the Hub with at least one energized power flow bus for the constraint c.
+HBBC Pan345
+none
+The total number of Hub Buses in the Hub with at least one energized component in each Hub Bus in base case.
+HB Pan345,c
+none
+The total number of Hub Buses in the Hub with at least one energized component in each Hub Bus for the constraint c.
+c
+none
+A DAM binding transmission constraint for the hour caused by either base case or a contingency.
+(4)	The Real-Time Settlement Point Price of the Hub for a given 15-minute Settlement Interval is calculated as follows:
+RTSPP Pan345	=	Max [-$251, (RTRSVPOR + RTRDP + 
+		 (HUBDF hb, Pan345 * ((RTHBP hb, Pan345, y * TLMP y) /           ( TLMP y))))], if HB Pan345≠0
+RTSPP Pan345	=	RTSPP ERCOT345Bus, if HB Pan345=0
+Where:
+RTRSVPOR 	=	  (RNWF y * RTORPA y)
+RTRDP                      	=           (RNWF y  * RTORDPA y)
+RNWF y	=	TLMP y / TLMP y
+RTHBP hb, Pan345, y	=	  (HBDF b, hb, Pan345 * RTLMP b, hb, Pan345, y)
+HUBDF hb, Pan345	=	IF(HB Pan345=0, 0, 1 / HB Pan345)
+HBDF b, hb, Pan345	=	IF(B hb, Pan345=0, 0, 1 / B hb, Pan345)
+The above variables are defined as follows:
+Variable
+Unit
+Description
+RTSPP Pan345
+$/MWh
+Real-Time Settlement Point PriceRThe Real-Time Settlement Point Price at the Hub for the 15-minute Settlement Interval.
+RTRSVPOR
+$/MWh
+Real-Time Reserve Price for On-Line ReservesOThe Real-Time Reserve Price for On-Line Reserves for the 15-minute Settlement Interval.
+RTORPA y
+$/MWh
+Real-Time On-Line Reserve Price Adder per intervalRThe Real-Time On-Line Reserve Price Adder for the SCED interval y.
+RTRDP
+$/MWh
+Real-Time On-Line Reliability Deployment PriceRThe Real-Time price for the 15-minute Settlement Interval, reflecting the impact of reliability deployments on energy prices that are calculated from the Real-Time On-Line Reliability Deployment Price Adder.  
+RTORDPA y
+$/MWh
+Real-Time On-Line Reliability Deployment Price AdderRThe Real-Time price adder that captures the impact of reliability deployments on energy prices for the SCED interval y. 
+RNWF y
+none
+Resource Node Weighting Factor per intervalRThe weight used in the Resource Node Settlement Point Price calculation for the portion of the SCED interval y within the Settlement Interval.
+RTHBP hb, Pan345, y
+$/MWh
+Real-Time Hub Bus Price at Hub Bus per SCED intervalRThe Real-Time energy price at Hub Bus hb for the SCED interval y.
+RTLMP b, hb, Pan345, y
+$/MWh
+Real-Time Locational Marginal Price at Electrical Bus of Hub Bus per intervalRThe Real-Time LMP at Electrical Bus b that is a component of Hub Bus hb for the SCED interval y.
+TLMP y
+second
+Duration of SCED interval per intervalDThe duration of the portion of the SCED interval y within the 15-minute Settlement Interval.
+HUBDF hb, Pan345
+none
+Hub Distribution Factor per Hub BusDThe distribution factor of Hub Bus hb.  
+HBDF b, hb, Pan345
+none
+Hub Bus Distribution Factor per Electrical Bus of Hub BusHThe distribution factor of Electrical Bus b that is a component of Hub Bus hb.  
+y
+none
+A SCED interval in the 15-minute Settlement Interval.  The summation is over the total number of SCED runs that cover the 15-minute Settlement Interval.
+b
+none
+An energized Electrical Bus that is a component of a Hub Bus.
+B hb, Pan345
+none
+The total number of energized Electrical Buses in Hub Bus hb.
+hb
+none
+A Hub Bus that is a component of the Hub.
+HB Pan345
+none
+The total number of Hub Buses in the Hub with at least one energized component in each Hub Bus.
+[NPRR1007 and NPRR1057:  Replace applicable portions of paragraph (4) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1007; or upon system implementation for NPRR1057:]
+(4)	The Real-Time Settlement Point Price of the Hub for a given 15-minute Settlement Interval is calculated as follows:
+RTSPP Pan345	=	Max [-$251, (RTRDP + 
+		(HUBLMP Pan345, y * RNWF y ))]
+Where:
+RTRDP                      	=           (RNWF y  * RTRDPA y)
+RNWF y	=	TLMP y / TLMP y
+The above variables are defined as follows:
+Variable
+Unit
+Description
+RTSPP Pan345
+$/MWh
+Real-Time Settlement Point PriceRThe Real-Time Settlement Point Price at the Hub for the 15-minute Settlement Interval.
+RTRDP
+$/MWh
+Real-Time Reliability Deployment Price for Energy The Real-Time price for the 15-minute Settlement Interval, reflecting the impact of reliability deployments on energy prices that are calculated from the Real-Time Reliability Deployment Price Adder for Energy.  
+RTRDPA y
+$/MWh
+Real-Time Reliability Deployment Price Adder for Energy The Real-Time Price Adder that captures the impact of reliability deployments on energy prices for the SCED interval y. 
+HUBLMP Pan345, y
+$/MWh
+Hub Locational Marginal PriceHThe Hub LMP for the Hub for the SCED Interval y.
+RNWF y
+none
+Resource Node Weighting Factor per intervalRThe weight used in the Resource Node Settlement Point Price calculation for the portion of the SCED interval y within the Settlement Interval.
+TLMP y
+second
+Duration of SCED interval per intervalDThe duration of the portion of the SCED interval y within the 15-minute Settlement Interval.
+y
+none
+A SCED interval in the 15-minute Settlement Interval.  The summation is over the total number of SCED runs that cover the 15-minute Settlement Interval.
+[NPRR941, NPRR1007, and NPRR1057:  Insert applicable portions of Section 3.5.2.6 below upon system implementation for NPRR941 or NPRR1057; or upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1007; and renumber accordingly:]
+3.5.2.6	Lower Rio Grande Valley Hub (LRGV 138/345)
+(1)	The Lower Rio Grande Valley Hub 138/345 kV Hub is composed of the following listed Hub Buses:
+ERCOT Operations
+No.
+Hub Bus
+kV
+Hub
+1
+AIRPORT
+138
+LRGV
+2
+ALBERTA
+138
+LRGV
+3
+BATES
+138
+LRGV
+4
+FRONTERA
+138
+LRGV
+5
+GARZA
+138
+LRGV
+6
+HARLNSW
+138
+LRGV
+7
+HEC
+138
+LRGV
+8
+KEY_SW
+138
+LRGV
+9
+LA_PALMA_345
+345
+LRGV
+10
+LA_PALMA_138
+138
+LRGV
+11
+LASPULGA
+138
+LRGV
+12
+LISTON
+138
+LRGV
+13
+LOMA_ALT
+138
+LRGV
+14
+MARCONI
+138
+LRGV
+15
+MILHWY
+138
+LRGV
+16
+MILITARY
+138
+LRGV
+17
+MV_WEDN4
+138
+LRGV
+18
+N_MCALLN
+138
+LRGV
+19
+NEDIN_345
+345
+LRGV
+20
+NEDIN_138
+138
+LRGV
+21
+OLEANDER
+138
+LRGV
+22
+P_ISABEL
+138
+LRGV
+23
+PALMHRTP
+138
+LRGV
+24
+PALMITO_345
+345
+LRGV
+25
+PALMITO_138
+138
+LRGV
+26
+PAREDES
+138
+LRGV
+27
+PHARMVEC
+138
+LRGV
+28
+PHARR
+138
+LRGV
+29
+PRICE_RD
+138
+LRGV
+30
+RAILROAD
+138
+LRGV
+31
+RAYMND2
+138
+LRGV
+32
+REDTAP
+138
+LRGV
+33
+RIO_GRAN
+138
+LRGV
+34
+RIOHONDO_345
+345
+LRGV
+35
+RIOHONDO_138
+138
+LRGV
+36
+ROMA_SW
+138
+LRGV
+37
+S_MCALLN
+138
+LRGV
+38
+SCARBIDE
+138
+LRGV
+39
+SILASRAY
+138
+LRGV
+40
+STEWART
+138
+LRGV
+41
+WESLACO
+138
+LRGV
+(2)	The Lower Rio Grande Valley 138/345 kV Hub Price uses the aggregated Shift Factors of the Hub Buses for each hour of the Settlement Interval of the DAM in the Day-Ahead and is the simple average of the time weighted Hub Bus prices for each 15-minute Settlement Interval in Real-Time, for each Hub Bus included in this Hub.
+(3)	The Day-Ahead Settlement Point Price of the Hub for a given Operating Hour is calculated as follows: 
+DASPP LRGV 138/345 =	DASL – █(Σ@c)(DAHUBSF LRGV 138/345, c * DASP c), 
+		if HBBC LRGV138/345≠0
+DASPP LRGV138/345 =	DASPP ERCOT345Bus, if HBBC LRGV138/345=0
+Where:
+DAHUBSF LRGV138/345, c	=        █(Σ@hb)(HUBDF hb, LRGV138/345, c * DAHBSF hb, LRGV138/345, c)
+DAHBSF hb, LRGV138/345, c	=	█(Σ@pb)(HBDF pb, hb, LRGV138/345, c * DASF pb, hb, LRGV138/345, c)
+HUBDF hb, LRGV138/345, c	=	IF(HB LRGV138/345, c=0, 0, 1 / HB LRGV138/345, c)
+HBDF pb, hb, LRGV138/345, c	=	IF(PB hb, LRGV138/345, c=0, 0, 1 / PB hb, LRGV138/345, c)
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+DASPP LRGV138/345
+$/MWh
+Day-Ahead Settlement Point PricePThe DAM Settlement Point Price at the Hub, for the hour.
+DASL
+$/MWh
+Day-Ahead System LambdaDThe DAM Shadow Price for the system power balance constraint for the hour.
+DASP c
+$/MWh
+Day-Ahead Shadow Price for a binding transmission constraintcThe DAM Shadow Price for the constraint c for the hour.
+DAHUBSF LRGV138/345,c
+none
+Day-Ahead Shift Factor of the Hub DThe DAM aggregated Shift Factor of a Hub for the constraint c for the hour. 
+DAHBSF hb, LRGV138/345,c
+none
+Day-Ahead Shift Factor of the Hub BusDThe DAM aggregated Shift Factor of a Hub Bus hb for the constraint c for the hour. 
+DASF pb,hb, LRGV138/345,c
+none
+Day-Ahead Shift Factor of the power flow busDThe DAM Shift Factor of a power flow bus pb that is a component of Hub Bus hb for the constraint c for the hour. 
+HUBDF hb, LRGV138/345,c
+none
+Hub Distribution Factor per Hub Bus in a constraintHThe distribution factor of Hub Bus hb for the constraint c for the hour.  
+HBDF pb, hb, LRGV138/345,c
+none
+Hub Bus Distribution Factor per power flow bus of Hub Bus in a constraint The distribution factor of power flow bus pb that is a component of Hub Bus hb for the constraint c for the hour.  
+pb
+none
+An energized power flow bus that is a component of a Hub Bus for the constraint c.
+PB hb, LRGV138/345,c
+none
+The total number of energized power flow buses in Hub Bus hb for the constraint c.
+hb
+none
+A Hub Bus that is a component of the Hub with at least one energized power flow bus for the constraint c.
+HBBC LRGV138/345
+none
+The total number of Hub Buses in the Hub with at least one energized component in each Hub Bus in base case.
+HB LRGV138/345,c
+none
+The total number of Hub Buses in the Hub with at least one energized component in each Hub Bus for the constraint c.
+c
+none
+A DAM binding transmission constraint for the hour caused by either base case or a contingency.
+(4)	The Real-Time Settlement Point Price of the Hub for a given 15-minute Settlement Interval is calculated as follows:
+RTSPP LRGV138/345          =	Max [-$251, (RTRDP + 
+		█(Σ@y)(HUBLMP LRGV138/345, y * RNWF y))]
+Where:
+RTRDP                      	=          █(Σ@y)(RNWF y  * RTRDPA y)
+RNWF y	=	TLMP y / █(Σ@y)TLMP y
+The above variables are defined as follows:
+Variable
+Unit
+Description
+RTSPP LRGV138/345kV
+$/MWh
+Real-Time Settlement Point PriceRThe Real-Time Settlement Point Price at the Hub for the 15-minute Settlement Interval.
+RTRDP
+$/MWh
+Real-Time Reliability Deployment Price for Energy The Real-Time price for the 15-minute Settlement Interval, reflecting the impact of reliability deployments on energy prices that are calculated from the Real-Time Reliability Deployment Price Adder for Energy.  
+RTRDPA y
+$/MWh
+Real-Time Reliability Deployment Price Adder for Energy The Real-Time Price Adder that captures the impact of reliability deployments on energy prices for the SCED interval y. 
+HUBLMP LRGV138/345, y
+$/MWh
+Hub Locational Marginal PriceHThe Hub LMP for the Hub for the SCED Interval y.
+RNWF y
+none
+Resource Node Weighting Factor per intervalRThe weight used in the Resource Node Settlement Point Price calculation for the portion of the SCED interval y within the Settlement Interval.
+TLMP y
+second
+Duration of SCED interval per intervalDThe duration of the portion of the SCED interval y within the 15-minute Settlement Interval.
+y
+none
+A SCED interval in the 15-minute Settlement Interval.  The summation is over the total number of SCED runs that cover the 15-minute Settlement Interval.
+3.5.2.6	ERCOT Hub Average 345 kV Hub (ERCOT 345)
+(1)	The ERCOT Hub Average 345 kV Hub price for Day-Ahead is calculated for each hour using the aggregated Shift Factors of four Hubs: the North 345 kV Hub, the South 345 kV Hub, the Houston 345 kV Hub, and the West 345 kV Hub.  The ERCOT Hub Average 345 kV Hub price for Real-Time is the simple average of four prices from the applicable time period: the North 345 kV Hub price, the South 345 kV Hub price, the Houston 345 kV Hub price, and the West 345 kV Hub price.  The Panhandle 345 kV Hub is not included in either the Day-Ahead or Real-Time ERCOT Hub Average 345 kV Hub price. 
+[NPRR941:  Replace paragraph (1) above upon system implementation:]
+(1)	The ERCOT Hub Average 345 kV Hub price for Day-Ahead is calculated for each hour using the aggregated Shift Factors of four Hubs: the North 345 kV Hub, the South 345 kV Hub, the Houston 345 kV Hub, and the West 345 kV Hub.  The ERCOT Hub Average 345 kV Hub price for Real-Time is the simple average of four prices from the applicable time period: the North 345 kV Hub price, the South 345 kV Hub price, the Houston 345 kV Hub price, and the West 345 kV Hub price.  The Panhandle 345 kV Hub and the Lower Rio Grande Valley 138/345 kV Hub are not included in either the Day-Ahead or Real-Time ERCOT Hub Average 345 kV Hub price.
+(2)	The Day-Ahead Settlement Point Price for the Hub “ERCOT 345” for a given Operating Hour is calculated as follows: 
+DASPP ERCOT345	=	DASL – █(Σ@c)(DAHUBSF ERCOT345, c * DASP c), 
+		if HBBC ERCOT345Bus≠0
+DASPP ERCOT345	=	DASPP ERCOT345Bus, if HBBC ERCOT345Bus=0
+Where:
+DAHUBSF ERCOT345, c   = (DAHUBSF North345, c + DAHUBSF South345, c + 
+	DAHUBSF Houston345, c + DAHUBSF West345, c) / 4
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+DASPP ERCOT345
+$/MWh
+Day-Ahead Settlement Point Price at ERCOT 345SThe DAM Settlement Point Price at ERCOT 345 Hub for the hour.
+DASL
+$/MWh
+Day-Ahead System LambdaDThe DAM Shadow Price for the system power balance constraint for the hour.
+DASP c
+$/MWh
+Day-Ahead Shadow Price for a binding transmission constraintbThe DAM Shadow Price for the constraint c for the hour.
+DAHUBSF ERCOT345,c
+none
+Day-Ahead Shift Factor of ERCOT 345 DThe DAM aggregated Shift Factor of ERCOT 345 Hub for the constraint c for the hour. 
+DAHUBSF North345,c
+none
+Day-Ahead Shift Factor of North 345DThe DAM aggregated Shift Factor of the North 345 Hub for the constraint c for the hour. 
+DAHUBSF South345,c
+none
+Day-Ahead Shift Factor of South 345DThe DAM aggregated Shift Factor of the South 345 Hub for the constraint c for the hour. 
+DAHUBSF Houston345,c
+none
+Day-Ahead Shift Factor of Houston 345DThe DAM aggregated Shift Factor of the Houston 345 Hub for the constraint c for the hour. 
+DAHUBSF West345,c
+none
+Day-Ahead Shift Factor of West 345DThe DAM aggregated Shift Factor of the West 345 Hub for the constraint c for the hour. 
+HBBC ERCOT345Bus
+none
+The total number of Hub Buses in the ERCOT Bus Average 345 kV Hub (ERCOT 345 Bus) with at least one energized component in each Hub Bus in base case.  The Hub “ERCOT 345 Bus” includes any Hub Bus defined in the Hub “North 345”, “South 345”, “Houston 345” and “West 345”.
+c
+none
+A DAM binding transmission constraint for the hour caused by either base case or a contingency.
+(3)	The Real-Time Settlement Point Price for the Hub “ERCOT 345” for a given 15-minute Settlement Interval is calculated as follows: 
+RTSPP ERCOT345	=	(RTSPP North345 + RTSPP South345 + RTSPP Houston345 + RTSPP West345) / 4
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+RTSPP ERCOT345
+$/MWh
+Real-Time Settlement Point Price at ERCOT 345RThe Real-Time Settlement Point Price at ERCOT 345 Hub for the 15-minute Settlement Interval.
+RTSPP North345
+$/MWh
+Real-Time Settlement Point Price at North 345SThe Real-Time Settlement Point Price at the North 345 Hub for the 15-minute Settlement Interval.
+RTSPP South345
+$/MWh
+Real-Time Settlement Point Price at South 345RThe Real-Time Settlement Point Price at the South 345 Hub for the 15-minute Settlement Interval.
+RTSPP Houston345
+$/MWh
+Real-Time Settlement Point Price at Houston 345RThe Real-Time Settlement Point Price at the Houston 345 Hub for the 15-minute Settlement Interval.
+RTSPP West345
+$/MWh
+Real-Time Settlement Point Price at West 345RThe Real-Time Settlement Point Price at the West 345 Hub for the 15-minute Settlement Interval.
+3.5.2.7	ERCOT Bus Average 345 kV Hub (ERCOT 345 Bus)
+(1)	The ERCOT Bus Average 345 kV Hub is composed of the Hub Buses listed in Section 3.5.2.1, North 345 kV Hub (North 345); Section 3.5.2.2, South 345 kV Hub (South 345); Section 3.5.2.3, Houston 345 kV Hub (Houston 345); and Section 3.5.2.4, West 345 kV Hub (West 345).  The Panhandle 345 kV Hub is not included in the ERCOT Bus Average 345 kV Hub price. 
+[NPRR941:  Replace paragraph (1) above upon system implementation:]
+(1)	The ERCOT Bus Average 345 kV Hub is composed of the Hub Buses listed in Section 3.5.2.1, North 345 kV Hub (North 345); Section 3.5.2.2, South 345 kV Hub (South 345); Section 3.5.2.3, Houston 345 kV Hub (Houston 345); and Section 3.5.2.4, West 345 kV Hub (West 345).  The Panhandle 345 kV Hub and the Lower Rio Grande Valley 138/345 kV Hub are not included in the ERCOT Bus Average 345 kV Hub price.
+(2)	The ERCOT Bus Average 345 kV Hub uses the aggregated Shift Factors of the Hub Buses for each hour of the Settlement Interval of the DAM in the Day-Ahead and is the simple average of the time weighted Hub Bus prices for each 15-minute Settlement Interval in Real-Time, for each Hub Bus included in this Hub.
+(3)	The Day-Ahead Settlement Point Price of the Hub for a given Operating Hour is calculated as follows: 
+DASPP ERCOT345Bus =	DASL – █(Σ@c)(DAHUBSF ERCOT345Bus, c * DASP c), 
+		if HBBC ERCOT345Bus≠0
+DASPP ERCOT345Bus =	0, if HBBC ERCOT345Bus=0
+Where:
+DAHUBSF ERCOT345Bus, c   =	█(Σ@hb)(HUBDF hb, ERCOT345Bus, c * DAHBSF hb, ERCOT345Bus, c)
+DAHBSF hb, ERCOT345Bus, c  =	█(Σ@pb)(HBDF pb, hb, ERCOT345Bus, c * DASF pb, hb, ERCOT345Bus, c)
+HUBDF hb, ERCOT345Bus, c	=	IF(HB ERCOT345Bus, c=0, 0, 1 / HB ERCOT345Bus, c)
+HBDF pb, hb, ERCOT345Bus, c	=	IF(PB hb, ERCOT345Bus, c=0, 0, 1 / PB hb, ERCOT345Bus, c)
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+DASPP ERCOT345Bus
+$/MWh
+Day-Ahead Settlement Point PriceDThe DAM Settlement Point Price at the Hub, for the hour.
+DASL
+$/MWh
+Day-Ahead System LambdaDThe DAM Shadow Price for the system power balance constraint for the hour.
+DASP c
+$/MWh
+Day-Ahead Shadow Price for a binding transmission constraintDThe DAM Shadow Price for the constraint c for the hour.
+DAHUBSF ERCOT345Bus,c
+none
+Day-Ahead Shift Factor of the Hub DThe DAM aggregated Shift Factor of a Hub for the constraint c for the hour. 
+DAHBSF hb,ERCOT345Bus,c
+none
+Day-Ahead Shift Factor of the Hub BusDThe DAM aggregated Shift Factor of a Hub Bus hb for the constraint c for the hour. 
+DASF pb,hb,ERCOT345Bus,c
+none
+Day-Ahead Shift Factor of the power flow busDThe DAM Shift Factor of a power flow bus pb that is a component of Hub Bus hb for the constraint c for the hour. 
+HUBDF hb,ERCOT345Bus,c
+none
+Hub Distribution Factor per Hub Bus in a constraintDThe distribution factor of Hub Bus hb for the constraint c for the hour.  
+HBDF pb, hb, ERCOT345Bus,c
+none
+Hub Bus Distribution Factor per power flow bus of Hub Bus in a constraint The distribution factor of power flow bus pb that is a component of Hub Bus hb for the constraint c for the hour.  
+pb
+none
+An energized power flow bus that is a component of a Hub Bus for the constraint c.
+PB hb, ERCOT345Bus,c
+none
+The total number of energized power flow buses in Hub Bus hb for the constraint c.
+hb
+none
+A Hub Bus that is a component of the ERCOT Bus Average 345 kV Hub (ERCOT 345 Bus) with at least one energized power flow bus for the constraint c. The Hub “ERCOT 345 Bus” includes any Hub Bus defined in the Hub “North 345”, “South 345”, “Houston 345” and “West 345”. 
+HBBC ERCOT345Bus
+none
+The total number of Hub Buses in the ERCOT Bus Average 345 kV Hub (ERCOT 345 Bus) with at least one energized component in each Hub Bus in base case. The Hub “ERCOT 345 Bus” includes any Hub Bus defined in the Hub “North 345”, “South 345”, “Houston 345” and “West 345”.
+HB ERCOT345Bus,c
+none
+The total number of Hub Buses in the ERCOT Bus Average 345 kV Hub (ERCOT 345 Bus) with at least one energized component in each Hub Bus for the constraint c. The Hub “ERCOT 345 Bus” includes any Hub Bus defined in the Hub “North 345”, “South 345”, “Houston 345” and “West 345”.
+c
+none
+A DAM binding transmission constraint for the hour caused by either base case or a contingency.
+ (4)	The Real-Time Settlement Point Price of the Hub for a given 15-minute Settlement Interval is calculated as follows:
+RTSPP ERCOT345Bus	=	Max [-$251, (RTRSVPOR + RTRDP + 
+		(HUBDF hb, ERCOT345Bus * ((RTHBP hb, ERCOT345Bus, y * TLMP y) / (TLMP y))))], if HB ERCOT345Bus ≠0
+RTSPP ERCOT345Bus	=	0, if HB ERCOT345Bus =0
+Where:
+RTRSVPOR 	=	(RNWF y * RTORPA y)
+RTRDP                      	 =           (RNWF y * RTORDPA y)
+RNWF y		=	TLMP y / TLMP y
+RTHBP hb, ERCOT345Bus, y	=	(HBDF b, hb, ERCOT345Bus * RTLMP b, hb, ERCOT345Bus, y)
+HUBDF hb, ERCOT345Bus	=	1 / (HB North345 + HB South345 + HB Houston345 + HB West345)
+      If Electrical Bus b is a component of “North 345”
+		HBDF b, hb, ERCOT345Bus	=	IF(B hb, North345=0, 0, 1 / B hb, North345)
+      Otherwise
+		If Electrical Bus b is a component of “South 345”
+			HBDF b, hb, ERCOT345Bus	=	IF(B hb, South345=0, 0, 1 / B hb, South345)
+      Otherwise
+			If Electrical Bus b is a component of “Houston 345”
+				HBDF b, hb, ERCOT345Bus	=	IF(B hb, Houston345=0, 0, 1 / B hb, Houston345)
+      Otherwise
+				HBDF b, hb, ERCOT345Bus	=	IF(B hb, West345=0, 0, 1 / B hb, West345)
+The above variables are defined as follows:
+Variable
+Unit
+Description
+RTSPP ERCOT345Bus
+$/MWh
+Real-Time Settlement Point PriceRThe Real-Time Settlement Point Price at the Hub, for the 15-minute Settlement Interval.
+RTRSVPOR
+$/MWh
+Real-Time Reserve Price for On-Line ReservesRThe Real-Time Reserve Price for On-Line Reserves for the 15-minute Settlement Interval.
+RTORPA y
+$/MWh
+Real-Time On-Line Reserve Price Adder per intervalRThe Real-Time On-Line Reserve Price Adder for the SCED interval y.
+RTRDP
+$/MWh
+Real-Time On-Line Reliability Deployment PriceRThe Real-Time price for the 15-minute Settlement Interval, reflecting the impact of reliability deployments on energy prices that are calculated from the Real-Time On-Line Reliability Deployment Price Adder.  
+RTORDPA y
+$/MWh
+Real-Time On-Line Reliability Deployment Price AdderRThe Real-Time price adder that captures the impact of reliability deployments on energy prices for the SCED interval y. 
+RNWF y
+none
+Resource Node Weighting Factor per intervalRThe weight used in the Resource Node Settlement Point Price calculation for the portion of the SCED interval y within the Settlement Interval.
+RTHBP hb, ERCOT345Bus, y
+$/MWh
+Real-Time Hub Bus Price at Hub Bus per SCED intervalRThe Real-Time energy price at Hub Bus hb for the SCED interval y.
+RTLMP b, hb, ERCOT345Bus, y
+$/MWh
+Real-Time Locational Marginal Price at Electrical Bus of Hub Bus per intervalRThe Real-Time LMP at Electrical Bus b that is a component of Hub Bus hb, for the SCED interval y.
+TLMP y
+second
+Duration of SCED interval per intervalDThe duration of the portion of the SCED interval y within the 15-minute Settlement Interval.
+HUBDF hb, ERCOT345Bus
+none
+Hub Distribution Factor per Hub BusHThe distribution factor of Hub Bus hb.  
+HBDF b, hb, ERCOT345Bus
+none
+Hub Bus Distribution Factor per Electrical Bus of Hub BusHThe distribution factor of Electrical Bus b that is a component of Hub Bus hb.  
+y
+none
+A SCED interval in the 15-minute Settlement Interval.  The summation is over the total number of SCED runs that cover the 15-minute Settlement Interval.
+b
+none
+An energized Electrical Bus that is a component of a Hub Bus.
+B hb, North345
+none
+The total number of energized Electrical Buses in Hub Bus hb that is a component of “North 345.”
+B hb, South345
+none
+The total number of energized Electrical Buses in Hub Bus hb that is a component of “South 345.”
+B hb, Houston345
+none
+The total number of energized Electrical Buses in Hub Bus hb that is a component of “Houston 345.”
+B hb, West345
+none
+The total number of energized Electrical Buses in Hub Bus hb that is a component of “West 345.”
+hb
+none
+A Hub Bus that is a component of the Hub.
+HB North345
+none
+The total number of Hub Buses in “North 345.”
+HB South345
+none
+The total number of Hub Buses in “South 345.”
+HB Houston345
+none
+The total number of Hub Buses in “Houston 345.”
+HB West345
+none
+The total number of Hub Buses in “West 345.”
+[NPRR1007 and NPRR1057:  Replace applicable portions of paragraph (4) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1007; or upon system implementation for NPRR1057:]
+(4)	The Real-Time Settlement Point Price of the Hub for a given 15-minute Settlement Interval is calculated as follows:
+RTSPP ERCOT345Bus	=	Max [-$251, (RTRDP + (HUBLMPERCOT345Bus,y * RNWF y))]		
+Where:
+RTRDP                      	 =           (RNWF y * RTRDPA y)
+RNWF y		=	TLMP y / TLMP y
+The above variables are defined as follows:
+Variable
+Unit
+Description
+RTSPP ERCOT345Bus
+$/MWh
+Real-Time Settlement Point PriceRThe Real-Time Settlement Point Price at the Hub, for the 15-minute Settlement Interval.
+RTRDP
+$/MWh
+Real-Time Reliability Deployment Price for Energy The Real-Time price for the 15-minute Settlement Interval, reflecting the impact of reliability deployments on energy prices that are calculated from the Real-Time Reliability Deployment Price Adder for Energy.  
+RTRDPA y
+$/MWh
+Real-Time Reliability Deployment Price Adder for Energy The Real-Time Price Adder that captures the impact of reliability deployments on energy prices for the SCED interval y. 
+HUBLMP ERCOT345Bus,y
+$/MWh
+Hub Locational Marginal Price for the ERCOT345BusHThe Hub LMP for the ERCOT Bus Average 345 kV Hub (ERCOT 345 Bus), for the SCED Interval y.
+RNWF y
+none
+Resource Node Weighting Factor per intervalRThe weight used in the Resource Node Settlement Point Price calculation for the portion of the SCED interval y within the Settlement Interval.
+TLMP y
+second
+Duration of SCED interval per intervalDThe duration of the portion of the SCED interval y within the 15-minute Settlement Interval.
+y
+none
+A SCED interval in the 15-minute Settlement Interval.  The summation is over the total number of SCED runs that cover the 15-minute Settlement Interval.

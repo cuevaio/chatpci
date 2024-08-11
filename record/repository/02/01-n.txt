@@ -1,0 +1,36 @@
+Net Dependable Capability
+The maximum sustained capability of a Resource as demonstrated by performance testing.  
+Net Generation
+Gross generation less station auxiliary Load or other internal unit power requirements metered at or adjusted to the POI with the ERCOT Transmission Grid at the common switchyard.
+Network Operations Model  
+A representation of the ERCOT System providing the complete physical network definition, characteristics, ratings, and operational limits of all elements of the ERCOT Transmission Grid and other information from Transmission Service Providers (TSPs), Resource Entities, and Qualified Scheduling Entities (QSEs).
+[NPRR857:  Replace the above definition “Network Operations Model” with the following upon system implementation and satisfying the following conditions:  (1) Southern Cross provides ERCOT with funds to cover the entire estimated cost of the project; and (2) Southern Cross has signed an interconnection agreement with a TSP and the TSP gives ERCOT written notice that Southern Cross has provided it with:  (a) Notice to proceed with the construction of the interconnection; and (b) The financial security required to fund the interconnection facilities:]
+Network Operations Model  
+A representation of the ERCOT System providing the complete physical network definition, characteristics, ratings, and operational limits of all elements of the ERCOT Transmission Grid and other information from Transmission Service Providers (TSPs), Direct Current Tie Operators (DCTOs), Resource Entities, and Qualified Scheduling Entities (QSEs).
+Network Security Analysis
+A processor used by ERCOT to monitor Transmission Elements in the ERCOT Transmission Grid for limit violations and to verify Electrical Bus voltage limits to be within a percentage tolerance as outlined in the Operating Guides. 
+Non-Competitive Constraint
+A contingency and limiting Transmission Element pair or group of Transmission Elements associated with a GTC that is not determined to be a Competitive Constraint under the process defined in Section 3.19, Constraint Competitiveness Tests.   
+Non-Frequency Responsive Capacity (NFRC)
+The telemetered portion of a Generation Resource’s High Sustained Limit (HSL) that represents the sustainable non-Dispatched power augmentation capability from duct firing, inlet air cooling, auxiliary boilers, or other methods which does not immediately respond, arrest, or stabilize frequency excursions during the first minutes following a disturbance without secondary frequency response or instructions from ERCOT.   
+[NPRR1013:  Delete the above definition “Non-Frequency Responsive Capacity (NFRC)” upon system implementation of the Real-Time Co-Optimization (RTC) project.]
+Non-Metered Load
+Load that is not required to be metered by applicable transmission or distribution tariff.
+Non-Opt-In Entity (NOIE)
+An EC or MOU that does not offer Customer Choice.
+Non-Opt-In Entity (NOIE) Load Zone
+A Load Zone established by a NOIE or a group of NOIEs using a one-time NOIE election.
+Non-Spinning Reserve (Non-Spin) 
+An Ancillary Service that is provided through use of the part of Off-Line Generation Resources that can be synchronized and ramped to a specified output level within 30 minutes (or Load Resources that can be interrupted within 30 minutes) and that can operate (or Load Resources that can be interrupted) at a specified output level for at least four consecutive hours.  Non-Spin may also be provided from unloaded On-Line capacity that meets the 30-minute response requirements, that is reserved exclusively for use for this service and that can be sustained at a specified level for at least four consecutive hours. 
+Non-Wholesale Storage Load (WSL) Energy Storage Resource (ESR) Charging Load
+The metered or calculated charging Load withdrawn by an Energy Storage Resource (ESR) that is not receiving Wholesale Storage Load (WSL) treatment.
+[NPRR995:  Insert the following definition “Non-Wholesale Storage Load (WSL) Settlement Only Charging Load” upon system implementation:]
+Non-Wholesale Storage Load (WSL) Settlement Only Charging Load
+The metered or calculated charging Load withdrawn by a Settlement Only Distribution Energy Storage System (SODESS) or Settlement Only Transmission Energy Storage System (SOTESS) that is not receiving Wholesale Storage Load (WSL) treatment.
+Normal Ramp Rate
+The rate of change (up and down) in MW per minute of a Resource, which is specified by the QSE to ERCOT by up to ten segments; each segment represents a single MW per minute value (across the capacity of the Resource) that describe the available rate of change for the given range (between HSL and LSL) of generation or consumption of a Resource.  In Real-Time SCED Dispatch, the up and down Normal Ramp Rates are telemetered by the QSE to ERCOT and represent the total capacity (in MW) that the Resource can change from its current actual generation or consumption within the next five minutes divided by five.
+Normal Rating (see Rating)
+North American Electric Reliability Corporation (NERC) Regional Entity
+An Entity with delegated authority from the North American Electric Reliability Corporation (NERC) and approved by the Federal Energy Regulatory Commission (FERC) to propose and enforce NERC Reliability Standards in the ERCOT Region.
+Notice or Notification
+The sending of information by an Entity to Market Participants, ERCOT, or others, as called for in these Protocols.  Notice or Notification may be sent by electronic mail, facsimile transmission, or U.S. mail.

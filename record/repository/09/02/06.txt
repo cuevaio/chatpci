@@ -1,0 +1,6 @@
+9.2.6	Notice of Resettlement for the DAM
+(1)	While maintaining confidentiality of all Market Participants, ERCOT shall send a Market Notice in conjunction with the resettlement, indicating the resettlement of the DAM for a specific Operating Day and the date of issuance of the Resettlement Statements for the DAM.  ERCOT shall include the following information in the notice of resettlement:
+(a)	Detailed description of reason(s) for resettlement;
+(b)	For the applicable Operating Day;
+(c)	Affected Charge Types; and
+(d)	Total resettled amount, by Charge Type.

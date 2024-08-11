@@ -1,0 +1,3 @@
+4.1.1	Day-Ahead Timeline Summary
+(1)	The figure below shows the major activities that occur in the Day-Ahead:  
+[NPRR1008:  Replace the figure above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project:]

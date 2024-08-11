@@ -1,0 +1,172 @@
+3.1.5	Transmission System Outages
+3.1.5.1	ERCOT Evaluation of Planned Outage and Maintenance Outage of Transmission Facilities
+(1)	A TSP or Resource Entity shall request a Planned Outage or Maintenance Outage when any Transmission Facility that is part of the ERCOT Transmission Grid and defined in the Network Operations Model will be removed from its normal service.  For Resource Entities within a Private Use Network, this only includes Transmission Facilities at the Point of Interconnection (POI).  For TSP requests, the TSPs shall enter such requests in the Outage Scheduler.  For Resource Entity requests, the Resource Entity shall enter such requests in the Outage Scheduler.  Planned Outages, Maintenance Outages, or Rescheduled Outages for Electrical Buses will be treated as consequentially outaged Transmission Elements.  In those cases where a TSP enters the breaker and switch statuses associated with an Electrical Bus, a downstream topology processor will evaluate the breakers and switches associated with the applicable Electrical Bus to determine if the Electrical Bus is consequentially outaged, and to thereby designate the status of the Electrical Bus.  Proposed Transmission Planned Outage or Maintenance Outage information submitted by a TSP or Resource Entity in accordance with this Section constitutes a request for ERCOT’s approval of the Outage Schedule associated with the Planned Outage or Maintenance Outage.  ERCOT is not deemed to have approved the Outage Schedule associated with the Planned Outage or Maintenance Outage until ERCOT notifies the TSP or Resource Entity of its approval under procedures adopted by ERCOT.  ERCOT shall evaluate requests under Section 3.1.5.11, Evaluation of Transmission Facilities Planned Outage or Maintenance Outage Requests.
+[NPRR857:  Replace paragraph (1) above with the following upon system implementation and satisfying the following conditions: (1) Southern Cross provides ERCOT with funds to cover the entire estimated cost of the project; and (2) Southern Cross has signed an interconnection agreement with a TSP and the TSP gives ERCOT written notice that Southern Cross has provided it with:  (a) Notice to proceed with the construction of the interconnection; and (b) The financial security required to fund the interconnection facilities:]
+(1)	A TSP, DCTO, or Resource Entity shall request a Planned Outage or Maintenance Outage when any Transmission Facility that is part of the ERCOT Transmission Grid and defined in the Network Operations Model will be removed from its normal service.  For Resource Entities within a Private Use Network, this only includes Transmission Facilities at the Point of Interconnection (POI).  For TSP, DCTO, and Resource Entity requests, the requesting Entity shall enter such a request in the Outage Scheduler.  Planned Outages, Maintenance Outages, or Rescheduled Outages for Electrical Buses will be treated as consequentially outaged Transmission Elements.  In those cases where a TSP or DCTO enters the breaker and switch statuses associated with an Electrical Bus, a downstream topology processor will evaluate the breakers and switches associated with the applicable Electrical Bus to determine if the Electrical Bus is consequentially outaged, and to thereby designate the status of the Electrical Bus.  Proposed Transmission Planned Outage or Maintenance Outage information submitted by a TSP, DCTO, or Resource Entity in accordance with this Section constitutes a request for ERCOT’s approval of the Outage Schedule associated with the Planned Outage or Maintenance Outage.  ERCOT is not deemed to have approved the Outage Schedule associated with the Planned Outage or Maintenance Outage until ERCOT notifies the TSP, DCTO, or Resource Entity of its approval under procedures adopted by ERCOT.  ERCOT shall evaluate requests under Section 3.1.5.11, Evaluation of Transmission Facilities Planned Outage or Maintenance Outage Requests.
+(2)	ERCOT shall review and approve Planned Outages and Maintenance Outages of Transmission Facilities schedules.  ERCOT shall transmit its approvals and rejections to TSPs via the ERCOT Outage Scheduler.  Once approved, ERCOT may not withdraw its approval except under the conditions described in Section 3.1.5.7, Withdrawal of Approval of Approved Planned Outages, Maintenance Outages, and Rescheduled Outages of Transmission Facilities.
+[NPRR857:  Replace paragraph (2) above with the following upon system implementation and satisfying the following conditions: (1) Southern Cross provides ERCOT with funds to cover the entire estimated cost of the project; and (2) Southern Cross has signed an interconnection agreement with a TSP and the TSP gives ERCOT written notice that Southern Cross has provided it with:  (a) Notice to proceed with the construction of the interconnection; and (b) The financial security required to fund the interconnection facilities:]
+(2)	ERCOT shall review and approve Planned Outages and Maintenance Outages of Transmission Facilities schedules.  ERCOT shall transmit its approvals and rejections to TSPs and DCTOs via the ERCOT Outage Scheduler.  Once approved, ERCOT may not withdraw its approval except under the conditions described in Section 3.1.5.7, Withdrawal of Approval of Approved Planned Outages, Maintenance Outages, and Rescheduled Outages of Transmission Facilities.
+(3)	Private Use Network Outage requests submitted pursuant to this Section shall not be publicly posted.
+(4)	To the extent authorized by its tariff, an External Load Serving Entity (ELSE) or Non-Opt-In Entity (NOIE) that provides retail service to a Resource Entity that owns or operates a Generation Resource may request that the TSP to which the Generation Resource is interconnected disconnect the Generation Resource due to the Resource Entity’s failure to comply with the payment requirements in the ELSE’s or NOIE’s retail tariff.  
+(5)	Within five Business Days after receiving a request from a Load Serving Entity (LSE) to disconnect a Generation Resource due to the Resource Entity’s failure to comply with LSE’s payment requirements, including a request received pursuant to paragraph (4) above, the interconnecting TSP shall enter a request in the Outage Scheduler for an Outage of any Transmission Facilities interconnecting the Generation Resource to the ERCOT System.  Any Outage requested or taken pursuant to this Section shall be treated as a Planned Outage for all purposes under the Protocols.  For any such Outage request, the requesting TSP shall enter a start date that it is at least four days after the date the request is submitted in the Outage Scheduler and shall enter an Outage end date that is 14 days from the date of the requested start date.  Unless storm or system reliability issues prevent immediate dispatch of personnel, for any LSE request to reconnect a Customer that was disconnected pursuant to this section, the interconnecting TSP shall end the Outage and reconnect the Generation Resource the same Business Day if the request is received by 1200, or the next Business Day if the request is received after 1200.  If a reconnect request is not received within four days of the Outage end date, the interconnecting TSP shall enter another request in the Outage Scheduler for an Outage of any Transmission Facilities interconnecting the Generation Resource to the ERCOT System with an Outage end date 14 days beyond the prior Outage end date.  At any time, ERCOT may withdraw approval of the Outage and instruct the TSP to reconnect the Generation Resource if it deems cancellation necessary to address reliability concerns.
+3.1.5.2	Receipt of TSP Requests by ERCOT
+(1)	ERCOT shall acknowledge each request for approval of a Transmission Planned Outage or Maintenance Outage schedule within two Business Hours of the receipt of the request.  ERCOT may request additional information or seek clarification from the TSP regarding the information submitted for a proposed Planned Outage or Maintenance Outage for Transmission Facilities.
+[NPRR857:  Replace Section 3.1.5.2 above with the following upon system implementation and satisfying the following conditions: (1) Southern Cross provides ERCOT with funds to cover the entire estimated cost of the project; and (2) Southern Cross has signed an interconnection agreement with a TSP and the TSP gives ERCOT written notice that Southern Cross has provided it with:  (a) Notice to proceed with the construction of the interconnection; and (b) The financial security required to fund the interconnection facilities:]
+3.1.5.2	Receipt of TSP and DCTO Requests by ERCOT
+(1)	ERCOT shall acknowledge each request for approval of a Transmission Planned Outage or Maintenance Outage schedule within two Business Hours of the receipt of the request.  ERCOT may request additional information or seek clarification from the TSP or DCTO regarding the information submitted for a proposed Planned Outage or Maintenance Outage for Transmission Facilities.
+3.1.5.3	Timelines for Response by ERCOT for TSP Requests
+(1)	For Transmission Facilities Outages, ERCOT shall approve or reject each request in accordance with the following table:
+Amount of time between the request for approval of the proposed Outage and the scheduled start date of the proposed Outage:
+ERCOT shall approve or reject no later than:
+Three days
+1800 hours, two days before the start of the proposed Outage
+Between four and eight days
+1800 hours, three days before the start of the proposed Outage
+Between nine days and 45 days
+Four days before the start of the proposed Outage
+Between 46 and 90 days
+30 days before the start of the proposed Outage 
+Greater than 90 days
+75 days before the start of the proposed Outage
+(2)	For Outages scheduled at least three days before the scheduled start date of the proposed Outage, ERCOT shall make reasonable attempts to accommodate unusual circumstances that support TSP requests for approval earlier than required by the schedule above.
+(3)	If circumstances prevent adherence to these timetables, ERCOT shall discuss the request status and reason for the delay of the approval with the requesting TSP and make reasonable attempts to mitigate the effect of the delay on the TSP.
+(4)	When ERCOT rejects a request for an Outage, ERCOT shall provide the TSP, in written or electronic form, suggested amendments to the schedules of a Planned Outage or Maintenance Outage of Transmission Facilities.  Any such suggested amendments accepted by the TSP must be processed by ERCOT as a Planned Outage or Maintenance Outage of Transmission Facilities request under this Section.
+[NPRR857:  Replace Section 3.1.5.3 above with the following upon system implementation and satisfying the following conditions: (1) Southern Cross provides ERCOT with funds to cover the entire estimated cost of the project; and (2) Southern Cross has signed an interconnection agreement with a TSP and the TSP gives ERCOT written notice that Southern Cross has provided it with:  (a) Notice to proceed with the construction of the interconnection; and (b) The financial security required to fund the interconnection facilities:]
+3.1.5.3	Timelines for Response by ERCOT for TSP and DCTO Requests
+(1)	For Transmission Facilities Outages, ERCOT shall approve or reject each request in accordance with the following table:
+Amount of time between the request for approval of the proposed Outage and the scheduled start date of the proposed Outage:
+ERCOT shall approve or reject no later than:
+Three days
+1800 hours, two days before the start of the proposed Outage
+Between four and eight days
+1800 hours, three days before the start of the proposed Outage
+Between nine days and 45 days
+Four days before the start of the proposed Outage
+Between 46 and 90 days
+30 days before the start of the proposed Outage 
+Greater than 90 days
+75 days before the start of the proposed Outage
+(2)	For Outages scheduled at least three days before the scheduled start date of the proposed Outage, ERCOT shall make reasonable attempts to accommodate unusual circumstances that support TSP and DCTO requests for approval earlier than required by the schedule above.
+(3)	If circumstances prevent adherence to these timetables, ERCOT shall discuss the request status and reason for the delay of the approval with the requesting TSP or DCTO and make reasonable attempts to mitigate the effect of the delay on the TSP or DCTO.
+(4)	When ERCOT rejects a request for an Outage, ERCOT shall provide the TSP or DCTO, in written or electronic form, suggested amendments to the schedules of a Planned Outage or Maintenance Outage of Transmission Facilities.  Any such suggested amendments accepted by the TSP or DCTO must be processed by ERCOT as a Planned Outage or Maintenance Outage of Transmission Facilities request under this Section.
+3.1.5.4	Delay
+(1)	ERCOT may delay its approval or rejection of a proposed Planned Outage or Maintenance Outage of a Transmission Facilities schedule if the requesting TSP has not submitted sufficient or complete information within the time frames set forth in these Protocols.
+[NPRR857:  Replace paragraph (1) above with the following upon system implementation and satisfying the following conditions: (1) Southern Cross provides ERCOT with funds to cover the entire estimated cost of the project; and (2) Southern Cross has signed an interconnection agreement with a TSP and the TSP gives ERCOT written notice that Southern Cross has provided it with:  (a) Notice to proceed with the construction of the interconnection; and (b) The financial security required to fund the interconnection facilities:]
+(1)	ERCOT may delay its approval or rejection of a proposed Planned Outage or Maintenance Outage of a Transmission Facilities schedule if the requesting TSP or DCTO has not submitted sufficient or complete information within the time frames set forth in these Protocols.
+3.1.5.5	Opportunity Outage of Transmission Facilities
+(1)	Opportunity Outages of Transmission Facilities may be approved under Section 3.1.6.10, Opportunity Outage.
+3.1.5.6	Rejection Notice
+(1)	If ERCOT rejects a request, ERCOT shall provide the TSP a written or electronic rejection notice that includes:
+(a)	Specific concerns causing the rejection; 
+(b)	Possible remedies or transmission schedule revisions, if any that might mitigate the basis for rejection; and
+(c)	An electronic copy of the ERCOT study case for review by the TSP.
+[NPRR857:  Replace paragraph (1) above with the following upon system implementation and satisfying the following conditions: (1) Southern Cross provides ERCOT with funds to cover the entire estimated cost of the project; and (2) Southern Cross has signed an interconnection agreement with a TSP and the TSP gives ERCOT written notice that Southern Cross has provided it with:  (a) Notice to proceed with the construction of the interconnection; and (b) The financial security required to fund the interconnection facilities:]
+(1)	If ERCOT rejects a request, ERCOT shall provide the TSP or DCTO a written or electronic rejection notice that includes:
+(a)	Specific concerns causing the rejection; 
+(b)	Possible remedies or transmission schedule revisions, if any that might mitigate the basis for rejection; and
+(c)	An electronic copy of the ERCOT study case for review by the TSP or DCTO.
+(2)	ERCOT may reject a Planned Outage or Maintenance Outage of Transmission Facilities only:
+(a)	To protect system reliability or security;
+(b)	Due to insufficient information regarding the Outage; or
+(c)	Due to failure to comply with submittal process requirements, as specified in these Protocols.
+(3)	When multiple proposed Planned Outages, Maintenance Outages, or Rescheduled Outages cause a reliability or security concern, ERCOT shall:
+(a)	Communicate with each TSP to see if the TSP will adjust its proposed Planned Outage, Maintenance Outage, or Rescheduled Outage schedule;
+(b)	Determine if each TSP will agree to an alternative Outage schedule; or
+(c)	Reject, in ERCOT’s sole discretion, one or more proposed Outages, considering order of receipt and impact on the ERCOT Transmission Grid.
+[NPRR857:  Replace paragraph (3) above with the following upon system implementation and satisfying the following conditions: (1) Southern Cross provides ERCOT with funds to cover the entire estimated cost of the project; and (2) Southern Cross has signed an interconnection agreement with a TSP and the TSP gives ERCOT written notice that Southern Cross has provided it with:  (a) Notice to proceed with the construction of the interconnection; and (b) The financial security required to fund the interconnection facilities:]
+(3)	When multiple proposed Planned Outages, Maintenance Outages, or Rescheduled Outages cause a reliability or security concern, ERCOT shall:
+(a)	Communicate with each TSP and DCTO to see if the TSP or DCTO will adjust its proposed Planned Outage, Maintenance Outage, or Rescheduled Outage schedule;
+(b)	Determine if each TSP or DCTO will agree to an alternative Outage schedule; or
+(c)	Reject, in ERCOT’s sole discretion, one or more proposed Outages, considering order of receipt and impact on the ERCOT Transmission Grid.
+3.1.5.7	Withdrawal of Approval of Approved Planned Outages, Maintenance Outages, and Rescheduled Outages of Transmission Facilities
+(1)	If ERCOT believes it cannot meet the applicable reliability standards and has exercised reasonable options, ERCOT may contact the TSP for more information prior to its withdrawal of the approval for a Planned Outage, Maintenance Outage, or Rescheduled Outage.  ERCOT shall inform the affected TSP both orally and in written or electronic form as soon as ERCOT identifies a situation that may lead to the withdrawal of ERCOT’s approval.  If ERCOT withdraws its approval, the TSP may submit a new request for approval of the Planned Outage or Maintenance Outage schedule provided the new request meets the submittal requirements for Outage Scheduling.
+[NPRR857:  Replace paragraph (1) above with the following upon system implementation and satisfying the following conditions: (1) Southern Cross provides ERCOT with funds to cover the entire estimated cost of the project; and (2) Southern Cross has signed an interconnection agreement with a TSP and the TSP gives ERCOT written notice that Southern Cross has provided it with:  (a) Notice to proceed with the construction of the interconnection; and (b) The financial security required to fund the interconnection facilities:]
+(1)	If ERCOT believes it cannot meet the applicable reliability standards and has exercised reasonable options, ERCOT may contact the TSP or DCTO for more information prior to its withdrawal of the approval for a Planned Outage, Maintenance Outage, or Rescheduled Outage.  ERCOT shall inform the affected TSP or DCTO both orally and in written or electronic form as soon as ERCOT identifies a situation that may lead to the withdrawal of ERCOT’s approval.  If ERCOT withdraws its approval, the TSP or DCTO may submit a new request for approval of the Planned Outage or Maintenance Outage schedule provided the new request meets the submittal requirements for Outage Scheduling.
+(2)	In determining whether to withdraw approval, ERCOT shall duly consider whether the Planned Outage, Maintenance Outage, or Rescheduled Outage affects public infrastructure if ERCOT is made aware of such potential impacts by the TSP (e.g., impacts on highways, ports, municipalities, and counties).
+[NPRR857:  Replace paragraph (2) above with the following upon system implementation and satisfying the following conditions: (1) Southern Cross provides ERCOT with funds to cover the entire estimated cost of the project; and (2) Southern Cross has signed an interconnection agreement with a TSP and the TSP gives ERCOT written notice that Southern Cross has provided it with:  (a) Notice to proceed with the construction of the interconnection; and (b) The financial security required to fund the interconnection facilities:]
+(2)	In determining whether to withdraw approval, ERCOT shall duly consider whether the Planned Outage, Maintenance Outage, or Rescheduled Outage affects public infrastructure if ERCOT is made aware of such potential impacts by the TSP or DCTO (e.g., impacts on highways, ports, municipalities, and counties).
+(3)	Prior to withdrawing the approval of a High Impact Outage (HIO) submitted with greater than 90-days’ notice, ERCOT shall coordinate with the TSP and may convert the Planned Outage to a Rescheduled Outage.  The Rescheduled Outage shall retain the same priority as the original Planned Outage.  ERCOT shall attempt to keep the Outage within the same calendar month.
+[NPRR857:  Replace paragraph (3) above with the following upon system implementation and satisfying the following conditions: (1) Southern Cross provides ERCOT with funds to cover the entire estimated cost of the project; and (2) Southern Cross has signed an interconnection agreement with a TSP and the TSP gives ERCOT written notice that Southern Cross has provided it with:  (a) Notice to proceed with the construction of the interconnection; and (b) The financial security required to fund the interconnection facilities:]
+(3)	Prior to withdrawing the approval of a High Impact Outage (HIO) submitted with greater than 90-days’ notice, ERCOT shall coordinate with the TSP or DCTO and may convert the Planned Outage to a Rescheduled Outage.  The Rescheduled Outage shall retain the same priority as the original Planned Outage.  ERCOT shall attempt to keep the Outage within the same calendar month.
+3.1.5.8	Priority of Approved Planned, Maintenance, and Rescheduled Outages
+(1)	In considering TSP requests, ERCOT shall give priority to Planned Outages, Maintenance Outages, and Rescheduled Outages in the order of receipt.
+[NPRR857:  Replace paragraph (1) above with the following upon system implementation and satisfying the following conditions: (1) Southern Cross provides ERCOT with funds to cover the entire estimated cost of the project; and (2) Southern Cross has signed an interconnection agreement with a TSP and the TSP gives ERCOT written notice that Southern Cross has provided it with:  (a) Notice to proceed with the construction of the interconnection; and (b) The financial security required to fund the interconnection facilities:]
+(1)	In considering TSP or DCTO requests, ERCOT shall give priority to Planned Outages, Maintenance Outages, and Rescheduled Outages in the order of receipt.
+3.1.5.9	Information for Inclusion in Transmission Facilities Outage Requests
+(1)	Transmission Facilities Outage requests submitted by a TSP must include the following Transmission Facilities-specific information:
+(a)	The identity of the Transmission Facilities, in the Network Operations Model, including TSP and location; 
+(b)	The nature of the work, by predefined classifications, to be performed during the proposed Transmission Facilities Outage; 
+(c)	The preferred start and finish dates for the proposed Transmission Planned or Maintenance Outage;
+(d)	The time required to: (i) finish the Transmission Planned Outage or  Maintenance Outage and (ii) restore the Transmission Facilities to normal operation;
+(e)	Primary and alternate telephone numbers for the TSP’s Single Point of Contact, as described in Section 3.1.4.1, Single Point of Contact, and the name of the individual submitting the information; 
+(f)	The scheduling flexibility (i.e., the earliest start date and the latest finish date for the Outage);
+(g)	Any Transmission Facilities that must be out of service to facilitate the TSP’s request;
+(h)	Any remedial actions or special protection systems necessary during the Outage and the contingency that would require the remedial action or relay action; and
+(i)	Any other relevant information related to the proposed Outage or any unusual risks affecting the schedule.
+[NPRR857:  Replace paragraph (1) above with the following upon system implementation and satisfying the following conditions: (1) Southern Cross provides ERCOT with funds to cover the entire estimated cost of the project; and (2) Southern Cross has signed an interconnection agreement with a TSP and the TSP gives ERCOT written notice that Southern Cross has provided it with:  (a) Notice to proceed with the construction of the interconnection; and (b) The financial security required to fund the interconnection facilities:]
+(1)	Transmission Facilities Outage requests submitted by a TSP or a DCTO must include the following Transmission Facilities-specific information:
+(a)	The identity of the Transmission Facilities, in the Network Operations Model, including TSP or DCTO and location; 
+(b)	The nature of the work, by predefined classifications, to be performed during the proposed Transmission Facilities Outage; 
+(c)	The preferred start and finish dates for the proposed Transmission Planned or Maintenance Outage;
+(d)	The time required to: (i) finish the Transmission Planned Outage or  Maintenance Outage and (ii) restore the Transmission Facilities to normal operation;
+(e)	Primary and alternate telephone numbers for the TSP’s or DCTO’s Single Point of Contact, as described in Section 3.1.4.1, Single Point of Contact, and the name of the individual submitting the information; 
+(f)	The scheduling flexibility (i.e., the earliest start date and the latest finish date for the Outage);
+(g)	Any Transmission Facilities that must be out of service to facilitate the TSP’s or DCTO’s request;
+(h)	Any remedial actions or special protection systems necessary during the Outage and the contingency that would require the remedial action or relay action; and
+(i)	Any other relevant information related to the proposed Outage or any unusual risks affecting the schedule.
+3.1.5.10	Additional Information Requests
+(1)	The requesting TSP shall comply with any ERCOT requests for more information about, or for clarification of, the information submitted by the TSP for a proposed Outage.
+[NPRR857:  Replace paragraph (1) above with the following upon system implementation and satisfying the following conditions: (1) Southern Cross provides ERCOT with funds to cover the entire estimated cost of the project; and (2) Southern Cross has signed an interconnection agreement with a TSP and the TSP gives ERCOT written notice that Southern Cross has provided it with:  (a) Notice to proceed with the construction of the interconnection; and (b) The financial security required to fund the interconnection facilities:]
+(1)	The requesting TSP or DCTO shall comply with any ERCOT requests for more information about, or for clarification of, the information submitted by the TSP or DCTO for a proposed Outage.
+3.1.5.11	Evaluation of Transmission Facilities Planned Outage or Maintenance Outage Requests
+(1)	ERCOT shall evaluate requests, approve, or reject Transmission Facilities Planned Outages and Maintenance Outages according to the requirements of this section.  ERCOT may approve Outage requests provided the Outage in combination with other proposed Outages does not cause a violation of applicable reliability standards.  ERCOT shall reject Outage requests that do not meet the submittal timeline specified in Section 3.1.5.12, Submittal Timeline for Transmission Facility Outage Requests.  ERCOT shall consider the following factors in its evaluation:
+(a)	Forecasted conditions during the time of the Outage;
+(b)	Outage plans submitted by Resource Entities and TSPs under Section 3.1, Outage Coordination;
+[NPRR857:  Replace item (b) above with the following upon system implementation and satisfying the following conditions: (1) Southern Cross provides ERCOT with funds to cover the entire estimated cost of the project; and (2) Southern Cross has signed an interconnection agreement with a TSP and the TSP gives ERCOT written notice that Southern Cross has provided it with:  (a) Notice to proceed with the construction of the interconnection; and (b) The financial security required to fund the interconnection facilities:]
+(b)	Outage plans submitted by Resource Entities, TSPs, and DCTOs under Section 3.1, Outage Coordination;
+(c)	Forced Outages of Transmission Facilities;
+(d)	Potential for the proposed Outages to cause irresolvable transmission overloads or voltage supply concerns based on the indications from contingency analysis software;
+(e)	Potential for the proposed Outages to cause SSR vulnerability to Generation Resources that do not have SSR Mitigation in the event of five or six concurrent transmission Outages;
+(f)	Previously approved Planned Outages, Maintenance Outages, and Rescheduled Outages;
+(g)	Impacts on the transfer capability of Direct Current Ties (DC Ties); and
+(h)	Good Utility Practice for Transmission Facilities maintenance.
+(2)	When ERCOT approves a Maintenance Outage, ERCOT shall coordinate the timing of the appropriate course of action with the requesting TSP. 
+[NPRR857:  Replace paragraph (2) above with the following upon system implementation and satisfying the following conditions: (1) Southern Cross provides ERCOT with funds to cover the entire estimated cost of the project; and (2) Southern Cross has signed an interconnection agreement with a TSP and the TSP gives ERCOT written notice that Southern Cross has provided it with:  (a) Notice to proceed with the construction of the interconnection; and (b) The financial security required to fund the interconnection facilities:]
+(2)	When ERCOT approves a Maintenance Outage, ERCOT shall coordinate the timing of the appropriate course of action with the requesting TSP or DCTO. 
+(3)	When ERCOT identifies that an HIO has been submitted with 90-days or less notice, ERCOT may coordinate with TSP to make reasonable efforts to minimize the impact.
+[NPRR857:  Replace paragraph (3) above with the following upon system implementation and satisfying the following conditions: (1) Southern Cross provides ERCOT with funds to cover the entire estimated cost of the project; and (2) Southern Cross has signed an interconnection agreement with a TSP and the TSP gives ERCOT written notice that Southern Cross has provided it with:  (a) Notice to proceed with the construction of the interconnection; and (b) The financial security required to fund the interconnection facilities:]
+(3)	When ERCOT identifies that an HIO has been submitted with 90-days or less notice, ERCOT may coordinate with the TSP or DCTO to make reasonable efforts to minimize the impact.
+3.1.5.12	Submittal Timeline for Transmission Facility Outage Requests
+(1)	TSPs shall submit all requests for Planned Outages and Maintenance Outages or changes to existing approved Outages of Transmission Elements in the Network Operations Model to ERCOT no later than the minimum amount of time between the submittal of a request to ERCOT for approval of a proposed Outage and the scheduled start date of the proposed Outage, according to the following table:
+[NPRR857:  Replace paragraph (1) above with the following upon system implementation and satisfying the following conditions: (1) Southern Cross provides ERCOT with funds to cover the entire estimated cost of the project; and (2) Southern Cross has signed an interconnection agreement with a TSP and the TSP gives ERCOT written notice that Southern Cross has provided it with:  (a) Notice to proceed with the construction of the interconnection; and (b) The financial security required to fund the interconnection facilities:]
+(1)	TSPs and DCTOs shall submit all requests for Planned Outages and Maintenance Outages or changes to existing approved Outages of Transmission Elements in the Network Operations Model to ERCOT no later than the minimum amount of time between the submittal of a request to ERCOT for approval of a proposed Outage and the scheduled start date of the proposed Outage, according to the following table:
+Type of Outage
+Minimum amount of time between the Outage request  and the scheduled start date of the proposed Outage:
+Minimum amount of time between any change to an Outage request and the scheduled end date an existing Outage:
+Forced Outage
+Immediate
+Immediate
+Maintenance Outage Level I
+Immediate
+Immediate
+Maintenance Outage Level II
+Two days [1]
+Two days [1]
+Maintenance Outage Level III
+Three days
+Three days 
+Planned Outage
+Three days
+Three days
+Simple Transmission Outage
+One day
+One day
+Note:
+1.	For reliability purposes, ERCOT may reduce to one day on a case-by-case basis.
+3.1.5.13	Transmission Report
+(1)	ERCOT shall post on the MIS Secure Area:
+(a)	Within one hour of receipt by ERCOT, all Transmission Facilities Outages that have been submitted into the ERCOT Outage Scheduler, excluding Private Use Network transmission Outages;
+(b) 	Within one hour of a change of an Outage, all Transmission Facilities Outages, excluding Private Use Network transmission Outages; 
+(c) 	Once each day, Outage Scheduler notes related to the coordination of Outages;
+(d)	At least annually, an updated list of High Impact Transmission Elements (HITEs) pursuant to Section 3.1.8, High Impact Transmission Element (HITE) Identification; and
+(e)	Once each day, list of HIOs submitted with 90-days or less notice that are accepted or approved.

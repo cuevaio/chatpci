@@ -1,0 +1,2 @@
+3.1	Outage Coordination
+(1)	“Outage Coordination” is the management of Transmission Facilities Outages and Resource Outages in the ERCOT System. Facility owners are solely and directly responsible for the performance of all maintenance, repair, and construction work, whether on energized or de-energized facilities, including all activities related to providing a safe working environment.

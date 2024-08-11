@@ -1,0 +1,11 @@
+Unaccounted for Energy (UFE)
+The difference between total Load for each Settlement Interval, adjusted for applicable Distribution Losses and Transmission Losses, and total ERCOT generation.
+Unit Reactive Limit (URL)
+The maximum quantity of Reactive Power that a Generation Resource is capable of providing at a 0.95 power factor at its maximum real power capability.
+Updated Desired Base Point
+A calculated MW value representing the expected MW output of a Generation Resource ramping to a Base Point.  
+[NPRR1013:  Replace the definition “Updated Desired Base Point” above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+Updated Desired Set Point (UDSP)
+A calculated MW value representing the expected MW output of a Resource, as described in Section 6.5.7.4.1, Updated Desired Set Points.
+Updated Network Model
+A computerized representation of the ERCOT physical network topology, including some Resource Parameters, all of which replicates the forecasted or current network topology of the ERCOT System needed by ERCOT to perform its functions.

@@ -1,0 +1,83 @@
+5.7.3	Payment When ERCOT Decommits a QSE-Committed Resource 
+(1)	If ERCOT decommits a QSE-committed Resource during the RUC process earlier than its scheduled shutdown within the Operating Day, then no compensation is due to the affected QSE from ERCOT. 
+(2)	If ERCOT decommits a QSE committed Resource that is not scheduled to shutdown within the Operating Day, then ERCOT shall pay the affected QSE an amount as calculated below for the hours of decommitment.  The number of continuous decommitted hours used in the calculation are the hours beginning with the first decommitted hour until the earlier of: 
+(a)	The hour ERCOT determines that the Resource may again be at LSL; and 
+(b)	The end of the last hour of the Operating Day.  
+(3)	If ERCOT decommits a QSE-committed Resource not scheduled to shutdown within the Operating Day, and the decommitment period spans more than one Operating Day, the RUC Decommitment Payment Amount shall be calculated and paid in the Operating Day in which the RUC decommitment originated.  The number of continuous decommitted hours used in the calculation are the hours beginning with the first decommitted hour until the end of the last hour of the Operating Day in which the RUC decommitment originated.
+(4)	The payment for a RUC Cancellation instruction for a Resource is settled for each hour through an adjustment in the RUC Decommitment Payment Amount as shown in paragraph (8) below.
+(5)	ERCOT shall produce a report each April that provides the percentage of the RUC Decommitment Payment Amounts that are a result of RUC cancellations during the 12 months of the previous calendar year.  The report shall be based on the Final Settlements.  ERCOT shall present the results of this study to the appropriate Technical Advisory Committee (TAC) subcommittee.  If there are no RUC Decommitment Payment Amounts for a given calendar year, then ERCOT will not be required to produce the annual report. 
+(6)	The SUPR, MEPR and LSL used to calculate payment when ERCOT decommits a QSE-committed Combined Cycle Train is the SUPR, MEPR and LSL that corresponds to the Combined Cycle Generation Resource, within the Combined Cycle Train, that is RUC-decommitted in the first hour of a contiguous decommitted period. 
+(7)	If the SUPR used to calculate payment when ERCOT decommits a QSE-committed AGR is based upon approved verifiable cost for all of the generators associated with the AGR, ERCOT shall scale the startup payment according to the number of generators of the AGR that started following the decommitment.  ERCOT shall make the adjustment no later than on Final Settlement.
+(8)	The payment for a RUC decommitment instruction for a Resource, including RMR Units, is calculated for each hour as follows:
+[NPRR1014:  Replace paragraph (8) above with the following upon system implementation:]
+(8)	The payment for a RUC decommitment instruction for a Resource, including RMR Units and excluding ESRs, is calculated for each hour as follows:
+RUCDCAMTq,r,h	=	(-1) * Max (0, (SUPRq,r,s - (Max (0, MEPRq,r,i - RTSPPp,i) * (LSLq,r,i * (¼))))) / NCDCHRq,r,h  
+Where:
+If the QSE submitted a validated Three-Part Supply Offer for the Resource, 
+Then, 		SUPRq,r,s	=	Min (SUOq,r,s, SUCAP q,r,s)
+		MEPRq,r,i	=	Min (MEOq,r,i, MECAP q,r,i)
+Otherwise, 	SUPRq,r,s 	= 	SUCAPq,r,s
+		MEPRq,r,i 	= 	MECAPq,r,i
+If ERCOT has approved verifiable Startup Costs and minimum-energy costs for the Resource,
+Then, 		SUCAPq,r,s	=	verifiable Startup Costsq,r,s
+		MECAPq,r,i	=	verifiable minimum-energy costsq,r,i
+Otherwise, 	SUCAPq,r,s 	= 	RCGSCs
+		MECAPq,r,i	= 	RCGMECi
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+RUCDCAMTq,r,h
+$
+RUC Decommitment Payment Amount—The payment to the QSE for the Resource that was decommitted by ERCOT but that was not scheduled to shut down in the Operating Day, for each decommitted hour of the Operating Day.  When one or more Combined Cycle Generation Resources are decommitted by RUC, payment is made to the Combined Cycle Train for all RUC-decommitted Combined Cycle Generation Resources.
+SUPRq,r,s 
+$/Start
+Startup Price per start—The Settlement price for Resource r for the start s.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+SUOq,r,s
+$/Start
+Startup Offer per start—Represents an offer for all costs incurred by Generation Resource r in starting up and reaching the Resource’s LSL.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.  
+SUCAPq,r,s
+$/Start
+Startup Cap—The amount used for Resource r as Startup Costs.  The cap is the Resource Category Startup Offer Generic Cap (RCGSC) unless ERCOT has approved verifiable unit-specific Startup Costs for that Resource, in which case the Startup Cap is the verifiable unit-specific Startup Cost.  The verifiable unit-specific Startup Cost will be determined as described in Section 5.6.1, Verifiable Costs, minus the average energy produced during the time period between breaker close and LSL multiplied by the heat rate proxy “H” multiplied by the appropriate FIP, FOP, or solid fuel price.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+RCGSCs
+$/Start
+Resource Category Generic Startup Cost—The Resource Category Startup Offer Generic Cap cost for the category of the Resource, according to Section 4.4.9.2.3, Startup Offer and Minimum-Energy Offer Generic Caps, for the Operating Day.
+MEPRq,r,i
+$/MWh
+Minimum-Energy Price—The Settlement price for Resource r for minimum energy for the Settlement Interval i.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+MEOq,r,i
+$/MWh
+Minimum-Energy Offer—Represents an offer for the costs incurred by Resource r in producing energy at the Resource’s LSL for the Settlement Interval i.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+MECAPq,r,i
+$/MWh
+Minimum-Energy Cap—The amount used for Resource r for minimum-energy costs.  The minimum cost is the Resource Category Minimum-Energy Generic Cap (RCGMEC) unless ERCOT has approved verifiable unit-specific minimum energy costs for that Resource, in which case the Minimum-Energy Cap is the verifiable unit-specific minimum energy cost.  See Section 5.6.1 for more information on verifiable costs.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+RCGMECi
+$/MWh
+Resource Category Generic Minimum-Energy Cost—The Resource Category Minimum-Energy Generic Cap cost for the category of the Resource, according to Section 4.4.9.2.3.
+LSLq,r,i 
+MW
+Low Sustained Limit—The LSL of Generation Resource r represented by QSE q for the hour that includes the Settlement Interval i, as submitted in the COP.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+RTSPPp,i
+$/MWh
+Real-Time Settlement Point Price—The Real-Time Settlement Point Price at the Resource’s Settlement Point for the Settlement Interval i.
+NCDCHRq,r,h
+none
+Number of Continuous Decommitted Hours—The number of continuous decommitment hours for Resource r within an Operating Day.  When one or more Combined Cycle Generation Resources are decommitted by RUC, the Number of Continuous Decommitted Hours is calculated for the Combined Cycle Train for all RUC-decommitted Combined Cycle Generation Resources.
+q
+none
+A QSE.
+r
+none
+A  RUC-decommitted Generation Resource.
+h
+none
+An hour in the RUC decommitment period.
+p
+none
+A Resource Node Settlement Point.
+s
+none
+A start.
+i
+none
+A 15-minute Settlement Interval within the contiguous decommitted period.

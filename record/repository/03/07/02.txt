@@ -1,0 +1,2 @@
+3.7.2	Changes in Resource Parameters with Operational Impacts
+(1)	The QSE representing each Resource shall have the responsibility to submit changes to Resource Parameters for those Resource Parameters related to the Current Operating Plan (COP), as described in Section 3.9, Current Operating Plan (COP), and to Real-Time operations as described in Section 6, Adjustment Period and Real-Time Operations.  If the QSE cancels a Resource Parameter submission, ERCOT will use as a default the Resource Parameter that is registered in the Network Operations Model.

@@ -1,0 +1,17 @@
+5.4	QSE Security Sequence Responsibilities
+(1)	During the Security Sequence, each Qualified Scheduling Entity (QSE) must: 
+(a)	Submit its Current Operating Plan (COP) and update its COP as required in Section 3.9, Current Operating Plan (COP);
+(b)	Submit any Three-Part Supply Offers before: 
+[NPRR1009 and NPRR1014:  Replace applicable portions of paragraph (b) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1009; or upon system implementation for NPRR1014:]
+(b)	Submit any Three-Part Supply Offers, Energy Bid/Offer Curves, and Ancillary Service Offers before:
+(i)	1000 in the Day-Ahead for the Day-Ahead Market (DAM) and Day-Ahead Reliability Unit Commitment (DRUC) being run in that Day-Ahead, if the QSE wants the offer to be used in those DAM and DRUC processes; and 
+(ii)	The end of the Adjustment Period for each Hourly Reliability Unit Commitment (HRUC), if the QSE wants the offer to be used in the HRUC process;  
+(c)	Submit any Capacity Trades before 1430 in the Day-Ahead for the DRUC and before the end of the Adjustment Period for each HRUC, if the QSE wants those Capacity Trades included in the calculation of Reliability Unit Commitment (RUC) Settlement; 
+(d)	Submit any Energy Trades and Direct Current Tie (DC Tie) Schedules corresponding to Electronic Tags (e-Tags) before 1430 in the Day-Ahead for the DRUC and by the end of the Adjustment Period for each HRUC; if the QSE wants those Energy Trades and DC Tie Schedules included in the calculation of RUC Settlement;
+[NPRR1009 and NPRR1014:  Replace applicable portions of paragraph (d) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1009; or upon system implementation for NPRR1014:]
+(d)	Submit any Energy Trades, Ancillary Service Trades, and Direct Current Tie (DC Tie) Schedules corresponding to Electronic Tags (e-Tags) before 1430 in the Day-Ahead for the DRUC and by the end of the Adjustment Period for each HRUC; if the QSE wants those Energy Trades and DC Tie Schedules included in the calculation of RUC Settlement;
+(e)	Submit an updated COP before 1430 in the Day-Ahead that shows the specific Resources that will be used to supply the QSE’s Ancillary Service Supply Responsibility; and  
+[NPRR1009 and NPRR1014:  Replace applicable portions of paragraph (e) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1009; or upon system implementation for NPRR1014:]
+(e)	Submit an updated COP before 1430 in the Day-Ahead; and
+(f)	Acknowledge receipt of Resource commitment or decommitment Dispatch Instructions by submitting an updated COP.
+[NPRR1009:  Insert Section 5.4.1 below upon system implementation of the Real-Time Co-Optimization (RTC) project:]

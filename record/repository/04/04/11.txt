@@ -1,0 +1,60 @@
+4.4.11	System-Wide Offer Caps
+(1)	The SWCAP shall be determined in accordance with the Public Utility Commission of Texas (PUCT) Substantive Rules.  The methodology for determining the SWCAP is as follows: 
+(a)	The Low System-Wide Offer Cap (LCAP) is set at $2,000 per MWh for energy and $2,000 per MW per hour for Ancillary Services. 
+(b)	At the beginning of each year, the SWCAP shall be set equal to the High System-Wide Offer Cap (HCAP) and maintained at this level as long as the Peaker Net Margin (PNM) during a year is less than or equal to the PNM threshold per MW-year.  If the PNM exceeds the PNM threshold per MW-year during a year, on the next Operating Day, the SWCAP shall be reset to the LCAP for the remainder of that year.
+(c)	ERCOT shall set the PNM threshold at three times the cost of new entry of new generation plants.
+The above parameters are defined as follows.
+Parameter
+Unit
+Current Value*
+HCAP
+$/MWh
+5,000
+PNM threshold
+$/MW-year
+315,000
+*  The current value for the parameters referenced in this table above will be recommended by TAC and approved by the ERCOT Board.  ERCOT shall update parameter values on the first day of the month following ERCOT Board approval unless otherwise directed by the ERCOT Board.  ERCOT shall provide a Market Notice prior to implementation of a revised parameter value.
+(2)	Any offers that exceed the current SWCAP shall be rejected by ERCOT. 
+[NPRR1008:  Replace Section 4.4.11 above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+4.4.11	Day-Ahead and Real-Time System-Wide Offer Caps
+(1)	The DASWCAP and RTSWCAP shall be determined in accordance with the Public Utility Commission of Texas (PUCT) Substantive Rules.  The methodology for determining the DASWCAP and RTSWCAP is as follows: 
+(a)	The Low System-Wide Offer Cap (LCAP) is set at $2,000 per MWh for energy and $2,000 per MW per hour for Ancillary Services.
+(b)	At the beginning of each year, the DASWCAP and RTSWCAP shall be set equal to the respective High System-Wide Offer Cap (HCAP) and maintained at this level as long as the Peaker Net Margin (PNM) during a year is less than or equal to the PNM threshold per MW-year.  Additionally, the Value of Lost Load (VOLL) used to determine the ASDCs for DAM and RTM shall be set to the HCAP for DAM.  If the PNM exceeds the PNM threshold per MW-year the DASWCAP and the VOLL used to determine the ASDCs for DAM and RTM shall be reset per the schedule in Section 4.4.11.1, Scarcity Pricing Mechanism.
+(c)	ERCOT shall set the PNM threshold at three times the cost of new entry of new generation plants.
+The above parameters are defined as follows:
+Parameter
+Unit
+Current Value*
+HCAP – DAM (DASWCAP)
+$/MWh
+5,000
+HCAP – RTM (RTSWCAP)
+$/MWh
+2,000
+PNM threshold
+$/MW-year
+315,000
+*  The current value for the parameters referenced in this table above will be recommended by TAC and approved by the ERCOT Board.  ERCOT shall update parameter values on the first day of the month following ERCOT Board approval unless otherwise directed by the ERCOT Board.  ERCOT shall provide a Market Notice prior to implementation of a revised parameter value.
+(2)	Any offers that exceed the current respective SWCAP shall be rejected by ERCOT.
+4.4.11.1	Scarcity Pricing Mechanism 
+(1)	ERCOT shall operate the scarcity pricing mechanism in accordance with the PUCT Substantive Rules.  The methodology for determining the scarcity pricing mechanism is as follows: 
+(a)	The scarcity pricing mechanism operates on a calendar year basis.
+(b)	For each day of the year, the Peaking Operating Cost (POC) shall be ten times the effective daily FIP.  The POC is calculated in dollars per MWh.
+(c)	For the purpose of this Section, the Real-Time Energy Price (RTEP) shall be measured as the ERCOT Hub Average 345 kV Hub price.
+(d)	For the current year, the PNM shall be calculated in dollars per MW on a cumulative basis for all past intervals in the year as follows:
+∑((RTEP – POC) * (0.25)) for each Settlement Interval where (RTEP – POC) > 0
+(2)	By the end of the next Business Day following the applicable Operating Day, ERCOT shall post the updated value of the PNM and the current SWCAP on the ERCOT website.
+[NPRR1008:  Replace paragraph (2) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+(2)	By the end of the next Business Day following the applicable Operating Day, ERCOT shall post the updated value of the PNM and the current DASWCAP on the ERCOT website.
+(3)	When the calculated PNM exceeds PNM threshold per MW-year, the SWCAP shall be changed to the LCAP in the following manner:
+(a)	On the Operating Day that the PNM exceeds PNM threshold the HCAP will remain in effect for the balance of the day (Day 1).
+(b)	During the next Operating Day (Day 2), ERCOT shall send a Market Notice that the LCAP is going into effect for the following Operating Day (Day 3).  At the end of Day 2 and following the last SCED interval at approximately 2355, the System Operator will approve the switchover from the HCAP to the LCAP.
+(c)	All SCED intervals for Day 3 and through the end of the calendar year will use the LCAP.
+(d)	On December 31 following the last SCED interval at approximately 2355, the System Operator will approve the switchover from the LCAP up to the HCAP for the next year.
+[NPRR1008:  Replace paragraph (3) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+(3)	When the calculated PNM exceeds PNM threshold per MW-year, the DASWCAP and the VOLL used to determine the ASDCs for DAM and RTM shall both be changed to the LCAP for the remainder of the calendar year, in the following manner:
+(a)	On the Operating Day that the PNM exceeds the PNM threshold, the HCAP will remain in effect for the balance of the day and for the Operating Day thereafter (Days 1 and 2).
+(b)	On the Operating Day after the PNM exceeds the PNM threshold (Day 2) prior to the execution of DAM, ERCOT shall send a Market Notice that the DASWCAP and the VOLL used to determine the ASDCs for DAM and RTM will both be changed to LCAP, effective for the following Operating Day (Day 3).  
+(c)	For the Operating Day two days after the PNM threshold is exceeded (Day 3) and through the end of the calendar year, DAM and RTM will use the LCAP and ASDCs reflecting the updated VOLL.
+(d)	On December 31, for Operating Day January 1, DASWCAP and the VOLL used to determine the ASDCs for the DAM and RTM will be reset to the HCAP for DAM for the new Resource adequacy cycle.
+[NPRR1008:  Insert Section 4.4.12 below upon system implementation of the Real-Time Co-Optimization (RTC) project:]

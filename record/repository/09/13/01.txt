@@ -1,0 +1,6 @@
+9.13.1	Payment Process for the Initial CRR Balancing Account
+(1)	Payments for the Congestion Revenue Right (CRR) Balancing Account (CRRBA) are due on a Business Day and Bank Business Day basis in a one-day, one-step process, as detailed below.
+(a)	By 1700 on the first day that is both a Business Day and a Bank Business Day following the due date of the Settlement Invoice that includes the Real-Time Market (RTM) Initial Settlement Statement for the last day of the month and subject to ERCOT’s right to withhold payments under Section 16, Registration and Qualification of Market Participants, and pursuant to common law, ERCOT shall pay on a net credit shown on the CRRBA Invoice based on amounts due:
+(i)	To each short-paid CRR Owner a monthly refund from the positive balance in the CRRBA, with the amount paid to each CRR Owner as calculated in Section 7.9.3.4, Monthly Refunds to Short-Paid CRR Owners; and  
+(ii)	To each Qualified Scheduling Entity (QSE), any remaining positive balance in the CRRBA, with the amount paid to each QSE as calculated in Section 7.9.3.5, CRR Balancing Account Closure.
+(b)	ERCOT shall give irrevocable instructions to the ERCOT financial institution to remit, to each CRR Owner or QSE, for same day value, the amounts determined by ERCOT to be available for payment.

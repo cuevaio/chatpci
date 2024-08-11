@@ -1,0 +1,2 @@
+9.1.4	Settlement Statement and Invoice Timing
+(1)	Unless expressly stated otherwise, the publication of each Settlement Statement and Invoice can occur as late as 2400 on its scheduled publication date.

@@ -1,0 +1,21 @@
+9.5.2	Settlement Statements for the RTM
+(1)	ERCOT shall make each Settlement Statement for the RTM for an Operating Day available on the date specified on the Settlement Calendar for that Operating Day by posting it to the Market Information System (MIS) Certified Area for the applicable Statement Recipient. 
+(2)	A Settlement Statement for the RTM can be: 
+(a)	An “RTM Initial Statement,” which is the first iteration of a Settlement Statement issued for a particular Operating Day;
+(b)	An “RTM Final Statement,” which is the statement issued at the end of the 55th day following the Operating Day; 
+(c)	An “RTM Resettlement Statement,” which is the statement using corrected Settlement data due to resolution of disputes and correction of data errors; or
+(d)	An “RTM True-Up Statement,” which is a statement issued at the end of the 180th day after the Operating Day.
+(3)	The Statement Recipient is responsible for accessing the Statement from the MIS Certified Area.
+(4)	To issue an RTM Settlement Statement, ERCOT may use estimated, disputed, or calculated meter data.
+(5)	ERCOT shall create an RTM Initial Statement, RTM Final Statement, and RTM True-Up Statement for each Operating Day.
+(6)	ERCOT may create an RTM Resettlement Statement for any Operating Day, depending on the criteria set forth in Section 9.5.6, RTM Resettlement Statement.  When actual validated data is available and all of the Settlement and billing disputes raised by Statement Recipients in accordance with Section 9.14.4, ERCOT Processing of Disputes, during the validation process have been resolved, ERCOT shall recalculate the amounts payable and receivable by the affected RTM Statement Recipients, as described in Section 9.5.6.
+(7)	Each RTM Settlement Statement must denote:
+(a)	Operating Day;
+(b)	The Statement Recipient’s name;
+(c)	The ERCOT identifier (settlement identification number issued by ERCOT);
+(d)	Status of the statement (Initial, Final, Resettlement, or True-Up);
+(e)	Statement version number;
+(f)	Unique statement identification code; and
+(g)	Charge Types settled.
+(8)	A Settlement Statement for the RTM must break the fees down by Charge Type into the appropriate 15-minute or one-hour Settlement Interval for that type. 
+(9)	An RTM Settlement Statement must have a summary page of the corresponding detailed documentation.

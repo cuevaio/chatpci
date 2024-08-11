@@ -1,0 +1,33 @@
+5.7.6	RUC Decommitment Charge 
+(1)	ERCOT shall charge each QSE a RUC Decommitment Charge, on an LRS basis, all revenues paid as a result of RUC Decommitment Payments, including amounts for RMR Units.  The RUC Decommitment Charge for a 15-minute Settlement Interval is calculated as follows:
+LARUCDCAMTq,i	=	(-1) * [(RUCDCAMTTOTh / 4) * LRSq,i]
+      Where:
+	RUCDCAMTTOTh	=	RUCDCAMTq,r,h
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+LARUCDCAMTq,i
+$
+RUC Decommitment Charge—The RUC Decommitment Charge to a QSE, for a 15-minute Settlement Interval.
+RUCDCAMTTOTh
+$
+RUC Decommitment Charge Total—The sum of RUC Decommitment Payments to all QSEs, including amounts for RMR Units, for the hour that includes the 15-minute Settlement Interval.
+LRSq,i
+none
+Load Ratio Share—The LRS for the 15-minute Settlement Interval.  See Section 6.6.2, Load Ratio Share.
+RUCDCAMTq,r,h
+$
+RUC Decommitment Charge—The RUC Decommitment Charge to the QSE q for the Resource r, for the hour that includes the 15-minute Settlement Interval.  When one or more Combined Cycle Generation Resources are decommitted by RUC, payment is made to the Combined Cycle Train for all RUC-decommitted Combined Cycle Generation Resources.
+q
+None
+A QSE.
+i
+none
+A 15-minute Settlement Interval.
+h
+none
+The hour that includes the Settlement Interval i. 
+r 
+None
+A RUC-decommitted Generation Resource.

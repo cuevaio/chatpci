@@ -1,0 +1,6 @@
+3.11.5	Transmission Service Provider and Distribution Service Provider Access to Interval Data
+(1)	ERCOT shall provide specific interval data for Load and generation to TSPs and/or Distribution Service Providers (DSPs), upon request, in accordance with confidentiality as defined in Section 1.3, Confidentiality.
+(a)	The TSP’s and/or DSP’s request for interval data shall identify the reason for requesting the information in regards to impact to the planning process (e.g. build power flow cases, conduct a specific study, etc.).
+(b)	ERCOT shall evaluate the TSP and/or DSP request and validate reasons provided. 
+(c)	Upon ERCOT validation of the TSP and/or DSP request, the data provided shall include meter data measured at points of injection and points of delivery which will measurably impact the TSP’s and/or DSP’s planning and operations as determined by ERCOT (e.g., determination of the TSP’s and/or DSP’s system Load or power flows). 
+(d) 	If ERCOT determines that the request is invalid and denies it, ERCOT shall provide the reasoning for denying the request.

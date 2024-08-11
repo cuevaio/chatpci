@@ -1,0 +1,26 @@
+9.18	Profile Development Cost Recovery Fee for Non-ERCOT Sponsored Load Profile Segment
+(1)	Paragraph (e)(3) of P.U.C. SUBST. R. 25.131, Load Profiling and Load Research, requires that ERCOT establish and implement a process to collect a fee from any Retail Electric Provider (REP) who seeks to assign customers to a non-ERCOT sponsored profile segment.  The process must include a method for other REPs who use the profile segment to compensate the original requestor of the new profile segment and for ERCOT to notify Distribution Service Providers (DSPs) which REPs are authorized to use the new profile segment.  This profile development cost recovery fee is overseen by ERCOT.
+(2)	Within 30 days after a profile segment receives final approval from ERCOT, the requestor shall submit to ERCOT documentation of the costs it incurred in developing the profile segment change request.  All such documentation must be available for review by any Market Participant.  Any costs submitted more than 30 days after approval of the profile segment will not be recoverable.  Recoverable costs must be directly attributable to the creation of the profile segment change request, incurred no earlier than 24 months preceding the original submission date of the profile segment change request, and must be further limited to:
+(a)	Costs for Load research as paid to DSPs or ERCOT, documented by a copy of all DSP or ERCOT Invoices or other evidence of payment, including but not limited to:
+(i)	Buying and installing Interval Data Recorders (IDRs);
+(ii)	Installing communication equipment such as phone lines or cell phones; and
+(iii)	Reading the meters and translating the data.
+(b)	Reasonable costs paid to third parties, including a copy of all third-party invoices or other documentary evidence of payment, including:
+(i)	Defining the request, such as identifying population, profile, data, etc.;
+(ii)	Preparing the request, such as collecting and analyzing data and presenting the case; and
+(iii)	Undertaking the review process such as meeting with ERCOT, Profiling Working Group (PWG), Retail Market Subcommittee (RMS), Technical Advisory Committee (TAC), and the ERCOT Board.
+(c)	Requestor’s reasonable internal documented costs itemizing all persons, hours, and other expenses associated with developing the request per paragraphs (1) and (2) above.
+(3)	Within 60 days after ERCOT approves a profile segment, ERCOT shall evaluate the costs submitted and shall disallow any costs not meeting these criteria.  The remaining costs must comprise the total reimbursable cost.  Within the same 60-day period, ERCOT shall post a report on the ERCOT website summarizing the allowed expenses by paragraphs (1) and (2) above.  If a Market Participant, including the requestor, disagrees with the ERCOT determination with respect to the total reimbursable cost, the Market Participant may submit a dispute as outlined in Section 20, Alternative Dispute Resolution Procedure and Procedure for Return of Settlement Funds.  No disputes may be submitted after 45 days from posting of the total reimbursable cost to the ERCOT website. 
+(4)	The fee is calculated as follows:
+If a REP is the requestor, then:  FEE = $C / n
+If the requestor is not a REP, then:
+FEE = $C / (n + 1)
+The above variables are defined as follows:
+Variable
+Definition
+n
+The number of REPs subscribing to the profile segment
+$C
+The total reimbursable cost
+(5)	The fee must be paid by each successive subscribing REP to the requestor and any previous subscribing REPs per instructions and validation by ERCOT.  As additional REPs subscribe to the profile segment, the fee is recalculated and reallocated equally among all subscribing REPs and the requestor, if the requestor is not a REP.
+(6)	Beginning four years after the date on which the profile segment becomes available for Settlement, any REP may request assignment of Electric Service Identifiers (ESI IDs) to the profile segment without being assessed the profile development cost recovery fee.

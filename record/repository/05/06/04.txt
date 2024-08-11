@@ -1,0 +1,4 @@
+5.6.4	Cancellation of a RUC Commitment
+(1)	The calculation of payment for a RUC-committed Resource that is issued a RUC Cancellation instruction for the RUC commitment from ERCOT prior to breaker close shall be paid through the RUC Decommitment Payment as described in Section 5.7.3, Payment When ERCOT Decommits a QSE-Committed Resource. 
+(2)	A RUC-committed Resource that receives a RUC Cancellation instruction prior to breaker close may submit through the dispute process all incremental expenses associated with the RUC Cancellation of the RUC-committed Resource.  These costs include all costs that qualify as normal Startup Costs, O&M expenses and associated fuel expenses incurred for any attempted start.
+(3)	The process for determining the verifiable actual costs for a RUC cancellation is described in the Verifiable Cost Manual.

@@ -1,0 +1,2 @@
+9.2.1	Settlement Statement Process for the DAM
+(1)	ERCOT shall produce daily Settlement Statements for the Day-Ahead Market (DAM), as defined in Section 9.2.2, Settlement Statements for the DAM, that show a breakdown of Charge Types incurred in the DAM, including any administrative and miscellaneous charges applicable to the DAM.  “Charge Types” are the various categories of specific charges referenced in Section 9.15.1, Charge Type Matrix.

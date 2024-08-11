@@ -1,0 +1,51 @@
+TSP and DSP Metered Entity
+An Entity that meets the requirements of Section 10.2.2, TSP and DSP Metered Entities. 
+Tangible Net Worth  
+Total shareholder’s equity less goodwill and other intangible assets.
+Temporary Outage Action Plan (TOAP) (see Constraint Management Plan)
+Texas Nodal Market Implementation Date
+The date on which ERCOT starts operation of the Texas Nodal Market in compliance with the rules and orders of the Public Utility Commission of Texas (PUCT).  Once this date is determined, ERCOT shall post it on the ERCOT website and maintain it on the ERCOT website.
+Texas Standard Electronic Transaction (TX SET)
+(1)	Texas Standard Electronic Transactions (TX SETs) are the electronic data transactions, implementation guides, and applicable external standards that enable and facilitate the retail business processes in the deregulated Texas electric market. 
+(2)	The procedures used to transmit information pertaining to the Customer Registration Database are set forth in Section 19, Texas Standard Electronic Transaction.
+Three-Part Supply Offer 
+An offer made by a QSE for a Generation Resource that it represents containing three components: a Startup Offer, a Minimum-Energy Offer, and an Energy Offer Curve.
+Time Of Use (TOU) Meter
+A programmable electronic device capable of measuring and recording electric energy in pre-specified time periods.  For Load Profiling purposes TOU Metering does not include IDRs.
+Time Of Use Schedule (TOUS)
+A schedule identifying the Time Of Use period associated with each Settlement Interval.  These schedules may include on-peak, off-peak, and shoulder periods.
+Transmission Access Service
+The use of a TSP’s Transmission Facilities for which the TSP is allowed to charge through tariff rates approved by the PUCT.
+Transmission and/or Distribution Service Provider (TDSP)
+An Entity that is a TSP, a DSP or both, or an Entity that has been selected to own and operate Transmission Facilities and has a PUCT approved code of conduct in accordance with P.U.C. SUBST. R. 25.272, Code of Conduct for Electric Utilities and Their Affiliates.
+Transmission Generation Resource (see Resource)
+Transmission Element
+A physical Transmission Facility that is either an Electrical Bus, line, transformer, generator, Load, breaker, switch, capacitor, reactor, phase shifter, or other similar device that is part of the ERCOT Transmission Grid and defined in the ERCOT Network Operations Model. 
+High Impact Transmission Element (HITE)
+A Transmission Element that may, in certain conditions, result in high congestion risk when taken out-of-service and that is identified as further described in Section 3.1.8, High Impact Transmission Element (HITE) Identification.
+Transmission Facilities
+(1)	Power lines, substations, and associated facilities, operated at 60 kV or above, including radial lines operated at or above 60 kV;
+(2)	Substation facilities on the high voltage side of the transformer, in a substation where power is transformed from a voltage higher than 60 kV to a voltage lower than 60 kV or is transformed from a voltage lower than 60 kV to a voltage higher than 60 kV; and
+(3)	The direct current interconnections between ERCOT and the Southwest Power Pool or Comision Federal de Electricidad (CFE).
+[NPRR857:  Replace paragraph (3) above with the following upon system implementation and satisfying the following conditions:  (1) Southern Cross provides ERCOT with funds to cover the entire estimated cost of the project; and (2) Southern Cross has signed an interconnection agreement with a TSP and the TSP gives ERCOT written notice that Southern Cross has provided it with:  (a) Notice to proceed with the construction of the interconnection; and (b) The financial security required to fund the interconnection facilities:]
+(3)	The direct current interconnections between ERCOT and non-ERCOT Control Areas.
+Transmission Loss Factor (TLF)
+The fraction of ERCOT Load (forecast or actual) that is considered to constitute the ERCOT Transmission Grid losses in a Settlement Interval, based on a linear interpolation (or extrapolation) of the calculated losses in the off-peak and on-peak seasonal ERCOT base cases.
+[NPRR1145:  Replace the above definition “Transmission Loss Factor (TLF)” with the following upon system implementation:]
+Transmission Loss Factor (TLF)
+The fraction of ERCOT Load (forecast or actual) that is considered to constitute the ERCOT Transmission Grid losses in a Settlement Interval.
+Actual Transmission Loss Factor (TLF)
+Actual Transmission Loss Factor for each Settlement Interval in the Operating Day is determined by dividing the sum of line and transformer MW losses by the total ERCOT Load as determined by the State Estimator in the Energy Management System (EMS).
+Seasonal On-Peak and Off-Peak Transmission Loss Factor (TLF)
+Seasonal On-Peak and Off-Peak Transmission Loss Factor, as may be applied to determine forecasted ERCOT-wide or deemed actual Transmission Losses for Non-Opt-In Entities (NOIEs), is based on the use of a linear interpolation or extrapolation of the calculated losses in the off-peak and on-peak seasonal ERCOT base cases.
+Transmission Losses
+The difference between energy put into the ERCOT Transmission Grid and energy taken out of the ERCOT Transmission Grid.
+Transmission Operator (TO)
+A Transmission and/or Distribution Service Provider (TDSP) designated by itself or another TDSP for purposes of communicating with ERCOT and taking action to preserve reliability of a particular portion of the ERCOT System, as provided in the ERCOT Protocols or Other Binding Documents.
+[NPRR1045:  Replace the above definition “Transmission Operator (TO)” with the following upon system implementation of NPRR857:]
+Transmission Operator (TO)
+A Transmission and/or Distribution Service Provider (TDSP) designated by itself, a Direct Current Tie Operator (DCTO), or another TDSP for purposes of communicating with ERCOT and taking action to preserve reliability of a particular portion of the ERCOT System, as provided in the ERCOT Protocols or Other Binding Documents.
+Transmission Service
+The commercial use of Transmission Facilities.
+Transmission Service Provider (TSP)
+An Entity under the jurisdiction of the PUCT that owns or operates Transmission Facilities used for the transmission of electricity and provides Transmission Service in the ERCOT Transmission Grid.

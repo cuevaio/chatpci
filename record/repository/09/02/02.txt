@@ -1,0 +1,18 @@
+9.2.2	 Settlement Statements for the DAM
+(1)	ERCOT shall make each Settlement Statement for a DAM available on the date specified on the Settlement Calendar for that DAM by posting it on the Market Information System (MIS) Certified Area for the applicable Market Participant to which the Settlement Statement is addressed (Statement Recipient).
+(2)	A Settlement Statement for the DAM can be: 
+(a)	A “DAM Statement,” which is the Settlement Statement issued for a particular DAM;
+(b)	A “DAM Resettlement Statement,” which corrects a DAM Statement.
+(3)	The Statement Recipient is responsible for accessing the statement from the MIS Certified Area.
+(4)	ERCOT shall create a DAM Statement for each DAM.  
+(5)	ERCOT may create a DAM Resettlement Statement for the DAM, depending on the criteria set forth in Section 9.2.5, DAM Resettlement Statement.
+(6)	Each Settlement Statement for the DAM must denote:
+(a)	The applicable Operating Day;
+(b)	The Statement Recipient’s name;
+(c)	The ERCOT identifier (settlement identification number issued by ERCOT);
+(d)	Status of the statement (DAM Statement  or DAM Resettlement Statement);
+(e)	Statement version number;
+(f)	Unique statement identification code; and
+(g)	Charge Types settled.
+(7)	Settlement Statements for the DAM must break fees down by Charge Types into the appropriate one-hour Settlement Interval for that type.  
+(8)	The Settlement Statement for the DAM must have a summary page of the corresponding detailed documentation.

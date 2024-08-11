@@ -1,0 +1,169 @@
+Sampling
+The process of selecting a subset of a population of Customers that statistically represents the entire population.
+Scheduled Power Consumption
+Expected Load, in MW, reported by a QSE for a Controllable Load Resource pursuant to Section 6.5.5.2, Operational Data Requirements.
+Scheduled Power Consumption Snapshot
+A snapshot, taken by ERCOT, of the Scheduled Power Consumption provided by the QSE for a Controllable Load Resource at the end of the adjustment period and used in determining the Controllable Load Resource Desired Load.
+Season or Seasonal
+Winter months are December, January, and February; Spring months are March, April, and May; Summer months are June, July, and August; Fall months are September, October, and November.
+Seasonal Operation Period
+The period in which a Generation Resource has identified it is available for operation.
+Secure Private Network (SPN)
+A network that is utilized to transmit Wide Area Network (WAN) Data between a Resource and WAN Participant, including any portions of the network that are owned or controlled by intermediate Entities.  The SPN must utilize network service vendors that provide a service level agreement for the network and the components of the SPN shall not utilize the Internet.  The SPN infrastructure must be designed to avoid outages relating to a Denial of Service (DoS) or Distributed Denial of Service (DDoS) attacks that may affect a Market Participant’s Internet-connected equipment.  Examples of an SPN would include dedicated connections such as Multi-Protocol Label Switching (MPLS), Time Division Multiplexing Digital Signal 1 (TDM DS1), Metro Ethernet, or other networks that do not rely upon the Internet and are approved by ERCOT’s telecommunications and security groups. 
+Securitization Default Balance 
+The amount financed by ERCOT pursuant to Public Utility Regulatory Act (PURA) Chapter 39, Restructuring of Electric Utility Industry, Subchapter M, Winter Storm Uri Default Balance Financing, as authorized by the Public Utility Commission of Texas (PUCT), but which may not exceed $800 million. 
+Securitization Default Charge
+Charges assessed to Qualified Scheduling Entities (QSEs) and Congestion Revenue Right (CRR) Account Holders to repay the Securitization Default Balance.
+Securitization Uplift Balance
+The amount of money ERCOT securitized under Public Utility Regulatory Act (PURA) Chapter 39, Restructuring of Electric Utility Industry, Subchapter N, Winter Storm Uri Uplift Financing, pursuant to the Debt Obligation Order (DOO) issued by the Public Utility Commission of Texas (PUCT) in PUCT Docket No. 52322, Application of Electric Reliability Council of Texas, Inc. for a Debt Obligation Order to Finance Uplift Balances Under PURA Chapter 39, Subchapter N, and for a Good Cause Exception. 
+Securitization Uplift Charge
+A charge assessed to a Qualified Scheduling Entity (QSE) that represents an obligated Load Serving Entity (LSE) that will be used to pay the Securitization Uplift Balance, interest charges, and other financing related expenses.
+Securitization Uplift Charge Opt-Out Entity
+An eligible entity under Public Utility Regulatory Act, TEX. UTIL. CODE ANN. § 39.653(d) (Vernon 1998 & Supp. 2007) (PURA) that qualified to opt-out of paying Securitization Uplift Charges, as documented through the filing of opt-out notices in Public Utility Commission of Texas (PUCT) Project No. 52364, Proceeding for Eligible Entities to File an Opt Out Pursuant to PURA § 39.653(d) and for Load-Serving Entities to File Documentation of Exposure to Costs Pursuant to the Debt Obligation Order in Docket No. 52322, and as addressed in Findings of Fact 38-46 and Ordering Paragraphs 20-25 of the Debt Obligation Order in Docket No. 52322, Application of the Electric Reliability Council of Texas, Inc. For a Debt Obligation Order to Finance Uplift Balances Under PURA Chapter 39, Subchapter N, for an Order Initiating a Parallel Docket, and for a Good Cause Exception.
+Security-Constrained Economic Dispatch (SCED)
+The determination of desirable Generation Resource output levels using Energy Offer Curves while considering State Estimator output for Load at transmission-level Electrical Buses, Generation Resource limits, and transmission limits to provide the least offer-based cost dispatch of the ERCOT System.
+[NPRR1013 and NPRR1014:  Replace the definition “Security-Constrained Economic Dispatch (SCED)” above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project; or upon system implementation of NPRR1014, respectively:]
+Security-Constrained Economic Dispatch (SCED)
+A process for determining Ancillary Service awards and Base Point instructions for Resources using Energy Offer Curves, Energy Bid/Offer Curves, RTM Energy Bids, Ancillary Service Offers and Ancillary Service Demand Curves.  A SCED execution results in Ancillary Service awards and Base Point instructions that maximize bid-based revenues less offer-based costs while considering State Estimator output for Load at transmission-level Electrical Buses, Resource limits, and transmission limits to maximize bid-based revenues less offer-based costs.
+Self-Arranged Ancillary Service Quantity
+The quantity of an Ancillary Service that a Qualified Scheduling Entity (QSE) secures for itself using Resources represented by that QSE and Ancillary Service Trades.    
+[NPRR1013:  Replace the definition “Self-Arranged Ancillary Service Quantity” above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+Self-Arranged Ancillary Service Quantity
+The quantity of an Ancillary Service that a Qualified Scheduling Entity (QSE) secures for itself in the Day-Ahead Market (DAM) using Resources represented by that QSE and Ancillary Service Trades.
+Self-Limiting Facility
+A modeled generation station that includes one or more Generation Resources, and/or Energy Storage Resources (ESRs) with an established limit on the total MW Injection that is less than the total nameplate capacity of all Resource(s) within the Facility.  A Facility with one or more ESRs may also have an established limit on the MW Withdrawal that is less than the total nameplate MW Withdrawal rating of all ESR(s) within the facility.
+[NPRR1077:  Replace the above definition “Self-Limiting Facility” with the following upon system implementation:]
+Self-Limiting Facility
+A modeled generation station that includes one or more Generation Resources, Energy Storage Resources (ESRs), and/or Settlement Only Generators (SOGs) with an established limit on the total MW Injection that is less than the total nameplate capacity of all registered generators or Energy Storage Systems (ESSs) within the Facility.  A Facility with one or more ESRs may also have an established limit on the MW Withdrawal that is less than the total nameplate MW Withdrawal rating of all ESRs within the facility.
+Self-Schedule
+Information for Real-Time Settlement purposes that specifies the amount of energy supply at a specified source Settlement Point used to meet an energy obligation at a specified sink Settlement Point for the QSE submitting the information. 
+Service Address 
+The street address associated with an ESI ID as recorded in the Customer Registration Database.  This address shall conform to United States Postal Service Publication 28.
+Service Delivery Point
+The specific point on the system where electricity flows from the TSP or DSP to a Customer.
+Settlement
+The process used to resolve financial obligations between a Market Participant and ERCOT. 
+Settlement Calendar
+A calendar that provides information on when Settlement Statements and Invoices shall be posted, payment due dates, and dispute deadlines.  Additional information is provided in Section 9.1.2, Settlement Calendar.
+Settlement Interval
+The time period for which markets are settled. 
+Settlement Invoice
+A notice for payment or credit due rendered by ERCOT based on data contained in Settlement Statements.
+Settlement Meter
+Generation and end-use consumption meters used for allocation of ERCOT charges and wholesale and retail Settlements.
+[NPRR995:  Insert the following definitions “Settlement Only Energy Storage System (SOESS)”, “Settlement Only Distribution Energy Storage System (SODESS)”, and “Settlement Only Transmission Energy Storage System (SOTESS)” upon system implementation:]
+Settlement Only Energy Storage System (SOESS)
+An Energy Storage System (ESS) that is settled for imported/exported energy only, but may not participate in the Ancillary Services market, Reliability Unit Commitment (RUC), Security-Constrained Economic Dispatch (SCED), or submit energy offers or bids.  These units are comprised of:
+Settlement Only Distribution Energy Storage System (SODESS)
+An Energy Storage System (ESS) connected to the Distribution System with a rating of:
+(1)	One MW or less that chooses to register as an SODESS; or 
+(2)	Greater than one and up to ten MW that is capable of providing a net export to the ERCOT System and does not register as a Distribution Energy Storage Resource (DESR).
+Settlement Only Transmission Energy Storage System (SOTESS)
+An Energy Storage System (ESS) connected to the ERCOT transmission system with a rating of ten MW or less that has not been registered as an Energy Storage Resource (ESR).
+
+[NPRR995:  Insert the following definitions “Settlement Only Generator (SOG)”, “Settlement Only Distribution Generator (SODG)”, “Settlement Only Transmission Generator (SOTG)”, and “Settlement Only Transmission Self-Generator (SOTSG)” upon system implementation:]
+Settlement Only Generator (SOG)
+A generator that is settled for exported energy only, but may not participate in the Ancillary Services market, Reliability Unit Commitment (RUC), Security-Constrained Economic Dispatch (SCED), or submit energy offers.  These units are comprised of:
+Settlement Only Distribution Generator (SODG)
+A generator that is connected to the Distribution System with a rating of:
+(1)	One MW or less that chooses to register as an SODG; or 
+(2)	Greater than one and up to ten MW that is capable of providing a net export to the ERCOT System and does not register as a Distribution Generation Resource (DGR).
+SODGs must be registered with ERCOT in accordance with Planning Guide Section 6.8.2, Resource Registration Process, and will be modeled in ERCOT systems for reliability in accordance with Section 3.10.7.2, Modeling of Resources and Transmission Loads. 
+Settlement Only Transmission Generator (SOTG)
+A generator that is connected to the ERCOT transmission system with a rating of ten MW or less and is registered with the Public Utility Commission of Texas (PUCT) as a power generation company.  SOTGs must be registered with ERCOT in accordance with Planning Guide Section 6.8.2, Resource Registration Process, and may be modeled in ERCOT systems for reliability in accordance with Section 3.10.7.2, Modeling of Resources and Transmission Loads.
+Settlement Only Transmission Self-Generator (SOTSG)
+A generator that is connected to the ERCOT transmission system with a rating of one MW or more and is registered with the Public Utility Commission of Texas (PUCT) as a self-generator.  SOTSGs must be registered with ERCOT in accordance with Planning Guide Section 6.8.2, Resource Registration Process, and will be modeled in ERCOT systems for reliability in accordance with Section 3.10.7.3, Modeling of Private Use Networks.
+Settlement Only Generator (SOG) (see Resource)
+Settlement Only Distribution Generator (SODG) (see Resource)
+Settlement Only Transmission Generator (SOTG) (see Resource)
+Settlement Only Transmission Self-Generator (SOTSG) (see Resource)
+Settlement Point
+A Resource Node, Load Zone, or Hub.
+Settlement Point Price 
+A price calculated for a Settlement Point for each Settlement Interval using LMP data and the formulas detailed in Section 4.6, DAM Settlement, and Section 6.6, Settlement Calculations for the Real-Time Energy Operations. 
+Settlement Quality Meter Data
+Data that has been edited, validated, and is appropriate for ERCOT to use for Settlement and billing purposes.
+Settlement Statement
+A statement issued by ERCOT reflecting a breakdown of administrative, miscellaneous, and market charges for the applicable market services, as further described in Section 9.2, Settlement Statements for the Day-Ahead Market, and Section 9.5, Settlement Statements for Real-Time Market.
+Day-Ahead Market (DAM) Resettlement Statement
+The Settlement Statement issued for a particular DAM using corrected Settlement data, in accordance with Section 9.2.5, DAM Resettlement Statement.
+Day-Ahead Market (DAM) Statement
+The Settlement Statement issued for a particular DAM, as further described in Section 9.2.4, DAM Statement.
+Real-Time Market (RTM) Final Statement
+The RTM Settlement Statement issued at the end of the 55th day following the Operating Day, as described in Section 9.5.5, RTM Final Statement.
+Real-Time Market (RTM) Initial Statement
+The first iteration of an RTM Settlement Statement issued for a particular Operating Day, as further described in Section 9.5.4, RTM Initial Statement.
+Real-Time Market (RTM) Resettlement Statement
+The RTM Settlement Statement using corrected Settlement data, in accordance with Section 9.5.6, RTM Resettlement Statement.
+Real-Time Market (RTM) True-Up Statement
+The RTM Settlement Statement issued 180 days following the Operating Day, as further described in Section 9.5.8, RTM True-Up Statement.
+Shadow Price
+A price for a commodity that measures the marginal value of this commodity; that is, the rate at which system costs could be decreased or increased by slightly increasing or decreasing, respectively, the amount of the commodity being made available.
+Shift Factor
+A measure of the flow on a particular Transmission Element due to a unit injection of power from a particular Electrical Bus to a fixed reference Electrical Bus.
+Short-Term PhotoVoltaic Power Forecast (STPPF)
+An ERCOT produced hourly 50% probability of exceedance forecast of the generation in MWh per hour from each PVGR that could be generated from all available units of that Resource.
+Short-Term Wind Power Forecast (STWPF)
+An ERCOT produced hourly 50% probability of exceedance forecast of the generation in MWh per hour from each WGR that could be generated from all available units of that Resource.
+Simple Transmission Outage (see Outage)
+[NPRR1218:  Insert the definition “Solar Renewable Energy Credit (SREC)” below upon system implementation:]
+Solar Renewable Energy Credit (SREC)
+A tradable instrument that represents all of the renewable attributes associated with one MWh of production from a certified solar renewable generator.
+Split Generation Resource (see Resource Attribute)
+Startup Cost 
+All costs incurred by a Generation Resource in starting up and reaching Low Sustained Limit (LSL), as described in the Verifiable Cost Manual.  The Startup Cost is in dollars per start.
+Startup Loading Failure 
+A type of Forced Outage that results when a Generation Resource is unable to operate at Low Sustained Limit (LSL) at the time scheduled in the Current Operating Plan (COP) which occurs while the unit is ramping up to its scheduled MW output.  A Startup Loading Failure ends when the Resource: 
+(a)	Achieves its LSL; 
+(b)	Is scheduled to go Off-Line; or 
+(c)	Ceases the attempt to start the Generation Resource and changes its Resource Status to OUT.
+Startup Offer  
+An offer for all costs incurred by a Generation Resource in starting up and reaching Low Sustained Limit (LSL).  The Startup Offer is in dollars per start.  
+State Estimator
+A computational algorithm that uses Real-Time inputs from the network’s Supervisory Control and Data Acquisition (SCADA) system that measure the network’s electrical parameters, including its topology, voltage, power flows, etc., to estimate electrical parameters (such as line flows and Electrical Bus voltages and Loads) in the ERCOT Transmission Grid.  The State Estimator’s output is a description of the network and all of the values (topology, voltage, power flow, etc.) to describe each Electrical Bus and line included in the system model.
+State Estimator Bus  
+An electrical node of common voltage at a substation that consists of one or more Electrical Buses tied together with closed breakers or switches.
+State of Charge (SOC)
+The stored energy in MWh, of an Energy Storage Resource (ESR), that can be injected into the grid at the Point of Interconnection (POI) or Point of Common Coupling (POCC).
+Hour Beginning Planned SOC
+The planned State of Charge, in MWh, at the beginning of an hour, as communicated to ERCOT by the Qualified Scheduling Entity (QSE) for the Resource.
+Maximum State of Charge (MaxSOC)
+The maximum amount of State of Charge, in MWh, of an ESR.
+Minimum State of Charge (MinSOC)
+The minimum amount of State of Charge, in MWh, of an ESR.
+Study Area
+A geographic region designated by ERCOT, separate from a Weather Zone or Load Zone.  Study Areas are used primarily for study purposes.  Study Areas shall be developed by ERCOT.
+Subsynchronous Oscillation (SSO)
+Coincident oscillation occurring between two or more Transmission Elements or Generation Resources at a natural harmonic frequency lower than the normal operating frequency of the ERCOT System (60 Hz).
+Subsynchronous Resonance (SSR)
+Coincident oscillation occurring between Generation Resources and a series capacitor compensated transmission system at a natural harmonic frequency lower than the normal operating frequency of the ERCOT System (60 Hz), including the following types of interactions:
+Torsional Interaction
+Torsional Interaction is the interplay between mechanical system of a turbine generator and a series compensated transmission system.
+Induction Generator Effect (IGE)
+An electrical phenomena in which a resonance involving a Generation Resource and a series compensated transmission system results in electrical self-excitation of the Generation Resource at a subsynchronous frequency.
+Torque Amplification
+An interaction between Generation Resources and a series compensated transmission system in which the response results in higher transient torque during or after disturbances than would otherwise occur.
+Subsynchronous Control Interaction (SSCI)
+The interaction between a series capacitor compensated transmission system and the control system of Generation Resources.
+Subsynchronous Resonance (SSR) Countermeasures 
+Any equipment or any procedure to mitigate the SSR vulnerability, including but not limited to the following types of countermeasures:
+Subsynchronous Resonance (SSR) Protection 
+A countermeasure that includes, but is not limited to, disconnecting the affected Generation Resource. 
+Subsynchronous Resonance (SSR) Mitigation 
+A countermeasure that includes, but is not limited to, equipment installation, controller adjustment, or a procedure to mitigate the SSR vulnerability without disconnecting the affected Generation Resources.
+Sustained Response Period
+The period of time beginning ten minutes after ERCOT’s issuance of a VDI deploying ERS-10 or 30 minutes after ERCOT’s issuance of a VDI deploying ERS-30 and ending with ERCOT’s issuance of a VDI releasing ERS Resources from the deployment.
+Switch Request
+A request submitted by a CR on behalf of a Customer to switch service from the Customer’s current CR to the requesting CR.
+Switchable Generation Resource (SWGR) (see Resource Attribute)
+Synchronism Check Relay
+A relay that electrically determines if the difference in voltage magnitude, frequency and phase angle falls within allowable limits for a breaker or switch to close.  The Synchronism Check Relay will either allow or prevent closing depending on its settings.
+Synchroscope
+A piece of equipment that is used to monitor voltage waveforms from the two sides of an open circuit breaker or disconnect switch to ensure that the voltage magnitude, frequency and phase angle are close enough to close the breaker or switch.
+System Lambda
+The cost of providing one MWh of energy at the reference Electrical Bus, i.e. the Shadow Price for the power balance constraint, which is equal to the change in the objective function obtained by relaxing the power balance constraint by one MW.  The System Lambda is the energy component of LMP at each Settlement Point in ERCOT.
+System Operator
+An Entity that supervises the collective Transmission Facilities of a power region.  This Entity is charged with coordination of market transactions, system-wide transmission planning, and network reliability.
+System-Wide Offer Cap (SWCAP)
+The SWCAP shall be determined in accordance with Public Utility Commission of Texas (PUCT) Substantive Rules.  
+[NPRR1013:  Delete the above definition “System-Wide Offer Cap (SWCAP)” upon system implementation of the Real-Time Co-Optimization (RTC) project.]

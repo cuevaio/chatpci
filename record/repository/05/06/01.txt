@@ -1,0 +1,252 @@
+5.6.1	Verifiable Costs
+(1)	The Qualified Scheduling Entity (QSE) is responsible for submitting verifiable costs unless both the QSE and Resource Entity agree that the Resource Entity will have this responsibility, in which case both the QSE and Resource Entity shall submit an affidavit to ERCOT stating this arrangement.  Notwithstanding the foregoing, QSEs that submit Power Purchase or Tolling Agreements (PPAs) do not have the option of allowing Resource Entities to file verifiable costs.
+(2)	Make-Whole Payments for a Resource are based on the Startup Offers and Minimum-Energy Offers for the Resource, limited by caps.  Until ERCOT approves verifiable unit-specific costs for that Resource, the caps are the Resource Category Startup Generic Cap and the Resource Category Minimum-Energy Generic Cap.  When ERCOT approves verifiable unit-specific costs for that Resource the caps are those verifiable unit-specific costs.  A QSE or Resource Entity may file verifiable unit-specific costs for a Resource at any time, but it must file those costs no later than 30 days after five Reliability Unit Commitment (RUC) events for that Resource in a calendar year.  A RUC event begins when a Resource receives a RUC instruction to come or stay On-Line and ends the later of when the Resource shuts down or the end of the Operating Day.  The most recent ERCOT-approved verifiable costs must be used going forward. 
+(3)	These unit-specific verifiable costs may include and are limited to the following average incremental costs:
+(a)	Allocation of maintenance requirements based on number of starts between maintenance events using, at the option of the QSE or Resource Entity, either:
+(i)	Manufacturer-recommended maintenance schedule; 
+(ii)	Historical data for the unit and actual maintenance practices; or
+(iii)	Another method approved in advance by ERCOT in writing;
+(b)	Startup fuel calculations based on recorded actual measured flows when the data is available or based on averages of historical flows for similar starts (for example, hot, cold, intermediate) when actual data is not available.  Startup fuel will include filing separately the startup fuel required to reach breaker close and fuel after breaker close to Low Sustained Limit (LSL).  Any fuel required to shutdown a Resource will be submitted as the fuel from breaker open to shutdown;
+(c)	Operation costs;
+(d)	Chemical costs;
+(e)	Water costs; and
+(f)	Emission credits.
+(4)	Standard Operations and Maintenance (O&M) costs pursuant to paragraph (6) below may be used in lieu of the incremental O&M costs set forth in items (3)(a), (c), (d) and (e) above. 
+(5)	These unit-specific verifiable costs may not include:
+(a)	Fixed costs, which are any cost that is incurred regardless of whether the unit is deployed or not; and
+(b)	Costs for which the QSE or Resource Entity cannot provide sufficient documentation for ERCOT to verify the costs.
+(6)	At their election, QSEs or Resource Entities may receive standard O&M costs for both startup and minimum energy.  This election may be made by submitting an election form to ERCOT.  If a QSE or Resource has received final approval for actual verifiable O&M costs under the verifiable cost process, it may not elect to receive standard O&M costs.  
+(a)	Until December 31, 2011, standard O&M costs are defined as follows:
+Resource Category
+Start Year = 2009
+Cold Startup ($/start)
+Intermediate Startup ($/start)
+Hot Startup ($/start)
+Variable O&M ($/MWh)
+Aeroderivative simple cycle commissioned after 1996
+1,000.00
+1,000.00
+1,000.00
+3.94
+Reciprocating Engine
+$58/MW * the average of the Seasonal net max sustainable ratings
+$58/MW * the average of the  Seasonal net max sustainable ratings  
+$58/MW * the average of the Seasonal net max sustainable ratings
+5.09
+Simple cycle ≤ 90 MW
+2,300.00
+2,300.00
+2,300.00
+3.94
+Simple cycle ≥ 90 MW
+5,000.00
+5,000.00
+5,000.00
+3.94
+Combined cycle:  for each  Combined-Cycle Configuration, the Startup Cost for that configuration is the sum of the Startup Costs for each unit within that configuration as follows:
+3.19
+Combustion turbine < 90 MW
+2,300.00
+2,300.00
+2,300.00
+Combustion turbine ≥ 90 MW
+5,000.00
+5,000.00
+5,000.00
+Steam turbine
+3,000.00
+2,250.00
+1,250.00
+Gas-steam non-reheat boiler
+2,310.00
+1,732.50
+866.25
+7.08
+Gas-steam reheat boiler
+3,000.00
+2,250.00
+1,125.00
+7.08
+Gas-steam supercritical boiler
+4,800.00
+3,600.00
+1,800.00
+7.08
+Nuclear, coal, lignite and hydro
+7,200.00
+5,400.00
+2,700.00
+5.02
+Renewable
+Not Applicable
+Not Applicable
+Not Applicable
+5.50
+(b)	For the period beginning January 1, 2012 and ending December 31, 2012, standard O&M costs shall be reduced by 10% from the levels specified in the table in paragraph (a) above as follows:
+Resource Category
+Cold Startup ($/start)
+Intermediate Startup ($/start)
+Hot Startup ($/start)
+Variable O&M ($/MWh)
+Start Year = 2009
+Aeroderivative simple cycle commissioned after 1996
+900.00
+900.00
+900.00
+3.55
+Reciprocating Engine
+$52.20/MW * the average of the  Seasonal net max sustainable ratings
+$52.20/MW * the average of the  Seasonal net max sustainable ratings
+$52.20/MW * the average of the Seasonal net max sustainable ratings
+4.58
+Simple cycle ≤ 90 MW
+2,070.00
+2,070.00
+2,070.00
+3.55
+Simple cycle ≥ 90 MW
+4,500.00
+4,500.00
+4,500.00
+3.55
+Combined cycle:  for each  Combined-Cycle Configuration, the Startup Cost for that configuration is the sum of the Startup Costs for each unit within that configuration as follows:
+2.87
+Combustion turbine < 90 MW
+2,070.00
+2,070.00
+2,070.00
+Combustion turbine ≥ 90 MW
+4,500.00
+4,500.00
+4,500.00
+Steam turbine
+2,700.00
+2,025.00
+1,125.00
+Gas-steam non-reheat boiler
+2,079.00
+1,559.25
+779.63
+6.37
+Gas-steam reheat boiler
+2,700.00
+2,025.00
+1,012.50
+6.37
+Gas-steam supercritical boiler
+4,320.00
+3,240.00
+1,620.00
+6.37
+Nuclear, coal, lignite and hydro
+6,480.00
+4,860.00
+2,430.00
+4.52
+Renewable
+Not Applicable
+Not Applicable
+Not Applicable
+4.95
+(c)	Beginning January 1, 2013 and going forward, standard O&M costs shall be reduced by 20% from the levels specified in the table in paragraph (a) above as follows:
+Resource Category
+Cold Startup ($/start)
+Intermediate Startup ($/start)
+Hot Startup ($/start)
+Variable O&M ($/MWh)
+Start Year = 2009
+Aeroderivative simple cycle commissioned after 1996
+800.00
+800.00
+800.00
+3.15
+Reciprocating Engine
+$46.40/MW * the average of the  Seasonal net max sustainable ratings
+$46.40 /MW * the average of the Seasonal net max sustainable ratings
+$46.40 /MW * the average of the Seasonal net max sustainable ratings
+4.07
+Simple cycle ≤ 90 MW
+1,840.00
+1,840.00
+1,840.00
+3.15
+Simple cycle ≥ 90 MW
+4,000.00
+4,000.00
+4,000.00
+3.15
+Combined cycle:  for each  Combined-Cycle Configuration, the Startup Cost for that configuration is the sum of the Startup Costs for each unit within that configuration as follows:
+ 
+ 
+ 
+2.55
+Combustion turbine < 90 MW
+1,840.00
+1,840.00
+1,840.00
+ 
+Combustion turbine ≥ 90 MW
+4,000.00
+4,000.00
+4,000.00
+ 
+Steam turbine
+2,400.00
+1,800.00
+1,000.00
+ 
+Gas-steam non-reheat boiler
+1,848.00
+1,386.00
+693.00
+5.66
+Gas-steam reheat boiler
+2,400.00
+1,800.00
+900.00
+5.66
+Gas-steam supercritical boiler
+3,840.00
+2,880.00
+1,440.00
+5.66
+Nuclear, coal, lignite and hydro
+5,760.00
+4,320.00
+2,160.00
+4.02
+Renewable
+Not Applicable
+Not Applicable
+Not Applicable
+4.40
+(d)	If the QSE or Resource Entity chooses to utilize the standard O&M costs for O&M, standard O&M costs will be used by ERCOT going forward until either:
+(i)	Verifiable variable O&M costs are filed; or 
+(ii)	ERCOT notifies the QSE or Resource Entity to update its verifiable costs as set forth in either paragraph (9) or (10) below.  If a Resource is receiving standard O&M costs, it may reelect standard O&M costs when resubmitting verifiable costs.
+(7)	When submitting verifiable costs for combined cycle Resources, the QSE or Resource Entity must elect standard O&M costs for all Combined-Cycle Configurations or verifiable costs for all Combined-Cycle Configurations within the combined cycle train.  
+(8)	QSEs submitting PPAs as Resource-specific verifiable costs documentation are subject to the guidelines detailed below and in the Verifiable Cost Manual.
+(a)	Only QSEs offering Three-Part Supply Offers for a specific Resource may submit a PPA as verifiable costs documentation.
+(b)	A QSE submitting a PPA as verifiable costs documentation must represent 100% of the Resource’s capacity.  
+(c)	Only PPAs:  
+(i) 	Signed prior to July 16, 2008; and 
+(ii)	Not between Affiliates, subsidiaries or partners will be accepted as verifiable cost documentation.
+(d)	Verifiable costs for PPAs shall be capped at the level of the highest comparable Resource (referred to as the reference Resource) specific verifiable costs approved by ERCOT without a PPA.  The ERCOT approved verifiable costs for a PPA shall be equal to the lesser of:  
+(i)	The cap as described in paragraph (d) above; and 
+      (ii)	The costs from the PPA.
+(e)	ERCOT shall use the Resource actual fuel costs submitted by the QSE for startup and operation at minimum-energy level (LSL), and shall use the Resource Category Startup Offer Generic Costs as the cap for the O&M portion of the Startup Costs until ERCOT receives and approves comparable Resource specific verifiable costs.  
+(f)	PPAs will no longer be accepted as verifiable cost documentation after the primary term of the contract expires. 
+(g)	ERCOT shall produce a report each April that provides the percentage of RUC Make-Whole Payments for Resources with PPAs during the 12 months of the previous calendar year.  If there are no Make-Whole Payments for Resources with PPAs, ERCOT shall not produce the annual report.  The report shall be based on the final Settlements and include the total number of Resources that used a PPA for their most recent verifiable cost submission that was approved by ERCOT.  ERCOT shall present the results of this study to the appropriate Technical Advisory Committee (TAC) subcommittee.
+(h)	Notwithstanding anything to the contrary in this Section 5.6.1, QSEs representing PPAs may, at any time, submit data from a Resource as verifiable costs documentation and such documentation will be accepted for consideration by ERCOT.  A QSE submitting verifiable costs documentation pursuant to this paragraph shall not be required to submit a PPA to ERCOT for consideration for verifiable cost recovery.
+(9)	ERCOT shall notify a QSE to update verifiable cost data of a Resource when the Resource has received more than 50 RUC instructions meeting the criteria in Section 5.6.2, RUC Startup Cost Eligibility, in a year, but ERCOT may not request an update more frequently than annually. 
+(10)	ERCOT shall notify a QSE to update verifiable cost data of a Resource if at least five years have passed since ERCOT previously approved verifiable cost data for that Resource. 
+(11)	Within 30 days after receiving an update Notice from ERCOT under either paragraph (9) or (10) above, a QSE or Resource Entity must submit verifiable cost data for the Resource.  Despite the provisions in paragraph (2) above, if the QSE or Resource Entity does not submit verifiable cost data within 30 days after receiving an update Notice, then ERCOT shall determine payment using the Resource Category Startup Offer Generic Cap, Resource Category Minimum-Energy Offer Generic Cap, and a zeroed value for variable O&M cost as described in Section 4.4.9.4.1, Mitigated Offer Cap, in accordance with the schedule established in this section until updated verifiable costs are approved.  If the 30-day deadline has been reached before the start of the tenth day before the end of the month, the Resource’s verifiable costs will revert back to generic costs beginning on the first day of the following month.  If the 30-day deadline falls within the last ten days of the month, the Resource’s verifiable costs will revert back to generic costs on the first day of the second month following the deadline month.
+(12) 	Notwithstanding the foregoing, QSEs and Resource Entities shall not submit verifiable costs for Energy Storage Resources (ESRs).
+5.6.1.1	Verifiable Startup Costs
+(1)	The unit-specific verifiable costs for starting a Resource for each cold, intermediate, and hot start condition, as determined using the data submitted under Section 5.6.1, Verifiable Costs, and the Resource Parameters for the Resource are: 
+(a) 	Actual fuel consumption rate per start (MMBtu/start) multiplied by a resource fuel price plus consideration of a fuel adder that compensates for the transportation and purchasing of spot fuel as described in the Verifiable Cost Manual; and
+(b) 	Unit-specific verifiable or standard O&M expenses.
+5.6.1.2	Verifiable Minimum-Energy Costs 
+(1)	The unit-specific verifiable minimum-energy costs for a Resource are: 
+(a)	Actual fuel cost to operate the unit at its LSL including a fuel adder that compensates for the transportation and purchasing of spot fuel as described in the Verifiable Cost Manual; plus
+(b)	Verifiable or standard variable O&M expenses.
+(2)	The QSE must submit the Resource’s cost information by Season if the Resource’s costs vary by Season.  For gas-fired units, the actual fuel costs must be calculated using the actual Seasonal heat rate (which must be supplied to ERCOT with Seasonal heat-rate test data) multiplied by the fuel price plus consideration of a fuel adder that compensates for the transportation and purchasing of spot fuel as described in the Verifiable Cost Manual.  For coal- and lignite-fired units, the actual fuel costs must be calculated using the actual Seasonal heat rate multiplied by a deemed fuel price of $1.50 per MMBtu.  For fuel oil-fired operations, the number of gallons burned must be multiplied by the FOP.

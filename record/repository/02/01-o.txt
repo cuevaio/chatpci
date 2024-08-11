@@ -1,0 +1,57 @@
+Off-Line
+The status of a Resource that is not synchronously interconnected to the ERCOT System.
+On-Line
+The status of a Resource that is synchronously interconnected to the ERCOT System.
+On-Peak Hours 
+Hours ending in 0700 to 2200 CPT from Monday through Friday excluding NERC holidays. 
+Operating Condition Notice (OCN)
+The first of three levels of communication issued by ERCOT in anticipation of a possible Emergency Condition.
+Operating Day
+The day, including hours ending 0100 to 2400, during which energy flows.
+Operating Hour
+A full clock hour during which energy flows. 
+Operating Period
+A two-hour period comprised of the Operating Hour and the clock hour preceding the Operating Hour.
+Operating Reserve Demand Curve (ORDC)
+A curve that represents the value of reserves at different reserve levels based on the probability of reserves falling below the minimum contingency level and the Value of Lost Load (VOLL), as further described in the Methodology for Implementing Operating Reserve Demand Curve (ORDC) to Calculate Real-Time Reserve Price Adder.
+[NPRR1013:  Delete the above definition “Operating Reserve Demand Curve (ORDC)” upon system implementation of the Real-Time Co-Optimization (RTC) project.]
+Opportunity Outage (see Outage)
+Opt Out Snapshot 
+A record of a Resource’s Current Operating Plan (COP) used to determine whether the Resource will opt out of Reliability Unit Commitment (RUC) Settlement for a block of RUC-Committed Hours.  The Opt Out Snapshot is taken at the earlier of:
+(a)	Two hours prior to the end of the Adjustment Period for the first hour of a contiguous block of RUC-Committed Hours; or 
+(b)	Two hours prior to the beginning of the hour that is at least N hours prior to the first hour of the contiguous block of the RUC-Committed hours, where N is the start time contained in the ERCOT computer system at the time of the RUC execution associated with the RUC instruction corresponding to the Resource’s warmth state.  If the RUC-Committed Hours are an extension of a Qualified Scheduling Entity (QSE)-Committed Interval either before or after, N will be set to zero.  For a Combined Cycle Generation Resource within a Combined Cycle Train, including a RUC to a different configuration with additional capacity, the start time is the start time corresponding to the specific configuration of the RUC-committed Combined Cycle Generation Resource.
+Other Binding Documents List
+List of Other Binding Documents as managed in paragraph (3) of Section 1.1, Summary of the ERCOT Protocols Document.
+Outage
+The condition of a Transmission Facility or a portion of a Facility, or Generation Resource that is part of the ERCOT System and defined in the Network Operations Model that has been removed from its normal service, excluding the operations of Transmission Facilities associated with the start-up and shutdown of Generation Resources.  
+Forced Outage
+An Outage initiated by protective relay, or manually in response to an observation by personnel that the condition of equipment could lead to an event, or potential event, that poses a threat to people, equipment, or public safety.
+For a Generation Resource, an Outage that requires immediate removal, either through controlled or uncontrolled actions, of all or a portion of the capacity of the Resource from service through automated or manual means.  This type of Outage usually results from immediate mechanical/electrical/hydraulic control system trips and operator-initiated actions in response to a Resource’s condition.
+High Impact Outage (HIO)
+A Planned Outage or Rescheduled Outage that interrupts flow on a High Impact Transmission Element (HITE).
+Maintenance Outage
+An Outage initiated manually to remove equipment from service to perform work on components that could be postponed briefly but that is required to prevent a potential Forced Outage and that cannot be postponed until the next Planned Outage.  Maintenance Outages are classified as follows:
+(1)	Level 1 Maintenance Outage – Equipment that must be removed from service within 24 hours to prevent a potential Forced Outage;
+(2)	Level II Maintenance Outage – Equipment that must be removed from service within seven days to prevent a potential Forced Outage; and
+(3)	Level III Maintenance Outage – Equipment that must be removed from service within 30 days to prevent a potential Forced Outage.
+Opportunity Outage  
+An Outage that may be accepted by ERCOT when a specific Resource is Off-Line due to an Outage. 
+Planned Outage
+An Outage that is planned and scheduled in advance with ERCOT, other than a Maintenance Outage or Opportunity Outage.
+Rescheduled Outage
+An Outage on a High Impact Transmission Element (HITE) that was originally submitted as a Planned Outage with more than 90-days’ notice and approved, but is then rescheduled due to withdrawal of approval by ERCOT of the original Planned Outage or subsequent Rescheduled Outage(s).
+Simple Transmission Outage
+A Planned Outage or Maintenance Outage of any Transmission Element in the Network Operations Model such that when the Transmission Element is removed from its normal service, absent a Forced Outage of other Transmission Elements, the Outage does not cause a topology change in the LMP calculation and thus cannot cause any LMPs to change with or without the Transmission Element that is suffering the Outage.  
+Outage Adjustment Evaluation (OAE)
+A study performed by ERCOT when it forecasts an inability to meet applicable reliability standards and has exercised all other reasonable options and needs to delay or to cancel and reschedule one or more Resource Outages, unless the issue is due to transmission reliability and is limited to Resources at a single site.
+Outage Schedule Adjustment (OSA)
+An adjustment to delay or to cancel and reschedule a Resource’s Planned Outage that has already been accepted or approved by ERCOT.  The OSA is issued by ERCOT to the Qualified Scheduling Entity (QSE) representing the Resource.
+Outage Schedule Adjustment (OSA) Period
+The portion of a Resource’s Planned Outage schedule for which ERCOT issues an OSA.  The OSA Period will commence at the planned start time for the Resource Outage, based on the Resource’s Planned Outage existing in the Outage Scheduler at the time the Outage Adjustment Evaluation (OAE) is performed, and will end at the time stated in the OSA.
+Outage Scheduler
+The application that Transmission Service Providers (TSPs) or Qualified Scheduling Entities (QSEs) use to submit Notification of Outages or requests for Outages to ERCOT for approval, acceptance, or rejection.  
+[NPRR857:  Replace the above definition “Outage Scheduler” with the following upon system implementation and satisfying the following conditions:  (1) Southern Cross provides ERCOT with funds to cover the entire estimated cost of the project; and (2) Southern Cross has signed an interconnection agreement with a TSP and the TSP gives ERCOT written notice that Southern Cross has provided it with:  (a) Notice to proceed with the construction of the interconnection; and (b) The financial security required to fund the interconnection facilities:]
+Outage Scheduler
+The application that Transmission Service Providers (TSPs), Direct Current Tie Operators (DCTOs), or Qualified Scheduling Entities (QSEs) use to submit Notification of Outages or requests for Outages to ERCOT for approval, acceptance, or rejection.
+Output Schedule
+The self-scheduled output for every five-minute interval of a Resource provided by a QSE before the execution of SCED.

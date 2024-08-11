@@ -1,0 +1,3 @@
+9.11.2	ERCOT Payment to Invoice Recipients for CRR Auction Revenue Distribution
+(1)	CARD Invoices with funds owed to an Invoice Recipient must be paid by ERCOT to the Invoice Recipient by 1700 on the next day that is both a Business Day and a Bank Business Day after the day that payments are due for that CARD Invoice under Section 9.11.1, Invoice Recipient Payment to ERCOT for CRR Auction Revenue Distribution, subject to ERCOT’s right to withhold payments under Section 16 and pursuant to common law. 
+(2)	ERCOT shall give irrevocable instructions to the ERCOT financial institution to remit, to each Invoice Recipient for same day value, the amounts owed to each Invoice Recipient.

@@ -1,0 +1,52 @@
+3.19.1	Constraint Competitiveness Test Definitions
+(1)	The Constraint Competitiveness Test (CCT) checks the competitiveness of a constraint by evaluating each Market Participant’s ability to exercise market power by physical or economic withholding.  The CCT for a constrained Transmission Element evaluates whether there is sufficient competition to resolve the constraint on the import side by calculating the Element Competitiveness Index (ECI) on the import side of the constraint and by determining whether a single Entity is needed to resolve the constraint. 
+(2)	The competitiveness of a constraint is tested both on a long-term basis and before each Security-Constrained Economic Dispatch (SCED) execution. 
+(3)	The “Available Capacity for a Resource” is defined as follows:
+(a)	For Generation Resources, including Switchable Generation Resources (SWGRs), but excluding Intermittent Renewable Resources (IRRs):
+(i)	Long-Term CCT - the Seasonal net max sustainable rating, as registered with ERCOT.
+(ii)	SCED CCT - the telemetered High Sustained Limit (HSL) for Resources with telemetered Resource Status as specified in paragraph (5)(b)(i) of Section 3.9.1, Current Operating Plan (COP) Criteria, and zero for all other Resources.
+(b)	For IRRs: 
+(i)	Long-Term CCT - the Seasonal net max sustainable rating, as registered with ERCOT, on the export side and zero MW on the import side.
+(ii)	SCED CCT - the telemetered HSL for Resources with telemetered Resource Status as specified in paragraph (5)(b)(i) of Section 3.9.1 and zero for all other Resources.
+(c)	For the Direct Current Tie (DC Tie) lines, the full import capability on the export side and zero MW on the import side for all CCTs.
+[NPRR1182:  Insert paragraph (d) below upon system implementation:]
+(d)	For Controllable Load Resources:
+(i)	Long-Term CCT - the maximum interruptible Load MW, as registered with ERCOT. 
+(ii)	SCED CCT - the telemetered Maximum Power Consumption (MPC) minus the telemetered Low Power Consumption (LPC) for Resources with a telemetered Resource Status as specified in paragraph (5)(b)(iii) of Section 3.9.1, excluding Resources with a Resource Status of OUTL.
+[NPRR1182:  Insert paragraph (e) below upon system implementation of NPRR1014 and NPRR1182:]
+(e)	For Energy Storage Resources (ESRs):
+(i)	Long-Term CCT - the Seasonal net max sustainable rating minus the Seasonal net min sustainable rating, as registered with ERCOT.
+(ii)	SCED CCT - for Resources with a telemetered Resource Status as specified in paragraph (5)(b)(iv) of Section 3.9.1, excluding Resources with a Resource Status of OUT, the minimum of:
+(A)	The telemetered HSL minus the telemetered Low Sustained Limit (LSL) for the Resource; and
+(B)	The telemetered max State of Charge minus the min State of Charge for the Resource divided by 15 minutes.
+(4)	“Managed Capacity for an Entity” is a Resource for which a Decision Making Entity (DME) has control over how the Resource is offered or scheduled (e.g., Output Schedules), in accordance with subsection (d) of P.U.C. SUBST. R. 25.502, Pricing Safeguards in Markets Operated by the Electric Reliability Council of Texas.
+(5)	Shift Factors of all Electrical Buses are computed relative to the distributed load reference Bus. 
+(a)	For voltage, stability, and thermal-limited constraints, as well as interfaces represented by thermal limits, the Shift Factors should be computed with no other contingencies removed from the electrical network.
+(b)	For contingency-limited constraints, the Shift Factors used should be computed with the contingencies removed from the electrical network.
+(6)	As part of the Long-Term and SCED CCT processes described below, there are several thresholds used in determining the competitive designation of a constraint and the Resources for which mitigation will be applied in SCED Step 2, as described in Section 6.5.7.3, Security Constrained Economic Dispatch.  These thresholds are defined as follows: 
+[NPRR1182:  Replace paragraph (6) above with the following upon system implementation:]
+(6)	As part of the Long-Term and SCED CCT processes described below, there are several thresholds used in determining the competitive designation of a constraint and the Resources, excluding Controllable Load Resources, for which mitigation will be applied in SCED Step 2, as described in Section 6.5.7.3, Security Constrained Economic Dispatch.  These thresholds are defined as follows:
+Threshold
+Definition
+Value
+SFP1
+Minimum Shift Factor threshold for determining which Managed Capacity for an Entity to include in the ECI calculation
+ 2%
+ECIT1
+Maximum competitive threshold for ECI on the import side of a constraint for the Long-Term CCT process
+2000
+SFP2
+Minimum Shift Factor threshold for a constraint to be eligible to be a Competitive Constraint as part of the Long-Term CCT process
+2%
+ECIT2
+Maximum competitive threshold for ECI on the import side of a constraint for the SCED CCT process
+2300
+SFP3
+Minimum Shift Factor threshold for a constraint to be eligible to be a Competitive Constraint as part of the SCED CCT process
+2%
+DMEECP
+Threshold for the ECI Effective Capacity for a DME to determine if their Managed Capacity for an Entity is eligible to be mitigated as part of SCED Step 2
+10%
+SFP4
+Minimum Shift Factor threshold below which a Resource will not have mitigation applied in SCED Step 2
+2%

@@ -1,0 +1,2 @@
+5.2.1	RUC Normal Timeline Summary
+(1)	The following Reliability Unit Commitment (RUC) Timeline Summary describes the normal timeline for RUC activities that occur in the Day-Ahead and Adjustment Periods.

@@ -1,0 +1,2 @@
+9.5.1	Settlement Statement Process for the Real-Time Market 
+(1)	ERCOT shall produce daily Settlement Statements for the Real-Time Market (RTM), as defined in Section 9.5.2, Settlement Statements for the RTM, that show a breakdown of Charge Types incurred in the RTM, including any administrative and miscellaneous charges applicable to the RTM.

@@ -1,0 +1,2 @@
+4.2.5	Notice of New Types of Forecasts
+(1)	Before using any new type of forecast for any operational purpose, ERCOT shall issue a Market Notice stating ERCOT’s intention to use that new type of forecast and shall sponsor a Nodal Protocol Revision Request (NPRR) to propose requirements for posting data for the new type of forecast.

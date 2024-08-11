@@ -1,0 +1,2 @@
+9.2.8	Validation of the Settlement Statement for the DAM
+(1)	The Statement Recipient is deemed to have validated each Settlement Statement for the DAM unless it has raised a Settlement and billing dispute under Section 9.14, Settlement and Billing Dispute Process.

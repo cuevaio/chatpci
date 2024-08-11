@@ -1,0 +1,209 @@
+3.14.4	Must-Run Alternative Service
+3.14.4.1	Overview and Description of MRAs
+(1)	Subject to approval by the ERCOT Board, ERCOT may procure Must-Run Alternative (MRA) Service as an alternative to contracting with an RMR Unit if ERCOT determines that the MRA Agreement(s) will, in whole or in part, address the reliability need identified in the RMR study in a more cost-effective manner.
+(2)	ERCOT will issue a request for proposal (RFP) to solicit offers from QSEs to provide MRA Service.  
+(a) 	A QSE may submit an offer in response to the RFP or enter into an MRA Agreement only if it meets all registration and qualification criteria in Section 16.2, Registration and Qualification of Qualified Scheduling Entities.  
+(b)	QSEs whose offers for MRA Service are accepted will be paid according to their offers, subject to the terms of the RFP, MRA Agreement and ERCOT Protocols.  A clearing price mechanism shall not be used for awarding offers for MRA Service.
+(c)	A QSE may submit more than one offer for MRA Service in response to a single RFP.  A QSE may not submit the same MRA or MRA Sites in more than one of its offers.  ERCOT may award multiple offers to a QSE, so long as the MRA or MRA Sites in an awarded offer are not included in any other awarded offer.  A QSE may condition ERCOT’s acceptance of an offer for a Demand Response MRA on ERCOT’s acceptance of an offer for a co-located Other Generation MRA offer. 
+(d)	Demand Response MRAs and Other Generation MRAs, including MRA Sites within aggregated MRAs, that are situated in NOIE service territories, are eligible to provide MRA Service.  Any QSE other than the NOIE QSE wishing to represent such MRAs must obtain written authorization allowing the representation from the NOIE in which the MRA is located.  This authorization must be signed by an individual with authority to bind the NOIE and must be submitted to ERCOT prior to the submission of an offer in response to the MRA.
+(3)	An MRA may be connected at either transmission or distribution voltage.
+(4)	An MRA offer is ineligible to the extent it offers capacity that was included as a Resource in ERCOT’s RMR analysis or in the Load forecasts from the Steady State Working Group (SSWG) base cases used as the basis for the RMR analysis, as provided for in paragraph (3)(a) of Section 3.14.1.2, ERCOT Evaluation Process.  
+(5)	Each MRA must provide at least five MW of capacity.  
+(6)	Eligible MRA resources may include:
+(a)	A proposed Generation Resource that was not included in the reliability need evaluation pursuant to paragraph (3)(a) of Section 3.14.1.2.  
+(i) 	Proposed Generation Resources must adhere to all interconnection requirements, including the requirements of Planning Guide Section 5, Generator Interconnection or Modification.  
+(ii)	If the proposed Generation Resource is an Intermittent Renewable Resource (IRR), the QSE shall provide capacity values based on the Resource’s projected peak average capacity contribution during the MRA Contracted Hours.
+(b)	Proposed capacity additions to existing Generation Resources, if the additional capacity was not included in the reliability need evaluation pursuant to paragraph (3)(a) of Section 3.14.1.2. 
+(i)	Prior to providing MRA Service, the Resource Entity will be required to modify its Resource Registration information and complete necessary Generator interconnection requirements with respect to this additional capacity.  
+(ii)	If the capacity is being added to an IRR, the QSE shall provide capacity values based on the Resource’s projected peak average capacity contribution during the hours identified during the MRA Contracted Hours.
+(c)	A proposed or existing generator registered, or proposed to be registered, with ERCOT as a Settlement Only Generator (SOG) or as Distributed Generation (DG).  If the generator is an intermittent renewable generator, the QSE, when responding to an RFP for MRA Service, shall provide capacity values based on the MRA’s projected peak average capacity contribution during the hours identified in the MRA Contracted Hours.
+(d)	Proposed or existing Demand response assets, which may include Load Resources and ERS Loads. 
+(e)	A proposed or existing Energy Storage System (ESS) registered, or proposed to be registered, with ERCOT as a Settlement Only Energy Storage System (SOESS).
+(7)	An MRA must be able to provide power injection or Demand response to the ERCOT System at ERCOT’s discretion during the MRA Contracted Hours.
+(a)	QSE offers in response to an RFP for MRA Service must fully describe all of the MRA’s temporal constraints. 
+(b)	For a Demand Response MRA, QSE offers in response to an RFP for MRA Service must include a statement as to whether the offered capacity is a Weather–Sensitive MRA.
+(8)	The QSE representing an MRA must be capable of receiving both VDI and XML instructions.
+(9)	ERCOT will periodically validate an MRA’s telemetry using 15-minute interval meter data.
+(10)	An MRA for which the MRA or every MRA Site, is metered with either an Advanced Meter or an ERCOT-Polled Settlement (EPS) Meter must be available for qualification testing no later than 10 days prior to the first day of the contracted MRA Service.  Other MRAs must be available for qualification testing no later than 45 days prior to the first day of the contracted MRA Service.
+(11) 	All MRA Sites within an MRA must be of the same type (i.e., all Generation Resource MRA, Other Generation MRA, or Demand Response MRA).
+(12)	A QSE representing an MRA shall submit to ERCOT and continuously update an Availability Plan for each MRA Contracted Hour for the current Operating Day and the next six Operating Days.
+(13)	A QSE representing an MRA or MRA Site may not submit DAM Offers, provide an Ancillary Service or carry an ERS responsibility on behalf of any MRA or MRA Site during the MRA Contracted Hours.  Demand Response MRAs may not participate in TDSP standard offer programs during any MRA Contracted Hours.
+(14)	A Combined Cycle Train serving as an MRA must be configured as a single Combined Cycle Generation Resource.   
+(15)	QSEs representing MRAs shall submit offers using an MRA offer sheet as provided by ERCOT. 
+(16)	QSEs must submit the following information for each MRA offer:
+(a)	The capacity, months and hours offered;
+(b)	For an aggregated MRA, the offered capacity allocated to each MRA Site for all months and hours offered;
+(c)	The Resource ID, ESI ID and or unique meter ID associated with the MRA, or in the case of an aggregated MRA, a list of the Resource IDs, ESI IDs and/or unique meter IDs of the offered MRA Sites;
+(d)	The MRA Standby Price, represented in dollars per MW per hour;
+(e)	Required capital expenditure, if any, if the MRA offer is awarded; 
+(f)	The MRA Event Deployment Price, in dollars per deployment event, or proxy fuel consumption rate;
+(g)	The ramp period or startup time of the MRA or aggregated MRA;
+(h)	The MRA Variable Price, in dollars per MW per hour, and/or proxy heat rate;
+(i)	The target availability of the MRA or aggregated MRA; and
+(j)	Any additional information required by ERCOT within the RFP.
+(17)	Demand Response MRAs shall not be deployed more than once per Operating Day.
+(18)	Except for a Forced Outage, any Outage of an MRA must be approved by ERCOT. 
+(19)	For any MRA that is registered with ERCOT as a Resource, the QSE representing the MRA must be the same as the QSE representing the Resource.
+[NPRR885:  Insert Section 3.14.4.2 below upon system implementation:]
+3.14.4.2	Preliminary Review of Prospective Demand Response MRAs
+(1)	In order to assist QSEs prior to their submission of MRA offers, ERCOT may provide QSEs, upon request, with an analysis of their prospective Demand Response MRA’s consumption patterns.  
+(2)	ERCOT will provide a QSE with the analysis described under this Section only when the QSE makes its request in conformance with submission requirements and deadline set forth in the relevant MRA RFP.
+(3)	In response to a proper and timely request by a QSE, ERCOT will provide the following information for each prospective Demand Response MRA: 
+(a)	Substation identification for each MRA or MRA Site;
+(b)	Demand Response MRA baseline options, if the resource qualifies for a default baseline; and
+(c)	Historical reference Load levels; and
+(d)	Any known errors or exceptions, such as whether the MRA or any MRA Sites are currently suspended from participation in another service (e.g., ERS), whether any listed MRA or MRA Sites have erroneous ESI IDs, or whether any prospective MRA or MRA Site lacks sufficient historical meter data.
+(4) 	A submission by a QSE of a prospective Demand Response MRA does not bind the QSE to submit an offer for MRA Service.
+[NPRR885:  Insert Section 3.14.4.3 below upon system implementation:]
+3.14.4.3	MRA Substitution
+(1)	Subject to approval by ERCOT, a QSE may provide a substitution for a contracted MRA.  Any substituted MRA is subject to the same obligations as the originally awarded MRA.  
+(2)	ERCOT, at its discretion, may disallow an MRA substitution if it determines that the substitution may cause operational or reliability concerns, does not provide expected reliability benefits equivalent to those under the MRA Agreement, or is inconsistent with Protocols.  
+(3)	Any substitution must cover all MRA Contracted Hours in an Operating Day and may cover one or more Operating Days.
+(4)	For purposes of payment, for any calendar day during which one or more MRA substitutions was made, the performance of an MRA shall be determined based on the combined performance of the original and substitution MRAs.
+[NPRR885:  Insert Section 3.14.4.4 below upon system implementation:]
+3.14.4.4	Commitment and Dispatch
+(1)	ERCOT may commit and/or Dispatch an MRA during the term of the MRA Agreement for the purpose of utilizing the MRA’s contracted capacity at any time during the contracted hours in the MRA Agreement.  
+(2)	ERCOT may commit an MRA, via VDI, prior to the contracted hours in the MRA Agreement based on the MRA’s ramp period or startup time, in order to ensure that the MRA Service is provided during the contracted hours.
+(3)	In an MRA deployment event or unannounced test, the start time of the Demand response Ramp Period and/or generator startup time will be determined by ERCOT upon review of the time-stamped recording of the VDI.  The start time begins when the ERCOT operator confirms the QSE’s repeat-back of the instruction.
+[NPRR885:  Insert Section 3.14.4.5 below upon system implementation:]
+3.14.4.5	Standards for Generation Resource MRAs 
+(1)	A Generation Resource MRA shall at all times communicate accurate Resource Status to ERCOT via telemetry as described in Section 6.4.6, Resource Status.  
+(2)	A Generation Resource MRA shall be committed by ERCOT VDI and Dispatched by SCED.
+[NPRR885:  Insert Sections 3.14.4.6 and 3.14.4.6.1 below upon system implementation:]
+3.14.4.6	Standards for Other Generation MRAs and Demand Response MRAs
+3.14.4.6.1	MRA Telemetry Requirements
+(1)	A QSE representing an Other Generation MRA shall at all times communicate an accurate status to ERCOT via telemetry at the MRA level and shall provide at least the following values: 
+(a)	Status (e.g., ON, OUT, etc…);
+(b)	High Sustained Limit (HSL);
+(c)	LSL;
+(d)	Current output level in MW;
+(e)	Gross Reactive Power in MVAr; and
+(f)	Net Reactive Power in MVAr.
+(2)	A Demand Response MRA’s QSE shall at all times communicate accurate MRA status to ERCOT via telemetry and shall provide at least the following values: 
+(a)	Net Power Consumption (NPC); and
+(b)	Low Power Consumption (LPC) 
+(3)	Event performance for Other Generation MRAs that are not Dispatched by SCED shall be evaluated by ERCOT as described in Section 3.14.4.6.5, MRA Event Performance Measurement and Verification.
+[NPRR885:  Insert Section 3.14.4.6.2 below upon system implementation:]
+3.14.4.6.2	Baseline Performance Evaluation Methodology for Demand Response MRAs
+(1)	A Demand Response MRA must qualify for one or more options described in the document entitled “Default Baseline Methodology” posted on the ERCOT website.  The baseline will be used to verify the Demand Response MRA’s performance as compared to its contracted capacity during an MRA deployment event.
+[NPRR885:  Insert Section 3.14.4.6.3 below upon system implementation:]
+3.14.4.6.3	MRA Metering and Metering Data 
+(1)	Each Demand Response MRA, or each MRA Site within an aggregated Demand Response MRA, must have an ESI ID and dedicated 15-minute Interval Data Recorder (IDR) metering.  A Demand Response MRA, or an MRA Site within an aggregated Demand Response MRA, that is located outside of a competitive service area may use a unique meter ID in lieu of an ESI ID. 
+(2)	Each Other Generation MRA, or each MRA Site within an aggregated Other Generation MRA, must have an ESI ID and, if applicable, a Resource ID and dedicated 15-minute IDR metering.  An Other Generation MRA, or an MRA Site within an aggregated Other Generation MRA, that is located outside of a competitive service area may use unique meter IDs in lieu of the ESI ID and Resource ID.
+(3)	For ESI IDs and Resource IDs situated in either NOIE or competitive choice areas of the ERCOT Region, meter data is stored in the ERCOT systems and will be accessed by ERCOT and used for all performance evaluations.
+(4)	A QSE representing an MRA or MRA Site in a NOIE service territory is responsible for arranging with the NOIE TDSP to provide ERCOT with interval meter data for the MRA or MRA Site in a format prescribed by ERCOT on a monthly basis within 35 days following the end of a calendar month.
+(5)	ERCOT shall use 15-minute interval meter data, adjusted for the deemed actual DLFs, for each Demand Response MRA and each Other Generation MRA for purposes of availability and event performance measurement.  
+(a)	The interval meter data for an MRA or MRA Site located in a competitive choice area will be adjusted by the DLFs used for Settlement for that MRA or MRA Site.
+(b)	The interval meter data for an MRA or MRA Site associated with a Unique Meter ID in a NOIE area will be adjusted based on a NOIE DSP DLF study submitted to ERCOT pursuant to Section 13.3, Distribution Losses.  If no such study has been submitted, the interval meter data will not be adjusted for distribution losses.
+[NPRR885:  Insert Section 3.14.4.6.4 below upon system implementation:]
+3.14.4.6.4	MRA Availability Measurement and Verification
+(1)	Demand Response MRA and Other Generation MRA availability will be evaluated on a monthly basis.
+(2)	Within 45 days after the end of each month that a Demand Response MRA or an Other Generation MRA is obligated to be available under the terms of an MRA Agreement, ERCOT shall provide each QSE representing that MRA with a report of the MRAs availability for that month. 
+(3)	For a Demand Response MRA or an Other Generation MRA, ERCOT will treat the MRA as unavailable for any committed intervals for which the meter data is not in ERCOT systems, regardless of the reason.
+(4)	For a Demand Response MRA, ERCOT will consider the Demand Response MRA to have been available for any 15-minute interval in which the Demand Response MRA was contracted and for which the most current Availability Plan for the Demand Response MRA indicates that the Demand Response MRA is available and for which the effective actual MW Load was greater than 95% of the Demand Response MRA’s effective contracted capacity; otherwise, the Demand Response MRA will be considered unavailable for that 15-minute interval.  For purposes of payment under Section 6.6.6.7, MRA Standby Payment, the Demand Response MRA’s Monthly Availability Factor will be the ratio of the number of 15-minute intervals the Demand Response MRA was available during the MRA Contracted Month divided by the total number of contracted 15-minute intervals in the MRA Contracted Month.  For purposes of this paragraph, the following shall apply:
+(a) 	The effective actual MW Load in an interval for an aggregated Demand Response MRA shall be the aggregated sum across all MRA Sites of the product of -1, the MRA Site Shift Factor, and the MRA Site metered MW;
+(b)	The effective actual MW Load in an interval for a Demand Response MRA that is not an aggregation shall be the product of -1, the MRA Shift Factor, and the metered MW value;
+(c) 	The effective contracted capacity in an interval for an aggregated Demand Response MRA shall be the aggregated sum across all MRA Sites of the product of -1, the MRA Site Shift Factor, and the MRA Site’s portion of the contract capacity; and
+(d)	The effective contracted capacity in an interval for a Demand Response MRA that is not an aggregation shall be the product of -1, the MRA Shift Factor, and the contract capacity.
+(5)	For an Other Generation MRA, ERCOT will consider the Other Generation MRA to have been available for any 15-minute interval in which the Other Generation MRA was contracted and for which the most current Availability Plan for the Other Generation MRA indicates that the Other Generation MRA is available and for which the Other Generation MRA’s export to the ERCOT System was equal to zero; otherwise, the Other Generation MRA will be considered unavailable for that 15-minute interval.  For purposes of payment under Section 6.6.6.7, the Other Generation MRA’s Monthly Availability Factor will be the ratio of the number of 15-minute intervals the Other Generation MRA was available during the MRA Contracted Month divided by the total number of contracted 15-minute intervals in the MRA Contracted Month. 
+(6)	The following intervals will be excluded in ERCOT’s calculations of an MRA’s Monthly Availability Factor, for purposes of payment under Section 6.6.6.7:
+(a)	Any 15-minute interval in which an MRA was deployed during an MRA deployment event or an unannounced ERCOT test;
+(b)	Any 15-minute intervals on the day of an MRA deployment or an unannounced ERCOT test following the issuance of the ERCOT recall instruction applicable to that MRA; and
+(c)	Any 15-minute interval in which an MRA or MRA Site was disabled or unverifiable due to events on the TDSP side of the meter affecting the generation, delivery or measurement of electricity to the MRA or MRA Site.  QSEs must obtain documentation from the TDSP regarding such events and must provide copies of such documentation to ERCOT for any interval to be excluded from the Monthly Availability Factor calculation.
+[NPRR885:  Insert Section 3.14.4.6.5 below upon system implementation:]
+3.14.4.6.5	MRA Event Performance Measurement and Verification
+(1)	This section applies to both Demand Response MRAs and Other Generation MRAs.  For purposes of this section, the following definitions apply:
+(a)	“Ramp Period” is the period of time, as set out in the MRA Agreement, by which the MRA agrees to begin delivering its contracted capacity following the ERCOT deployment VDI.   
+(b)	“MRA Deployment Period” is the window of time beginning with the end of the MRA’s Ramp Period or the beginning of the MRA Contracted Hours, whichever is later, and ending with ERCOT’s VDI to recall the MRA.
+(2)	No later than 45 days after an event in which one or more Demand Response MRA or Other Generation MRA were tested or deployed, ERCOT shall provide each QSE representing an MRA with a performance report containing the results of ERCOT’s evaluation of the event or test for each deployed or tested MRA.  The Event Performance Reduction Factor (MRAEPRF) for each MRA shall be the time-weighted average of the MRA’s Interval Performance Factors (MRAIPF) which are calculated as set out in paragraph (3) below.
+(3)	ERCOT shall calculate the MRAIPF for intervals during an unannounced ERCOT test or an MRA deployment as follows:
+      MRAIPF q, r, i  = Max(Min(((Effective Base_MW i – Effective Actual_MW i) / (IntFrac i 
+      * Effective Contracted_Capacity_MW i)),1),0)
+Where:
+      IntFrac i = (CEndT i – CBegT i) / 15
+The above variables are defined as follows:
+Variable
+Unit
+Description
+MRAEPRF q, r, m
+None
+Must-Run Alternative Event Performance Reduction Factor per QSE for the month—The Event Performance Reduction Factor of the MRA r represented by QSE q, for each hour of the month m.  The event performance reduction factor shall be determined as the time-weighted average of the Interval Performance Factor (MRAIPF).
+MRAIPF q, r, i 
+None
+Must-Run Alternative Interval Performance Factor per QSE per Resource for the interval— The interval performance factor of the MRA r represented by QSE q, for the Settlement Interval i.  
+IntFrac i
+None
+Interval fraction for that MRA for each Settlement Interval i in an MRA deployment period.
+Effective Base_MWi
+MW
+For an aggregated Demand Response MRA, the aggregated sum of the product of -1, the MRA Site Shift Factor, and the MRA Site baseline MW values estimated by ERCOT for all MRA Sites in the MRA for that interval.  For a Demand Response MRA that is not an aggregation, the product of -1, the MRA Shift Factor, and the MRA baseline MW value estimated by ERCOT for that interval.
+For an aggregated Other Generation MRA, the aggregated sum of the product of -1, the MRA Site Shift Factor, and the MRA Site MW injected to the ERCOT System for the Settlement Interval i.  For an Other Generation MRA that is not an aggregation, the product of -1, the MRA Shift Factor, and the MW injected to the grid by the MRA for that interval.
+Effective Actual_MW i
+MW
+For an aggregated Demand Response MRA, the aggregated sum of the product of -1, the MRA Site Shift Factor and the metered MW values for all MRA Sites in the MRA for the Settlement Interval i.  For a Demand Response MRA that is not an aggregation, the product of -1, the MRA Shift Factor and the metered MW value for the Settlement Interval i.
+For an Other Generation MRA, zero.
+Effective Contracted_Capacity_MW i
+MW
+For an aggregated MRA, the sum of the product of -1, the MRA Site Shift Factor and the MRA Site portion of the contracted capacity of the MRA for the Settlement Interval i.
+CBegT i
+Minutes
+If the MRA deployment period begins during that interval, the time in minutes and fractions of minutes from the beginning of that interval to the beginning of the MRA deployment period, otherwise it is zero.
+CEndT i
+Minutes
+If the MRA deployment period ends during that interval, the time in minutes and fractions of minutes from the beginning of that interval to the end of the MRA deployment period, otherwise it is 15.
+i
+None
+A 15-minute Settlement Interval.
+q
+none
+A QSE.
+m
+None
+The index for a given month within the MRA Contracted Hours.
+r
+None
+An MRA.
+(4)	For each unannounced ERCOT test or MRA deployment of a Demand Response MRA or Other Generation MRA, ERCOT will calculate an MRA Event Performance Reduction Factor (MRAEPRF) as described in paragraph (2) above for the intervals covered by the test/event.  The Event Performance Reduction Factor calculation will begin with the first partial or full interval in the MRA deployment period and will end with the last full interval in the MRA deployment period.
+(5)	A Demand Response MRA shall be deemed to have met its test/event performance requirements if it is determined by ERCOT to have met its Demand response obligations in the MRA deployment event as measured using the ERCOT-established baseline that ERCOT determines most accurately represents the Demand Response MRA’s Demand response contribution.
+(6)	The MRA deployment period for a Demand Response MRA or Other Generation MRA will end at the time ERCOT issues a release instruction via VDI, or the end of the last MRA Contracted Hour on the day of the deployment, whichever is earlier.  
+(7)	Event Performance Reduction Factors are expressed as a number between 0 and 1, rounded to three decimal places.  
+(8)	A Demand Response MRA or an Other Generation MRA that achieves an Event Performance Reduction Factor of 0.950 or greater for a test/event and an Interval Performance Factor for the first full interval of the test/event of 0.950 or greater will be deemed to have successfully met its deployment obligations for that test/event.
+(9)	If a Demand Response MRA or an Other Generation MRA fails to achieve an Event Performance Reduction Factor of 0.950 or greater, the Interval Performance Factors for that MRA for that event will be multiplied by an adjustment factor such that the Event Performance Reduction Factor for the test/event will be equal to the square of the original event performance factor.
+(10)	If a Demand Response MRA has been classified by ERCOT as providing Weather-Sensitive MRA, and if ERCOT determines that the normalized peak Demand reduction value for the Demand Response MRA is greater than 95% of the largest contracted capacity value offered in any MRA Contracted Hour by the QSE for the Demand Response MRA, ERCOT shall not apply the adjustment factors as specified in paragraph (9) above.  To determine the normalized peak Demand reduction value, ERCOT shall:
+(a) 	Calculate an average Demand reduction value across the intervals for each test and/or actual deployment event during the MRA contract period.  For this purpose the Demand reduction value for an interval shall be calculated as the greater of zero or effective base MW for the interval less the effective actual MW for the interval; and
+(b)	Model the relationship of the average Demand reduction values determined in paragraph (a) above to actual weather and use the derived normalized peak Demand reduction value as the value that would be realized under normalized peak weather conditions.
+(11)	For any contracted month in which ERCOT has deployed one or more Demand Response MRAs or Other Generation MRAs more than once for either an unannounced test or an MRA deployment, the Event Performance Reduction Factor (MRAEPRF) as described in paragraph (2) above for the MRA for the contracted month shall be the time-weighted average of the interval performance factor values for all tests/events in the Contracted Month.  The interval performance factors used for this calculation shall reflect any squaring applied pursuant to paragraph (9) above.
+[NPRR885:  Insert Section 3.14.4.6.5.1 below upon system implementation:]
+3.14.4.6.5.1	Event Performance Measurement and Verification for Co-Located Demand Response MRAs and Other Generation MRAs
+(1)	A Demand Response MRA shall be deemed by ERCOT to be co-located with an Other Generation MRA when all of the following conditions are satisfied: 
+(a)	For an aggregated Demand Response MRA and an aggregated Other Generation MRA, each MRA Site in the Demand Response MRA is physically located with an MRA Site in the Other Generation MRA; 
+(b)	For a Demand Response MRA that is not an aggregation and an Other Generation MRA that is not an aggregation, the Demand Response MRA is physically located with the Other Generation MRA;
+(c)	For a Demand Response MRA that is not an aggregation and an aggregated Other Generation MRA, the Demand Response MRA is physically located with an MRA Site the Other Generation MRA;
+(d)	The MRA Contracted Hours for the Demand Response MRA are the same as the MRA Contracted Hours for the Other Generation MRA; and 
+(e)	The Demand Response MRA has not been classified by ERCOT as providing Weather-Sensitive MRA.
+(2)	If a Demand Response MRA has been deemed by ERCOT to be co-located with an Other Generation MRA, the event performance of the two Resources shall be calculated as a combination.  For the calculations described in paragraph (2) of Section 3.14.4.6.5, MRA Event Performance Measurement and Verification, the effective base MW of the combination shall be the sum of the values calculated for the Demand Response MRA and Other Generation MRA, the effective actual MW shall be the sum of the values calculated for the Demand Response MRA and Other Generation MRA, and the effective contract capacity MW shall be the sum of the values calculated for the Demand Response MRA and Other Generation MRA.
+(3)	For the calculations described in paragraph (3) of Section 3.14.4.6.5, the MRAEPRF for the co-located combination shall be calculated as the time-weighted average of the interval performance factors calculated for the combination of the Demand Response MRA and Other Generation MRA. The steps described in paragraphs (4) through (10) of Section 3.14.4.6.5 shall be followed for the combination of the Demand Response MRA and Other Generation MRA, and the MRAEPRF for the Demand Response MRA and Other Generation MRA for the MRA Contracted Month shall be equal to the MRAEPRF calculated for the combination for the MRA Contracted Month.
+[NPRR885:  Insert Section 3.14.4.7 below upon system implementation:]
+3.14.4.7	MRA Testing 
+(1)	ERCOT shall conduct a test of every MRA prior to the initial MRA Contracted Month.
+(2)	ERCOT may conduct an unannounced test of any MRA at any time during a MRA Contracted Month.  Testing for MRAs, other than for Demand Response MRAs classified as providing Weather-Sensitive MRA, will be limited to no more than once per MRA Contracted Month.  Testing for Demand Response MRAs classified as Weather-Sensitive MRA will be limited to no more than twice per MRA Contracted Month.
+(3)	ERCOT will not conduct an unannounced test of an MRA during a calendar month subsequent to an actual MRA deployment event.
+(4)	A substituted Demand Response MRA or Other Generation MRA will be subject to monthly unannounced testing regardless of tests or events occurring prior to the start date of the substitution.
+(5)	ERCOT shall limit the duration of MRA deployment periods of any single test to a maximum of one hour.
+(6)	For the purposes of Section 6.6.6.7, MRA Standby Payment, ERCOT may adjust the testing capacity results for a Generation Resource MRA to reflect conditions beyond the control of the Generation Resource MRA.
+[NPRR885:  Insert Section 3.14.4.8 below upon system implementation:]
+3.14.4.8	MRA Misconduct Events 
+(1)	With respect to MRA Service, a “Misconduct Event” means any MRA Contracted Hour during which the MRA, in a deployment event, is directed to but does not make available to ERCOT the power injection or Demand response in the amount shown in the MRA Availability Plan.  
+(2)	ERCOT will charge a QSE representing an MRA for unexcused Misconduct Events as specified in Section 6.6.6.11, MRA Charge for Unexcused Misconduct.
+(3)	ERCOT will assess a single charge to the QSE for each Operating Day on which one or more Misconduct Event occurs.    
+(4)	The QSE may be excused by ERCOT from a Misconduct Event charge if ERCOT determines, in its discretion, that the Misconduct Event was not due to intentionally incomplete or inaccurate reporting to ERCOT regarding the availability of the MRA.
+(5)	ERCOT shall inform the QSE in writing of its determination if a Misconduct Event is deemed unexcused. 
+[NPRR885:  Insert Section 3.14.4.9 below upon system implementation:]
+3.14.4.9	MRA Reporting to Transmission and/or Distribution Service Providers (TDSPs)
+(1)	At least 24 hours before the beginning of an MRA Contracted Month, ERCOT shall provide the report described in paragraph (2) below to each TDSP that has a Demand Response MRA or Other Generation MRA within their service area that is providing MRA Service for the MRA Contracted Month.
+(2) 	The report will include the following information for each MRA and MRA Site within the TDSP’s service area:
+(a)	The name of the QSE representing each MRA or MRA Site;
+(b)	A list of the Resource IDs, ESI IDs, and Unique Meter IDs for each MRA or MRA Site;
+(c)	The date of the interconnection agreement for each Resource ID; and
+(d)	For each Operating Hour, the aggregate contracted capacity for all MRAs and MRA Sites within the TDSP’s service area, by station code in competitive areas and by zip code in NOIE areas.
+(3)	Reports provided under this section are Protected Information under Section 1.3.1.1, Items Considered Protected Information.  TDSPs shall maintain the confidentiality of the reports.

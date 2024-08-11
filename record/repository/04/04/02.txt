@@ -1,0 +1,18 @@
+4.4.2	Energy Trades
+(1)	An Energy Trade is the information for a QSE-to-QSE transaction that transfers financial responsibility for energy at a Settlement Point between a buyer and a seller. 
+(2)	An Energy Trade for hours in the Operating Day that is reported to ERCOT before 1430 in the Day-Ahead creates a capacity supply or obligation in the DRUC process.  Energy Trades submitted after 1430 in the Day-Ahead for the Operating Day create a capacity supply or obligation in any HRUC processes executed after the Energy Trade is reported to ERCOT.  Energy Trades submitted after the DRUC snapshot are considered in the Adjustment Period.
+(3)	An Energy Trade may be submitted for any Settlement Interval within an Operating Day before 1430 of the following day.  
+(4)	As soon as practicable, ERCOT shall notify each QSE through the Messaging System of any of its Energy Trades that are invalid Energy Trades.  The QSE may correct and resubmit any invalid Energy Trade within the appropriate market timeline. 
+4.4.2.1	Energy Trade Criteria
+(1)	Each Energy Trade must be reported by a QSE and must include the following information:
+(a)	The buying QSE;
+(b)	The selling QSE;
+(c)	The quantity of MW for each 15-minute Settlement Interval of the trade; 
+(d)	The first and last 15-minute Settlement Intervals of the trade; and
+(e)	The Settlement Point of the trade.
+(2)	An Energy Trade must be confirmed by both the buyer and seller to be considered valid.
+4.4.2.2	Energy Trade Validation
+(1)	A validated Energy Trade is an Energy Trade that ERCOT has determined meets the criteria listed in Section 4.4.2.1, Energy Trade Criteria.  Only one confirmed Energy Trade is allowed for the same buying and selling QSEs at the same Settlement Point for each 15-minute Settlement Interval.
+(2)	When an Energy Trade is reported to ERCOT, ERCOT shall notify both the buying and selling QSEs by using the Messaging System, if available, and the MIS Certified Area.  ERCOT shall also post to the MIS Certified Area any unconfirmed Energy Trades for QSEs on an hourly basis for all remaining hours of the current Operating Day and all hours of the next Operating Day.  
+(3)	ERCOT shall continuously validate Energy Trades and continuously display on the MIS Certified Area information that allows any QSE named in an Energy Trade to view confirmed and unconfirmed Energy Trades.  
+(4)	The QSE that first reports the Energy Trade to ERCOT is considered to have confirmed the Energy Trade unless it subsequently affirmatively rejects it.  The QSE that first reports an Energy Trade may reject, edit, or delete an Energy Trade that its counterpart has not confirmed.  The counterpart is deemed to have confirmed the Energy Trade when it submits an identical Energy Trade.  After both the buyer and seller have confirmed an Energy Trade, either party may reject it at any time, but the rejection is effective only for any ERCOT process for which the deadline for reporting Energy Trades has not yet passed.

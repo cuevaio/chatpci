@@ -1,0 +1,4 @@
+3.23	Agreements between ERCOT and other Control Area Operators
+(1)	Prior to executing any agreement with another Control Area Operator concerning coordination of Switchable Generation Resources (SWGRs), Direct Current Ties (DC Ties), Block Load Transfers (BLTs), or other operational issues, ERCOT shall, to the extent possible, provide Notice to all Market Participants of such agreement and at least 14 days to comment.  Amendments or modifications to such existing agreements shall also comply with this provision.
+(2)	ERCOT shall consider all comments received in response to the Notice and, to the extent time allows, discuss its acceptance or rejection of comments with the Technical Advisory Committee (TAC) and the ERCOT Board prior to execution.
+(3)	ERCOT shall provide Notice to all Market Participants following execution of any such agreement within two Business Days.

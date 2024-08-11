@@ -1,0 +1,29 @@
+3.6.1	Load Resource Participation
+(1)	A Load Resource may participate by providing: 
+(a)	Ancillary Service:
+(i)	Regulation Up (Reg-Up) Service as a Controllable Load Resource capable of providing Primary Frequency Response;
+(ii)	Regulation Down (Reg-Down) Service as a Controllable Load Resource capable of providing Primary Frequency Response;
+(iii)	Responsive Reserve (RRS) as a Controllable Load Resource qualified for Security-Constrained Economic Dispatch (SCED) Dispatch and capable of providing Primary Frequency Response, or as a Load Resource controlled by high-set under-frequency relay;
+(iv)	ERCOT Contingency Reserve Service (ECRS) as a Controllable Load Resource qualified for SCED Dispatch and capable of providing Primary Frequency Response, or as a Load Resource that may or may not be controlled by high-set under-frequency relay;
+(v)	Non-Spinning Reserve (Non-Spin) as a Controllable Load Resource qualified for SCED Dispatch or as a Load Resource that is not a Controllable Load Resource and that is not controlled by under-frequency relay; and
+(vi)	A Load Resource that is not a Controllable Load Resource cannot simultaneously provide Non-Spin and RRS in Real-Time;
+(b)	Energy in the form of Demand response from a Controllable Load Resource in Real-Time via SCED; 
+(c)	Emergency Response Service (ERS) for hours in which the Load Resource does not have an Ancillary Service Resource Responsibility; and
+[NPRR1007:  Replace paragraph (c) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+(c)	Emergency Response Service (ERS) for hours in which the Load Resource has a Resource Status of OUTL; and
+(d)	Voluntary Load response in Real-Time. 
+(2)	Except for voluntary Load response and ERS, loads participating in any ERCOT market must be registered as a Load Resource and are subject to qualification testing administered by ERCOT.  
+(3)	All ERCOT Settlements resulting from Load Resource participation are made only with the Qualified Scheduling Entity (QSE) representing the Load Resource.
+(4)	A QSE representing a Load Resource and submitting a bid to buy for participation in SCED, as described in Section 6.4.3.1, RTM Energy Bids, must represent the Load Serving Entity (LSE) serving the Load of the Load Resource.  If the Load Resource is an Aggregate Load Resource (ALR), the QSE must represent the LSE serving the Load of all sites within the ALR.
+(5)	The Settlement Point for a Controllable Load Resource is its Load Zone Settlement Point.  For an Energy Storage Resource (ESR), the Settlement Point for the charging Load withdrawn by the modeled Controllable Load Resource associated with the ESR is the Resource Node of the modeled Generation Resource associated with the ESR.
+(6)	QSEs shall not submit offers for Load Resources containing sites associated with a Dynamically Scheduled Resource (DSR).
+[NPRR1000:  Delete paragraph (6) above upon system implementation and renumber accordingly.]
+(7)	Each Resource Entity that represents one or more Load Resources shall ensure that each Load Resource it represents meets at least one of the following conditions:
+(a)	The Load Resource is not located behind an Electric Service Identifier (ESI ID) that corresponds to a Critical Load; 
+(b)	The Load Resource is located behind an ESI ID that corresponds to a Critical Load, but the Load Resource is not a Critical Load and does not include a Critical Load; or
+(c)	The Load Resource is located behind an ESI ID that corresponds to a Critical Load, but electric service from the ERCOT System is not required for the provision of the critical service due to the availability of back-up generation or other technologies at the site.
+(8)	As a condition of obtaining and maintaining registration as a Load Resource, the Resource Entity for the Load Resource must have submitted an attestation, in a form deemed acceptable by ERCOT, stating that one of the conditions set forth in paragraph (7) above is true, and that if either of the conditions in paragraph (7)(b) or (7)(c) is true, then all of the Load Resource’s offered Demand response capacity will be available if deployed by ERCOT during an emergency.
+(9)	Each QSE that represents one or more ERS Resources shall ensure that each ERS Resource identified in any ERS Submission Form submitted by the QSE meets at least one of the following conditions:
+(a) 	The ERS Resource and each site within the ERS Resource are not located behind an ESI ID or unique meter identifier that corresponds to a Critical Load and are not used to support a Critical Load; or 
+(b) 	The ERS Resource or one or more sites within the ERS Resource are behind an ESI ID or unique meter identifier that corresponds to a Critical Load, but the ERS Resource and each site within the ERS Resource are not a Critical Load, do not include a Critical Load, and are not used to support a Critical Load; or
+(c) 	The ERS Resource or one or more sites within the ERS Resource are behind an ESI ID or unique meter identifier that corresponds to a Critical Load, but electric service from the ERCOT System is not required for the provision of the critical service due to the availability of back-up generation or other technologies at the site, and neither the ERS Resource nor any site within the ERS Resource is used to support a Critical Load.

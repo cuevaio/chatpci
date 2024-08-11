@@ -1,0 +1,170 @@
+3.1.6	Outages of Resources Other than Reliability Resources
+(1)	Resource Entities should submit a request for a Resource Planned Outage as far in advance of the planned start of the Outage as is practicable but no more than 60 months in advance.
+(2)	ERCOT shall approve or reject all requested Outage plans for a Resource other than a Reliability Resource submitted to ERCOT more than 45 days before the proposed start date of the Outage.
+(a)	ERCOT shall approve a requested Outage plan for a Resource other than a Reliability Resource if the proposed approval would not cause the aggregate MW of Resource Outages to exceed the Maximum Daily Resource Planned Outage Capacity at any point during the duration of the proposed Resource Outage, taking into consideration all previously approved Resource Outages.
+(3)	If a Resource Entity plans to start a Planned or Maintenance Outage within 45 days, and the Resource Entity has not previously submitted a Resource Outage plan for the Outage, then the Resource Entity must immediately notify ERCOT and include in its notice whether the Outage is a Maintenance (Level I, II, or III) Outage or Planned Outage.  ERCOT’s response to this notification must comply with these requirements:
+(a)	ERCOT shall accept Levels I, II, and III Maintenance Outage plans, and ERCOT shall coordinate the Outages within the time frames specified in these Protocols. 
+(b)	ERCOT shall approve Planned Outage plans, except that:
+(i)	ERCOT shall reject an Outage plan if the proposed Outage would cause the aggregate MW of Resource Outages to exceed the Maximum Daily Resource Planned Outage Capacity at any point during the duration of the proposed Outage; and 
+(ii)	ERCOT shall reject an Outage plan if it will impair ERCOT’s ability to meet applicable reliability standards, taking into consideration all previously approved and accepted Outages, and other solutions cannot be exercised.
+(4)	The Resource Entity shall not begin a Planned Outage unless it has received approval of its proposed Outage plan.
+(5)	ERCOT shall accept Forced Outage plans. 
+(6)	Notwithstanding any other provision of this Section, ERCOT shall approve a requested Outage plan for a nuclear Generation Resource. 
+(7)	Notwithstanding any other provision in this Section, ERCOT shall approve an Outage plan for a Generation Resource that is part of an industrial generation facility if the plan states that the Generation Resource is part of an industrial generation facility, as described in subsection (l) of the Public Utility Regulatory Act (PURA), TEX. UTIL. CODE ANN. § 39.151 (Vernon 1998 & Supp. 2007), and that the Outage is necessitated by the operational needs of an industrial Load normally served by the Generation Resource, except that ERCOT is not required to approve the Outage plan if ERCOT determines the Outage will impair ERCOT’s ability to ensure transmission security.
+3.1.6.1	Receipt of Resource Requests by ERCOT
+(1)	ERCOT shall acknowledge each request for approval of a Resource Planned Outage plan within two Business Hours of the receipt of the request.  ERCOT may request additional information or seek clarification from the Resource Entity regarding the information submitted for a proposed Planned Outage or Maintenance Outage for Resource Facilities.
+3.1.6.2	Resource Outage Plan
+(1)	Resource Outage plans shall include the following information:
+(a)	The primary and alternate phone number of the Resource Entity’s Single Point of Contact for Outage Coordination;
+(b)	The Resource identified by the name in the Network Operations Model; 
+(c)	The net megawatts of capacity the Resource Entity anticipates will be available during the Outage (if any);
+(d)	The estimated start and finish dates for each Planned and Maintenance Outage;
+(e)	An estimate of the acceptable deviation in the Outage schedule (i.e., the earliest start date and the latest finish date for the Outage); and
+(f)	The nature of work to be performed during the Outage.  For a Forced Outage or Forced Derate, the “nature of work” field in the Outage Scheduler shall indicate the best available information about the cause of the Forced Outage or Forced Derate at the time the Outage or derate is entered and shall be updated as soon as more accurate information becomes available.
+(2)	When ERCOT accepts a Maintenance Outage, ERCOT shall coordinate the timing of the appropriate course of action within the Resource-specified timeframe.  The QSE shall notify ERCOT of the Outage and coordinate the time.
+3.1.6.3	Additional Information Requests
+(1)	ERCOT may request additional information from a Resource Entity regarding the information submitted as part of a Resource Outage plan.  ERCOT may not unnecessarily delay requests for information in terms of the required response time.
+3.1.6.4	Approval of Changes to a Resource Outage Plan 
+(1)	A Resource Entity should request approval as soon as practicable from ERCOT for all changes to a previously approved Resource Outage plan.  
+(2)	A Resource Entity must request approval from ERCOT for all changes to a previously approved Resource Planned Outage.
+(a)	ERCOT shall approve requests for changes to Resource Planned Outages and Maintenance Outages, except that: 
+(i)	ERCOT shall reject a Resource Outage plan change request if the proposed approval would cause the aggregate MW of Resource Outages to exceed the Maximum Daily Resource Planned Outage Capacity at any point during the duration of the proposed Resource Outage; and
+(ii)	ERCOT shall reject a Resource Outage plan change request if the proposed approval will impair ERCOT’s ability to meet applicable reliability standards, taking into consideration all previously approved and accepted Outages. 
+(3)	Following approval, where ERCOT determines that the Resource Outage plan is expected to result in a violation of an ERCOT reliability criterion or that may result in a cancellation of a Transmission Facilities Planned Outage, ERCOT may discuss such concerns with the Resource Entity or QSE in an attempt to reach a mutually agreeable resolution, including rescheduling the Outage in a manner agreeable to the Resource Entity.  If the Transmission Facilities Planned Outage was submitted after the approval of the Resource Planned Outage, the Resource Entity is not required to reschedule the Resource Outage.
+(4)	When the scheduled work is complete, any Resource may return from a Planned Outage in accordance with Section 3.1.6.11, Outage Returning Early.  ERCOT shall accept this change and, in the event that a Transmission Facilities Outage was scheduled concurrently with the affected Resource(s) Outage, ERCOT shall coordinate between the TSP and the Resource Entity to schedule a time mutually agreeable to both parties for the Resource to be On-Line.  If mutual agreement cannot be reached, then ERCOT shall decide, considering expected impact on ERCOT System security, future Outage plans, and participants.
+3.1.6.5	Evaluation of Proposed Resource Outage
+(1)	If a proposed Resource Outage, in conjunction with previously accepted Outages, would cause a violation of applicable reliability standards, ERCOT shall:
+(a)	Communicate with the requesting QSE as required under Section 3.1.6.8, Resource Outage Rejection Notice;
+(b)	Investigate possible Constraint Management Plans (CMPs) to resolve security violations, based upon security and reliability analysis results and strive to maximize transmission usage consistent with reliable operation; and
+(c)	Consider modifying the previous acceptance or approval of one or more Transmission Facilities or reliability Resource Outages, considering order of receipt and impact to the ERCOT System.
+(2)	If transmission security can be maintained using an alternative considered in items (1)(b) and (1)(c) above, then ERCOT may, in its judgment, direct the selected alternatives and approve the proposed Resource Outage.
+(3)	If ERCOT does not resolve transmission security issues by using the alternatives considered in items (1)(b) and (1)(c) above, then ERCOT shall reject the proposed Resource Outage.
+3.1.6.6	Timelines for Response by ERCOT for Resource Planned Outages
+(1)	ERCOT shall approve or reject each request in accordance with the following table: 
+Amount of time between a request for approval of a Planned Outage and the scheduled start of the proposed Outage:
+Maximum duration of a Planned Outage that may be approved with this lead time:
+ERCOT shall approve or reject no later than: 
+Three days
+Seven days
+ERCOT shall approve or reject by 1800 hours, two days before the start of the proposed Outage
+Between four and eight days
+Seven days
+ERCOT shall approve or reject by 1800 hours, three days prior to the start of the proposed Outage
+Between nine and 15 days
+15 days
+ERCOT shall approve or reject four days before the start of the requested Outage
+Between 16 and 45 days
+180 days
+ERCOT shall approve or reject within five Business Days after submission
+Greater than 45 days but less than 60 months
+180 days
+ERCOT shall approve or reject within five Business Days after submission
+Greater than 60 months
+180 days
+ERCOT shall approve or reject within five Business Days once the Outage start dates are within the 60-month window
+(2)	If circumstances prevent adherence to these timetables, ERCOT shall discuss the request status and reason for the delay of decision with the QSE and make reasonable attempts to mitigate the effect of the delay.  Furthermore, in its sole discretion, ERCOT may approve Planned Outage durations that exceed the maximum durations prescribed in the table above.
+(3)	The maximum duration of Planned Outages does not apply for Resource Outages under a Notification of Suspension of Operations (NSO) pursuant to Section 3.14.1.1, Notification of Suspension of Operations.
+3.1.6.7		Delay
+(1)	ERCOT may delay its approval or rejection of a proposed Planned Outage plan if the requesting Resource Entity has not submitted sufficient or complete information within the time frames set forth in this Section 3.1.6, Outages of Resources Other than Reliability Resources.  Review periods for Planned Outage consideration do not commence until sufficient and complete information is submitted to ERCOT as described in Section 3.1.6.2, Resource Outage Plan.
+3.1.6.8	Resource Outage Rejection Notice
+(1)	If ERCOT rejects a request for a Planned Outage, ERCOT shall provide the QSE a written or electronic rejection notice that includes:
+(a)	Specific reasons causing the rejection; or
+(b)	Possible remedies or Resource schedule revisions, if any, that might mitigate the basis for rejection.
+(2)	ERCOT may reject a Planned Outage of Resource facilities only:
+(a)	To protect the reliability or security of the ERCOT System;
+(b)	Due to insufficient information regarding the Outage;
+(c)	Due to failure to comply with submittal process requirements, as specified in these Protocols;
+(d)	To stay within the Maximum Daily Resource Planned Outage Capacity; or
+(e)	As specified elsewhere in these Protocols.
+(3)	When multiple proposed Planned Outages or Maintenance Outages cause a known capacity conflict, ERCOT shall:
+(a)	Communicate with each QSE to see if the QSE will adjust its proposed Planned Outage schedule;
+(b)	Determine if each QSE will agree to an alternative Outage schedule; or
+(c)	Reject, in ERCOT’s sole discretion, one or more proposed Outages, considering order of receipt and impact to the ERCOT System.
+3.1.6.9	Withdrawal of Approval and Rescheduling of Approved Planned Outages of Resource Facilities
+(1)	If ERCOT believes it cannot meet applicable reliability standards and has exercised all other reasonable options, and any actions taken pursuant to Section 3.1.4.6, Outage Coordination of Potential Transmission Emergency Conditions, have not resolved the situation, then ERCOT shall conduct a preliminary Outage Adjustment Evaluation (OAE) and issue an Advance Action Notice (AAN) pursuant to Section 6.5.9.3.1.1, Advance Action Notice.  
+(a)	The AAN shall describe the reliability problem, the date and time that the possible Emergency Condition would begin, the date and time that the possible Emergency Condition would end, and a summary of the actions ERCOT believes it might take, including, if applicable, the amount of capacity it would seek from one or more OSAs based on the preliminary OAE.  The AAN must state the earliest time at which ERCOT will issue OSAs, if an OSA is deemed necessary.
+(b)	ERCOT shall issue the AAN a minimum of 24 hours prior to issuing any OSA.  Additionally, unless impracticable pursuant to paragraph (3)(f) below, OSAs should not be issued until eight Business Hours have elapsed following issuance of the AAN.  ERCOT shall not issue an OSA under this Section unless it has first completed an updated OAE after these time periods have passed.
+(c)	Following the AAN, ERCOT may communicate with Market Participants about the reliability problem, however, ERCOT may not provide information about market conditions to a subset of Market Participants that is not generally available to all Market Participants.  
+(d)	As conditions change, ERCOT shall, to the extent practicable, update the AAN in order to provide simultaneous notice to Market Participants.  
+(e)	This section does not limit Transmission and/or Distribution Service Provider (TDSP) access to ERCOT data and communications. 
+(2)	Before the time stated in the AAN when ERCOT will issue any OSAs, each QSE shall:
+(a) 	Update its Resource COPs and the Outage Scheduler to the best of its ability to reflect any decisions to voluntarily delay or cancel any Outage so as to remove the Outage from updated OAE and OSA consideration;  
+(b) 	Notify ERCOT if a specific Resource cannot be considered for an OSA, for all or part of the period covered by the AAN, due to Resource reliability, compliance with contractual warranty obligations, or other reasons beyond the Resource’s control; and
+(c)	Notify ERCOT of any Resource that is currently on Outage that the QSE agrees could be returned to service, upon receipt of an OSA, for all or part of the period covered by the AAN.
+(3)	If, after the earliest OSA issuance time has passed as noted in paragraph (1)(b) above, ERCOT continues to forecast an inability to meet applicable reliability standards after the updates to the Resource COPs and Outage Schedules, ERCOT may issue one or more OSAs.  
+(a)	ERCOT may contact QSEs representing Resources for more information prior to conducting any updated OAE or issuing an OSA.
+(b)	ERCOT may not consider nuclear-powered Generation Resources for an OSA.
+(c)	ERCOT will not consider any Resource for an OSA if the Resource’s QSE notified ERCOT prior to the earliest issuance time of any OSA stated in the AAN that the Resource cannot be considered for an OSA for the reasons specified in paragraph (2)(b) above.
+(d)	In order to determine which Outages to delay, ERCOT shall first consider the Outage duration, dividing the Outages in categories of zero to two days, two to four days, four to seven days, or more than seven days, then withdraw approval on a last in, first out basis within that duration category, so that shorter Outages are delayed first, and the timing of Outage submissions is considered within that category.
+(e)	After the earliest issuance time of the OSAs stated in the AAN, if the updated OAE shows that one or more OSAs is still necessary, ERCOT shall post a message to the ERCOT website stating that it will issue one or more OSAs and shall provide verbal notice to TSPs and QSEs via the Hotline.  Subsequent to this notification, and for the entire period identified in the AAN, the QSE may not voluntarily modify the Resource’s Outage, but is subject to the issuance of an OSA.
+(f)	ERCOT may only issue an OSA to the QSE for a Resource that has a Resource Outage in the Outage Scheduler during the timeframe of the forecasted Emergency Condition described above in this section.
+(g)	If the Resource Outage for which the OSA would be issued is scheduled to begin before eight Business Hours have elapsed following issuance of the AAN, ERCOT may issue the OSA prior to the beginning of the Resource Outage after the end of the 24-hour notice period.
+(h)	Following the receipt of an OSA, for the OSA Period: 
+(i)	The QSE for the Resource may choose to show the Resource as OFF in the COP or may elect to leave the Resource On-Line due to equipment or reliability concerns or if the Resource Category is coal or lignite.  If the QSE for the Resource intends to leave the Resource On-Line, it must communicate to the ERCOT control room the anticipated start and end time of the On-Line period.  ERCOT will issue one or multiple RUC instructions to the QSE of the Resource for the anticipated On-Line period within the OSA Period for each Operating Day.  While On-Line, the Resource must utilize a status of ONRUC and cannot opt out of RUC Settlement;
+(ii)	If the Resource remains On-Line pursuant to paragraph (i) above, it must remain at Low Sustained Limit (LSL) unless deployed above LSL by Security-Constrained Economic Dispatch (SCED);
+(iii)	If the Resource has a COP Resource Status of OFF at any point during the OSA Period, and ERCOT requires the Resource to be On-Line, or if ERCOT requires a Resource with a planned derate to maintain its capacity, ERCOT will issue a RUC instruction to the Resource’s QSE for the required commitment period.  While On-Line, the Resource must utilize a status of ONRUC and cannot opt out of RUC Settlement; 
+(iv)	The QSE must update the Resource’s Energy Offer Curve to $4,500/MWh for all MW levels from 0 MW to the HSL when the High System-Wide Offer Cap (HCAP) is in effect.  If the Low-System Wide Offer Cap (LCAP) is in effect, the QSE must update the Resource’s Energy Offer Curve equal to LCAP for all MW levels from 0 MW to HSL; and
+[NPRR930:  Replace paragraph (iv) above with the following upon system implementation:]
+(iv)	ERCOT shall create proxy Energy Offer Curves for the Resource under paragraph (4)(d)(iii) of Section 6.5.7.3, Security Constrained Economic Dispatch; and
+(v)	The QSE for the Resource cannot submit a Three Part Supply Offer into the Day-Ahead Market (DAM) for any Operating Day during the OSA Period.
+(4)	ERCOT shall work in good faith with the QSEs to reschedule any delayed or canceled Outages resulting from an AAN under paragraph (1) above, regardless of whether the Resource took voluntary actions or received an OSA.  The Outage must be rescheduled so that it is completed within 120 days of the end of the OSA Period.  ERCOT, in its sole discretion, may approve any Outage that is rescheduled due to an AAN or OSA even if it would cause the aggregate MW of approved Resource Outages to exceed the Maximum Daily Resource Planned Outage Capacity.
+(a)	If ERCOT issues an OSA, the QSE may submit a new request for approval of the Planned Outage schedule, however the new Outage may not begin prior to the end time of the OSA Period.  
+(b)	If a transmission Outage was scheduled in coordination with a Resource Outage that is delayed, ERCOT shall also delay that transmission Outage when necessary.
+(5)	If insufficient capacity to meet the need described in the AAN is made available through the processes described in paragraphs (2) and (3) above, ERCOT may contact QSEs with Resources that are currently on Outage in the Outage Scheduler and that the QSE has agreed could be returned to service upon receipt of an OSA.  ERCOT may issue an OSA to the QSE for any Resource that the QSE agrees can feasibly be returned to service during the period of the possible Emergency Condition described in the AAN.
+(6)	If system conditions change such that the need described in the AAN increases, ERCOT shall update the AAN and may repeat the process described in this section.  For any subsequent iterations of this process, ERCOT shall issue the updated AAN with as much lead time as is practical prior to starting any subsequent OAE, but with a minimum of two hours’ notice. 
+(7)	The preliminary OAE may not assume total renewable production lower than the sum of the selected Wind-powered Generation Resource Production Potential (WGRPP) and PhotoVoltaic Generation Resource Production Potential (PVGRPP) forecasts for each hour less any reasonably expected severe weather impacts.  The available capacity in ERCOT’s planning assessment must include targeted reserve levels and include forecasted capacity available through DC Tie imports or curtailment of DC Tie exports, forecasted capacity provided from Settlement Only Distributed Generators (SODGs) and Settlement Only Transmission Generators (SOTGs), and forecasted capacity from price-responsive Demand based on information reported to ERCOT in accordance with Section 3.10.7.2.1, Reporting of Demand Response.  ERCOT must post the following inputs to the preliminary OAE to the ERCOT website within an hour of issuing an AAN, including but not limited to:
+(a)	The Load forecast; 
+(b)	Load forecast vendor selection;
+(c)	Wind forecast;
+(d)	Wind forecast vendor selection;
+(e)	Solar forecast;
+(f)	Solar forecast vendor selection;
+(g)	Expected severe weather impacts forecast;
+(h)	Targeted reserve levels;
+(i)	DC Tie import forecast;
+(j)	DC Tie export curtailment forecast;
+(k)	SODG and SOTG forecasts; 
+(l)	The forecast of capacity provided by price-responsive Demand;
+(m)	Any aggregate derating of Resource(s) and/or Forced Outage assumptions in total MWs; and
+(n)	Any aggregate fuel derating assumptions in total MWs.
+[NPRR995:  Replace paragraph (7) above with the following upon system implementation:]
+(7)	The preliminary OAE may not assume total renewable production lower than the sum of the selected Wind-powered Generation Resource Production Potential (WGRPP) and PhotoVoltaic Generation Resource Production Potential (PVGRPP) forecasts for each hour less any reasonably expected severe weather impacts.  The available capacity in ERCOT’s preliminary OAE must include targeted reserve levels and include forecasted capacity available through DC Tie imports or curtailment of DC Tie exports, forecasted capacity provided from Settlement Only Distributed Generators (SODGs), Settlement Only Transmission Generators (SOTGs), Settlement Only Distribution Energy Storage Systems (SODESSs), and Settlement Only Transmission Energy Storage Systems (SOTESSs), and forecasted capacity from price-responsive Demand based on information reported to ERCOT in accordance with Section 3.10.7.2.1, Reporting of Demand Response.  ERCOT must post the following inputs to the preliminary OAE to the ERCOT website within an hour of issuing an AAN, including but not limited to:
+(a)	The Load forecast; 
+(b)	Load forecast vendor selection;
+(c)	Wind forecast;
+(d)	Wind forecast vendor selection;
+(e)	Solar forecast;
+(f)	Solar forecast vendor selection;
+(g)	Expected severe weather impacts forecast;
+(h)	Targeted reserve levels;
+(i)	DC Tie import forecast;
+(j)	DC Tie export curtailment forecast;
+(k)	SODG, SOTG, SODESS, and SOTESS forecasts; 
+(l)	The forecast of capacity provided by price-responsive Demand;
+(m)	Any aggregate derating of Resource(s) and/or Forced Outage assumptions in total MWs; and
+(n)	Any aggregate fuel derating assumptions in total MWs.
+(8)	Notwithstanding anything in this Section, ERCOT need not comply with any other requirement in this Section if the occurrence of an unforeseen Real-Time condition requires that ERCOT withdraw approval of one or more Resource Outages in order to meet applicable reliability standards.  The unforeseen Real-Time condition cannot be the result of changes that Ancillary Services are procured to address.  In exercising its discretion under this paragraph, ERCOT is not required to issue an AAN or OAE before issuing an OSA, but shall:
+(a)	Issue the OSA to the QSE of the Resource for the purpose of make whole compensation; and
+(b)	Present the justification for the out of market action to the Technical Advisory Committee (TAC) at its next meeting that is at least 14 Business Days after the OSA.
+3.1.6.10	Opportunity Outage
+(1)	Opportunity Outages for Resources are a special category of Planned Outages that may be approved by ERCOT when a specific Resource has been forced Off-Line due to a Forced Outage and the Resource has been previously approved for a Planned Outage during the next two days.
+(2)	When a Forced Outage occurs on a Resource that has an approved Outage scheduled within the following two days, the Resource may remain Off-Line and start the approved Outage earlier than scheduled.  The QSE must give as much notice as practicable to ERCOT.
+(3)	Opportunity Outages of Transmission Facilities may be approved by ERCOT when a specific Resource is Off-Line due to a Forced, Planned or Maintenance Outage.  A TSP may request an Opportunity Outage at any time.  
+(4)	When an Outage occurs on a Resource that has an approved Transmission Facilities Opportunity Outage request on file, the TSP may start the approved Outage as soon as practical after receiving authorization to proceed by ERCOT.  ERCOT must give as much notice as practicable to the TSP.
+3.1.6.11	Outage Returning Early
+(1)	A Resource that completes a Planned Outage early and wants to resume operation shall notify ERCOT of the early return prior to resuming service by making appropriate entries in the COP or Outage Scheduler if applicable as much in advance as practicable, but not later than at least two hours prior to beginning startup.  Within two hours of receiving such request, ERCOT shall either:
+(a) 	Approve the request unless, as a result of complying with the request, ERCOT cannot maintain system reliability or security with the Resource injection.  In such a case, ERCOT shall issue a Verbal Dispatch Instruction (VDI) to the Resource’s QSE to stay Off-Line; or 
+(b) 	Coordinate between the TSP and Resource Entity to schedule a time agreeable to both parties for the Resource to be Off-Line in the event if that a Transmission Facilities Outage requires the affected Resource to be Off-Line. If mutual agreement is not reached, then ERCOT shall decide on the appropriate time, after considering expected impacts on system security, future Outage plans, and participants and issue a VDI to the Resource’s QSE to stay Off-Line. 
+(2)	Before an early return from an Outage, a Resource Entity or QSE may inquire of ERCOT whether the Resource is expected to be decommitted by ERCOT upon its early return.  If a Resource Entity or QSE is notified by ERCOT that the Resource will be decommitted if it returns early and the Resource Entity or QSE starts the Resource within the previously accepted or approved Outage period, then the QSE representing the Resource will not be paid any decommitment compensation as otherwise would be provided for in Section 5.7, Settlement for RUC Process. 
+3.1.6.12	Resource Coming On-Line
+(1)	Before start-up and synchronizing On-Line, a Resource Entity or QSE may inquire of ERCOT whether the Resource is expected to be decommitted by ERCOT upon its coming On-Line.  If a Resource Entity or QSE is notified by ERCOT that the Resource will be decommitted if the Resource comes On-Line and the Resource Entity or QSE starts the Resource, then the QSE representing the Resource will not be paid any decommitment compensation as otherwise would be provided for in Section 5.7.3, Payment When ERCOT Decommits a QSE-Committed Resource.
+3.1.6.13	Maximum Daily Resource Planned Outage Capacity
+(1)	ERCOT shall calculate a maximum capacity of Resource Planned Outages, excluding Outages of nuclear-powered generation facilities and Outages of QFs that are subject to the exemption in paragraph (7) of Section 3.1.6, Outages of Resources Other than Reliability Resources, that should be allowed on each day of the next 60 months.
+(a)	For days more than seven days ahead of the Operating Day, the calculation of this Maximum Daily Resource Planned Outage Capacity will be based on seasonal assumptions, planned Resources that have met the criteria in Planning Guide Section 6.9, Addition of Proposed Generation to the Planning Models, Planned Outages of nuclear Generation Resources, Planned Outages of QFs that are subject to the exemption in paragraph (7) of Section 3.1.6, and the long-term Load forecast.  ERCOT shall update the calculation of the Maximum Daily Resource Planned Outage Capacity for the next 60 months twice per month.
+(b)	For days that are seven days or less prior to the Operating Day, the calculation of this Maximum Daily Resource Planned Outage Capacity will be based on the inputs used for the planning assessment for an OAE described in Section 3.1.6.9, Withdrawal of Approval and Rescheduling of Approved Planned Outages of Resource Facilities.  ERCOT shall update the calculation of the Maximum Daily Resource Planned Outage Capacity for each hour of the next seven days on a rolling daily basis.
+(c)	ERCOT shall post the Maximum Daily Resource Planned Outage Capacity and aggregate MW of approved Resource Planned Outages at least twice per day on the ERCOT website for each day of the next 60 months.
+(d)	ERCOT shall post the Maximum Daily Resource Planned Outage Capacity and aggregate MW of approved Resource Planned Outages hourly on the ERCOT website for each hour of the next seven days.
+(2)	ERCOT may adjust the Maximum Daily Resource Planned Outage Capacity if, at any point in time, the actual aggregate Forced Outages and Maintenance Outages exceed the amount that is used in the assessment of the Maximum Daily Resource Planned Outage Capacity.
+(3)	ERCOT shall post on the ERCOT website the methodology it uses to calculate the Maximum Daily Resource Planned Outage Capacity in accordance with the parameters established by paragraphs (1) and (2) above.  The methodology and any revisions thereto shall be approved by the ERCOT Board of Directors.  ERCOT shall issue a Market Notice describing any revision and the justification for such revision and shall provide at least 14 days for stakeholder comment on the proposed revision unless ERCOT determines that, due to an actual or anticipated Emergency Condition, a shorter comment period is warranted.  Upon adopting a change to the methodology, ERCOT shall post the revised methodology on the ERCOT website and issue a Market Notice announcing the posting.
+3.1.6.14	Distribution Facility Outages Impacting Distribution Generation Resources and Distribution Energy Storage Resources
+(1)       	A Distribution Service Provider (DSP) must notify the party designated by the Distribution Generation Resource (DGR) or Distribution Energy Storage Resource (DESR) (Resource Entity or QSE) if the DSP plans to take an outage on any distribution facility that will impact the operation of a DGR or DESR.  The Resource Entity for the DGR or DESR shall submit a Planned or Maintenance Resource Outage, as appropriate, to reflect the unavailability of the Resource due to the DSP outage.  ERCOT may not reject a DGR or DESR Outage taken due to a DSP system outage, nor may ERCOT require the DSP to reschedule the outage.  However, ERCOT may consult with the DSP about rescheduling the outage.

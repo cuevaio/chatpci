@@ -1,0 +1,432 @@
+5.7.1	RUC Make-Whole Payment
+(1)	To make up the difference when the revenues that a Reliability Unit Commitment (RUC)-committed Resource receives are less than its costs as described in paragraph (2) below, ERCOT shall calculate a RUC Make-Whole Payment for that Operating Day for that Resource (whether committed by Day-Ahead RUC (DRUC) or Hourly RUC (HRUC)).
+[NPRR1014:  Replace paragraph (1) above with the following upon system implementation:]
+(1)	To make up the difference when the revenues that a Reliability Unit Commitment (RUC)-committed Resource receives are less than its costs as described in paragraph (2) below, ERCOT shall calculate a RUC Make-Whole Payment for that Operating Day for that Resource (whether committed by Day-Ahead RUC (DRUC) or Hourly RUC (HRUC)).  ERCOT shall not calculate or pay a RUC Make-Whole Payment for an Energy Storage Resource (ESR).
+(2)	ERCOT shall pay to the Qualified Scheduling Entity (QSE) for the Resource a Make-Whole Payment if the RUC Guarantee calculated in Section 5.7.1.1, RUC Guarantee, is greater than the sum of:
+(a)	RUC Minimum-Energy Revenue calculated in Section 5.7.1.2, RUC Minimum-Energy Revenue;
+(b)	Revenue less cost above Low Sustained Limited (LSL) during RUC-Committed Hours calculated in Section 5.7.1.3, Revenue Less Cost Above LSL During RUC-Committed Hours; and 
+(c)	Revenue less cost during QSE Clawback Intervals calculated in Section 5.7.1.4, Revenue Less Cost During QSE Clawback Intervals. 
+(3)	The RUC Make-Whole Payment to the QSE for each RUC-committed Resource, including Reliability Must-Run (RMR) Units, for each RUC-Committed Hour in an Operating Day is calculated as follows:
+RUCMWAMTq,r,h	=	(-1) * Max (0, RUCGq,r,d – RUCMEREVq,r,d – RUCEXRRq,r,d – RUCEXRQCq,r,d) / RUCHRq,r,d
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+RUCMWAMTq,r,h
+$
+RUC Make-Whole Payment—The RUC Make-Whole Payment to the QSE for Resource r, for each RUC-Committed Hour of the Operating Day.  When one or more Combined Cycle Generation Resources are committed by RUC, payment is made to the Combined Cycle Train for all RUC-committed Combined Cycle Generation Resources.
+RUCGq,r,d
+$
+RUC Guarantee—The sum of eligible Startup Costs and minimum-energy costs for Resource r during all RUC-Committed Hours, for the Operating Day.  See Section 5.7.1.1.  When one or more Combined Cycle Generation Resources are committed by RUC, guaranteed costs are calculated for the Combined Cycle Train for all RUC-committed Combined Cycle Generation Resources.
+RUCMEREVq,r,d
+$
+RUC Minimum-Energy Revenue—The sum of the energy revenues for Resource r’s generation up to LSL during all RUC-Committed Hours, for the Operating Day.  See Section 5.7.1.2.  When one or more Combined Cycle Generation Resources are committed by RUC, minimum-energy revenue is calculated for the Combined Cycle Train for all RUC-committed Combined Cycle Generation Resources.
+RUCEXRRq,r,d
+$
+Revenue Less Cost Above LSL During RUC-Committed Hours—The sum of the total revenue for Resource r operating above its LSL less the cost during all RUC-Committed Hours, for the Operating Day.  See Section 5.7.1.3.  When one or more Combined Cycle Generation Resources are committed by RUC, revenue less cost above LSL is calculated for the Combined Cycle Train for all RUC-committed Combined Cycle Generation Resources.
+RUCEXRQCq,r,d
+$
+Revenue Less Cost During QSE Clawback Intervals—The sum of the total revenue for Resource r less the cost during all QSE Clawback Intervals, for the Operating Day.  See Section 5.7.1.4.  When one or more Combined Cycle Generation Resources are committed by RUC, revenue less cost during QSE Clawback Intervals is calculated for the Combined Cycle Train for all Combined Cycle Generation Resources earning revenue in QSE Clawback Intervals.
+RUCHRq,r,d
+None
+RUC Hour—The total number of RUC-Committed Hours, for Resource r for the Operating Day.  When one or more Combined Cycle Generation Resources are committed by RUC, the total number of RUC-Committed Hours is calculated for the Combined Cycle Train for all RUC-committed Combined Cycle Generation Resources.
+q
+None
+A QSE.
+r
+None
+A RUC-committed Generation Resource.
+d
+None
+An Operating Day containing the RUC-commitment.
+h
+None
+An hour in the RUC-commitment period.
+5.7.1.1	RUC Guarantee
+(1)	The allowable Startup Costs and minimum-energy costs of a Resource committed by RUC is the RUC Guarantee.  The RUC Guarantee minimum-energy costs are prorated according to the actual generation when the Resource’s average output during a 15-minute Settlement Interval is below the corresponding LSL.
+(2)	The SUPR, MEPR and LSL used to calculate the RUC Guarantee for a Combined Cycle Train are the SUPR, MEPR and LSL that correspond to the Combined Cycle Generation Resource, within the Combined Cycle Train, that is RUC-committed for the hour.  If the RUC-Committed Interval is a RUC for Additional Capacity (RUCAC)-Interval, then the SUPR, MEPR, and LSL that corresponds to the QSE-committed Combined Cycle Generation Resource is also used to calculate RUC Guarantee for a Combined Cycle Train.
+(3)	For an Aggregate Generation Resource (AGR), the Startup Cost shall be scaled according to the maximum number of its generators online during a contiguous block of RUC-committed intervals, as indicated by telemetry, compared to the total number of generators registered to the AGR and used in the approved verifiable cost for the AGR.
+(4)	The RUC Guarantee is calculated for non-Combined Cycle Trains as follows: 
+RUCG q, r, d	=	 (SUPR q, r, s * RUCSUFLAG q, r, s) + (MEPR q, r, i * Min ((LSL q, r, i * (¼)), RTMG q, r, i))
+(5)	The RUC Guarantee is calculated for Combined Cycle Trains as follows:
+RUCG q, r, d	=	(SUPR q, r, s * RUCSUFLAG q, r, s) + 
+		(MAX (0, SUPR - SUPR)) + (RUCGME q, r, i)
+      Where,
+	If a Combined Cycle Train transitions to a RUC-committed configuration from a QSE-committed or other RUC-committed configuration between two contiguous hours, or to a RUC-committed configuration from a QSE-committed configuration within the same hour due to a RUCAC, the transition is calculated as follows:
+MAX (0, SUPR afterCCGR – SUPR beforeCCGR)
+	If a Combined Cycle Train transitions to a QSE-committed configuration from a RUC-committed configuration, the transition is calculated as follows:
+MAX (0, SUPR beforeCCGR – SUPR afterCCGR)
+If the interval i is a RUC-Committed Interval that is not a RUCAC, then:
+RUCGME q, r, i	=  MEPR q, r, i * Min ((LSL q, r, i * (¼)), RTMG q, r, i)
+If the interval i is a RUCAC of a previously QSE-Committed Interval, then:
+RUCGME q, r, i	=  Max [0, MEPR q, afterCCGR, i * Min ((LSL q, afterCCGR, i * 
+		(¼)), RTMG q, r, i) – MEPR q, beforeCCGR, i * (LSL q, beforeCCGR, i * (¼))]
+(6)	If a validated Three-Part Supply Offer has been submitted for a Resource for the RUC, then the RUC Guarantee for that Resource is based on the minimum of the Startup Offer in that validated Three-Part Supply Offer and Startup Cap and the lesser of the Minimum-Energy Offer in that validated Three-Part Supply Offer and the Minimum-Energy Offer Cap.  If a validated Three-Part Supply Offer has not been submitted for a Resource for the RUC and ERCOT has not yet approved verifiable unit-specific costs for the Resource, then the RUC Guarantee for a Resource is based on the Resource Category Startup Generic Cap and the Resource Category Minimum-Energy Generic Cap.  If a validated Three-Part Supply Offer has not been submitted for a Resource for the RUC and ERCOT has approved verifiable unit-specific costs for the Resource, then the RUC Guarantee for a Resource is based on the most recent ERCOT-approved verifiable unit-specific costs for that Resource.
+For a Resource which is not an AGR, 
+If the QSE submitted a validated Three-Part Supply Offer, 
+	Then, 		SUPR q, r, s	=	Min (SUO q, r, s, SUCAP q, r, s)
+			MEPR q, r, i	=	Min (MEO q, r, i, MECAP q, r, i)
+	Otherwise, 	SUPR q, r, s 	= 	SUCAP q, r, s
+			MEPR q, r, i 	= 	MECAP q, r, i
+If ERCOT has approved verifiable Startup Costs and minimum-energy costs for the Resource,
+	Then, 		SUCAP q, r, s	=	verifiable Startup Costs q, r, s
+			MECAP q, r, i	=	verifiable minimum-energy costs q, r, i
+	Otherwise, 	SUCAP q, r, s 	= 	RCGSC s
+			MECAP q, r, i	= 	RCGMEC i
+For AGRs,
+If the QSE submitted a validated Three-Part Supply Offer, 
+Then, 		SUPR  q, r, s	=	Min (SUO q, r, s, SUCAP q, r, s)
+			MEPR q, r, i	=	Min (MEO q, r, i, MECAP q, r, i)
+	Otherwise, 	SUPR q, r, s 	= 	SUCAP q, r, s
+			MEPR q, r, i 	= 	MECAP q, r, i
+If ERCOT has approved verifiable Startup Costs and minimum-energy costs for the Resource,
+	Then, 		SUCAP q, r, s	=	Max c (AGRRATIO q, p, r) * verifiable Startup Costs q, r, s
+			MECAP q, r, i	=	verifiable minimum-energy costs q, r, i
+	Where, 		AGRRATIO q, p, r	 =	AGRMAXON q, p, r / AGRTOT q, p, r
+	Otherwise, 	SUCAP q, r, s 	= 	Max c (AGRRATIO q, p, r) * RCGSC s
+			MECAP q, r, i	= 	RCGMEC i
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+RUCG q, r, d
+$
+RUC Guarantee—The sum of eligible Startup Costs and minimum-energy costs for Resource r represented by QSE q during all RUC-Committed Hours, for the Operating Day d.  When one or more Combined Cycle Generation Resources are committed by RUC, guaranteed costs are calculated for the Combined Cycle Train for all RUC-committed Combined Cycle Generation Resources.
+RUCGME q, r, i
+$
+RUC Minimum-Energy Guarantee by interval—The guaranteed costs for Resource r represented by QSE q for minimum energy for the Settlement Interval i.  When one or more Combined Cycle Generation Resources are committed by RUC, RUC Minimum-Energy Guarantee is calculated for the Combined Cycle Train for all RUC-committed Combined Cycle Generation Resources.  During RUCAC-Intervals for a Combined Cycle Train, minimum energy cost is calculated as the difference between the minimum energy cost between the RUC-committed configuration and the QSE-committed configuration.
+SUPR q, r, s
+$/Start
+Startup Price per start—The Settlement price for Resource r represented by QSE q for the start s.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+SUO q, r, s
+$/Start
+Startup Offer per start—Represents an offer for all costs incurred by Generation Resource r represented by QSE q in starting up and reaching the Resource’s LSL for the start s.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+SUCAP q, r, s
+$/Start
+Startup Cap—The amount used for AGR r or Resource r represented by QSE q for the start s as Startup Costs.  The cap is the Resource Category Startup Offer Generic Cap (RCGSC) unless ERCOT has approved verifiable unit-specific Startup Costs for that Resource, in which case the startup cap is the scaled verifiable unit-specific Startup Cost for the AGR or the verifiable unit-specific Startup Cost for non-AGRs.  The verifiable unit-specific Startup Cost will be determined as described in Section 5.6.1, Verifiable Costs, minus the average energy produced during the time period between breaker close and LSL multiplied by the heat rate proxy “H” multiplied by the appropriate Fuel Index Price (FIP), Fuel Oil Price (FOP) or solid fuel price, for AGR and non-AGR Resources.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+AGRRATIO q, p, r
+none
+Aggregate Generation Resource Ratio per QSE per Settlement Point per Aggregate Generation Resource—A value which represents the ratio of the maximum number of generators online during an hour, as indicated by telemetry, compared to the total number of generators registered to the AGR r represented by QSE q at the Settlement Point p and used in the approved verifiable cost for the AGR.  The value is only applicable if the Resource is an AGR.
+AGRMAXON q, p, r
+none
+Aggregate Generation Resource Maximum Online per QSE per Settlement Point per Aggregate Generation Resource—The maximum number of generators registered to the AGR r represented by QSE q at the Settlement Point p online during an hour, as indicated by telemetry.  The value is only applicable if the Resource is an AGR.
+AGRTOT q, p, r
+none
+Aggregate Generation Resource Total per QSE per Settlement Point per Aggregate Generation Resource—The total number of generators registered to the AGR r represented by QSE q at the Settlement Point p and used in the approved verifiable cost for the AGR.  The value is only applicable if the Resource is an AGR.
+RCGSC s
+$/Start
+Resource Category Generic Startup Cost—The Resource Category Generic Startup Cost cap for the category of the Resource, according to Section 4.4.9.2.3, Startup Offer and Minimum-Energy Offer Generic Caps, for the Operating Day.
+RUCSUFLAG q, r, s
+none
+RUC Startup Flag—The flag that indicates whether or not the start s for Resource r represented by QSE q is eligible for RUC Make-Whole Payment.  Its value is one if eligible; otherwise, zero.  See Section 5.6.2, RUC Startup Cost Eligibility, and Section 5.6.3, Forced Outage of RUC-Committed Resource, for more information on startup eligibility.  For a Combined Cycle Train, the Resource r must be one of the registered Combined Cycle Generation Resources within the Combined Cycle Train.  When one or more Combined Cycle Generation Resources are committed by RUC, the RUC Startup Flag is calculated for the Combined Cycle Train for all RUC-committed Combined Cycle Generation Resources.
+MEPR q, r, i
+$/MWh
+Minimum-Energy Price—The Settlement price for Resource r represented by QSE q for minimum energy for the Settlement Interval i.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+MEO q, r, i
+$/MWh
+Minimum-Energy Offer—Represents an offer for the costs incurred by Resource r represented by QSE q in producing energy at the Resource’s LSL for the Settlement Interval i.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+MECAP q, r, i
+$/MWh
+Minimum-Energy Cap—The amount used for Resource r represented by QSE q for the Settlement Interval i for minimum-energy costs.  The minimum cost is the Resource Category Minimum-Energy Generic Cap (RCGMEC) unless ERCOT has approved verifiable unit-specific minimum energy costs for that Resource, in which case the Minimum-Energy Cap is the verifiable unit-specific minimum energy cost.  See Section 5.6.1 for more information on verifiable costs.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+RCGMEC i
+$/MWh
+Resource Category Generic Minimum-Energy Cost—The Resource Category Generic Minimum Energy Cost cap for the category of the Resource, according to Section 4.4.9.2.3, for the Operating Day.
+RTMG q, r, i
+MWh
+Real-Time Metered Generation—The metered generation of Resource r represented by QSE q for the Settlement Interval i.  Where for a Combined Cycle Train, the Resource r is the Combined Cycle Train.
+LSL q, r, i
+MW
+Low Sustained Limit—The LSL of Generation Resource r represented by QSE q for the hour that includes the Settlement Interval i, as submitted in the Current Operating Plan (COP).  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.  
+q
+none
+A QSE.
+p
+none
+A Settlement Point.
+r
+none
+A RUC-committed Generation Resource.
+d
+none
+An Operating Day containing the RUC-commitment.
+i
+none
+A 15-minute Settlement Interval within the hour that includes a RUC-commitment.
+s
+none
+A start that is eligible to have its costs included in the RUC Guarantee.
+t
+none
+A transition that is eligible to have its costs included in the RUC Guarantee.
+c
+none
+A contiguous block of RUC–Committed Hours.
+afterCCGR
+none
+The Combined Cycle Generation Resource to which a Combined Cycle Train transitions.
+beforeCCGR
+none
+The Combined Cycle Generation Resource from which a Combined Cycle Train transitions.
+5.7.1.2	RUC Minimum-Energy Revenue
+(1)	The energy revenue for a Resource’s generation up to LSL during all RUC-Committed Hours of the Operating Day is RUC Minimum-Energy Revenue.
+(2)	The LSL used to calculate RUC Minimum-Energy Revenue for a Combined Cycle Train is the LSL that corresponds to the Combined Cycle Generation Resource, within the Combined Cycle Train, that is RUC-committed for the hour.  If the interval is a RUCAC-Interval, then the LSL that corresponds to the QSE-committed Combined Cycle Generation Resource is also used to calculate RUC Minimum-Energy Revenue for a Combined Cycle Train.
+(3)	For each RUC-committed Resource, RUC Minimum-Energy Revenue is calculated as follows:
+RUCMEREVq,r,d	=	(RUCMEREV96 q, r, i)
+Where,
+If the interval i is a RUC-Committed Interval that is not a RUCAC-Interval, then:
+RUCMEREV96 q, r, i  = RTSPP p, i * Min (RTMG q, r, i, (LSL q, r, i * (¼)))
+If the interval i is a RUCAC of a previously QSE-Committed Interval, then:
+RUCMEREV96 q, r, i  =  RTSPP p, i * Max [0, Min (RTMG q, r, i, (LSL q, afterCCGR, i * (¼))) -  LSL q, beforeCCGR, i * (¼)]
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+RUCMEREV q, r, d
+$
+RUC Minimum-Energy Revenue—The sum of the energy revenues for generation of Resource r represented by QSE q up to LSL during all RUC-Committed Hours, for the Operating Day d.  When one or more Combined Cycle Generation Resources are committed by RUC, RUC Minimum-Energy Revenue is calculated for the Combined Cycle Train for all RUC-committed Combined Cycle Generation Resources.
+RUCMEREV96 q, r, i
+$
+RUC Minimum-Energy Revenue by interval—The energy revenues for generation of Resource r represented by QSE q up to LSL during all RUC-Committed Hours, for the Settlement Interval i.  When one or more Combined Cycle Generation Resources are committed by RUC, RUC Minimum-Energy Revenue is calculated for the Combined Cycle Train for all RUC-committed Combined Cycle Generation Resources.  During RUCAC-Intervals for a Combined Cycle Train, the minimum energy revenue is calculated as the difference between the minimum energy revenue of the RUC-committed configuration and the QSE-committed configuration.
+RTSPP p, i
+$/MWh
+Real-Time Settlement Point Price—The Real-Time Settlement Point Price at the Resource Node Settlement Point p for the Settlement Interval i.
+RTMG q, r, i
+MWh
+Real-Time Metered Generation—The metered generation of Resource r represented by QSE q for the Settlement Interval i.  Where for a Combined Cycle Train, the Resource r is the Combined Cycle Train.
+LSL q, r, i
+MW
+Low Sustained Limit—The LSL of Generation Resource r represented by QSE q for the hour that includes the Settlement Interval i, as submitted in the COP.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.  
+q
+none
+A QSE.
+r
+none
+A RUC-committed Generation Resource.
+d
+none
+An Operating Day containing the RUC-commitment.
+p
+none
+A Resource Node Settlement Point.
+i
+none
+A 15-minute Settlement Interval within the hour that includes a RUC-commitment.
+afterCCGR
+none
+The Combined Cycle Generation Resource that is RUC-committed.
+beforeCCGR
+none
+The Combined Cycle Generation Resource that was QSE-committed.
+5.7.1.3	Revenue Less Cost Above LSL During RUC-Committed Hours
+(1)	The total revenue for a Resource operating above its LSL less the cost based on the Energy Offer Curve Cost Cap (as described in Section 4.4.9.3.3, Energy Offer Curve Cost Caps) during all RUC-Committed Hours of the Operating Day is Revenue Less Cost Above LSL During RUC-Committed Hours.  
+(2)	The LSL used to calculate Revenue Less Cost Above LSL During RUC-Committed Hours for a Combined Cycle Train is the LSL that corresponds to the Combined Cycle Generation Resource, within the Combined Cycle Train, that is RUC-committed for the hour. 
+(3)	For each RUC-committed Resource, Revenue Less Cost Above LSL During RUC-Committed Hours is calculated as follows:
+RUCEXRR q, r, d   =   Max {0, [RUCEXRR96 q, r, i]}
+Where,
+RUCEXRR96 q, r, i  =	RTSPP p, i * Max (0, RTMG q, r, i – (LSL q, r, i * (¼))) 
+			+ (-1) * (VSSVARAMT q, r, i + VSSEAMT q, r, i)
+			+ (-1) * EMREAMT q, r, i 
+			– RTEOCOST q, r, i * Max (0, RTMG q, r, i – (LSL q, r, i * (¼)))]}
+[NPRR1009, NPRR1014, and NPRR1140:  Replace applicable portions of paragraph (3) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1009; or upon system implementation for NPRR1014 or NPRR1140:]
+(3)	For each RUC-committed Resource, Revenue Less Cost Above LSL During RUC-Committed Hours is calculated as follows:
+If RUCFCA exists:
+RUCEXRR q, r, d   =   [RUCEXRR96 q, r, i]
+Otherwise:
+RUCEXRR q, r, d   =   Max {0, [RUCEXRR96 q, r, i]}
+Where,
+RUCEXRR96 q, r, i  =	RTSPP p, i * Max (0, RTMG q, r, i – (LSL q, r, i * (¼)))                   + RTASREV q, r, i
+		+ (-1) * (VSSVARAMT q, r, i + VSSEAMT q, r, i)
+		+ (-1) * EMREAMT q, r, i 
+		– (RTEOCOST q, r, i + RUCFCA q, r, i) * Max (0, RTMG q, r, i – (LSL q, r, i * (¼)))
+Where, 
+RTASREV q, r, i = RTRUREV q, r, i + RTRDREV q, r, i + RTRRREV q, r, i + RTECRREV q, r, i + RTNSREV q, r, i
+And, 
+RUCFCA q, r, i = Max(0, Volume-weighted average actual fuel price q, r, i * Average heat rate – RTEOCOST q, r, i)
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+RUCEXRR q, r, d
+$
+Revenue Less Cost Above LSL During RUC-Committed Hours—The sum of the total revenue for Resource r represented by QSE q operating above its LSL less the cost during all RUC-Committed Hours, for the Operating Day d.  When one or more Combined Cycle Generation Resources are committed by RUC, revenue less cost above LSL is calculated for the Combined Cycle Train for all RUC-committed Combined Cycle Generation Resources.
+RUCEXRR96 q, r, i
+$
+Revenue Less Cost Above LSL During RUC-Committed Hours by interval—The total revenue for Resource r represented by QSE q operating above its LSL less the cost during all RUC-Committed hours, for the Settlement Interval i.  When one or more Combined Cycle Generation Resources are committed by RUC, revenue less cost above LSL is calculated for the Combined Cycle Train for all RUC-committed Combined Cycle Generation Resources.
+RTSPP p, i
+$/MWh
+Real-Time Settlement Point Price—The Real-Time Settlement Point Price at the Resource’s Resource Node Settlement Point p for the Settlement Interval i.
+RTEOCOST q, r, i
+$/MWh
+Real-Time Energy Offer Curve Cost CapEThe Energy Offer Curve Cost Cap for Resource r represented by QSE q, for the Resource’s generation above the LSL for the Settlement Interval i.  See Section 4.4.9.3.3.  Where for a Combined Cycle Train, the Resource r is the Combined Cycle Train.
+RTMG q, r, i
+MWh
+Real-Time Metered Generation—The metered generation of Resource r represented by QSE q for the Settlement Interval i.  Where for a Combined Cycle Train, the Resource r is the Combined Cycle Train.
+[NPRR1140:  Insert the variable “RUCFCA q, r, i” below upon system implementation:]
+RUCFCA q, r, i
+$/MWh
+Reliability Unit Commitment Fuel Cost Adder—For a QSE that has been granted a fuel dispute per Section 9.14.7, Disputes for RUC Make-Whole Payment for Fuel Costs, the fuel cost adder is calculated as the volume-weighted average actual fuel price times the output-level average heat rate for Resource r represented by QSE q, for the Resource’s generation above LSL, for the Settlement Interval i, minus the RTEOCOST.  When one or more Combined Cycle Generation Resources are committed by RUC, RUCFCA is calculated for the Combined Cycle Train for all RUC-Committed Combined Cycle Generation Resources. 
+The average heat rate for the Resource is the Average Heat Rate at the output level at Settlement Interval i, resulting from the input-output coefficients submitted with verifiable costs, if available, otherwise the heat rate value defined in Section 4.4.9.3.3.  
+The volume-weighted average actual fuel price must be proven by the QSE by submitting a dispute per Section 9.14.7.  
+LSL q, r, i
+MW
+Low Sustained Limit—The LSL of Generation Resource r represented by QSE q for the hour that includes the Settlement Interval i, as submitted in the COP.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.  
+[NPRR1009 and NPRR1014:  Insert applicable variables below upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1009; or upon system implementation for NPRR1014:]
+RTASREV q, r, i
+$
+Real-Time Ancillary Service Revenue — The total Real-Time Ancillary Service revenue for QSE q calculated for Resource r for the 15-minute Settlement Interval i.  Where for a Combined Cycle Train, the Resource r is the Combined Cycle Train.
+RTRUREV q, r, i
+$
+Real-Time Reg-Up Revenue — The Real-Time Reg-Up revenue for QSE q calculated for Resource r for the 15-minute Settlement Interval i.  See Section 6.7.5, Real-Time Ancillary Service Imbalance Payment or Charge.  Where for a Combined Cycle Train, the Resource r is the Combined Cycle Train.
+RTRDREV q, r, i
+$
+Real-Time Reg-Down Revenue — The Real-Time Reg-Down revenue for QSE q calculated for Resource r for the 15-minute Settlement Interval i.  See Section 6.7.5.  Where for a Combined Cycle Train, the Resource r is the Combined Cycle Train.
+RTRRREV q, r, i
+$
+Real-Time Responsive Reserve Revenue — The Real-Time RRS revenue for QSE q calculated for Resource r for the 15-minute Settlement Interval i.  See Section 6.7.5.  Where for a Combined Cycle Train, the Resource r is the Combined Cycle Train.
+RTNSREV q, r, i
+$
+Real-Time Non-Spin Revenue — The Real-Time Non-Spin revenue for QSE q calculated for Resource r for the 15-minute Settlement Interval i.  See Section 6.7.5.  Where for a Combined Cycle Train, the Resource r is the Combined Cycle Train.
+RTECRREV q, r, i
+$
+Real-Time ERCOT Contingency Reserve Service Revenue — The Real-Time ECRS revenue for QSE q calculated for Resource r for the 15-minute Settlement Interval i.  See Section 6.7.5.  Where for a Combined Cycle Train, the Resource r is the Combined Cycle Train.
+VSSVARAMT q, r, i
+$
+Voltage Support Service VAr Amount by interval—The payment to the QSE q for the Voltage Support Service (VSS) provided by Generation Resource r for the 15-minute Settlement Interval i.  See Section 6.6.7.1, Voltage Support Service Payments.  Payment for VSS is made to the Combined Cycle Train.
+[NPRR1009 and NPRR1014:  Replace applicable portions of the definition above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1009; or upon system implementation for NPRR1014:]
+Voltage Support Service VAr Amount—The payment to the QSE q for the Voltage Support Service (VSS) provided by Generation Resource r for the 15-minute Settlement Interval i.  See Section 6.6.7.1, Voltage Support Service Payments.  Payment for VSS is made to the Combined Cycle Train.
+VSSEAMT q, r, i
+$
+Voltage Support Service Energy Amount by interval—The lost opportunity payment to the QSE q for ERCOT-directed VSS from the Generation Resource r for the 15-minute Settlement Interval i.  See Section 6.6.7.1.  Payment for emergency energy is made to the Combined Cycle Train.
+[NPRR1009 and NPRR1014:  Replace applicable portions of the definition above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1009; or upon system implementation for NPRR1014:]
+Voltage Support Service Energy Amount—The lost opportunity payment to the QSE q for ERCOT-directed VSS from the Generation Resource r for the 15-minute Settlement Interval i.  See Section 6.6.7.1.  Payment for emergency energy is made to the Combined Cycle Train.
+EMREAMT q, r, i
+$
+Emergency Energy Amount by interval—The payment to the QSE q as additional compensation for the additional energy produced by the Generation Resource r in Real-Time during the Emergency Condition, for the 15-minute Settlement Interval i.  See Section 6.6.9.1, Payment for Emergency Power Increase Directed by ERCOT.  Payment for emergency energy is made to the Combined Cycle Train.
+[NPRR1009 and NPRR1014:  Replace applicable portions of the definition above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1009; or upon system implementation for NPRR1014:]
+Emergency Energy Amount—The payment to the QSE q as additional compensation for the additional energy or Ancillary Services produced or consumed by the Resource r in Real-Time during the Emergency Condition, for the 15-minute Settlement Interval i.  See Section 6.6.9.1, Payment for Emergency Operations Settlement.  Payment for emergency energy is made to the Combined Cycle Train.
+q
+none
+A QSE.
+r
+none
+A RUC-committed Generation Resource.
+d
+none
+An Operating Day containing the RUC-commitment.
+p
+none
+A Resource Node Settlement Point.
+i
+none
+A 15-minute Settlement Interval within the hour that includes a RUC instruction.
+5.7.1.4	Revenue Less Cost During QSE Clawback Intervals
+(1)	The total revenue for a Resource less the cost based on the Energy Offer Curve Cost Cap as described in Section 4.4.9.3.3, Energy Offer Curve Cost Caps, during all QSE Clawback Intervals of the Operating Day is Revenue Less Cost During QSE-Clawback Intervals. 
+(2)	The MEPR and LSL used to calculate Revenue Less Cost During QSE Clawback Intervals for a Combined Cycle Train is the MEPR and LSL that corresponds to the Combined Cycle Generation Resource, within a Combined Cycle Train, that operates in Real-Time for the QSE Clawback Interval.
+(3)	For each QSE Clawback Interval, Revenue Less Cost During QSE Clawback Intervals is calculated as follows:
+RUCEXRQC q, r, d		=  Max {0, [(RTSPP p, i * RTMG q, r, i)
++ (-1) * (VSSVARAMT q, r, i + VSSEAMT q, r, i)
+			+ (-1) * EMREAMT q, r, i
+			– [MEPR q, r, i * Min (RTMG q, r, i, (LSL q, r, i * (¼)))] 
+			– [RTEOCOST q, r, i * Max (0, RTMG q, r, i – (LSL q, r, i * (¼)))]]}  
+If the QSE submitted a validated Three-Part Supply Offer for the Resource, 
+	Then, 		MEPR q, r, i	=	Min (MEO q, r, i, MECAP q, r, i)
+	Otherwise, 	MEPR q, r, i 	= 	MECAP q, r, i
+If ERCOT has approved verifiable minimum-energy costs for the Resource,
+	Then,		MECAP q, r, i	=	verifiable minimum-energy costs q, r, i
+	Otherwise, 	MECAP q, r, i	= 	RCGMEC i
+[NPRR1009 and NPRR1014:  Replace applicable portions of the formula “RUCEXRQC q, r, d” above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1009; or upon system implementation for NPRR1014:]
+RUCEXRQC q, r, d		=  Max {0, [(RTSPP p, i * RTMG q, r, i)
+			+ RTASREVq, r, i
+			+ (-1) * (VSSVARAMT q, r, i + VSSEAMT q, r, i)
+		   + (-1) * EMREAMT q, r, i
+		   – [MEPR q, r, i * Min (RTMG q, r, i, (LSL q, r, i * (¼)))] 
+		   – [RTEOCOST q, r, i * Max (0, RTMG q, r, i – (LSL q, r, i * (¼)))]]}  
+If the QSE submitted a validated Three-Part Supply Offer for the Resource, 
+	Then, 		MEPR q, r, i	=	Min (MEO q, r, i, MECAP q, r, i)
+	Otherwise, 	MEPR q, r, i 	= 	MECAP q, r, i
+If ERCOT has approved verifiable minimum-energy costs for the Resource,
+	Then,		MECAP q, r, i	=	verifiable minimum-energy costs q, r, i
+	Otherwise, 	MECAP q, r, i	= 	RCGMEC i
+Where, 
+RTASREV q, r, i = RTRUREV q, r, i + RTRDREV q, r, i + RTRRREV q, r, i + RTECRREV q, r, i  +  RTNSREV q, r, i
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+RUCEXRQC q, r, d
+$
+Revenue Less Cost During QSE-Clawback Intervals—The sum of the total revenue for Resource r less the cost during all QSE-Clawback Intervals for the Operating Day.  When one or more Combined Cycle Generation Resources are committed by RUC, Revenue Less Cost During QSE-Clawback Intervals is calculated for the Combined Cycle Train for all Combined Cycle Generation Resources earning revenue in QSE-Clawback Intervals.
+RTSPP p, i
+$/MWh
+Real-Time Settlement Point Price—The Real-Time Settlement Point Price at the Resource’s Settlement Point for the Settlement Interval i.
+MEPR q, r, i
+$/MWh
+Minimum-Energy Price—The Settlement price for Resource r for minimum energy for the Settlement Interval i.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+MEO q, r, i
+$/MWh
+Minimum-Energy Offer—Represents an offer for the costs incurred by Resource r in producing energy at the Resource’s LSL for the Settlement Interval i.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+MECAP q, r, i
+$/MWh
+Minimum-Energy Cap—The amount used for Resource r for minimum-energy costs.  The minimum cost is the Resource Category Minimum-Energy Generic Cap (RCGMEC) unless ERCOT has approved verifiable unit-specific minimum energy costs for that Resource, in which case the Minimum-Energy Cap is the verifiable unit-specific minimum energy cost.  See Section 5.6.1, Verifiable Costs, for more information on verifiable costs.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+RCGMEC i
+$/MWh
+Resource Category Generic Minimum-Energy Cost—The Resource Category Generic Minimum-Energy Cost cap for the category of the Resource, according to Section 4.4.9.2.3, Startup Offer and Minimum-Energy Offer Generic Caps, for the Operating Day.
+RTEOCOST q, r, i
+$/MWh
+Real-Time Energy Offer Curve Cost CapRThe Energy Offer Curve Cost Cap for Resource r represented by QSE q, for the Resource’s generation above the LSL for the Settlement Interval i.  See Section 4.4.9.3.3.  Where for a Combined Cycle Train, the Resource r is the Combined Cycle Train.
+RTMG q, r, i
+MWh
+Real-Time Metered Generation—The Resource r’s metered generation for the Settlement Interval i.  Where for a Combined Cycle Train, the Resource r is the Combined Cycle Train.
+LSL q, r, i
+MW
+Low Sustained Limit—The LSL of Generation Resource r represented by QSE q for the hour that includes the Settlement Interval i, as submitted in the COP.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+[NPRR1009 and NPRR1014:  Insert applicable portions of the variables below upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1009; or upon system implementation for NPRR1014:]
+RTASREV q, r, i
+$
+Real-Time Ancillary Service Revenue — The total Real-Time Ancillary Service revenue for QSE q calculated for Resource r for the 15-minute Settlement Interval i.  Where for a Combined Cycle Train, the Resource r is the Combined Cycle Train.
+RTRUREV q, r, i
+$
+Real-Time Reg-Up Revenue — The Real-Time Reg-Up revenue for QSE q calculated for Resource r for the 15-minute Settlement Interval i.  See Section 6.7.5, Real-Time Ancillary Service Imbalance Payment or Charge.  Where for a Combined Cycle Train, the Resource r is the Combined Cycle Train.
+RTRDREV q, r, i
+$
+Real-Time Reg-Down Revenue — The Real-Time Reg-Down revenue for QSE q calculated for Resource r for the 15-minute Settlement Interval i.  See Section 6.7.5.  Where for a Combined Cycle Train, the Resource r is the Combined Cycle Train.
+RTRRREV q, r, i
+$
+Real-Time Responsive Reserve Revenue — The Real-Time RRS revenue for QSE q calculated for Resource r for the 15-minute Settlement Interval i.  See Section 6.7.5.  Where for a Combined Cycle Train, the Resource r is the Combined Cycle Train.
+RTNSREV q, r, i
+$
+Real-Time Non-Spin Revenue — The Real-Time Non-Spin revenue for QSE q calculated for Resource r for the 15-minute Settlement Interval i.  See Section 6.7.5.  Where for a Combined Cycle Train, the Resource r is the Combined Cycle Train.
+RTECRREV q, r, i
+$
+Real-Time ERCOT Contingency Reserve Service Revenue — The Real-Time ECRS revenue for QSE q calculated for Resource r for the 15-minute Settlement Interval i.  See Section 6.7.5.  Where for a Combined Cycle Train, the Resource r is the Combined Cycle Train.
+VSSVARAMT q, r, i
+$
+Voltage Support Service VAr Amount by interval—The payment to the QSE for the VSS provided by Generation Resource r for the 15-minute Settlement Interval i.  See Section 6.6.7.1, Voltage Support Service Payments.  Payment for VSS is made to the Combined Cycle Train.
+[NPRR1009 and NPRR1014:  Replace applicable portions of the definition above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1009; or upon system implementation for NPRR1014:]
+Voltage Support Service VAr Amount—The payment to the QSE for the VSS provided by Generation Resource r for the 15-minute Settlement Interval i.  See Section 6.6.7.1, Voltage Support Service Payments.  Payment for VSS is made to the Combined Cycle Train.
+VSSEAMT q, r, i
+$
+Voltage Support Service Energy Amount by interval—The lost opportunity payment to the QSE for ERCOT-directed VSS from the Generation Resource r for the 15-minute Settlement Interval i.  See Section 6.6.7.1.  Payment for VSS is made to the Combined Cycle Train.  
+[NPRR1009 and NPRR1014:  Replace applicable portions of the definition above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1009; or upon system implementation for NPRR1014:]
+Voltage Support Service Energy Amount—The lost opportunity payment to the QSE for ERCOT-directed VSS from the Generation Resource r for the 15-minute Settlement Interval i.  See Section 6.6.7.1.  Payment for VSS is made to the Combined Cycle Train.  
+EMREAMT q, r, i
+$
+Emergency Energy Amount by interval—The payment to the QSE as additional compensation for the additional energy produced by the Generation Resource r in Real-Time during the Emergency Condition, for the 15-minute Settlement Interval i.  See Section 6.6.9.1, Payment for Emergency Power Increase Directed by ERCOT.  Payment for emergency energy is made to the Combined Cycle Train.
+[NPRR1009 and NPRR1014:  Replace applicable portions of the definition above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1009; or upon system implementation for NPRR1014:]
+Emergency Energy Amount—The payment to the QSE as additional compensation for the additional energy or Ancillary Services produced or consumed by the Resource r in Real-Time during the Emergency Condition, for the 15-minute Settlement Interval i.  See Section 6.6.9.1, Payment for Emergency Operations Settlement.  Payment for emergency energy is made to the Combined Cycle Train.  
+  
+q
+none
+A QSE.
+r
+none
+A RUC-committed Generation Resource.
+d
+none
+An Operating Day containing the RUC-commitment.
+p
+none
+A Resource Node Settlement Point.
+i
+none
+A 15-minute Settlement Interval within the hour that is identified as a QSE-Clawback Interval.

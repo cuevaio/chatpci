@@ -1,0 +1,68 @@
+Level I Maintenance Outage (see Outage)
+Level II Maintenance Outage (see Outage)
+Level III Maintenance Outage (see Outage) 
+Limited Impact Remedial Action Scheme (RAS) (see Remedial Action Scheme (RAS))
+Load
+The amount of energy in MWh delivered at any specified point or points on a system.
+Wholesale Storage Load (WSL)   
+Energy that is separately metered from all other Facilities to charge a technology that is capable of storing energy and releasing that energy at a later time to generate electric energy.  WSL includes losses for the energy conversion process that are captured by the WSL EPS Meter.  WSL is limited to the following technologies: batteries, flywheels, compressed air energy storage, pumped hydro-electric power, electro chemical capacitors, and thermal energy storage associated with turbine inlet chilling.
+[PIR003:  ERCOT Protocol Interpretation of Wholesale Storage Load (WSL):]
+On June 11, 2013, ERCOT issued a Protocol Interpretation on the definition of Wholesale Storage Load (WSL) – providing guidance on which facilities are eligible for Settlement treatment under WSL.  See Market Notice M-A061113-1, Protocol Interpretation Request – Wholesale Storage Load, at https://www.ercot.com/mktrules/nprotocols/pir_process for full details of the Protocol Interpretation of WSL.
+
+[PIR004:  ERCOT Protocol Interpretation of Wholesale Storage Load (WSL):]
+On August 16, 2016, ERCOT issued a Protocol Interpretation on the definition of Wholesale Storage Load (WSL) – providing additional guidance on which facilities are eligible for Settlement treatment under WSL.  See Market Notice M-A081616-01, Protocol Interpretation Request – Wholesale Storage Load, at https://www.ercot.com/mktrules/nprotocols/pir_process for full details of the Protocol Interpretation of WSL.
+Load Frequency Control (LFC)
+The deployment of those Controllable Load Resources and Generation Resources that are providing Regulation Service to ensure that system frequency is maintained within predetermined limits and the deployment of those Controllable Load Resources and Generation Resources that are providing ERCOT Contingency Reserve Service (ECRS) when necessary as backup regulation.  LFC does include the deployment of Responsive Reserve (RRS) (manual) and ECRS from Generation Resources and Controllable Load Resources.  LFC does not include the deployment of ECRS or RRS by Load Resources when deployed as a block under Energy Emergency Alert (EEA) procedures.
+Load Profile
+A representation of the energy usage of a group of Customers, showing the Demand variation on an hourly or sub-hourly basis.
+Load Profile ID
+The Load Profile designation string that contains, the Load Profile Type Code, the Weather Zone Code, the Meter Data Type Code, the Weather Sensitivity Code, and the Time-Of-Use Schedule Code.  An example of all Load Profile IDs are located in the Load Profiling Guide, Appendix D, Profile Decision Tree.
+Load Profile Models 
+Processes that use analytical modeling techniques to create Load Profiles.
+Load Profile Segment
+A sub-classification of a Load Profile Group.  High Winter Ratio (HWR) is an example.  Together, the Load Profile Group and the Load Profile Segment form the Load Profile Type.
+Load Profile Type
+A classification of a group of Customers having similar energy usage patterns and that are assigned the same Load Profile.
+Load Profiling
+The set of processes used to develop and create Load Profiles.
+Load Profiling Methodology
+The fundamental basis on which Load Profiles are created.  The implementation of a Load Profiling Methodology may require statistical Sampling, engineering methods, econometric modeling, or other approaches.
+Load Ratio Share
+The ratio of an Entity’s AML to total ERCOT AML for an interval.
+Load Resource (see Resource)
+Load Serving Entity (LSE)
+An Entity that sells energy to Customers or Wholesale Customers and that has registered as an LSE with ERCOT.  LSEs include Competitive Retailers (which includes REPs) and NOIEs that serve Load and ELSEs.
+Load Zone
+(1)	In the Day-Ahead Market (DAM) and Congestion Revenue Right (CRR) Auction, a group of power flow buses assigned to the same zone under Section 3.4, Load Zones.  Every power flow bus in ERCOT with a Load must be assigned to a Load Zone for Settlement purposes.
+(2)	In the Real-Time Market (RTM), a group of Electrical Buses assigned to the same zone under Section 3.4.  Every Electrical Bus in ERCOT with a Load must be assigned to a Load Zone for Settlement purposes.  
+(3)	A Non-Opt-In Entity (NOIE) Load Zone is a type of Load Zone. 
+Load Zone LMP (see Locational Marginal Price)
+Locational Marginal Price (LMP)
+The offer and/or bid-based marginal cost of serving the next increment of Load at an Electrical Bus, which marginal cost is produced by the DAM process or by the SCED process. 
+Hub LMP
+The price calculated for a Hub for each SCED interval according to the formula in Section 6.6.1.5, Hub LMPs, using LMPs at the Electrical Buses included in the Hub. 
+Load Zone LMP
+The price calculated for a Load Zone for each SCED interval according to the formula in Section 6.6.1.4, Load Zone LMPs, using State Estimator Load data and LMPs at the Electrical Buses included in the Load Zone.
+Lone Star Infrastructure Protection Act (LSIPA) Affiliate 
+An Entity that, directly or indirectly, through one or more intermediaries, controls, is controlled by, or is under common control with the LSIPA Designated Company.  For purposes of this definition, “controls,” “controlled by,” or “under common control with” shall mean (1) the ownership of 20% or more of the outstanding securities of an Entity or (2) the power of an Entity, directly or indirectly, through one or more intermediaries, to direct the management and/or policies and procedures of another Entity.  Ownership by an Entity of equity securities (whether publicly traded or not) of another Entity shall not result in control for purposes of this definition if the holder owns (in its name or via intermediaries) 20% or more of the outstanding securities of the Entity, and: (a) the securities are held as a passive investment; (b) the holder does not have representation on the Entity’s board of directors (or equivalent governing body) or vice versa; and (c) the holder does not in fact exercise influence over day-to-day management decisions.
+Lone Star Infrastructure Protection Act (LSIPA) Designated Company
+An Entity (including an LSIPA Affiliate) that meets any of the company ownership or headquarters criteria listed in Texas Business and Commerce Code, Section 117.002(a)(2)(A)-(b)(2)(B) or Texas Government Code Section 2275.0102(a)(2)(A)-(b)(2)(B).
+Lone Star Infrastructure Protection Act (LSIPA) Designated Country 
+China, Iran, North Korea, Russia, or a country designated by the Governor as a threat to critical infrastructure pursuant to Texas Business and Commerce Code, Section 117.003 or Texas Government Code, Section 2275.0103.
+Low Ancillary Service Limit (LASL)  
+A dynamically calculated MW lower limit on a Resource to maintain the ability of the Resource to provide committed Ancillary Service. 
+[NPRR1013:  Delete the above definition “Low Ancillary Service Limit (LASL)” upon system implementation of the Real-Time Co-Optimization (RTC) project.]
+Low Emergency Limit (LEL) 
+The limit established by the QSE describing the minimum temporary unsustainable energy production capability of a Resource.  This limit must be achievable for a period of time indicated by the QSE but not less than 30 minutes. 
+Low Power Consumption (LPC) 
+For a Load Resource, the limit established by the QSE, continuously updated in Real-Time, that describes the minimum sustained power consumption of a Load Resource.  The LPC shall be a non-negative number in MW.
+Low Sustained Limit (LSL)
+[NPRR1014:  Insert the following definition “Low Sustained Limit (LSL) for an Energy Storage Resource (ESR)” upon system implementation:]
+Low Sustained Limit (LSL) for an Energy Storage Resource (ESR)
+The limit established by the Qualified Scheduling Entity (QSE), expressed as a MW value that may be less than, equal to, or greater than zero, continuously updated in Real-Time.  A negative LSL for an ESR describes the maximum sustained energy charging capability of the ESR.  A positive LSL for an ESR describes the minimum temporary energy discharging capability of the ESR.
+Low Sustained Limit (LSL) for a Generation Resource
+The limit established by the Qualified Scheduling Entity (QSE), continuously updatable in Real-Time, that describes the minimum sustained energy production capability of a Resource. 
+Low Sustained Limit (LSL) for a Load Resource
+The limit calculated by ERCOT, using the Qualified Scheduling Entity (QSE)-established Low Power Consumption (LPC).
+Low System-Wide Offer Cap (LCAP) Effective Period
+The period in which the System-Wide Offer Cap (SWCAP) is set to the LCAP. 

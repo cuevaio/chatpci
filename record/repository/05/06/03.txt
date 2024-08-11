@@ -1,0 +1,7 @@
+5.6.3	Forced Outage of a RUC-Committed Resource
+(1)	The calculation of a Make-Whole Payment for a RUC-committed Resource that is eligible to receive startup costs under Section 5.6.2, RUC Startup Cost Eligibility, and that experiences a Forced Outage after unit synchronization is governed by Section 5.6.2.
+(2)	If a RUC-committed Resource, which Resource is eligible to include startup costs in its RUC guarantee under Section 5.6.2 without considering the criteria in item (2)(d) of Section 5.6.2, experiences startup failure that creates a Forced Outage before breaker close, ERCOT shall include the Resource’s submitted and approved verifiable actual costs in the Resource’s RUC guarantee, limited to the lesser of: 
+(a)	Costs that qualify as normal startup expenses, including fuel and operation and maintenance expenses, incurred before the event that caused the Forced Outage; or
+(b)	Resource’s Startup Offer in the RUC. 
+(3)	The process for determining the verifiable actual costs for a startup attempt under item (2) above is described in the Verifiable Cost Manual. 
+(4)	The verifiable actual costs for a startup attempt under item (2) above shall only be included in the Resource’s RUC guarantee upon QSE notification of the startup attempt under item (2) and approval of the verifiable actual costs under item (3) above.

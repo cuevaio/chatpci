@@ -1,0 +1,42 @@
+Independent Market Information System Registered Entity (IMRE)
+A Market Participant that has signed the Standard Form Market Participant Agreement (as provided for in Section 22, Attachment A, Standard Form Market Participant Agreement), and has completed applicable registration and approval for the sole purpose of accessing the MIS Secure Area.
+Independent Market Monitor (IMM)
+The Entity selected to monitor the wholesale electric market pursuant to the Public Utility Regulatory Act (PURA), TEX. UTIL. CODE ANN. § 39.1515 (Vernon 1998 & Supp. 2007) and P.U.C SUBST. R. 25.365, Independent Market Monitor.
+Independent Organization
+An independent organization as defined in the Public Utility Regulatory Act (PURA), TEX. UTIL. CODE ANN. § 39.151 (Vernon 1998 & Supp. 2007)
+Initial Energization
+The first time a Generation Resource or Settlement Only Generator (SOG) facility’s equipment connects to the ERCOT System during commissioning.
+[NPRR995:  Replace the above definition “Initial Energization” with the following upon system implementation:]
+Initial Energization
+The first time a Generation Resource, Energy Storage Resource (ESR), Settlement Only Energy Storage System (SOESS), or Settlement Only Generator (SOG) facility’s equipment connects to the ERCOT System during commissioning.
+Initial Synchronization
+The first time a Generation Resource or Settlement Only Generator (SOG) facility’s new equipment injects power to the ERCOT System during commissioning.
+[NPRR995:  Replace the above definition “Initial Synchronization” with the following upon system implementation:]
+Initial Synchronization 
+The first time a Generation Resource, Energy Storage Resource (ESR), Settlement Only Energy Storage System (SOESS), or Settlement Only Generator (SOG) facility’s new equipment injects power to the ERCOT System during commissioning.
+Interconnecting Entity (IE)
+Any Entity that has submitted a Generation Interconnection or Change Request Application for a Generation Resource or Settlement Only Generator (SOG) and meets the requirements of Planning Guide Section 5.2.1, Applicability.
+[NPRR995:  Replace the above definition “Interconnecting Entity (IE)” with the following upon system implementation:]
+Interconnecting Entity (IE) 
+Any Entity that has submitted a Generation Interconnection or Change Request Application for a Generation Resource, Energy Storage Resource (ESR), Settlement Only Energy Storage System (SOESS), or Settlement Only Generator (SOG) and meets the requirements of Planning Guide Section 5.2.1, Applicability.
+Intermittent Renewable Resource (IRR) (see Resource Attribute)
+Interval Data Recorder (IDR)
+A metering device that is capable of recording energy in each Settlement Interval under Section 9, Settlement and Billing, and Section 10, Metering.
+Interval Data Recorder (IDR) Meter
+An IDR where the ESI ID is required to be assigned a BUSIDRRQ Load Profile Type code and data is submitted in accordance with Section 10.3.3.3, Submission of Settlement Quality Meter Data to ERCOT.
+Interval Data Recorder (IDR) Meter Data Threshold
+The percentage of IDR Meter data, by Meter Reading Entity (MRE), that must be available before ERCOT will perform a True-Up Settlement as set forth in Section 9.5.8, RTM True-Up Statement.
+Interval Data Recorder (IDR) Mandatory Installation Requirements
+The kW (kVA) level at which the installation of an IDR is required for Settlement purposes as set forth in Section 18.6.1, Interval Data Recorder Mandatory Installation Requirements.
+Intra-Hour Load Forecast (IHLF)
+The Load forecast in five minute increments.
+Intra-Hour PhotoVoltaic Power Forecast (IHPPF)
+The forecast of PhotoVoltaic (PV) generation in MW in five minute increments.
+Intra-Hour Wind Power Forecast (IHWPF)
+The forecast of wind generation in MW in five minute increments.
+Invoice 
+A notice for payment or credit due rendered by ERCOT. 
+Invoice Recipient
+A Market Participant that receives an Invoice from ERCOT.
+Isochronous Control Capable Resource
+A Resource that is capable of controlling frequency in isochronous control mode instead of droop control mode during a Blackout or Partial Blackout.

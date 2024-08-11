@@ -1,0 +1,405 @@
+4.4.9	Energy Offers and Bids
+4.4.9.1	Three-Part Supply Offers
+(1)	A Three-Part Supply Offer consists of a Startup Offer, a Minimum-Energy Offer, and an Energy Offer Curve.  ERCOT must validate each Startup Offer, Minimum-Energy Offer, and Energy Offer Curve before it can be used in any ERCOT process.
+(2)	The DAM uses all three parts of the Three-Part Supply Offer and also uses Energy Offer Curves submitted without a Startup Offer and without a Minimum-Energy Offer.  The RUC only uses the Startup Offer and the Minimum-Energy Offer components for determining RUC commitments, but the Energy Offer Curve may be used in Settlement to claw back some or all of a RUC-committed Resource’s energy payments.  The Energy Offer Curve may also be used by SCED in Real-Time Operations. 
+(3)	A QSE may submit an Energy Offer Curve without also submitting a Startup Offer and a Minimum-Energy Offer for the DAM and during the Adjustment Period, but only Three-Part Supply Offers are used in the RUC process.  A QSE that submits an Energy Offer Curve without also submitting a Startup Offer and a Minimum-Energy Offer is considered not to be offering the Resource into the RUC, but that does not prevent the Resource from being committed in the RUC process like any other Resource that does not submit an offer in the RUC.
+(a)	A QSE that submits an Energy Offer Curve without a Startup Offer and a Minimum-Energy Offer for the DAM for any given hour will be considered by the DAM to be self-committed for that hour, as long as an Ancillary Service Offer for Off-Line Non-Spin Service was not also submitted for that hour.
+(b)	A Combined Cycle Generation Resource will be considered by the DAM to be self-committed if:
+(i)	Its QSE submits an Energy Offer Curve without a Startup Offer and a Minimum-Energy Offer for the DAM for that Combined Cycle Generation Resource and no other Combined Cycle Generation Resource within the Combined Cycle Train; and
+(ii)	Its QSE submits no Ancillary Service Offer for Off-Line Non-Spin for any Combined Cycle Generation Resource within the Combined Cycle Train.
+(c)	When the DAM considers a self-committed offer for clearing, the Resource constraints identified in paragraph (4)(c)(ii) of Section 4.5.1, DAM Clearing Process, other than HSL, are ignored.
+(4)	For any hours in which the Resource is not RUC-committed, ERCOT shall consider all Three-Part Supply Offers in the RUC process until: 
+(a) 	The QSE withdraws the offer; or 
+(b) 	The offer expires by its terms. 
+4.4.9.2	Startup Offer and Minimum-Energy Offer 
+(1)	The Startup Offer component represents all costs incurred by a Generation Resource in starting up and reaching its LSL.  The Minimum-Energy Offer component represents a proxy for the costs incurred by a Resource in producing energy at the Resource’s LSL.  
+[NPRR1014:  Replace paragraph (1) above with the following upon system implementation:]
+(1)	The Startup Offer component represents all costs incurred by a Generation Resource in starting up and reaching its LSL.  The Minimum-Energy Offer component represents a proxy for the costs incurred by a Resource in producing energy at the Resource’s LSL.   Startup Offers and Minimum-Energy Offers are not applicable to ESRs.
+4.4.9.2.1	Startup Offer and Minimum-Energy Offer Criteria 
+(1)	Each Startup Offer and Minimum-Energy Offer must be reported by a QSE and must include the following information:
+(a)	The selling QSE;
+(b)	The Resource represented by the QSE from which the offer would be supplied;
+(c)	The Resource’s hot, intermediate, and cold Startup Offer in dollars; 
+(d)	The Resource’s Minimum-Energy Offer in dollars per MWh; 
+(e)	The first and last hour of the Startup and Minimum-Energy Offers
+(f)	The expiration time and date of the offer; 
+(g)	Percentage of the Fuel Index Price (FIP) to the extent that the startup and minimum energy will be supplied by gas to determine the offer cap; and
+(h)	Percentage of the Fuel Oil Price (FOP) to the extent that the startup and minimum energy will be supplied by oil to determine the offer cap.
+(2)	Valid Startup Offers and Minimum-Energy Offers (which must be part of a Three-Part Supply Offer) must be received before 1000 for the effective DAM and DRUC. 
+(3)	A QSE may update and submit a Startup Offer and/or Minimum-Energy Offer for a Resource during the Adjustment Period for any hours in which the Resource is not DAM- or RUC-committed before the offer is updated or submitted.  
+(4)	The Resource’s Startup Offer must not be greater than 200% of the Resource Category Generic Startup Cost for that type of Resource listed in Section 4.4.9.2.3, Startup Offer and Minimum-Energy Offer Generic Caps, unless ERCOT has approved verifiable Resource-specific startup costs for that Resource, under Section 4.4.9.2.4, Verifiable Startup Offer and Minimum-Energy Offer Caps, in which case the Resource’s Startup Offer must not be greater than 200% of those approved verifiable Resource-specific Startup Costs.
+(5)	The Resource’s Minimum-Energy Offer must not be greater than 200% of the Resource Category Generic Minimum-Energy Cost for that type of Resource listed in Section 4.4.9.2.3 unless ERCOT has approved verifiable Resource-specific minimum-energy costs for that Resource, under Section 4.4.9.2.4 in which case the Resource’s Minimum-Energy Offer must not be greater than 200% of those approved verifiable Resource-specific minimum-energy costs.
+(6)	Prior to 1000 for the effective DAM, a QSE may submit and update a Three-Part Supply Offer for a Resource for any hours which were Weekly Reliability Unit Commitment (WRUC)-instructed.
+4.4.9.2.2	Startup Offer and Minimum-Energy Offer Validation 
+(1)	A valid Startup Offer and Minimum-Energy Offer is an offer that ERCOT has determined meets the criteria listed in Section 4.4.9.2.1, Startup Offer and Minimum-Energy Offer Criteria, and that are part of a Three-Part Supply Offer for which the Energy Offer Curve has also been validated. 
+(2)	ERCOT shall continuously display on the MIS Certified Area information that allows any QSE submitting a Startup Offer and Minimum-Energy Offer to view its valid Startup Offers and Minimum-Energy Offers. 
+(3)	ERCOT shall notify the QSE submitting a Startup Offer and Minimum-Energy Offer (which must be part of a Three-Part Supply Offer) if the offer was rejected or was considered invalid for any reason.  The QSE may then resubmit the offer within the appropriate market timeline. 
+(4)	Where a Split Generation Resource has submitted a Startup Offer and Minimum-Energy Offer, ERCOT shall validate the offers in accordance with Section 3.8, Special Considerations.
+4.4.9.2.3	Startup Offer and Minimum-Energy Offer Generic Caps 
+(1)	The Resource Category Startup Offer Generic Cap, by applicable Resource category, is determined by the following Operations and Maintenance (O&M) costs by Resource category: 
+Resource Category
+O&M Costs ($)
+Nuclear, coal, lignite and hydro
+7,200
+Combined Cycle Generation Resource with a combustion turbine ≥ 90 MW, as determined by the largest combustion turbine in the Combined Cycle Generation Resource and for each combustion turbine in the Combined Cycle Generation Resource
+6,810 
+Combined Cycle Generation Resource with a combustion turbine < 90 MW, as determined by the largest combustion turbine in the Combined Cycle Generation Resource and for each combustion turbine in the Combined Cycle Generation Resource
+6,810
+Gas steam supercritical boiler
+4,800
+Gas steam reheat boiler 
+3,000
+Gas steam non-reheat or boiler w/o air-preheater 
+2,310
+Simple cycle greater than 90 MW 
+5,000
+Simple cycle less than or equal to 90 MW
+2,300
+Reciprocating Engines
+$58 /MW * the average of the seasonal net max sustainable ratings
+RMR Resource
+Not Applicable
+Wind generation Resources
+0
+PhotoVoltaic Generation Resources (PVGRs)
+0
+Any Resources not defined above
+0
+ 
+(2)	The Resource Category Minimum-Energy Generic Cap is the cost per MWh of energy for a Resource to produce energy at the Resource’s LSL and is as follows:  
+(a)	Hydro = $10.00/MWh;
+(b)	Coal and lignite = $18.00/MWh;
+(c)	Combined-cycle greater than 90 MW = 8 MMBtu/MWh * ((Percentage of FIP * FIP) + (Percentage of FOP * FOP))/100, as specified in Minimum-Energy Offer;
+(d)	Combined-cycle less than or equal to 90 MW = 9 MMBtu/MWh * ((Percentage of FIP * FIP) + (Percentage of FOP * FOP))/100, as specified in Minimum-Energy Offer;
+(e)	Gas steam supercritical boiler = 14 MMBtu/MWh * ((Percentage of FIP * FIP) + (Percentage of FOP * FOP))/100, as specified in Minimum-Energy Offer;
+(f)	Gas steam reheat boiler = 14.5 MMBtu/MWh * ((Percentage of FIP * FIP) + (Percentage of FOP * FOP))/100, as specified in Minimum-Energy Offer;
+(g)	Gas steam non-reheat or boiler without air-preheater = 16.0 MMBtu/MWh * ((Percentage of FIP * FIP) + (Percentage of FOP * FOP))/100, as specified in Minimum-Energy Offer;
+(h)	Simple-cycle greater than 90 MW = 15.0 MMBtu/MWh * ((Percentage of FIP * FIP) + (Percentage of FOP * FOP))/100, as specified in Minimum-Energy Offer;
+(i)	Simple-cycle less than or equal to 90 MW = 14.0 MMBtu/MWh * ((Percentage of FIP * FIP) + (Percentage of FOP * FOP))/100, as specified in Minimum-Energy Offer;
+(j)	Reciprocating engines = 16.0 MMBtu/MWh * ((Percentage of FIP * FIP) + (Percentage of FOP * FOP))/100, as specified in the Minimum-Energy Offer;
+(k)	RMR Resource = RMR contract estimated fuel cost using its contract I/O curve at its LSL times FIP; 
+(l)	Nuclear = Not Applicable; 
+(m)	Wind generation Resources = $0;
+(n)	PVGRs = $0; and
+(o)	Other Resources not defined above = $0.
+(3)	The FIP and FOP used to calculate the Resource Category Minimum-Energy Generic Cap shall be the FIP or FOP for the Operating Day.  In the event the Resource Category Minimum-Energy Generic Cap must be calculated before the FIP or FOP is available for the particular Operating Day, the FIP and FOP for the most recent preceding Operating Day shall be used.  Once the FIP and FOP are available for a particular Operating Day, those values shall be used in the calculations.  If the percentage fuel mix is not specified for Resource categories having the option to specify the fuel mix, then the minimum of FIP or FOP shall be used.
+(4)	Items (2)(c) and (2)(d) above are determined by capacity of largest simple-cycle combustion turbine in the train.
+4.4.9.2.4	Verifiable Startup Offer and Minimum-Energy Offer Caps 
+(1)	Once verifiable Resource-specific startup costs and minimum-energy costs are established and approved by ERCOT in accordance with Section 5.6.1, Verifiable Costs, then they are used in place of generic costs as described in Section 4.4.9.2.3, Startup Offer and Minimum-Energy Offer Generic Caps.  A QSE may file verifiable unit-specific costs for a Resource at any time, but it is not required to file those costs only because of a DAM commitment. The most recent approved verifiable costs on file must be used going forward.
+4.4.9.3	Energy Offer Curve
+(1)	The Energy Offer Curve represents the QSE’s willingness to sell energy at or above a certain price and at a certain quantity in the DAM or its willingness to be dispatched by SCED in Real-Time Operations.   
+(2)	A QSE may submit Resource-specific Energy Offer Curves to ERCOT.  Such Energy Offer Curves will be bounded in the DAM for each Operating Hour by the LSL and HSL of the Generation Resource specified in the COP, and bounded in SCED by the LSL and HSL of the Generation Resource as shown by telemetry. 
+(3)	Energy Offer Curves remain active for the offered period until either:  
+(a)	Selected by ERCOT; or 
+(b)	Automatically inactivated by the software at the offer expiration time selected by the QSE.
+[NPRR1058:  Replace paragraph (3) above with the following upon system implementation:]
+(3)	Energy Offer Curves remain active for the offered period until automatically inactivated by the software at the offer expiration time selected by the QSE.
+(4)	For any Operating Hour, the QSE for a Resource may submit or change Energy Offer Curves in the Adjustment Period and a QSE may withdraw an Energy Offer Curve if:
+(a)	An Output Schedule is submitted for all intervals for which an Energy Offer Curve is withdrawn; or
+(b)	The Resource is forced Off-Line and notifies ERCOT of the Forced Outage by changing the Resource Status appropriately and updating its COP.
+[NPRR1058:  Replace paragraph (4) above with the following upon system implementation and renumber accordingly:]
+(4)	For any Operating Hour, the QSE for a Resource may submit or change Energy Offer Curve information at any time prior to SCED execution, except for the percentage of FIP and percentage of FOP, and SCED will use the latest updated Energy Offer Curve available in the system.  The QSE must provide a brief freeform reason at the time of the submission of the Energy Offer Curve if submitted after the end of the Adjustment Period.  For the percentage FIP and percentage of FOP within the Energy Offer Curve, submissions and updates must be received by ERCOT’s systems in the Adjustment Period.  If a new Energy Offer Curve is not deemed to be valid, then the most recent valid Energy Offer Curve available in the system at the time of SCED execution will be used and ERCOT will notify the QSE that the invalid Energy Offer Curve was rejected.  Once an Operating Hour ends, an Energy Offer Curve for that hour cannot be submitted, updated, or canceled.
+(5)	A QSE may withdraw an Energy Offer Curve if:
+(a)	An Output Schedule is submitted for all intervals for which an Energy Offer Curve is withdrawn; or
+(b)	The Resource is forced Off-Line and notifies ERCOT of the Forced Outage by changing the Resource Status appropriately and updating its COP.
+(5)	For any Operating Hour that is a RUC-Committed Interval or a DAM-Committed Interval for a Resource, a QSE for that Resource may not change a Startup Offer or Minimum-Energy Offer.    
+(6)	If a valid Energy Offer Curve or an Output Schedule does not exist for a Resource that has a status of On-Line at the end of the Adjustment Period, then ERCOT shall notify the QSE and set the Output Schedule equal to the then current telemetered output of the Resource until an Output Schedule or Energy Offer Curve is submitted in a subsequent Adjustment Period. 
+(7)	Notwithstanding any other provision in this subsection, a QSE representing an Energy Storage Resource (ESR) may submit or update its Energy Offer Curve for that ESR at any time prior to SCED execution, and SCED will use the latest updated Energy Offer Curve available in the system.  If a new Energy Offer Curve is not deemed to be valid, then the most recent valid Energy Offer Curve available in the system at the time of SCED execution will be used and ERCOT will notify the QSE that the invalid Energy Offer Curve was rejected.  Once an Operating Hour ends, an Energy Offer Curve for that hour cannot be submitted, updated, or canceled.
+[NPRR1014 and NPRR1058:  Delete paragraph (7) above upon system implementation.]
+4.4.9.3.1	Energy Offer Curve Criteria
+(1)	Each Energy Offer Curve must be reported by a QSE and must include the following information:
+(a)	The selling QSE;
+(b)	The Resource represented by the QSE from which the offer would be supplied;
+(c)	A monotonically increasing offer curve for both price (in $/MWh) and quantity (in MW) with no more than ten price/quantity pairs;
+(d)	The first and last hour of the Offer; 
+(e)	The expiration time and date of the offer; 
+(f)	List of Ancillary Service Offers from the same Resource; 
+(g)	Inclusive or exclusive designation relative to other DAM offers; and
+(h)	Percentage of FIP and percentage of FOP for generation above LSL subject to the sum of the percentages not exceeding 100%.
+[NPRR1008 and NPRR1058:  Replace applicable portions of paragraph (1) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1008; or upon system implementation for NPRR1058:]
+(1)	Each Energy Offer Curve must be reported by a QSE and must include the following information:
+(a)	The selling QSE;
+(b)	The Resource represented by the QSE from which the offer would be supplied;
+(c)	A monotonically increasing offer curve for both price (in $/MWh) and quantity (in MW) with no more than ten price/quantity pairs;
+(d)	The first and last hour of the Offer; 
+(e)	The expiration time and date of the offer; 
+(f)	Inclusive or exclusive designation relative to other DAM offers (for Real-Time, Energy Offer Curves are always considered to be inclusive with Ancillary Service Offers);
+(g)	Percentage of FIP and percentage of FOP for generation above LSL subject to the sum of the percentages not exceeding 100%; and
+(h)	Reason for update of the offer, if submitting after the end of the Adjustment Period.
+(2)	An Energy Offer Curve must be within the range of -$250.00 per MWh and the SWCAP in dollars per MWh.  The software systems must be able to provide ERCOT with the ability to enter Resource-specific Energy Offer Curve floors and caps.
+[NPRR1008:  Replace paragraph (2) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+(2)	An Energy Offer Curve must be within the range of -$250.00 per MWh and either the DASWCAP or RTSWCAP, depending on the timing of the submission, in dollars per MWh.
+(3)	The minimum amount per Resource for each Energy Offer Curve that may be offered is one MW.
+4.4.9.3.2	Energy Offer Curve Validation
+(1)	A valid Energy Offer Curve is an offer curve that ERCOT has determined meets the criteria listed in Section 4.4.9.3.1, Energy Offer Curve Criteria, and the Energy Offer Curve that is part of a Three-Part Supply Offer for which the Startup Offer and Minimum-Energy Offer has also been validated.
+(2)	ERCOT shall notify the QSE submitting an Energy Offer Curve by the Messaging System if the offer was rejected or was considered invalid for any reason.  The QSE may then resubmit the offer within the appropriate market timeline.
+(3)	ERCOT shall continuously validate Energy Offer Curves and continuously display on the MIS Certified Area information that allows any QSE to view its valid Energy Offer Curves.  
+4.4.9.3.3	Energy Offer Curve Cost Caps
+(1)	The following Energy Offer Curve Cost Caps must be used for the purpose of make-whole Settlements, Real-Time High Dispatch Limit Override Energy Payments, and Voltage Support Service Payments:
+(a)	Nuclear = $15.00/MWh;
+(b)	Coal and Lignite = $18.00/MWh;
+(c)	Combined Cycle greater than 90 MW = 9 MMBtu/MWh * ((Percentage of FIP * FIP) + (Percentage of FOP * FOP))/100, as specified in the Energy Offer Curve;
+(d)	Combined Cycle less than or equal to 90 MW = 10 MMBtu/MWh * ((Percentage of FIP * FIP) + (Percentage of FOP * FOP))/100, as specified in the Energy Offer Curve;
+(e)	Gas - Steam Supercritical Boiler = 10.5 MMBtu/MWh * ((Percentage of FIP * FIP) + (Percentage of FOP * FOP))/100, as specified in the Energy Offer Curve;
+(f)	Gas Steam Reheat Boiler = 11.5 MMBtu/MWh * ((Percentage of FIP * FIP) + (Percentage of FOP * FOP))/100, as specified in the Energy Offer Curve;
+(g)	Gas Steam Non-reheat or boiler without air-preheater = 14.5 MMBtu/MWh * ((Percentage of FIP * FIP) + (Percentage of FOP * FOP))/100, as specified in the Energy Offer Curve;
+(h)	Simple Cycle greater than 90 MW = 14 MMBtu/MWh * ((Percentage of FIP * FIP) + (Percentage of FOP * FOP))/100, as specified in the Energy Offer Curve;
+(i)	Simple Cycle less than or equal to 90 MW = 15 MMBtu/MWh * ((Percentage of FIP * FIP) + (Percentage of FOP * FOP))/100, as specified in the Energy Offer Curve;
+(j)	Reciprocating Engines = 16 MMBtu/MWh * ((Percentage of FIP * FIP) + (Percentage of FOP * FOP))/100, as specified in the Energy Offer Curve;
+(k)	Hydro = $10.00/MWh;
+(l)	Other = SWCAP;
+[NPRR1008:  Replace item (l) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+(l)	Other = DASWCAP or RTSWCAP;
+(m)	RMR Resource = SWCAP;
+[NPRR1008:  Replace item (m) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+(m)	RMR Resource = effective Value of Lost Load (VOLL);
+(n)	Wind Generation Resources = $0.00/MWh; and
+(o) 	PhotoVoltaic Generation Resource (PVGR) = $0.00/MWh.
+(2)	ERCOT shall produce an annual report each April that provides the amount of DAM and RUC Make-Whole Payments during the previous calendar year for Resources categorized as Other, per item (1)(l) above, as a percentage of the total amount of DAM and RUC Make-Whole Payments made during the previous calendar year.  The report shall be based on final Settlements and include the total number of Resources classified as Other.  ERCOT shall present this report annually to the appropriate Technical Advisory Committee (TAC) subcommittee.  If there are no Make-Whole Payments for Resources categorized as Other for a given calendar year, then ERCOT will not be required to produce the annual report.
+(3)	Items in paragraphs (1)(c) and (d) above are determined by capacity of largest simple-cycle combustion turbine in the train selected.
+(4)	The FIP and FOP used to calculate the Energy Offer Curve Cap for Make-Whole Payment calculation purposes shall be the FIP or FOP for the Operating Day.  In the event the Energy Offer Curve Cap for Make-Whole Payment calculation purposes must be calculated before the FIP or FOP is available for the particular Operating Day, the FIP and FOP for the most recent preceding Operating Day shall be used.  Once the FIP and FOP are available for a particular Operating Day, those values shall be used in the calculations.  If the percentage fuel mix is not specified or if no Energy Offer Curve exists, then the minimum of FIP or FOP shall be used.
+4.4.9.4	Mitigated Offer Cap and Mitigated Offer Floor
+4.4.9.4.1	Mitigated Offer Cap 
+(1)	Energy Offer Curves may be subject to mitigation in Real-Time operations under Section 6.5.7.3, Security Constrained Economic Dispatch, using a Mitigated Offer Cap (MOC).  ERCOT shall construct an incremental MOC curve in accordance with Section 6.5.7.3 such that each point on the MOC curve is calculated as follows: 
+[NPRR1014:  Replace paragraph (1) above with the following upon system implementation:]
+(1)	Energy Offer Curves and Energy Bid/Offer Curves may be subject to mitigation in Real-Time operations under Section 6.5.7.3, Security Constrained Economic Dispatch, using a Mitigated Offer Cap (MOC).  For Generation Resources, ERCOT shall construct an incremental MOC curve in accordance with Section 6.5.7.3 such that each point on the MOC curve is calculated as follows:
+MOC q, r, h = Max [GIHR q, r * Max(FIP, WAFP q, r, h), (IHR q, r * FPRC q, r + OM q, r) * CFMLT q, r]
+[NPRR1058 and NPRR1172:  Replace the formula “MOC q, r, h” above with the following upon system implementation:]
+MOC q, r, h = Max [GIHR q, r * Max(FIP, WAFP q, r, h), (IHR q, r * FPRC q, r + OM q, r)]
+Where, 
+If a QSE has submitted an Energy Offer Curve on behalf of a Generation Resource and the Generation Resource has approved verifiable costs, then 
+FPRC q, r = Max(WAFP q, r, h, FIP + FA q, r) * RTPERFIP q, r / 100 + FOP * RTPERFOP q, r / 100
+If a QSE has not submitted an Energy Offer Curve on behalf of a Generation Resource and the Generation Resource has approved verifiable costs, then 
+FPRC q, r = Max(WAFP q, r, h, FIP + FA q, r) * GASPEROL q, r / 100 + FOP * OILPEROL q, r / 100 + (SFP + FA q, r) * SFPEROL q, r / 100
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+MOC q, r, h
+$/MWh
+Mitigated Offer Cap per Resource—The MOC for Resource r, for the hour. Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+GIHR q, r
+MMBtu/MWh
+Generic Incremental Heat Rate—The generic, single-value, incremental heat rate.  For Generation Resources with a Commercial Operations Date on or before January 1, 2004, the generic incremental heat rate shall be set to 10.5.  For Generation Resources that have a Commercial Operations Date after January 1, 2004, this value shall be set to 14.5.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+IHR q, r
+MMBtu/MWh
+Verifiable Incremental Heat Rate per Resource—The verifiable incremental heat rate curve for Resource r, as approved in the verifiable cost process.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+FIP
+$/MMBtu
+Fuel Index Price—The natural gas index price as defined in Section 2.1, Definitions.
+RTPERFIP q, r
+none
+Fuel Index Price Percentage—The percentage of natural gas used by Resource r to operate above LSL, as submitted with the energy offer curve.
+FOP
+$/MMBtu
+Fuel Oil Price—The fuel oil index price as defined in Section 2.1.
+RTPERFOP q, r
+none
+Fuel Oil Price Percentage—The percentage of fuel oil used by Resource r to operate above LSL, as submitted with the energy offer curve.
+SFP
+$/MMBtu
+Solid Fuel Price—The solid fuel index price is $1.50.  
+FPRC q, r
+$/MMBtu
+Fuel Price Calculated per Resource—The calculated index price for fuel for the Resource based on the Resources fuel mix.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train. 
+GASPEROL q, r
+none
+Percent of Natural Gas to Operate Above LSL—The percentage of natural gas used by Resource r to operate above LSL, as approved in the verifiable cost process.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+OILPEROL q, r
+none
+Percent of Oil to Operate Above LSL—The percentage of fuel oil used by Resource r to operate above LSL, as approved in the verifiable cost process. Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+SFPEROL q, r
+none
+Percent of Solid Fuel to Operate Above LSL—The percentage of solid fuel used by Resource r to operate above LSL, as approved in the verifiable cost process. Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+FA q, r
+$/MMBtu
+Fuel Adder—The fuel adder is the average cost above the index price Resource r has paid to obtain fuel. Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train. See the Verifiable Cost Manual for additional information.
+OM q, r
+$/MWh
+Variable Operations and Maintenance Cost above LSL—The O&M cost for Resource r to operate above LSL, including an adjustment for emissions costs, as approved in the verifiable cost process.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.  See the Verifiable Cost Manual for additional information.
+CFMLT q, r
+none
+Capacity Factor Multiplier—A multiplier based on the corresponding monthly capacity factor as described in paragraph (1)(d) below. 
+[NPRR1058 and NPRR1172:  Delete the variable “CFMLT q, r” above upon system implementation.]
+WAFP q, r, h
+$/MMBtu
+Weighted Average Fuel Price—The volume-weighted average intraday, same-day and spot fuel price, the projected incremental fuel consistent with a fuel supply contract(s), or a combination of these two prices, submitted to ERCOT during the Adjustment Period for a specific Resource and specific hour within the Operating Day, as described in paragraph (1)(f) below. 
+[NPRR1177:  Replace the definition above with the following on January 1, 2025:]
+Weighted Average Fuel Price—The volume-weighted average intraday, same-day and spot price of fuel submitted to ERCOT during the Adjustment Period for a specific Resource and specific hour within the Operating Day, as described in paragraph (1)(f) below.
+q
+none
+A QSE.
+r
+none
+A Generation Resource.
+h
+none
+The Operating Hour. 
+(a)	For a Resource contracted by ERCOT under paragraph (4) of Section 6.5.1.1, ERCOT Control Area Authority, ERCOT shall increase the O&M cost such that every point on the MOC curve is greater than the SWCAP in $/MWh.
+[NPRR1008 and NPRR1014:  Replace applicable portions of paragraph (a) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1008; or upon system implementation for NPRR1014:]
+(a)	For a Resource contracted by ERCOT under paragraph (4) of Section 6.5.1.1, ERCOT Control Area Authority, ERCOT shall increase the O&M cost such that every point on the MOC curve is greater than the effective Value of Lost Load (VOLL) in $/MWh.
+(b)	Notwithstanding the MOC calculation described in paragraph (1) above, the MOC for ESRs shall be set at the SWCAP.  No later than December 31, 2023, ERCOT and stakeholders shall submit a report to TAC that includes a recommendation to continue the existing approach or a proposal to implement an alternative approach to determine the MOC for ESRs.
+[NPRR1008 and NPRR1014:  Replace applicable portions of paragraph (b) above with the following upon the system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1008; or upon system implementation for NPRR1014:]
+(b)	Notwithstanding the MOC calculation described in paragraph (1) above, the MOC for ESRs shall be set at the RTSWCAP.  No later than December 31, 2023, ERCOT and stakeholders shall submit a report to TAC that includes a recommendation to continue the existing approach or a proposal to implement an alternative approach to determine the MOC for ESRs.
+(c)	For Quick Start Generation Resources (QSGRs) the MOC shall be adjusted in accordance with Verifiable Cost Manual Appendix 7, Calculation of the Variable O&M Value and Incremental Heat Rate used in Real Time Mitigation for Quick Start Generation Resources (QSGRs).
+[NPRR1008 and NPRR1014:  Insert applicable portions of paragraph (d) below upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1008; or upon system implementation for NPRR1014; and renumber accordingly:]
+(d)	For On-line hydro Generation Resources not operating in Synchronous Condenser Fast-Response mode, the MOC shall be adjusted in accordance with Verifiable Cost Manual, Appendix 12, Calculation of the Variable O&M Value and Incremental Heat Rate used in Real Time Mitigation for On-Line Hydro Generation Resources not operating in Synchronous Condenser Fast-Response mode.
+(d)	The multipliers for the MOC calculation above are as follows:  
+(i)	1.10 for Resources running at a ≥ 50% capacity factor for the previous 12 months;
+(ii)	1.15 for Resources running at a ≥ 30 and < 50% capacity factor for the previous 12 months;
+(iii)	1.20 for Resources running at a ≥ 20 and < 30% capacity factor for the previous 12 months;
+(iv)	1.25 for Resources running at a ≥ 10 and < 20% capacity factor for the previous 12 months;
+(v)	1.30 for Resources running at a ≥ 5 and < 10% capacity factor for the previous 12 months;
+(vi)	1.40 for Resources running at a ≥ 1 and < 5% capacity factor for the previous 12 months; and
+(vii)	1.50 for Resources running at a less than 1% capacity factor for the previous 12 months.
+[NPRR1058 and NPRR1172:  Delete paragraph (d) above upon system implementation and renumber accordingly.]
+(e)	The previous 12 months’ capacity factor must be updated by ERCOT by the 20th day of each month using the most recent data for use in the next month.  ERCOT shall post to the MIS Secure Area the capacity factor for each Resource before the start of the effective month. 
+[NPRR1058 and NPRR1172:  Delete paragraph (e) above upon system implementation and renumber accordingly.]
+(f)	During the Adjustment Period, a QSE representing a Resource may submit Exceptional Fuel Cost as a volume-weighted average fuel price for use in the MOC calculation for that Resource.  To qualify as Exceptional Fuel Cost, the submission must meet the following conditions:
+(i)	For all Resources, the weighted average fuel price must exceed FIP for the applicable Operating Day, plus a threshold parameter value of $1/MMBtu, plus the applicable fuel adder.  For Resources without approved verifiable costs, the fuel adder will be set to the default value assigned to Resources with approved verifiable costs, as defined in the Verifiable Cost Manual.  The threshold parameter value in this paragraph shall be recommended by the Wholesale Market Subcommittee (WMS) and approved by the Technical Advisory Committee (TAC).  ERCOT shall update the threshold value on the first day of the month following TAC approval unless otherwise directed by the TAC.  ERCOT shall provide a Market Notice prior to implementation of a revised parameter value.
+(ii)	Fixed cost (fees, penalties and similar non-gas costs) may not be included in the calculation of the weighted average fuel price.
+(iii)	The weighted average fuel price in paragraph (1) above must be a single value and based on the following fuel price options:
+(A)	A volume-weighted price considering all intra-day, same day, and spot fuel purchases for the Resource; or 
+(B)	A projected fuel price for a Resource with a fuel supply contract(s) that also has submitted an Energy Offer Curve for the Operating Hour where the Energy Offer Curve is calculated as the incremental heat rate times the incremental fuel price plus Operations and Maintenance (O&M) cost; or
+(C)	A combination of the above two options.
+	A weighted average fuel price based on actual fuel purchases must be included in the calculation of the weighted average fuel price in paragraph (1) above.  These must account for at least 10% of the total fuel volume burned by the applicable Resource for the hour for which the weighted average fuel price is computed.  A projected incremental fuel price must be consistent with the terms of the fuel supply contract(s).  A weighted average fuel price based on a combination of these options must meet the requirements described for each of the options.  As noted in paragraph (l) below, the methodology used in the allocation of the cost and volume of fuel to the Resource for the hour is subject to validation by ERCOT.
+[NPRR1177:  Replace paragraph (iii) above with the following on January 1, 2025:]
+(iii)	All intra-day, same day, and spot fuel purchases must be included in the calculation of the weighted average fuel price in paragraph (1) above.  These must account for at least 10% of the total fuel volume burned by the applicable Resource for the hour for which the weighted average fuel price is computed.  As noted in paragraph (l) below, the methodology used in the allocation of the cost and volume of purchased fuel to the Resource for the hour is subject to validation by ERCOT.
+(iv)	Weighted average fuel prices must be submitted individually for each Operating Hour for which they are applicable.  Values submitted outside of the Adjustment Period will be rejected and not used in the calculation of the MOC for the designated Operating Hour. 
+(v)	A projected volume-weighted average fuel price must be consistent with the Energy Offer Curve for each Operating Hour for which they are applicable, and consistent with the signed and executed fuel supply contract(s) for each Resource.
+(vi)	An Exceptional Fuel Cost submitted based on projected fuel prices may not match with the actual volume-weighted average fuel price due to prospective costs and/or contractual costs.
+[NPRR1177:  Delete paragraphs (v) and (vi) above on January 1, 2025.]
+(g)	ERCOT may notify the Independent Market Monitor (IMM) if a QSE submits an Exceptional Fuel Cost. 
+(h)	The day following an Operating Day for which an Exceptional Fuel Cost is submitted, ERCOT shall post a report on the ERCOT website indicating the affected Operating Hours and the number of Resources for which a QSE submitted Exceptional Fuel Cost for a particular Operating Day.
+(i)	No later than 1700 Central Prevailing Time (CPT) on the 15th day following an Exceptional Fuel Cost submission, the submitting QSE shall provide ERCOT with the calculation of the weighted average fuel price, intraday or same-day fuel purchases, if applicable, and any available supporting documentation.  Such information may include, but is not limited to, documents of the following nature: relevant contracts between the QSE or Resource Entity and fuel supplier, trade logs, transportation, storage, balancing and distribution agreements, calculation of the weighted average fuel price, or any other documentation necessary to support the Exceptional Fuel Cost price and volume for the applicable period(s).
+(j)	No later than 1700 Central Prevailing Time (CPT) on the 60th day following an Exceptional Fuel Cost submission, the submitting QSE shall provide ERCOT with all supporting documentation not previously provided to ERCOT.  No supporting documentation will be accepted after the 60th day.
+(k)	The accuracy of submitted Exceptional Fuel Cost and the need for purchasing intraday or same-day gas must be attested to by a duly authorized officer or agent of the QSE representing the Resource.  The attestation must be provided in a standardized format acceptable to ERCOT and submitted with the other documentation described in paragraph (i) above.  An attestation for Exceptional Fuel Costs must state that the costs are accurate and variable, based on the dispatch of the Resource.  
+[NPRR1177:  Replace paragraph (k) above with the following on January 1, 2025:]
+(k)	The accuracy of submitted Exceptional Fuel Cost and the need for purchasing intraday or same-day gas must be attested to by a duly authorized officer or agent of the QSE representing the Resource.  The attestation must be provided in a standardized format acceptable to ERCOT and submitted with the other documentation described in paragraph (i) above.
+(l)	ERCOT will use the supporting documentation to validate the Exceptional Fuel Cost for the applicable period. Validation will include, but not be limited to, the cost and the quantity of purchased fuel, Resource-specific heat rates, and the methodology used in the allocation of the cost and volume of purchased fuel, if applicable, to the Resource for the applicable hour used in the weighted average fuel price calculation.  In connection with the validation process ERCOT may request additional documentation or clarification of previously submitted documentation.  Such requests must be honored within ten Business Days.  
+(m)	At ERCOT’s sole discretion, submission and follow-up information deadlines may be extended on a case-by-case basis.
+(n)	The documentation described in paragraphs (i) through (l) above is only required for the hours for which Exceptional Fuel Costs were submitted and the Resource was subject to mitigation.
+(o)	For Resources submitting Exceptional Fuel Costs based on projected incremental fuel prices based on a contract(s) the QSE must submit to ERCOT all applicable fuel supply contracts at least ten Business Days in advance of submitting Exceptional Fuel Costs.  ERCOT may, at any time, notify the QSE of any cost identified in the contract that is ineligible for inclusion in any Exceptional Fuel Cost submission.  Upon receiving such notification, the QSE shall ensure that such cost is not included in any Exceptional Fuel Cost submission or in any Energy Offer Curve submission for any hours for which Exceptional Fuel Costs are submitted.  The absence of any such notification shall not imply that such cost is eligible for inclusion in any Exceptional Fuel Cost submission or in any Energy Offer Curve submission. 
+[NPRR1177:  Delete paragraphs (n) and (o) above on January 1, 2025.]
+4.4.9.4.2	Mitigated Offer Floor
+(1)	Energy Offer Curves may be subject to mitigation in the Real-Time Market (RTM) under Section 6.5.7.3, Security Constrained Economic Dispatch, using a Mitigated Offer Floor.  The Mitigated Offer Floor is: 
+Resource Category
+Mitigated Offer Floor
+Nuclear and Hydro
+-$250/MWh
+Coal and Lignite
+-$20/MWh
+Combined Cycle
+-$20/MWh
+Gas/Oil Steam and Combustion Turbine
+-$20/MWh
+Qualifying Facility (QF) 
+-$50/MWh
+Wind
+-$100/MWh
+PhotoVoltaic (PV)
+-$50/MWh
+Other
+-$50/MWh
+[NPRR1014:  Replace paragraph (1) above with the following upon system implementation:]
+(1)	Energy Offer Curves and Energy Bid/Offer Curves may be subject to mitigation in the RTM under Section 6.5.7.3, Security Constrained Economic Dispatch, using a Mitigated Offer Floor.  The Mitigated Offer Floor is: 
+Resource Category
+Mitigated Offer Floor
+Nuclear and Hydro
+-$250/MWh
+Coal and Lignite
+-$20/MWh
+Combined Cycle
+-$20/MWh
+Gas/Oil Steam and Combustion Turbine
+-$20/MWh
+Qualifying Facility (QF) 
+-$50/MWh
+Wind
+-$100/MWh
+PhotoVoltaic (PV)
+-$50/MWh
+Energy Storage Resource (ESR)
+-$250/MWh
+Other
+-$50/MWh
+[NPRR826:  Insert Section 4.4.9.4.3 below upon system implementation:]
+4.4.9.4.3	Mitigated Offer Cap for RMR Resources 
+(1)	For each Resource contracted by ERCOT under Section 3.14.1, Reliability Must Run, the Resource’s MOC curve for use in the SCED process is determined using the steps below when the Resource’s offer is subject to mitigation in accordance with Section 3.19, Constraint Competitiveness Tests.  The single price ($/MWh) value determined below will be used as the MOC curve for the full operating range of the Resource.  The calculations will occur between the first and second step within the SCED process as well as during the process for determining Real-Time On-Line Reliability Deployment Price Adder.  This analysis will only be applied to active constraints for which the contracted Resource has a more than 2% unloading Shift Factor on the Transmission Facility(s), more than 5% unloading impact on the Transmission Facility(s) based on telemetered HSL, and if at least one other Resource not contracted by ERCOT under Section 3.14.1 has an unloading Shift Factor of 5% or more relative to the constraint(s).  If this criteria is not met, the MOC curve for the Resource shall be calculated in accordance with Section 4.4.9.4.1, Mitigated Offer Cap, and Section 5.6.1, Verifiable Costs. 
+(a) 	For each Resource that is not a Resource contracted by ERCOT under Section 3.14.1 or paragraph (4) of Section 6.5.1.1 and that has an unloading Shift Factor of at least RMRSF percent relative to the constraint(s), determine the higher of zero or the difference between the price ($/MWh) at HSL from the Energy Offer Curves determined for use in SCED Step 2, which may or may not be mitigated, and system lambda from SCED Step 1 and divide that difference by the absolute value of that Resource’s Shift Factor for the corresponding constraint.  The value of RMRSF will default to 5% until a different value is approved by TAC considering the analysis and data used by ERCOT to determine the need for the contracted Resource under Section 3.14.1.  ERCOT shall post the current TAC-approved value(s) of RMRSF on the ERCOT website.
+(b) 	For each constraint, identify the largest value that is less than maximum Shadow Price for the specific constraint.  
+(c) 	For each SCED interval for each constraint, determine a value equal to the minimum of:
+(i)	The value determined in paragraph (b) above plus $0.01/MWh; and
+(ii)	The maximum Shadow Price for the constraint minus $1/MWh.
+(d) 	For each SCED interval for each constraint, multiply the resulting value from paragraph (c) above by the absolute value of the Shift Factor of the Resource contracted by ERCOT to the corresponding constraint.  For SCED intervals in which there are multiple constraints which are being analyzed, the lowest value is used for the SCED interval.
+(e)	If the value from paragraph (b) above for any constraint analyzed is zero, the MOC curve for the RMR Resource shall be calculated in accordance with Section 4.4.9.4.1 and Section 5.6.1.  If the value from paragraph (b) above for every constraint analyzed is greater than zero, the RMR Resource’s MOC curve for use in Step 2 of the SCED process is the sum of system lambda from Step 1 of SCED in the interval and the value from (d) above. 
+4.4.9.5	DAM Energy-Only Offer Curves
+(1)	A QSE must submit any DAM Energy-Only Offer Curves by 1000 for the effective DAM. 
+(2)	The DAM Energy-Only Offer Curve represents the QSE’s willingness to sell energy at or above a certain price and at a certain quantity at a specific Settlement Point in the DAM.  A DAM Energy-Only Offer Curve may be offered only in the DAM.
+(3)	DAM Energy-Only Offer Curves are not Resource-specific.
+4.4.9.5.1	DAM Energy-Only Offer Curve Criteria
+(1)	Each DAM Energy-Only Offer Curve must be reported by a QSE and must include the following information:
+(a)	The selling QSE;
+(b)	The Settlement Point;
+(c)	The fixed quantity block, variable quantity block, or curve indicator for the offer; 
+(i)	If a fixed quantity block, the single price (in $/MWh) and single quantity (in MW) for all hours offered in that block , which may clear at a Settlement Point Price less than the offer price for that block;
+(ii)	If a variable quantity block, the single price (in $/MWh) and single “up to” quantity (in MW) contingent on the purchase of all hours offered in that block; and
+(iii)	If a curve, a monotonically increasing energy offer curve for both price (in $/MWh) and quantity (in MW) with no more than ten price/quantity pairs; 
+(d)	The first and last hour of the offer; and
+(e)	The expiration time and date of the offer.
+(2)	A DAM Energy-Only Offer Curve must be within the range of -$250.00 per MWh and the SWCAP in dollars per MWh.  
+[NPRR1008:  Replace paragraph (2) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+(2)	A DAM Energy-Only Offer Curve must be within the range of -$250.00 per MWh and the DASWCAP in dollars per MWh.
+(3)	The minimum amount for each DAM Energy-Only Offer Curve that may be offered is one MW.
+(4)	DAM Energy-Only Offers, DAM Energy Bids, and/or PTP Obligation bids shall not be submitted in combination to create the net effect of a single PTP Obligation containing a source Settlement Point and a sink Settlement Point that are Electrically Similar Settlement Points for the QSE or for any combination of QSEs within the same Counter-Party.
+4.4.9.5.2	DAM Energy-Only Offer Validation
+(1)	A valid DAM Energy-Only Offer Curve is an offer that ERCOT has determined meets the criteria listed in Section 4.4.9.5.1, DAM Energy-Only Offer Curve Criteria.
+(2)	ERCOT shall notify the QSE submitting a DAM Energy-Only Offer Curve by the Messaging System if the offer was rejected or was considered invalid for any reason, with the exception of paragraph (4) of Section 4.4.9.5.1.  The QSE may then resubmit the offer within the appropriate market timeline.
+(3)	ERCOT shall continuously validate DAM Energy-Only Offers and continuously display on the MIS Certified Area information that allows any QSE to view its valid DAM Energy-Only Offers.  
+4.4.9.6	DAM Energy Bids 
+(1)	A QSE must submit any DAM Energy Bids by 1000 for the effective DAM. 
+(2)	A DAM Energy Bid represents the QSE’s willingness to buy energy at or below a certain price and at a certain quantity at a specific Settlement Point in the DAM.  A DAM Energy Bid may be made only in the DAM.
+4.4.9.6.1	DAM Energy Bid Criteria
+(1)	Each DAM Energy Bid must be reported by a QSE and must include the following information:
+(a)	The buying QSE;
+(b)	The Settlement Point;
+(c)	Fixed quantity block, variable quantity block, or curve indicator for the bid; 
+(i)	If a fixed quantity block, the single price (in $/MWh) and single quantity (in MW) for all hours bid in that block, which may clear at a Settlement Point Price greater than the bid price for that block;
+(ii)	If a variable quantity block, the single price (in $/MWh) and single “up to” quantity (in MW) contingent on the purchase of all hours bid in that block; and
+(iii)	If a curve, a monotonically decreasing energy bid curve for price (in $/MWh) and monotonically increasing for quantity (in MW) with no more than 10 price/quantity pairs.
+(d)	The first and last hour of the bid; and
+(e)	The expiration time and date of the bid.
+(2)	The minimum amount for each DAM Energy Bid that may be bid is one MW.
+(3)	DAM Energy-Only Offers, DAM Energy Bids, and/or PTP Obligation bids shall not be submitted in combination to create the net effect of a single PTP Obligation containing a source Settlement Point and a sink Settlement Point that are Electrically Similar Settlement Points for the QSE or for any combination of QSEs within the same Counter-Party.
+4.4.9.6.2	DAM Energy Bid Validation
+(1)	A valid DAM Energy Bid is a bid that ERCOT has determined meets the criteria listed in Section 4.4.9.6.1, DAM Energy Bid Criteria.
+(2)	ERCOT shall notify the QSE submitting a DAM Energy Bid by the Messaging System if the bid was rejected or was considered invalid for any reason, with the exception of paragraph (3) of Section 4.4.9.6.1.  The QSE may then resubmit the bid within the appropriate market timeline.
+(3)	ERCOT shall continuously validate DAM Energy Bids and continuously display on the MIS Certified Area information that allows any QSE to view its valid DAM Energy Bids.  
+[NPRR1014:  Insert Section 4.4.9.7 below upon system implementation:]
+4.4.9.7	Energy Bid/Offer Curve
+(1)	The Energy Bid/Offer Curve represents the willingness of a QSE representing an ESR to buy energy at or below a certain price and sell energy at or above a certain price and at a certain quantity in the DAM or its willingness to be dispatched by SCED in Real-Time Operations.  ERCOT must validate each Energy Bid/Offer Curve in accordance with Section 4.4.9.7.2, Energy Bid/Offer Curve Validation, before it can be used in any ERCOT process.  
+(2)	A QSE may submit Resource-Specific Energy Bid/Offer Curves to ERCOT.  Such Energy Bid/Offer Curves will be bounded in the DAM for each Operating Hour by the LSL and HSL of the ESR specified in the COP, and bounded in SCED by the LSL and HSL of the ESR as shown by telemetry.
+(3)	In the DAM, ERCOT will not consider COP Resource Status when evaluating Energy Bid/Offer Curves. In the Real-Time Market (RTM), SCED will consider an ESR unavailable for SCED Dispatch when the ESR’s Resource Status is OUT.
+(4)	Energy Bid/Offer Curves remain active for the offered period until either:  
+(a)	Selected by ERCOT; or 
+(b)	Automatically inactivated by the software at the offer expiration time selected by the QSE.
+(5)	In the RTM, a QSE may submit or change an Energy Bid/Offer Curve at any time prior to SCED execution, and SCED will use the latest updated Energy Bid/Offer Curve available in the system.  If a new Energy Bid/Offer Curve is not deemed to be valid, then the most recent valid Energy Bid/Offer Curve available in the system at the time of SCED execution will be used and ERCOT will notify the QSE that the invalid Energy Bid/Offer Curve was rejected.  Once an Operating Hour ends, an Energy Bid/Offer Curve for that hour cannot be submitted, updated, or canceled. 
+(6)	A QSE may withdraw an Energy Bid/Offer Curve if:
+(a)	An Output Schedule is submitted for all intervals for which an Energy Bid/Offer Curve is withdrawn; or
+(b)	The ESR is forced Off-Line and notifies ERCOT of the Forced Outage by changing the Resource Status appropriately and updating its COP.
+(7)	At the time of SCED execution, if a valid Energy Bid/Offer Curve or Output Schedule does not exist for an ESR that has a status of On-Line, then ERCOT shall notify the QSE and create a proxy Energy Bid/Offer Curve priced at -$250/MWh for the portion of the curve less than zero MW, and priced at the RTSWCAP for the portion of the curve greater than zero MW.
+[NPRR1014:  Insert Section 4.4.9.7.1 below upon system implementation:]
+4.4.9.7.1	Energy Bid/Offer Curve Criteria
+(1)	Each Energy Bid/Offer Curve must be reported by a QSE representing an ESR and must include the following information:
+(a)	The selling QSE;
+(b)	The ESR represented by the QSE from which the bid and offer would be provided;
+(c)	A monotonically non-decreasing curve for both price (in $/MWh) and quantity (in MW) with no more than ten price/quantity pairs.  Negative MW values cover the charging MW range, and the positive MW values cover the discharging MW range.  The price points corresponding to the charging MW range represent the not-to-exceed bid prices to consume energy, and the price points corresponding to the discharging MW range represent the offer prices to sell energy;
+(d)	The first and last hour of the offer; 
+(e)	The expiration time and date of the offer; 
+(2)	An Energy Bid/Offer Curve shall be bounded by -$250.00 per MWh and either the DASWCAP or RTSWCAP depending on the timing of the submission in dollars per MWh.  The ERCOT systems must allow ERCOT to enter ESR-specific Energy Bid/Offer Curve floors and caps.
+(3)	In Day-Ahead Market (DAM) and Real-Time Market (RTM), an Energy Bid/Offer Curve shall be considered to be inclusive of Ancillary Service Offers.
+[NPRR1014:  Insert Section 4.4.9.7.2 below upon system implementation:]
+4.4.9.7.2	Energy Bid/Offer Curve Validation
+(1)	A valid Energy Bid/Offer Curve is a curve that ERCOT has determined meets the criteria listed in Section 4.4.9.7.1, Energy Bid/Offer Curve Criteria.
+(2)	ERCOT shall notify the QSE submitting an Energy Bid/Offer Curve by the Messaging System if the offer was rejected or was considered invalid for any reason.  The QSE may then resubmit the Energy Bid/Offer Curve within the appropriate market timeline.
+(3)	ERCOT shall continuously validate Energy Bid/Offer Curves and continuously display on the MIS Certified Area information that allows any QSE to view its valid Energy Bid/Offer Curves.

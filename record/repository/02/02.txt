@@ -1,0 +1,351 @@
+2.2	ACRONYMS AND ABBREVIATIONS
+
+4-CP	4-Coincident Peak
+AAA	American Arbitration Association
+AAN	Advance Action Notice
+AASP	Average Aggregated Set Point
+ACE	Area Control Error
+ACH	Automated Clearing House
+ACL	Available Credit Limit
+ADR	Alternative Dispute Resolution
+AEIC	Association of Edison Illuminating Companies
+AGC	Automatic Generation Control
+AGR	Aggregate Generation Resource
+AIL	Aggregate Incremental Liability 
+ALA	Applicable Legal Authority
+ALR	Aggregate Load Resource
+AML	Adjusted Metered Load
+AMP	Automatic Mitigation Plan
+AMS	Advanced Metering System
+ANSI ASC X12	American National Standards Institute Accredited Standards Committee X12
+AREP	Affiliated Retail Electric Provider
+ARR	Adjusted SRPS Requirement
+ASDC	Ancillary Service Demand Curve
+AVR	Automatic Voltage Regulator
+ 
+BLT	Block Load Transfer
+BSS	Black Start Service
+
+CAO	Control Area Operator
+CARD	CRR Auction Revenue Distribution
+CCD+	Cash Concentration and Disbursement Plus
+CCF	Capacity Conversion Factor
+CCN	Certificate of Convenience and Necessity
+CCT	Constraint Competitiveness Test
+CEGE	Critical Electric Grid Equipment
+CEGS	Critical Electric Grid Services
+CEO	Chief Executive Officer
+CFC	Constant Frequency Control
+CFE	Comision Federal de Electricidad
+CFTC	Commodity Futures Trading Commission
+CIM	Common Information Model
+CMLTD	Current Maturities of Long-Term Debt
+CMP	Constraint Management Plan
+CMZ	Congestion Management Zone
+COP	Current Operating Plan
+CPS	Control Performance Standard 
+CPT	Central Prevailing Time
+CR	Competitive Retailer
+CRR	Congestion Revenue Right
+CRRBA	Congestion Revenue Right Balancing Account
+CSA	Continuous Service Agreement
+CSV	Comma Separated Value
+CTX	Corporate Trade Exchange
+
+DAM	Day-Ahead Market
+DAS	Data Aggregation System
+DASPP	Day-Ahead Settlement Point Price
+DASWCAP	Day-Ahead System-Wide Offer Cap
+DC	Direct Current 
+DC Tie	Direct Current Tie
+DCAA	Digital Certificate Audit Attestation
+DCTO	Direct Current Tie Operator
+DESR	Distribution Energy Storage Resource
+DG	Distributed Generation
+DGR	Distribution Generation Resource
+DLC	Direct Load Control
+DLF	Distribution Loss Factor
+DME	Decision Making Entity
+DRG	Distributed Renewable Generation
+DRUC	Day-Ahead Reliability Unit Commitment
+DSC	Debt Service Coverage
+DSP	Distribution Service Provider
+DSR	Dynamically Scheduled Resource
+[NPRR1000:  Delete the acronym “DSR” above upon system implementation.]
+DUNS	Data Universal Numbering System
+DUNS #	DUNS Number
+
+e-Tag	Electronic Tag
+EAF	Equivalent Availability Factor
+EAL	Estimated Aggregate Liability 
+EC	Electric Cooperative
+ECEII	ERCOT Critical Energy Infrastructure Information
+ECI	Element Competitiveness Index
+ECRS	ERCOT Contingency Reserve Service
+EDI	Electronic Data Interchange
+EEA	Energy Emergency Alert
+EFT	Electronic Funds Transfer 
+ELSE	External Load Serving Entity
+EMMS	Energy and Market Management System
+EMS	Energy Management System 
+EPRI	Electric Power Research Institute 
+EPS	ERCOT-Polled Settlement 
+ERCOT	Electric Reliability Council of Texas, Inc.
+ERCOT Board	The Board of Directors of the Electric Reliability Council of Texas, Inc.
+ERS	Emergency Response Service
+ESI ID	Electric Service Identifier
+ESR	Energy Storage Resource
+ESREDP	Energy Storage Resource Energy Deployment Performance
+ESS	Energy Storage System
+
+F&A	Finance and Audit
+FASD	First Available Switch Date
+FCE	Future Credit Exposure
+Fed	Federal
+FERC	Federal Energy Regulatory Commission 
+FFR	Fast Frequency Response
+FFSS	Firm Fuel Supply Service
+FFSSR	Firm Fuel Supply Service Resource
+FGR	Flowgate Right
+FIP	Fuel Index Price
+FIS	Full Interconnection Study
+FME	Frequency Measurable Event
+FOP	Fuel Oil Price
+FPA	Federal Power Act 
+FRC	Frequency Responsive Capacity
+FRRS	Fast Responding Regulation Service
+FRRS-Down	Fast Responding Regulation Down Service
+FRRS-Up	Fast Responding Regulation Up Service
+[NPRR1013:  Delete the acronyms “FRRS”,” FRRS-Down”, and “FRRS-Up” above upon system implementation of the Real-Time Co-Optimization (RTC) project.]
+FSRR	Final SRPS Requirement
+
+GADS	Generation Availability Data System
+GREDP	Generation Resource Energy Deployment Performance
+GSU	Generator Step-Up
+GTBD			Generation To Be Dispatched
+GTC			Generic Transmission Constraint
+GTL	Generic Transmission Limit
+
+HASL	High Ancillary Service Limit
+[NPRR1013:  Delete the acronym “HASL” above upon system implementation of the Real-Time Co-Optimization (RTC) project.]
+HCAP	High System-Wide Offer Cap
+HDL	High Dispatch Limit
+HE	Hour Ending
+HEL	High Emergency Limit
+HIO	High Impact Outage
+HITE	High Impact Transmission Element
+HRL	High Reasonability Limit
+HRUC	Hourly Reliability Unit Commitment
+HSL	High Sustained Limit
+HWR	High Winter Ratio
+Hz	Hertz
+
+
+IBR	Inverter-Based Resource
+ICCP	Inter-Control Center Communications Protocol 
+IDR	Interval Data Recorder
+IE	Interconnecting Entity
+IEL	Initial Estimated Liability
+IGE	Induction Generator Effects
+IHLF	Intra-Hour Load Forecast
+IHPPF	Intra-Hour PhotoVoltaic Power Forecast
+IHWPF	Intra-Hour Wind Power Forecast
+IMM	Independent Market Monitor
+IMRE	Independent Market Information System Registered Entity
+IOU	Investor Owned Utility
+IPM	Independent Power Marketer
+IROL	Interconnection Reliability Operating Limit
+IRR	Intermittent Renewable Resources
+
+kV	Kilovolt
+kVA	Kilovolt-Ampere
+kVAr	Kilovolt-Ampere reactive
+kVArh	Kilovolt-Ampere reactive hour
+kW	Kilowatt
+kWh	Kilowatt-Hour
+
+LASL	Low Ancillary Service Limit
+[NPRR1013:  Delete the acronym “LASL” above upon system implementation of the Real-Time Co-Optimization (RTC) project.]
+LCAP	Low System-Wide Offer Cap
+LDL	Low Dispatch Limit
+LEL	Low Emergency Limit
+LFC	Load Frequency Control
+LMP	Locational Marginal Price
+LPC	Low Power Consumption
+LRL	Low Reasonability Limit
+LRS	Load Ratio Share
+LSE	Load Serving Entity
+LSIPA	Lone Star Infrastructure Protection Act
+LSL	Low Sustained Limit
+
+MaxSOC	Maximum State of Charge
+MCPC	Market Clearing Price for Capacity
+MDAS	Meter Data Acquisition System
+MinSOC	Minimum State of Charge
+MIS	Market Information System
+MMBtu	Million British Thermal Units
+MOC	Mitigated Offer Cap
+MOU	Municipally Owned Utility
+MPC	Maximum Power Consumption
+MPT	Main Power Transformer
+MRA	Must-Run Alternative 
+MRE	Meter Reading Entity
+MTLF	Mid-Term Load Forecast
+MVA	Megavolt Ampere 
+MVAr	Mega Volt-Amperes reactive
+MW	Megawatt
+MWh	Megawatt Hour
+MWhh	Megawatt Hour Hour
+NCBI	Notice of Change of Banking Information
+NCI	Notice of Change of Information 
+NERC	North American Electric Reliability Corporation
+NESC	National Electrical Safety Code
+NFRC	Non-Frequency Responsive Capacity
+[NPRR1013:  Delete the acronym “NFRC” above upon system implementation of the Real-Time Co-Optimization (RTC) project.]
+NIST	National Institute of Standards and Technology 
+NOIE	Non-Opt-In Entity
+NOMCR	Network Operations Model Change Request
+Non-Spin	Non-Spinning Reserve
+NSA	Network Security Analysis
+NSO	Notification of Suspension of Operations
+NWS	Non-Weather Sensitive
+NWSIDR	Non-Weather Sensitive IDR 
+
+O&M	Operations and Maintenance
+OAE			Outage Adjustment Evaluation
+OCN	Operating Condition Notice
+ORDC	Operating Reserve Demand Curve
+[NPRR1013:  Delete the acronym “ORDC” above upon system implementation of the Real-Time Co-Optimization (RTC) project.]
+OSA			Outage Schedule Adjustment
+
+PCAP	Pre-Contingency Action Plan
+PCRR	Pre-Assigned Congestion Revenue Right
+PMI	Private Microgrid Island
+PNM	Peaker Net Margin
+POLR	Provider of Last Resort
+POC	Peaking Operating Cost 
+POCC	Point of Common Coupling 
+POI	Point of Interconnection
+POIB	Point of Interconnection Bus
+POS	Power Operating System
+PRC	Physical Responsive Capability
+PRM	Planning Reserve Margin
+PRR	Protocol Revision Request
+PRS	Protocol Revision Subcommittee
+PSS	Power System Stabilizer
+PTB	Price-to-Beat
+PTP	Point-to-Point 
+PUCT	Public Utility Commission of Texas
+PURA	Public Utility Regulatory Act, Title II, Texas Utility Code
+PURPA	Public Utility Regulatory Policy Act
+PV	PhotoVoltaic
+PVGR	PhotoVoltaic Generation Resource
+PVGRPP	PhotoVoltaic Generation Resource Production Potential
+PWG	Profiling Working Group
+
+QF	Qualifying Facility
+QSE	Qualified Scheduling Entity
+QSGR	Quick Start Generation Resource
+
+RAP	Remedial Action Plan
+RAS	Remedial Action Scheme
+RDF	Reserve Discount Factor
+REC	Renewable Energy Credit
+Reg-Down	Regulation Down 
+Reg-Up	Regulation Up
+REP	Retail Electric Provider
+RID	Resource ID
+RIDR	Representative IDR
+RMR	Reliability Must-Run
+RMS	Retail Market Subcommittee
+ROS	Reliability and Operations Subcommittee
+RPG	Regional Planning Group 
+RPP	Renewable Production Potential
+RRS	Responsive Reserve 
+RSASM	Reconfiguration Supplemental Ancillary Services Market
+[NPRR1013:  Delete the acronym “RSASM” above upon system implementation of the Real-Time Co-Optimization (RTC) project.]
+RSF	Return of Settlement Funds
+RTEP	Real-Time Energy Price 
+RTM	Real-Time Market
+RTSWCAP	Real-Time System-Wide Offer Cap
+RUC	Reliability Unit Commitment
+RUCAC	Reliability Unit Commitment for Additional Capacity
+
+SASM	Supplemental Ancillary Services Market
+[NPRR1013:  Delete the acronym “SASM” above upon system implementation of the Real-Time Co-Optimization (RTC) project.]
+SCADA	Supervisory Control and Data Acquisition
+SCED	Security-Constrained Economic Dispatch
+SCUC	Security-Constrained Unit Commitment
+SDRAMP	SCED Down Ramp Rate 
+SFT	Simultaneous Feasibility Test
+SGIA	Standard Generation Interconnection Agreement
+SMOG	Settlement Metering Operating Guide
+SOC	State of Charge
+SODESS	Settlement Only Distribution Energy Storage System
+SODG	Settlement Only Distribution Generator
+SOESS	Settlement Only Energy Storage System
+SOG	Settlement Only Generator 
+SOTESS	Settlement Only Transmission Energy Storage System
+SOTG	Settlement Only Transmission Generator
+SOTSG	Settlement Only Transmission Self-Generator
+SPN	Secure Private Network
+SRPS	Solar Renewable Portfolio Standard
+SREC	Solar Renewable Energy Credit
+SSCI	Subsynchronous Control Interaction
+SSO	Subsynchronous Oscillation
+SSR	Subsynchronous Resonance
+SSRR	Statewide SRPS Requirement
+STEC	South Texas Electric Cooperative 
+STLF	Short-Term Load Forecast
+STPPF	Short-Term PhotoVoltaic Power Forecast
+STWPF	Short-Term Wind Power Forecast
+SURAMP	SCED Up Ramp Rate 
+SWCAP	System-Wide Offer Cap
+[NPRR1013:  Delete the acronym “SWCAP” above upon system implementation of the Real-Time Co-Optimization (RTC) project.]
+SWGR	Switchable Generation Resource
+
+T&D	Transmission and Distribution
+TAC	Technical Advisory Committee
+TDSP	Transmission and/or Distribution Service Provider
+TDTWG	Texas Data Transport Working Group
+TEPPF	Total ERCOT PhotoVoltaic Power Forecast 
+TEWPF	Total ERCOT Wind Power Forecast
+TIER	Times/Interest Earning Ratio
+TGR	Transmission Generation Resource
+TLF	Transmission Loss Factor
+TMTP	Texas Market Test Plan
+TO	Transmission Operator
+TOAP	Temporary Outage Action Plan
+TOU	Time Of Use
+TOUS			Time Of Use Schedule
+TPE	Total Potential Exposure 
+TSP	Transmission Service Provider
+TTPT	Texas Test Plan Team
+TUO	Total Usable Offset
+TWC	Texas Water Code
+TX SET	Texas Standard Electronic Transaction
+
+UDSP	Updated Desired Set Point
+UFE	Unaccounted For Energy
+UFLS	Under-Frequency Load Shed
+URL	Unit Reactive Limit
+USA	User Security Administrator
+USD	United States Dollar or U.S. Dollar
+UVLS	Under-Voltage Load Shed
+
+VAr	Volt-Ampere reactive
+VDI	Verbal Dispatch Instruction
+VEE	Validation, Editing and Estimating
+VSS	Voltage Support Service
+
+WAN	Wide Area Network
+WGR	Wind-powered Generation Resource
+WGRPP	Wind-powered Generation Resource Production Potential
+WMS	Wholesale Market Subcommittee 
+WRUC	Weekly Reliability Unit Commitment
+WS	Weather Sensitive
+WSIDR	Weather Sensitive IDR
+WSL	Wholesale Storage Load
+
+XML	Extensible Markup Language
+

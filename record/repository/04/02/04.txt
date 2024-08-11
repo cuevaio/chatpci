@@ -1,0 +1,29 @@
+4.2.4	Posting Secure Forecasted ERCOT System Conditions
+(1)	No later than 0600 in the Day-Ahead, ERCOT shall post on the MIS Secure Area, and make available for download, the following information for the Operating Day:
+(a)	For each update of the Network Operations Model, the Redacted Network Operations Model in the Common Information Model (CIM) format and the companion version of Network Operations Model (unredacted) will be posted to the MIS Certified Area for Transmission Service Providers (TSPs) as described in paragraph (9) of Section 3.10.4, ERCOT Responsibilities; 
+(b)	For each update of the Network Operations Model, differences between the posted Redacted Network Operations Model and the previous Redacted Network Operations Model as described in paragraph (4) of Section 3.10.4;
+(c)	Load Profiles for non-Interval Data Recorder (IDR) metered Customers; 
+(d)	Distribution Loss Factors (DLFs) and forecasted ERCOT-wide Transmission Loss Factors (TLFs), as described in Section 13.3, Distribution Losses, and Section 13.2, Transmission Losses, for each Settlement Interval of the Operating Day;
+(e)	A current list of Electrically Similar Settlement Points produced from the 0600 Day-Ahead Market (DAM) study that support that creation of Power System Simulator for Engineering (PSS/E) files;
+(f)	A daily version of the Network Operations Model in a PSS/E format that has been exported from the Market Management System prior to 0600 representing the next Operating Day in hourly files, inclusive of:
+(i)	Outages from the Outage Scheduler implemented in the hourly PSS/E files; 
+(ii)	All bus shunt MW and MVAr set to zero;
+(iii)	All Load MW and MVAr set to zero;
+(iv)	All generation MW and MVAr set to zero; and
+(v)	Slack bus used in the DAM shall be represented at the same bus in each case; and
+(g)	A daily version of supporting files for the PSS/E files supporting the Network Operations Model that has been exported from the Market Management System prior to 0600, inclusive of:
+(i)	Contingency definition corresponding to each hourly PSS/E file;
+(ii)	Generator mapping data corresponding to each hourly PSS/E file; 
+(iii)	Mapping of all Resource Nodes and DC Tie Load Zone to the hourly PSS/E file including Private Use Network Settlement Points.  This file of hourly data will also include the base case energization status of Resource Node and DC Tie Load Zone reflecting Settlement Points available for DAM clearing process;
+(iv)	Load mapping data corresponding to each hourly PSS/E case necessary to model all Load Zone energy transactions in the DAM; 
+(v)	Transmission line mapping data corresponding to each hourly PSS/E files;
+(vi)	Transformer mapping data corresponding to each hourly PSS/E files; and 
+(vii)	Hub mapping data corresponding to each hourly PSS/E case necessary to model all Hub energy transactions in the DAM. 
+4.2.4.1	Posting Public Forecasted ERCOT System Conditions
+(1)	No later than 0600 in the Day-Ahead, ERCOT shall post on the ERCOT website, and make available for download, the following information for the Operating Day:
+(a)	Weather assumptions used by ERCOT to forecast ERCOT System conditions and used in the Dynamic Rating Processor;  
+(b)	ERCOT System, Weather Zone, Load Zone, and Study Area Load forecasts for the next seven days, by hour, and a message on update indicating any changes to the forecasts by means of the Messaging System;
+(c)	A current list of all Settlement Points that may be used for market processes and transactions;  
+(d)	A mapping of Settlement Points to Electrical Buses in the Network Operations Model;
+(e)	A list of transmission constraints that have a high probability of binding in the Security-Constrained Economic Dispatch (SCED) or DAM; and
+(f)	A mapping of any Electrical Bus to another Electrical Bus for purposes of heuristic pricing as described in paragraph (8) of Section 4.5.1, DAM Clearing Process, and Section 6.6.1, Real-Time Settlement Point Prices.

@@ -1,0 +1,24 @@
+9.16.1	ERCOT System Administration Fee
+(1)	The Public Utility Commission of Texas (PUCT) has authorized ERCOT to charge the ERCOT System Administration fee to fund ERCOT’s budget.  ERCOT converts the fee into a charge to each Qualified Scheduling Entity (QSE) using the formula set forth in paragraph (3) below.
+(2)	ERCOT shall post the ERCOT System Administration fee on the ERCOT website.  Within two Business Days following PUCT approval of a change in the ERCOT System Administration fee, ERCOT shall post the changed fee and effective date on the ERCOT website.
+(3)	Each QSE shall pay the ERCOT System Administration fee.  The ERCOT System Administration fee is for each 15-minute Settlement Interval for each QSE.
+ESACAMT q	=		LAFF * max(0,RTAML q, p)
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+ESACAMT q
+$
+ERCOT System Administration Fee—The ERCOT System Administration fee for each QSE per 15-minute Settlement Interval.
+RTAML q, p
+MWh
+Real-Time Adjusted Metered Load— The sum of the Adjusted Metered Load (AML) at the Electrical Buses included in Settlement Point p, represented by QSE q, for the 15-minute Settlement Interval.
+LAFF
+$/MWh
+Load Administration Fee Factor—The ERCOT System Administration fee.
+q
+none
+A QSE.
+p
+none
+A Settlement Point.  The summation is over all of the Settlement Points.

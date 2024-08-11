@@ -1,0 +1,23 @@
+9.2.3	DAM Settlement Charge Types
+(1)	ERCOT shall provide, on each Settlement Statement, the dollar amount for each DAM Settlement charge and payment.  The DAM settlement “Charge Types” are:
+(a)	Section 4.6.2.1, Day-Ahead Energy Payment;
+(b)	Section 4.6.2.2, Day-Ahead Energy Charge;
+(c)	Section 4.6.2.3.1, Day-Ahead Make-Whole Payment;
+(d)	Section 4.6.2.3.2, Day-Ahead Make-Whole Charge;
+(e)	Section 4.6.3, Settlement for PTP Obligations Bought in DAM;
+(f)	Section 4.6.4.1.1, Regulation Up Service Payment;
+(g)	Section 4.6.4.1.2, Regulation Down Service Payment;
+(h)	Section 4.6.4.1.3, Responsive Reserve Payment;
+(i)	Section 4.6.4.1.4, Non-Spinning Reserve Service Payment;
+(j)	Section 4.6.4.1.5, ERCOT Contingency Reserve Service Payment;
+(k)	Section 4.6.4.2.1, Regulation Up Service Charge;
+(l)	Section 4.6.4.2.2, Regulation Down Service Charge;
+(m)	Section 4.6.4.2.3, Responsive Reserve Charge;
+(n)	Section 4.6.4.2.4, Non-Spinning Reserve Service Charge;
+(o)	Section 4.6.4.2.5, ERCOT Contingency Reserve Service Charge;
+(p)	Section 7.9.1.1, Payments and Charges for PTP Obligations Settled in DAM;
+(q)	Section 7.9.1.2, Payments for PTP Options Settled in DAM;
+(r)	Section 7.9.1.4, Payments for FGRs Settled in DAM;
+(s)	Section 7.9.1.5, Payments and Charges for PTP Obligations with Refund Settled in DAM;
+(t)	Section 7.9.1.6, Payments for PTP Options with Refund Settled in DAM; and
+(u)	Paragraph (2) of Section 7.9.3.3, Shortfall Charges to CRR Owners.

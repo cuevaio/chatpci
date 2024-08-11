@@ -1,0 +1,23 @@
+3.1.1	Role of ERCOT
+(1)	ERCOT shall coordinate and use reasonable efforts, consistent with Good Utility Practice, to accept, approve or reject all requested Outage plans for maintenance, repair, and construction of both Transmission Facilities and Resources within the ERCOT System.  ERCOT may reject an Outage plan under certain circumstances, as set forth in these Protocols.
+(2)	ERCOT’s responsibilities with respect to Outage Coordination include:
+(a)	Approving or rejecting requests for Planned Outages and Maintenance Outages of Transmission Facilities for Transmission Service Providers (TSPs) in coordination with and based on information regarding all Entities’ Planned Outages and Maintenance Outages;
+[NPRR857:  Replace paragraph (a) above with the following upon system implementation and satisfying the following conditions: (1) Southern Cross provides ERCOT with funds to cover the entire estimated cost of the project; and (2) Southern Cross has signed an interconnection agreement with a TSP and the TSP gives ERCOT written notice that Southern Cross has provided it with:  (a) Notice to proceed with the construction of the interconnection; and (b) The financial security required to fund the interconnection facilities:]
+(a)	Approving or rejecting requests for Planned Outages and Maintenance Outages of Transmission Facilities for Transmission Service Providers (TSPs) and Direct Current Tie Operators (DCTOs) in coordination with and based on information regarding all Entities’ Planned Outages and Maintenance Outages;
+(b)	Assessing the adequacy of available Resources, based on planned and known Resource Outages, relative to forecasts of Load, Ancillary Service requirements,  and reserve requirements;
+(c)	Coordinating all Planned Outage and Maintenance Outage plans and approving or rejecting Outage plans for Planned Outages of Resources;
+(d)	Coordinating and approving or rejecting Outage plans for Planned Outages of Reliability Must-Run (RMR) Units under the terms of the applicable RMR Agreements; 
+(e)	Coordinating and approving or rejecting Outage plans associated with Black Start Resources under the applicable Black Start Unit Agreements;
+(f)	Coordinating and approving or rejecting Outage plans affecting Subsynchronous Resonance (SSR) vulnerable Generation Resources that do not have SSR Mitigation in the event of five or six concurrent transmission Outages;
+(g)	Coordinating and approving or rejecting changes to existing Resource Outage plans;
+(h)	Monitoring how Planned Outage schedules compare with actual Outages;
+(i)	Posting all proposed and approved schedules for Planned Outages, Maintenance Outages, and Rescheduled Outages of Transmission Facilities on the Market Information System (MIS) Secure Area under Section 3.1.5.13, Transmission Report;
+(j)	Creating and posting aggregated MW of Planned Outages for Resources on the MIS Secure Area under Section 3.2.3, Short-Term System Adequacy Reports; 
+(k)	Monitoring Transmission Facilities and Resource Forced Outages and Maintenance Outages of immediate nature and implementing responses to those Outages as provided in these Protocols;
+(l)	Establishing and implementing communication procedures:
+(i)	For a TSP to request approval of Transmission Facilities Planned Outage and Maintenance Outage plans; and 
+[NPRR857:  Replace item (i) above with the following upon system implementation and satisfying the following conditions: (1) Southern Cross provides ERCOT with funds to cover the entire estimated cost of the project; and (2) Southern Cross has signed an interconnection agreement with a TSP and the TSP gives ERCOT written notice that Southern Cross has provided it with:  (a) Notice to proceed with the construction of the interconnection; and (b) The financial security required to fund the interconnection facilities:]
+(i)	For a TSP or a DCTO to request approval of Transmission Facilities Planned Outage and Maintenance Outage plans; and
+(ii)	For a Resource Entity’s designated Single Point of Contact to submit Outage plans and to coordinate Resource Outages;
+(m)	Establishing and implementing record-keeping procedures for retaining all requested Planned Outages, Maintenance Outages, Rescheduled Outages, and Forced Outages; and
+(n)	Planning and analyzing Transmission Facilities Outages.

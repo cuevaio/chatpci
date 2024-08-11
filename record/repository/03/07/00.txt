@@ -1,0 +1,8 @@
+3.7	Resource Parameters  
+(1)	A Resource Entity shall register Generation Resources, Settlement Only Generators (SOGs), and Load Resources pursuant to Planning Guide Section 6.8, Resource Registration Procedures.  The Resource Parameters, listed in Section 3.7.1, Resource Parameter Criteria, are a subset of Resource Registration data defined in the Resource Registration Glossary.
+[NPRR995 and NPRR1002:  Replace applicable portions of paragraph (1) above with the following upon system implementation:]
+(1)	A Resource Entity shall register its Generation Resources, Energy Storage Resources (ESRs), Settlement Only Generators (SOGs), Settlement Only Energy Storage Systems (SOESSs), and Load Resources pursuant to Planning Guide Section 6.8, Resource Registration Procedures.  The Resource Parameters, listed in Section 3.7.1, Resource Parameter Criteria, are a subset of Resource Registration data defined in the Resource Registration Glossary.
+(2)	ERCOT shall provide each Qualified Scheduling Entity (QSE) that represents a Resource the ability to submit changes to Resource Parameters for that Resource as described in Section 3.7.1.
+(3)	The QSE may revise Resource Parameters only with sufficient documentation to justify a change in Resource Parameters. 
+(4)	ERCOT shall use the Resource Parameters as inputs into the Day-Ahead Market (DAM), Reliability Unit Commitment (RUC), Security-Constrained Economic Dispatch (SCED), Resource Limit Calculator, Load Frequency Control (LFC), and other ERCOT business processes.
+(5)	The Independent Market Monitor (IMM) may require the QSE to provide justification for the Resource Parameters submitted.

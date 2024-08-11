@@ -1,0 +1,3 @@
+9.5.5	RTM Final Statement
+(1)	ERCOT shall issue an RTM Final Statement for each Statement Recipient for a given Operating Day on the 55th day after the Operating Day, unless that 55th day is not a Business Day.  If the 55th day is not a Business Day, then ERCOT shall issue the RTM Final Statement on the first Business Day after the 55th day.
+(2)	An RTM Final Statement will reflect differences to financial records generated on the previous Settlement Statement for the given Operating Day.

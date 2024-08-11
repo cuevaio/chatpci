@@ -1,0 +1,2 @@
+3.4.4	DC Tie Load Zones
+(1)	A DC Tie Load Zone contains only the Electrical Bus in the ERCOT Transmission Grid that connects the DC Tie and is used in the settlement of the DC Tie Load in that zone.

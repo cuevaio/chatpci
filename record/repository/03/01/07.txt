@@ -1,0 +1,24 @@
+3.1.7	Reliability Resource Outages
+(1)	ERCOT shall evaluate requests for approval of an Outage of a Reliability Resource to determine if any one or a combination of proposed Outages may cause ERCOT to violate applicable reliability standards or exceed the Maximum Daily Resource Planned Outage Capacity.  ERCOT’s evaluations shall take into consideration factors including the following: 
+(a)	Load forecast;
+(b)	All other known Outages; and
+(c)	Potential for the proposed Outages to cause irresolvable transmission overloads or voltage supply concerns based on the indications from contingency analysis software.
+3.1.7.1	Timelines for Response by ERCOT on Reliability Resource Outages
+(1)	ERCOT shall approve requests for Planned Outages of Reliability Resources unless, in ERCOT’s determination, the requested Planned Outage would cause ERCOT to violate applicable reliability standards or exceed the Maximum Daily Resource Planned Outage Capacity.  ERCOT shall approve or reject each request in accordance with the following table:
+Amount of time between a Request for approval of a proposed Planned Outage and the scheduled start date of the proposed Outage:
+ERCOT shall approve or reject no later than:
+No less than 30 days
+Five Business Days after submission
+Greater than 45 days
+Five Business Days after submission
+(2)	ERCOT shall approve requests for Outages, other than Forced Outages or Level I Maintenance Outages, of Reliability Resources unless, in ERCOT’s determination, the requested Outage would cause ERCOT to violate applicable reliability standards or exceed the Maximum Daily Resource Planned Outage Capacity.  ERCOT shall approve or reject Maintenance Outages on Reliability Resources as follows:
+Amount of time between a Request for approval of a proposed Outage and the scheduled start date of the proposed Outage:
+ERCOT shall approve or reject no later than:
+Between three and eight days
+0000 hours, two days before the start of the proposed Outage
+Between nine and 30 days	
+Four days before the start of the proposed Outage
+(3)	ERCOT shall not be deemed to have approved the Outage request associated with the Planned Outage until ERCOT notifies the Single Point of Contact of its approval.  ERCOT shall transmit approvals electronically.
+(4)	ERCOT, at its sole discretion, may relax the submission timing requirements in this Section.
+3.1.7.2	Changes to an Approved Reliability Resource Outage Plan
+(1)	Once ERCOT has approved a Reliability Resource Planned Outage, the Resource Entity for the Reliability Resource may submit to ERCOT a change request by entering the change in the Outage Scheduler no later than 30 days before the scheduled start date of the approved Outage.  ERCOT shall approve or reject the proposed change within 15 days of receiving the change request form.  ERCOT may, at its discretion, relax the 30 day Notice requirement.

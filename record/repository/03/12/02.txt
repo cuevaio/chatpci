@@ -1,0 +1,2 @@
+3.12.2	Study Areas
+(1)	ERCOT shall develop and use Study Areas for Load forecasting and study purposes, and will provide the Load forecast data to the market.  A list of Study Areas shall be available on the ERCOT website.

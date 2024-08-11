@@ -1,0 +1,294 @@
+4.4.7	Ancillary Service Supplied and Traded
+4.4.7.1	Self-Arranged Ancillary Service Quantities
+(1)	For each Ancillary Service, a QSE may self-arrange all or a portion of the Ancillary Service Obligation allocated to it by ERCOT.  QSEs may not self-arrange Regulation Service amounts that include Fast Responding Regulation Up Service (FRRS-Up) or Fast Responding Regulation Down Service (FRRS-Down) quantities.  In addition, a QSE may self-arrange up to 100 MW of ERCOT Contingency Reserve Service (ECRS), 100 MW of Responsive Reserve (RRS), 25 MW of Regulation Up Service (Reg-Up), 25 MW of Regulation Down Service (Reg-Down), and 50 MW of Non-Spinning Reserve (Non-Spin) in excess of its corresponding Ancillary Service Obligation, provided that the amount self-arranged from the QSE’s Resources for a given Ancillary Service shall not exceed the amount of the QSE’s Ancillary Services Obligation for that Ancillary Service.  If a QSE elects to self-arrange Ancillary Service capacity, then ERCOT shall not pay the QSE for the Self-Arranged Ancillary Service Quantities for the portion that meets its Ancillary Service Obligation.  Any Self-Arranged Ancillary Service Quantities in excess of a QSE’s Ancillary Service Obligation will be considered to be offered in the DAM or Supplemental Ancillary Services Market (SASM), as applicable, for $0/MWh.
+[NPRR1091:  Replace paragraph (1) above with the following upon system implementation:]
+(1)	For each Ancillary Service, a QSE may self-arrange all or a portion of the Ancillary Service Obligation allocated to it by ERCOT.  QSEs may not self-arrange Regulation Service amounts that include Fast Responding Regulation Up Service (FRRS-Up) or Fast Responding Regulation Down Service (FRRS-Down) quantities.  In addition, a QSE may self-arrange up to 150 MW of Responsive Reserve (RRS), 25 MW of Regulation Up Service (Reg-Up), 25 MW of Regulation Down Service (Reg-Down), and 300 MW of Non-Spinning Reserve (Non-Spin) in excess of its corresponding Ancillary Service Obligation, provided that the amount self-arranged from the QSE’s Resources for a given Ancillary Service shall not exceed the amount of the QSE’s Ancillary Services Obligation for that Ancillary Service.  If a QSE elects to self-arrange Ancillary Service capacity, then ERCOT shall not pay the QSE for the Self-Arranged Ancillary Service Quantities for the portion that meets its Ancillary Service Obligation.  Any Self-Arranged Ancillary Service Quantities in excess of a QSE’s Ancillary Service Obligation will be considered to be offered in the DAM or Supplemental Ancillary Services Market (SASM), as applicable, for $0/MWh.
+[NPRR1008:  Replace paragraph (1) above with the following upon system implementation or upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+(1)	For each Ancillary Service, a QSE may self-arrange all or a portion of the advisory Ancillary Service Obligation allocated to it by ERCOT, subject to the QSE’s share of system-wide limits as established by Section 3.16, Standards for Determining Ancillary Service Quantities.  If a QSE elects to self-arrange Ancillary Service capacity, then ERCOT shall not pay the QSE for the Self-Arranged Ancillary Service Quantities for the portion that meets its final Ancillary Service Obligation; ERCOT shall pay the QSE the respective Day-Ahead Ancillary Service price for any Self-Arranged Ancillary Service Quantities that exceed a QSE’s final Ancillary Service Obligation.
+(2)	The QSE must indicate before 1000 in the Day-Ahead the Self-Arranged Ancillary Service Quantities, by service, so ERCOT can determine how much Ancillary Service capacity, by service, needs to be obtained through the DAM.  
+[NPRR1008:  Replace paragraph (2) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+(2)	The QSE must indicate before 1000 in the Day-Ahead the Self-Arranged Ancillary Service Quantities, by service, so ERCOT can determine how much Ancillary Service capacity, by service, remains to be obtained based on DAM offers and associated Ancillary Service Demand Curves (ASDCs).
+(3)	At or after 1000 in the Day-Ahead, a QSE may not change its Self-Arranged Ancillary Service Quantities unless ERCOT opens a SASM. 
+[NPRR1008:  Replace paragraph (3) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+(3)	At or after 1000 in the Day-Ahead, a QSE may not change its Self-Arranged Ancillary Service Quantities.
+(4)	Before 1430 in the Day-Ahead, all Self-Arranged Ancillary Service Quantities must be represented by physical capacity, either by Generation Resources or Load Resources, or backed by Ancillary Service Trades. 
+(5)	The QSE may self-arrange Reg-Up, Reg-Down, ECRS, RRS, and Non-Spin.
+(6)	The QSE may self-arrange Ancillary Services from one or more Resources it represents and/or through an Ancillary Service Trade. 
+(7)	The additional Self-Arranged Ancillary Service Quantity specified by the QSE in response to a SASM notice by ERCOT to obtain additional Ancillary Services in the Adjustment Period cannot be more than 100 MW of ECRS, 100 MW of RRS, 25 MW of Reg-Up, 25 MW of Reg-Down, and 50 MW of Non-Spin greater than the additional Ancillary Service amount allocated by ERCOT to that QSE, as stated in the SASM notice, and cannot be changed once committed to ERCOT.
+(8)	If a QSE does not self-arrange all of its Ancillary Service Obligation, ERCOT shall procure the remaining amount of that QSE’s Ancillary Service Obligation. 
+[NPRR1008:  Replace paragraphs (7) and (8) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project and renumber accordingly:]
+(7)	A QSE shall not submit Ancillary Services trades that result in the QSE’s purchased quantities of Ancillary Services exceeding the QSE’s Self-Arranged Ancillary Service Quantities. 
+(a)	At 1430 in the Day-Ahead, ERCOT shall post a report on the MIS Certified Area to notify the QSE if there is an overage in the QSE’s purchased quantities of Ancillary Services in violation of the above limitation.
+(b)	If the QSE has such an overage as of the end of the Adjustment Period, that QSE will be charged for any quantity that exceeds their Self-Arranged Ancillary Service Quantities per Section 6.7.5.1, Real-Time Ancillary Service Imbalance Payment or Charge.
+(9)	For self-arranged RRS, the QSE shall indicate the quantity of the service that is provided from:
+(a)	Resources providing Primary Frequency Response;
+(b)	Load Resources controlled by high-set under-frequency relays; and
+(c)	Fast Frequency Response (FFR) Resources.
+(10)	For self-arranged ECRS, the QSE shall indicate the quantity of the service that is provided from Resources that are manually dispatched and those that are SCED-dispatchable.
+[NPRR1213:  Replace paragraph (10) above with the following upon system implementation, and upon system implementation of NPRR1171:]
+(10)	For self-arranged ECRS and Non-Spin, the QSE shall indicate the quantity of the service that is provided from Resources that are manually dispatched, Distribution Generation Resources (DGRs) and Distribution Energy Storage Resources (DESRs) on circuits subject to Load shed, and Resources that are SCED-dispatchable not on circuits subject to Load shed.
+(11)     For self-arranged Non-Spin, the QSE shall indicate the quantity of the service that is provided from Resources that are manually dispatched, DGRs and DESRs on circuits subject to Load shed, and Resources that are SCED-dispatchable and not on circuits subject to Load shed.
+4.4.7.1.1	Negative Self-Arranged Ancillary Service Quantities
+(1)	A QSE may submit a negative Self-Arranged Ancillary Service Quantity in the DAM.  ERCOT shall procure all negative Self-Arranged Ancillary Service Quantities submitted by a QSE.
+[NPRR1008:  Replace paragraph (1) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+(1)	A QSE may submit a negative Self-Arranged Ancillary Service Quantity in the DAM.  ERCOT shall procure all negative Self-Arranged Ancillary Service Quantities submitted by a QSE.  Such negative Self-Arranged Ancillary Service Quantities will be considered by DAM to be equivalent to a bid to buy Ancillary Services at the highest price on each respective ASDC.
+(2)	Procurements of negative Self-Arranged Ancillary Service Quantities by ERCOT shall be settled in the same manner as Ancillary Service Obligations that are not self-arranged and according to the charges defined in Section 4.6.4.2, Charges for Ancillary Services Procurement in the DAM, and Section 6.7, Real-Time Settlement Calculations for the Ancillary Services.
+(3)	A QSE may not submit a negative Self-Arranged Ancillary Service Quantity in the DAM that is less than -500 MW per Ancillary Service.  For negative self-arranged RRS and ECRS, the QSE shall not specify FFR Resources, Controllable Load Resources, and Load Resources controlled by high-set under-frequency relays.  For compliance purposes, a QSE may not submit a negative Self-Arranged Ancillary Service Quantity in the DAM that is greater in magnitude than the absolute value of the net sales of its Ancillary Service Trades per Ancillary Service.
+[NPRR1213:  Replace paragraph (3) above with the following upon system implementation, and upon system implementation of NPRR1171:]
+(3)	A QSE may not submit a negative Self-Arranged Ancillary Service Quantity in the DAM that is less than -500 MW per Ancillary Service.  For negative self-arranged RRS, ECRS, and Non-Spin, the QSE shall not specify FFR Resources, Controllable Load Resources, Load Resources controlled by high-set under-frequency relays, and DGRs and DESRs on circuits subject to Load shed.  For compliance purposes, a QSE may not submit a negative Self-Arranged Ancillary Service Quantity in the DAM that is greater in magnitude than the absolute value of the net sales of its Ancillary Service Trades per Ancillary Service.
+4.4.7.2	Ancillary Service Offers
+(1)	By 1000 in the Day-Ahead, a QSE may submit Generation Resource-specific Ancillary Service Offers to ERCOT for the DAM and may offer the same Generation Resource capacity for any or all of the Ancillary Service products simultaneously with any Energy Offer Curves from that Generation Resource in the DAM.  A QSE may also submit Ancillary Service Offers in a SASM.  Offers of more than one Ancillary Service product from one Generation Resource may be inclusive or exclusive of each other and of any Energy Offer Curves, as specified according to a procedure developed by ERCOT. 
+[NPRR1008 and NPRR1014:  Replace applicable portions of paragraph (1) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1008; or upon system implementation for NPRR1014:]
+(1)	By 1000 in the Day-Ahead, a QSE may submit Resource-Specific Ancillary Service Offers from Generation Resources and ESRs to ERCOT for the DAM and may offer the same Generation Resource or ESR capacity for any or all of the Ancillary Service products simultaneously with any Energy Offer Curves from that Generation Resource or Energy Bid/Offer Curves from that ESR in the DAM.  Offers of more than one Ancillary Service product from one Generation Resource may be inclusive or exclusive of each other and of any Energy Offer Curves, as specified according to a procedure developed by ERCOT.  Offers of more than one Ancillary Service product from one ESR may be inclusive or exclusive of each other, as specified according to a procedure developed by ERCOT.
+(2)	By 1000 in the Day-Ahead, a QSE may submit Load Resource-specific Ancillary Service Offers for Regulation Service, Non-Spin, RRS, and ECRS to ERCOT and may offer the same Load Resource capacity for any or all of those Ancillary Service products simultaneously.  Offers of more than one Ancillary Service product from one Load Resource may be inclusive or exclusive of each other, as specified according to a procedure developed by ERCOT.
+[NPRR1008 and NPRR1014:  Replace applicable portions of paragraph (2) above with the following upon system implementation for NPRR1014; or upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1008:]
+(2)	By 1000 in the Day-Ahead, a QSE may submit Load Resource-Specific Ancillary Service Offers for Regulation Service, Non-Spin, RRS, and ECRS to ERCOT and may offer the same Load Resource capacity for any or all of those Ancillary Service products simultaneously.  Offers of more than one Ancillary Service product from one Load Resource may be inclusive or exclusive of each other, as specified according to a procedure developed by ERCOT.
+(3)	By 1000 in the Day-Ahead, a QSE may submit Resource-specific Ancillary Service Offers to ERCOT for FFR Resources, and may offer the same capacity for any or all of the Ancillary Service products simultaneously with any Energy Offer Curves from that Resource in the DAM.  A QSE may also submit Ancillary Service Offers in a SASM.  Offers of more than one Ancillary Service product may be inclusive or exclusive of each other and of any Energy Offer Curves, as specified according to a procedure developed by ERCOT.
+[NPRR1008 and NPRR1014:  Replace applicable portions of paragraph (3) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1008; or upon system implementation for NPRR1014:]
+(3)	By 1000 in the Day-Ahead, a QSE may submit Resource-Specific Ancillary Service Offers to ERCOT for FFR Resources, and may offer the same capacity for any or all of the Ancillary Service products simultaneously with any Energy Offer Curves from that Resource in the DAM.  Offers of more than one Ancillary Service product may be inclusive or exclusive of each other and of any Energy Offer Curves, as specified according to a procedure developed by ERCOT.
+[NPRR1008 and NPRR1014:  Insert applicable portions of paragraph (4) below upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1008; or upon system implementation for NPRR1014; and renumber accordingly:]
+(4)	By 1000 in the Day-Ahead, a QSE may submit an Ancillary Service Only Offer to ERCOT for the DAM.  An individual Ancillary Service Only Offer must be exclusive to a single Ancillary Service product.  For purposes of Ancillary Service sub-category limitations and validations, an Ancillary Service Only Offer for RRS will be treated as if it was an offer for RRS from an On-Line Generation Resource.  Likewise, an Ancillary Service Only Offer for ECRS will be treated as if it was an offer for ECRS from an On-Line Generation Resource.
+(4)	Ancillary Service Offers remain active for the offered period until:  
+(a)	Selected by ERCOT; 
+(b)	Automatically inactivated by the software at the offer expiration time specified by the QSE when the offer is submitted; or
+(c)	Withdrawn by the QSE, but a withdrawal is not effective if the deadline for submitting offers has already passed.
+[NPRR1008 and NPRR1014:  Replace applicable portions of paragraph (4) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1008; or upon system implementation for NPRR1014:]
+(4)	Ancillary Service Offers remain active for the offered period unless the offer is:  
+(a)	Effective after DAM and is higher than the Real-Time System-Wide Offer Cap (RTSWCAP); 
+(b)	Automatically inactivated by the software at the offer expiration time specified by the QSE when the offer is submitted; or
+(c)	Withdrawn by the QSE, but a withdrawal is not effective if the deadline for submitting offers has already passed.
+(5)	A Load Resource that is not a Controllable Load Resource may specify whether its Ancillary Service Offer for RRS or Non-Spin may only be procured by ERCOT as a block.
+[NPRR1008 and NPRR1014:  Replace applicable portions of paragraph (5) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1008; or upon system implementation for NPRR1014:]
+(5)	A Load Resource that is not a Controllable Load Resource may specify whether its Resource-Specific Ancillary Service Offer for RRS or Non-Spin may only be procured by ERCOT as a block.
+(6)	A Load Resource that is not a Controllable Load Resource may specify whether its Ancillary Service Offer for ECRS may only be procured by ERCOT as a block.
+[NPRR1014:  Replace paragraph (6) above with the following upon system implementation:]
+(6)	A Load Resource that is not a Controllable Load Resource may specify whether its Resource-Specific Ancillary Service Offer for ECRS may only be procured by ERCOT as a block.
+(7)	A QSE that submits an On-Line Ancillary Service Offer without also submitting a Three-Part Supply Offer for the DAM for any given hour will be considered by the DAM to be self-committed for that hour, as long as an Ancillary Service Offer for Off-Line Non-Spin was not also submitted for that hour.  When the DAM considers a self-committed offer for clearing, the Resource constraints identified in paragraph (4)(c)(ii) of Section 4.5.1, DAM Clearing Process, other than HSL, are ignored.  A Combined Cycle Generation Resource will be considered by the DAM to be self-committed based on an On-Line Ancillary Service Offer submittal if: 
+(a)	Its QSE submits an On-Line Ancillary Service Offer without also submitting a Three-Part Supply Offer for the DAM for any Combined Cycle Generation Resource within the Combined Cycle Train for that hour;
+(b)	No Ancillary Service Offer for Off-Line Non-Spin for any Combined Cycle Generation Resource within the Combined Cycle Train is submitted for that hour; and
+(c)	No On-Line Ancillary Service Offer for any other Combined Cycle Generation Resource within the Combined Cycled Train is submitted for that hour. 
+[NPRR1008 and NPRR1014:  Replace applicable portions of paragraph (7) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1008; or upon system implementation for NPRR1014:]
+(7) 	A QSE that submits an On-Line Resource-Specific Ancillary Service Offer without also submitting a Three-Part Supply Offer for the DAM for any given hour will be considered by the DAM to be self-committed for that hour, as long as a Resource-Specific Ancillary Service Offer for Off-Line Non-Spin was not also submitted for that hour.  A QSE that submits an On-Line ESR-specific Ancillary Service Offer or Energy Bid/Offer Curve for the DAM will be considered to be On-Line.  A QSE may not submit an Off-Line Ancillary Service Offer for an ESR.  When the DAM considers a self-committed offer for clearing, the Resource constraints identified in paragraph (4)(c)(ii) of Section 4.5.1, DAM Clearing Process, other than HSL, are ignored; however, for an ESR, the DAM will consider LSL and HSL.  A Combined Cycle Generation Resource will be considered by the DAM to be self-committed based on an On-Line Resource-Specific Ancillary Service Offer submittal if: 
+(a)	Its QSE submits an On-Line Resource-Specific Ancillary Service Offer without also submitting a Three-Part Supply Offer for the DAM for any Combined Cycle Generation Resource within the Combined Cycle Train for that hour;
+(b)	No Resource-Specific Ancillary Service Offer for Off-Line Non-Spin for any Combined Cycle Generation Resource within the Combined Cycle Train is submitted for that hour; and
+(c)	No On-Line Resource-Specific Ancillary Service Offer for any other Combined Cycle Generation Resource within the Combined Cycled Train is submitted for that hour. 
+(8)	ERCOT will attempt to procure the quantity from its Ancillary Service Plan from Resource-Specific Ancillary Service Offers as well as Ancillary Service Only Offers against respective ASDCs.
+4.4.7.2.1	Ancillary Service Offer Criteria
+(1)	Each Ancillary Service Offer must be submitted by a QSE and must include the following information:
+(a)	The selling QSE;
+(b)	The Resource represented by the QSE from which the offer would be supplied;
+(c)	The quantity in MW and Ancillary Service type from that Resource for this specific offer and the specific quantity in MW and Ancillary Service type of any other Ancillary Service offered from this same capacity; 
+(d)	An Ancillary Service Offer linked to a Three-Part Supply Offer from a Resource designated to be Off-Line for the offer period in its COP may only be struck if the Three-Part Supply Offer is struck.  The total capacity struck must be within limits as defined in item (4)(c)(iii) of Section 4.5.1, DAM Clearing Process;  
+(e)	An Ancillary Service Offer linked to other Ancillary Service Offers or an Energy Offer Curve from a Resource designated to be On-Line for the offer period in its COP may only be struck if the total capacity struck is within limits as defined in item (4)(c)(iii) of Section 4.5.1;
+(f)	The first and last hour of the offer; 
+(g)	A fixed quantity block, or variable quantity block indicator for the offer:
+(i)	If a fixed quantity block, not to exceed 150 MW, which may only be offered by a Load Resource that is not a Controllable Load Resource and that is offering to provide RRS, ECRS, or Non-Spin, and which may clear at a Market Clearing Price for Capacity (MCPC) below the Ancillary Service Offer price for that block, the single price (in $/MW) and single quantity (in MW) for all hours offered in that block; or
+(ii)	If a variable quantity block, which may be offered by a Generation Resource or a Load Resource, the single price (in $/MW) and single “up to” quantity (in MW) contingent on the purchase of all hours offered in that block; and
+(h)	The expiration time and date of the offer.
+(2)	A valid Ancillary Service Offer in the DAM must be received before 1000 for the effective DAM.  A valid Ancillary Service Offer in an SASM must be received before the applicable deadline for that SASM.
+(3)	No Ancillary Service Offer price may exceed the System-Wide Offer Cap (SWCAP) (in $/MW).  No Ancillary Service Offer price may be less than $0 per MW.
+(4)	The minimum amount per Resource for each Ancillary Service product that may be offered is one-tenth (0.1) MW.
+(5)	A Resource may offer more than one Ancillary Service.  
+(6)	A Load Resource that is not a Controllable Load Resource, may simultaneously offer RRS, ECRS, and Non-Spin in a DAM or SASM and be awarded RRS, ECRS, and Non-Spin for the same Operating Hour but will not be allowed to provide RRS and Non-Spin or ECRS and Non-Spin on the same Load Resource simultaneously in Real-Time.
+(7)	Offers for Load Resources may be adjusted to reflect Distribution Losses in accordance with Section 8.1.1.2, General Capacity Testing Requirements.
+(8)	A Load Resource that is qualified to perform as a Controllable Load Resource may not offer to provide Ancillary Services as a Controllable Load Resource and a Load Resource controlled by high-set under-frequency relay simultaneously behind a common breaker. 
+[NPRR1008, NPRR1014, and NPRR1128:  Replace applicable portions of Section 4.4.7.2.1 above with the following upon system implementation for NPRR1014 and NPRR1128; or upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1008:]
+4.4.7.2.1	Resource-Specific Ancillary Service Offer Criteria
+(1)	Each Resource-Specific Ancillary Service Offer must be submitted by a QSE and must include the following information:
+(a)	The selling QSE;
+(b)	The Resource represented by the QSE from which the offer would be supplied;
+(c)	The quantity in MW and Ancillary Service type from that Resource for this specific offer and the specific quantity in MW and Ancillary Service type of any other Ancillary Service offered from this same capacity; 
+(d)	A Resource-Specific Ancillary Service Offer linked to a Three-Part Supply Offer from a Resource designated to be Off-Line for the offer period in its COP may only be struck if the Three-Part Supply Offer is struck.  The total capacity struck must be within limits as defined in item (4)(c)(iii) of Section 4.5.1, DAM Clearing Process;  
+(e)	A Resource-Specific Ancillary Service Offer linked to other Resource-Specific Ancillary Service Offers or an Energy Offer Curve or Energy Bid/Offer Curve from a Resource designated to be On-Line for the offer period in its COP may only be struck if the total capacity struck is within limits as defined in item (4)(c)(iii) of Section 4.5.1;
+(f)	The first and last hour of the offer; 
+(g)	A fixed quantity block or variable quantity block indicator for the offer:
+(i)	If a fixed quantity block, not to exceed 150 MW, which may only be offered by a Load Resource that is not a Controllable Load Resource and that is offering to provide RRS, ECRS, or Non-Spin, and which may clear at a Market Clearing Price for Capacity (MCPC) below the Resource-Specific Ancillary Service Offer price for that block, the single price (in $/MW) and single quantity (in MW) for all hours offered in that block.  This fixed quantity block indicator will only be considered in the DAM and will be ignored for awarding of Ancillary Services in the Real-Time Market (RTM); or 
+(ii)	If a variable quantity block, which may be offered by a Generation Resource, an ESR, or a Load Resource, the single price (in $/MW) and single “up to” quantity (in MW) contingent on the purchase of all hours offered in that block.  This variable quantity block indicator will only be considered in the DAM and will be ignored for awarding of Ancillary Services in the RTM; and
+(h)	The expiration time and date of the offer.
+(2)	A valid Resource-Specific Ancillary Service Offer in the DAM must be received before 1000 for the effective DAM.  
+(3)	No Resource-Specific Ancillary Service Offer received before 1000 in the Day-Ahead may contain a price exceeding the Day-Ahead System-Wide Offer Cap (DASWCAP) (in $/MW).  No Resource-Specific Ancillary Service Offer received after 1430 in the Day-Ahead may contain a price exceeding the Real-Time System-Wide Offer Cap (RTSWCAP) (in $/MW).  During the Operating Hours in which prioritizing the procurement of FFR up to the maximum FFR amount is in effect, an FFR Ancillary Service Offer price may not be less than -$0.01 per MW.  FFR Ancillary Service Offer prices at all other times and any other Ancillary Service Offer prices may not be less than $0 per MW.
+(4)	The minimum amount per Resource for each Ancillary Service product that may be offered is one-tenth (0.1) MW.
+(5)	A Resource may offer more than one Ancillary Service.  
+(6)	A Load Resource, that is not a Controllable Load Resource, may simultaneously offer RRS, ECRS, and Non-Spin in a DAM and be awarded RRS, ECRS, and Non-Spin for the same Operating Hour in the DAM, but will not be awarded Non-Spin and RRS or Non-Spin and ECRS on the same Load Resource simultaneously in Real-Time.
+(7)	Offers for Load Resources may be adjusted to reflect Distribution Losses in accordance with Section 8.1.1.2, General Capacity Testing Requirements.
+(8)	A Load Resource that is qualified to perform as a Controllable Load Resource may not offer to provide Ancillary Services as a Controllable Load Resource and a Load Resource controlled by high-set under-frequency relay simultaneously behind a common breaker.
+4.4.7.2.2	Ancillary Service Offer Validation
+(1)	A valid Ancillary Service Offer is one that ERCOT has determined meets the criteria listed in Section 4.4.7.2.1, Ancillary Service Offer Criteria.
+(2)	ERCOT shall continuously validate Ancillary Service Offers and continuously display on the MIS Certified Area information that allows any QSE named in an Ancillary Service Offer to view its confirmed Ancillary Service Offers.  
+(3)	ERCOT shall notify the QSE submitting an Ancillary Service Offer if the offer was rejected or was considered invalid for any reason.  The QSE may then resubmit the offer within the appropriate market timeline.
+[NPRR1008:  Replace Section 4.4.7.2.2 above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+4.4.7.2.2	Resource-Specific Ancillary Service Offer Validation
+(1)	A valid Resource-Specific Ancillary Service Offer is one that ERCOT has determined meets the criteria listed in Section 4.4.7.2.1, Resource-Specific Ancillary Service Offer Criteria.
+(2)	ERCOT shall continuously validate Resource-Specific Ancillary Service Offers and continuously display on the MIS Certified Area information that allows any QSE named in a Resource-Specific Ancillary Service Offer to view its confirmed Resource-Specific Ancillary Service Offers.  
+(3)	ERCOT shall notify the QSE submitting a Resource-Specific Ancillary Service Offer if the offer was rejected or was considered invalid for any reason.  The QSE may then resubmit the offer within the appropriate market timeline.
+[NPRR1008 and NPRR1128:  Insert applicable portions of Section 4.4.7.2.3 below upon system implementation for NPRR1128; or upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1008:]
+4.4.7.2.3	Ancillary Service Only Offer Criteria
+(1)	Each Ancillary Service Only Offer must be submitted by a QSE and must include the following information:
+(a)	The selling QSE;
+(b)	The quantity in MW and Ancillary Service type; 
+(c)	The first and last Operating Hour of the offer; 
+(2)	A valid Ancillary Service Only Offer in the DAM must be received before 1000 in the Day-Ahead.  
+(3)	No Ancillary Service Only Offer price may exceed the DASWCAP (in $/MW).  During the Operating Hours in which prioritizing the procurement of FFR up to the maximum FFR amount is in effect, an FFR Ancillary Service Offer price may not be less than -$0.01 per MW.  FFR Ancillary Service Offer price at all other times and any other Ancillary Service Only Offer prices may not be less than $0 per MW.
+(4)	The minimum amount that may be offered is one-tenth (0.1) MW.
+[NPRR1008:  Insert Section 4.4.7.2.4 below upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+4.4.7.2.4	Ancillary Service Only Offer Validation
+(1)	A valid Ancillary Service Only Offer is one that ERCOT determines meets the criteria listed in Section 4.4.7.2.3, Ancillary Service Only Offer Criteria.
+(2)	ERCOT shall continuously validate Ancillary Service Only Offers and continuously display on the MIS Certified Area information that allows any QSE named in an Ancillary Service Only Offer to view its confirmed Ancillary Service Only Offers.  
+(3)	ERCOT will notify the QSE submitting an Ancillary Service Only Offer using the MIS Certified Area if the offer was rejected or was considered invalid for any reason.  The QSE may resubmit the offer if the time for receiving offers has not elapsed.
+4.4.7.3	Ancillary Service Trades
+(1)	An Ancillary Service Trade is the information for a QSE-to-QSE transaction that transfers an obligation to provide Ancillary Service capacity between a buyer and a seller. 
+[NPRR1008:  Replace paragraph (1) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+(1)	An Ancillary Service Trade is the information for a QSE-to-QSE transaction that transfers an obligation to provide Ancillary Service capacity or purchase Ancillary Services in the Real-Time Market (RTM) between a buyer and a seller.
+(2)	An Ancillary Service Trade that is reported to ERCOT by 1430 in the Day-Ahead changes the Ancillary Service Supply Responsibility of the buyer and seller in the DRUC process.  An Ancillary Service Trade that is reported to ERCOT after 1430 in the Day-Ahead changes the Ancillary Service Supply Responsibility of the buyer and seller in any applicable HRUC process, the deadline for which is after the trade is submitted. 
+[NPRR1008:  Replace paragraph (2) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+(2)	An Ancillary Service Trade that is reported to ERCOT by 1430 in the Day-Ahead changes the Ancillary Service Position of the buyer and seller in the DRUC process.  An Ancillary Service Trade that is reported to ERCOT after 1430 in the Day-Ahead changes the Ancillary Service Position of the buyer and seller in any applicable HRUC process, the deadline for which is after the trade is submitted.
+(3)	As soon as practicable, ERCOT shall notify each QSE through the Messaging System of any of its Ancillary Service Trades that are invalid Ancillary Service Trades.  The QSE may correct and resubmit any invalid Ancillary Service Trade, but the reporting time of the trade is determined by when the validated Ancillary Service Trade was submitted and not when the original invalid Ancillary Service Trade was submitted. 
+(4)	A QSE with an Ancillary Service Supply Responsibility for ECRS, originally designated to be provided by a Generation Resource, may transfer its responsibility via Ancillary Service Trade(s) to another QSE only if that QSE designates the ECRS will be provided by a Generation Resource.  
+[NPRR1008:  Replace paragraph (4) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+(4)	A QSE with an Ancillary Service Position for ECRS, originally designated to be provided by a Generation Resource, may transfer that portion of its Ancillary Service Position via Ancillary Service Trade(s) to another QSE only if that QSE designates the ECRS will be provided by a Generation Resource.
+[NPRR1213:  Delete paragraph (4) above upon system implementation, and upon system implementation of NPRR1171, and renumber accordingly.]
+(5)	A QSE with an Ancillary Service Supply Responsibility for ECRS, originally designated to be provided by a Load Resource providing ECRS triggered with or without under-frequency relays set at 59.70 Hz, may transfer its responsibility via Ancillary Service Trade(s) to another QSE only if that QSE designates the ECRS will be provided by either: 
+[NPRR1008:  Replace paragraph (5) above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+(5)	A QSE with an Ancillary Service Position for ECRS, originally designated to be provided by a Load Resource providing ECRS triggered with or without under-frequency relays set at 59.70 Hz, may transfer that portion of its Ancillary Service Position via Ancillary Service Trade(s) to another QSE only if that QSE designates the ECRS will be provided by either:
+(a)	A Generation Resource; or 
+(b)	A Load Resource providing ECRS triggered with or without under-frequency relays set at 59.70 Hz.  
+[NPRR1213:  Delete paragraph (5) above upon system implementation, and upon system implementation of NPRR1171, and renumber accordingly.]
+(6)	The table below shows the ECRS trades that are allowed for each type of original responsibility:
+Allowable ECRS Ancillary Service Trades
+Original Responsibility
+SCED-dispatchable ECRS
+Manually dispatched ECRS
+SCED-dispatchable ECRS
+Yes
+No
+Manually dispatched ECRS
+Yes
+Yes
+[NPRR1213:  Replace paragraph (6) above with the following upon system implementation, and upon system implementation of NPRR1171:]
+(4)	The table below shows the ECRS trades that are allowed for each type of original responsibility:
+Allowable ECRS Ancillary Service Trades
+Original Responsibility
+SCED-dispatchable ECRS not from DGRs and DESRs on a Load shed circuit
+SCED-dispatchable ECRS from DGRs and DESRs on a Load shed circuit
+Manually dispatched ECRS
+SCED-dispatchable ECRS not from DGRs and DESRs on a Load shed circuit
+Yes
+No
+No
+SCED-dispatchable ECRS from DGRs and DESRs on a Load shed circuit
+Yes
+Yes
+No
+Manually dispatched ECRS
+Yes
+No
+Yes
+(7)	The table below shows the RRS trades that are allowed for each type of original responsibility:
+Allowable RRS Ancillary Service Trades
+Original Responsibility
+Resource providing Primary Frequency Response
+Resource providing FFR triggered at 59.85 Hz
+Load Resource triggered at 59.7 Hz
+Resource providing Primary Frequency Response
+Yes
+No
+No
+Resource providing FFR triggered at 59.85 Hz
+Yes
+Yes
+Yes
+Load Resource triggered at 59.7 Hz
+Yes
+No
+Yes
+(8)       The table below shows the Non-Spin trades that are allowed for each type of original responsibility:
+Allowable Non-Spin Ancillary Service Trades
+Original Responsibility
+Generation Resource or Controllable Load Resource
+Load Resource other than a Controllable Load Resource
+Generation Resource or Controllable Load Resource
+Yes
+No
+Load Resource other than a Controllable Load Resource
+Yes
+Yes
+[NPRR1213:  Replace paragraph (8) above with the following upon system implementation, and upon system implementation of NPRR1171:]
+(6)       The table below shows the Non-Spin trades that are allowed for each type of original responsibility:
+Allowable Non-Spin Ancillary Service Trades
+Original Responsibility
+Generation Resource not DGRs and DESRs on a Load shed circuit or Controllable Load Resource
+DGRs and DESRs on a  Load shed circuit
+Load Resource other than a Controllable Load Resource
+Generation Resource not on circuits subject to Load shed or Controllable Load Resource
+Yes
+No
+No
+DGRs and DESRs on a Load shed circuit
+Yes
+Yes
+No
+Load Resource other than a Controllable Load Resource
+Yes
+No
+Yes
+(9)	A QSE with an Ancillary Service Supply Responsibility for Regulation Service may transfer that portion of its Ancillary Service Supply Responsibility via Ancillary Service Trade(s) to another QSE only if that QSE provides the transferred portion with Regulation Service that is not Fast Responding Regulation Service (FRRS).  The table below shows the Regulation Service trades that are allowed for each type of original responsibility.  The same limitations apply separately to both Reg-Up and Reg-Down:
+Allowable Regulation Ancillary Service Trades
+Original Responsibility
+Regulation Service that is not FRRS
+FRRS
+Regulation Service that is not FRRS
+Yes
+No
+FRRS
+Yes
+No
+4.4.7.3.1	Ancillary Service Trade Criteria
+(1)	Each Ancillary Service Trade must be reported by a QSE and must include the following information: 
+(a)	The buying QSE;
+(b)	The selling QSE;
+(c)	The type of Ancillary Service;
+(d)	The quantity in MW; and
+(e)	The first and last hours of the trade.
+(f)	For RRS, the QSE shall indicate the quantity of the service that is provided from:
+(i)	Resources providing Primary Frequency Response;
+(ii)	FFR Resources; and
+(iii)	Load Resources controlled by high-set under-frequency relays.
+[NPRR1014:  Replace paragraph (f) above with the following upon system implementation:]
+(f)	For RRS, the QSE shall indicate the quantity of the service that is provided from:
+(i)	Resources capable of providing Primary Frequency Response;
+(ii)	ESRs and Load Resources providing FFR; and
+(iii)	Load Resources controlled by high-set under-frequency relays.
+(2)	For ECRS, the QSE shall indicate the quantity of the service that is provided from Resources that are manually dispatched and those that are SCED-dispatchable.
+[NPRR1213:  Replace paragraph (2) above with the following upon system implementation, and upon system implementation of NPRR1171, and renumber accordingly:]
+(2)	For ECRS, the QSE shall indicate the quantity of the service that is provided from:
+(a)	Manually dispatched Resources; 
+(b)	SCED-dispatchable Resources that are not DGRs and DESRs on circuits subject to Load shed; and
+(c)	DGRs and DESRs on circuits subject to Load shed.
+(3)	For Non-Spin, the QSE shall indicate the quantity of the service that is provided from:
+(a)	Load Resources that are not Controllable Load Resources; 
+(b)	Generation Resources that are not DGRs or DESRs on circuits subject to Load shed and Controllable Load Resources; and
+(c)	DGRs and DESRs on circuits subject to Load shed.
+(3)	An Ancillary Service Trade must be confirmed by both the buying QSE and selling QSE to be considered valid and to be used in an ERCOT process.
+4.4.7.3.2	Ancillary Service Trade Validation
+(1)	A valid Ancillary Service Trade is an Ancillary Service Trade that ERCOT has determined meets the criteria listed in Section 4.4.7.3.1, Ancillary Service Trade Criteria.  Only one confirmed Ancillary Service Trade is allowed for the same buying and selling QSEs for each type of Ancillary Service for each hour.
+(2)	When an Ancillary Service Trade is reported to ERCOT, ERCOT shall notify both the buying and selling QSEs by using the Messaging System if available and the MIS Certified Area.  
+(3)	ERCOT shall continuously validate Ancillary Service Trades and continuously display on the MIS Certified Area information that allows any QSE named in an Ancillary Service Trade to view its confirmed and unconfirmed Ancillary Service Trades.  ERCOT shall also post to the MIS Certified Area any unconfirmed Ancillary Service Trades for QSEs on an hourly basis for all remaining hours of the current Operating Day and all hours of the next Operating Day. 
+(4)	The QSE that first reports the Ancillary Service Trade to ERCOT is deemed to have confirmed the Ancillary Service Trade unless it subsequently affirmatively rejects it.  The QSE that first reports an Ancillary Service Trade may reject, edit, or delete an Ancillary Service Trade that its counterpart has not confirmed.  The counterpart is deemed to have confirmed the Ancillary Service Trade when it submits an identical Ancillary Service Trade.  After both the buyer and seller have confirmed an Ancillary Service Trade, either party may reject it at any time, but the rejection is effective only for any ERCOT process for which the deadline for reporting Ancillary Service Trades has not yet passed.  
+4.4.7.4	Ancillary Service Supply Responsibility
+(1)	A QSE’s Ancillary Service Supply Responsibility is the net amount of Ancillary Service capacity that the QSE is obligated to deliver to ERCOT, by hour and service type.  The Ancillary Service Supply Responsibility is the difference in MW, by hour and service type, between the amounts specified in items (a) and (b) defined as follows:
+(a)	The sum of:
+(i)	The QSE’s Self-Arranged Ancillary Service Quantity; plus
+(ii)	The total (in MW) of Ancillary Service Trades for which the QSE is the seller; plus
+(iii)	Awards to the QSE of Ancillary Service Offers in the DAM; plus
+(iv)	Awards to the QSE of Ancillary Service Offers in the SASM; plus
+(v)	RUC-committed Ancillary Service quantities to the QSE from its Resources committed by the RUC process to provide Ancillary Service; and 
+(b)	The sum of:
+(i)	The total Ancillary Service Trades for which the QSE is the buyer; plus
+(ii)	The total Ancillary Service capacity identified as the QSE’s failure to provide as described in Section 6.4.9.1.3, Failure to Provide Ancillary Service; plus
+(iii)	The total Ancillary Service capacity identified as the QSE’s infeasible Ancillary Service, as described in Section 6.4.9.1.2, Replacement of Infeasible Ancillary Service Due to Transmission Constraints; plus
+(iv)	The total Ancillary Service capacity identified as the QSE’s reconfiguration amount as described in Section 6.4.9.2, Supplemental Ancillary Services Market.
+(2)	A QSE may only use a RUC-committed Resource during that Resource’s RUC-Committed Interval to meet the QSE’s Ancillary Service Supply Responsibility if the Resource has been committed by the RUC process to provide Ancillary Service.  The QSE shall only provide from the RUC-committed Resource the exact amount and type of Ancillary Service for which it was committed by RUC.
+(3)	By 1430 in the Day-Ahead, the QSE must notify ERCOT, in the QSE’s COP, which Resources represented by the QSE will provide the Ancillary Service capacity necessary to meet the QSE’s Ancillary Service Supply Responsibility, specified by Resource, hour, and service type.  The DAM Ancillary Service awards are Resource-specific; the QSE must include those DAM awards in its COP, and the QSE may not change that Resource-specific DAM award information until after 1600 under the conditions set out in Section 3.9, Current Operating Plan (COP). 
+(4)	Section 6.4.9.1.3 specifies what happens if the QSE fails to provide its Ancillary Service Supply Responsibility.
+(5)	A QSE’s Ancillary Service Supply Responsibility must be met by identified Resources that are qualified to provide the Ancillary Service, per Section 8.1.1.2.1, Ancillary Service Technical Requirements and Qualification Criteria and Test Methods, and available to act on Dispatch Instructions.
+[NPRR1008:  Delete Section 4.4.7.4 above upon system implementation of the Real-Time Co-Optimization (RTC) project.]

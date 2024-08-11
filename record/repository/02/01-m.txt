@@ -1,0 +1,130 @@
+M
+
+Main Power Transformer (MPT)
+Transformer in a station with generation where voltage is transformed from a voltage lower than 60 kV to a voltage at or above 60 kV.  If the voltage lower than 60 kV is the voltage level of the generator terminals, the MPT may also be referred to as a Generator Step-Up (GSU).
+Maintenance Outage (see Outage)
+Make-Whole Charge
+A charge made by ERCOT to a QSE for a Resource to recapture all or part of the revenues received by a QSE that exceed the Make-Whole Payment for a Resource.
+Make-Whole Payment 
+A payment made by ERCOT to a Qualified Scheduling Entity (QSE) for a Resource to reimburse a QSE for allowable startup and minimum energy costs of a Resource not recovered in energy revenue when a Resource is committed by Reliability Unit Commitment (RUC) and the QSE has not elected to opt out of RUC Settlement, or when a Resource is committed by the Day-Ahead Market (DAM).
+[NPRR1013:  Replace the definition “Make-Whole Payment” above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+Make-Whole Payment 
+A payment made by ERCOT to a Qualified Scheduling Entity (QSE) for a Resource to reimburse a QSE for allowable startup and minimum energy costs of a Resource not recovered in energy or Ancillary Service revenue when a Resource is committed by Reliability Unit Commitment (RUC) and the QSE has not elected to opt out of RUC Settlement, or when a Resource is committed by the Day-Ahead Market (DAM).
+Mandatory Installation Threshold
+A peak demand greater than 700 kW (or 700 kVA).
+Market Clearing Price for Capacity (MCPC)
+The hourly price for Ancillary Service capacity awarded in the Day-Ahead Market (DAM) or a Supplemental Ancillary Services Market (SASM).  
+[NPRR1013:  Replace the definition “Make-Whole Payment” above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+Market Clearing Price for Capacity (MCPC)
+The price for Ancillary Service capacity awarded in the Day-Ahead Market (DAM) or the Real-Time Market (RTM).
+Market Information System (MIS)
+An electronic communications interface established and maintained by ERCOT that enables Market Participants, as a group or individually, to access certain information through the use of authenticated credentials. 
+Market Information System (MIS) Certified Area
+The portion of the MIS that is available only to a specific Market Participant. 
+Market Information System (MIS) Secure Area
+The portion of the MIS that is available only to registered Market Participants.
+Market Notice
+A notice required by the Protocols or any Other Binding Document, or at ERCOT’s discretion, regarding market-relevant information that shall be communicated through ERCOT publicly-subscribed electronic distribution channels.
+Market Participant
+An Entity, other than ERCOT, that engages in any activity that is in whole or in part the subject of these Protocols, regardless of whether that Entity has signed an Agreement with ERCOT.  Examples of such an Entity include but are not limited to the following: 
+(a)	Load Serving Entity (LSE); 
+(b)	Qualified Scheduling Entity (QSE); 
+(c)	Transmission and/or Distribution Service Provider (TDSP); 
+(d)	Congestion Revenue Right (CRR) Account Holder; 
+(e)	Resource Entity; 
+(f)	Independent Market Information System Registered Entity (IMRE); and 
+(g)	Renewable Energy Credit (REC) Account Holder. 
+[NPRR857:  Replace the above definition “Market Participant” with the following upon system implementation and satisfying the following conditions:  (1) Southern Cross provides ERCOT with funds to cover the entire estimated cost of the project; and (2) Southern Cross has signed an interconnection agreement with a TSP and the TSP gives ERCOT written notice that Southern Cross has provided it with:  (a) Notice to proceed with the construction of the interconnection; and (b) The financial security required to fund the interconnection facilities:]
+Market Participant
+An Entity, other than ERCOT, that engages in any activity that is in whole or in part the subject of these Protocols, regardless of whether that Entity has signed an Agreement with ERCOT.  Examples of such an Entity include but are not limited to the following:
+(a) 	Load Serving Entity (LSE);
+(b) 	Qualified Scheduling Entity (QSE);
+(c)	Transmission and/or Distribution Service Provider (TDSP);
+(d) 	Direct Current Tie Operator (DCTO);
+(e) 	Congestion Revenue Right (CRR) Account Holder;
+(f) 	Resource Entity;
+(g) 	Independent Market Information System Registered Entity (IMRE); and 
+(h) 	Renewable Energy Credit (REC) Account Holder.
+Market Restart
+The processes by which ERCOT market-related systems and activities are returned to normal operations during and/or following a Market Suspension. 
+Market Segment
+The segments defined in Article 2 of the ERCOT Bylaws.
+Market Suspension
+The time period during which market-related systems and activities are terminated due to a triggering event that disables all, or a significant portion of, the necessary data and/or infrastructure for operations of those systems and markets.  Such triggering events may include, but are not limited to, Blackouts, Partial Blackouts, and Force Majeure Events. 
+Mass Transition
+The transition of ESI IDs from one CR to a Provider of Last Resort (POLR) or designated CR, or from one TDSP to another TDSP, in a quantity or within a timeframe identified by Applicable Legal Authority.
+Master Qualified Scheduling Entity (QSE) (see Qualified Scheduling Entity (QSE))
+Maximum Daily Resource Planned Outage Capacity
+The aggregate maximum MW of Resource Planned Outages that will be approved by ERCOT for any time period within a given day, calculated pursuant to Section 3.1.6.13, Maximum Daily Resource Planned Outage Capacity.
+Maximum Power Consumption (MPC) 
+For a Load Resource, the limit established by the QSE, continuously updated in Real-Time, that describes the maximum sustained power consumption of a Load Resource.  The MPC shall be a positive number in MW.
+Messaging System
+The ERCOT-to-QSE communications system used to send Real-Time notices and Dispatch Instructions to QSEs.
+Meter Data Acquisition System (MDAS)
+The system used to obtain revenue quality meter data from EPS meters and Settlement Quality Meter Data from TSPs and DSPs for Settlement and to populate the DAS and Data Archive.
+Meter Reading Entity (MRE) 
+A TSP or DSP that is responsible for providing ERCOT with ESI ID level consumption data as defined in Section 19, Texas Standard Electronic Transaction.  In the case of an EPS Meter or ERCOT-populated ESI ID data (such as Generation Resource site Load), ERCOT will be identified as the MRE in ERCOT systems.
+Metering Facilities
+Revenue Quality Meters, instrument transformers, secondary circuitry, secondary devices, meter data servers, related communication Facilities and other related local equipment intended to supply ERCOT settlement quality data.
+Minimum-Energy Offer
+An offer for the costs incurred by a Resource in producing energy at the Resource’s LSL expressed in $/MWh.
+Minimum Point-to-Point (PTP) Option Bid Price 
+A value of $0.010 representing the minimum price that can be submitted into the CRR Auction for a PTP Option bid.  
+Minimum Reservation Price 
+The lowest price that a seller is willing to accept. 
+Mitigated Offer Cap (MOC)
+An upper limit on the price of an offer as detailed in Section 4.4.9.4.1, Mitigated Offer Cap.
+[NPRR826:  Replace the above definition “Mitigated Offer Cap (MOC)” with the following upon system implementation:]
+Mitigated Offer Cap (MOC) 
+An upper limit on the price of an offer as detailed in Section 4.4.9.4.1, Mitigated Offer Cap, and Section 4.4.9.4.3, Mitigated Offer Cap for RMR Resources.
+Mitigated Offer Floor 
+A lower limit on the price of an offer as detailed in Section 4.4.9.4.2, Mitigated Offer Floor.
+Mitigation Plan (see Constraint Management Plan)
+Mothballed Generation Resource (see Resource Attribute)
+Move-In Request
+A request submitted by a CR on behalf of a Customer to initiate service at a Premise with the requesting CR.
+Move-Out Request
+A request submitted by a CR on behalf of a Customer to terminate service at a Premise with the requesting CR.
+Municipally Owned Utility (MOU)
+A utility owned, operated, and controlled by a nonprofit corporation, the directors of which are appointed by one or more municipalities, or a utility owned, operated, or controlled by a municipality.
+Municipally Owned Utility (MOU) / Electric Cooperative (EC) Non-BUSIDRRQ Interval Data Recorder (IDR)
+An IDR that is not assigned a BUSIDRRQ Load Profile Type and is located in an MOU or an EC area that is offering Customer Choice.  Data submittal for these recorders will be as per Retail Market Guide, Appendix G, ERCOT Specified File Format for Submission of Interval Data for Advanced Metering Systems.
+Must-Run Alternative (MRA)
+A resource operated under the terms of an Agreement with ERCOT as an alternative to a Reliability Must-Run (RMR) Unit.
+[NPRR885 and NPRR995:  Replace applicable portions of the above definition “Must-Run Alternative (MRA)” with the following upon system implementation:]
+Must-Run Alternative (MRA)
+A resource operated under the terms of an Agreement with ERCOT as an alternative to a Reliability Must-Run (RMR) Unit.  An MRA may be one of the following:
+Generation Resource MRA
+A generator that is registered with ERCOT as a Generation Resource that is dispatchable in Security-Constrained Economic Dispatch (SCED) and is providing Must-Run Alternative (MRA) Service under an Agreement with ERCOT.  
+Other Generation MRA
+Unregistered generation, or generation registered with ERCOT that is not dispatchable in Security-Constrained Economic Dispatch (SCED), that is providing Must-Run Alternative (MRA) Service under an Agreement with ERCOT.  An Other Generation MRA may include, but is not limited to, Settlement Only Generators (SOGs), Settlement Only Energy Storage Systems (SOESSs), and Distributed Generation (DG).
+Demand Response MRA 
+A Load providing Must-Run Alternative (MRA) Service under an Agreement with ERCOT by reducing energy consumption in response to an ERCOT instruction.  A Demand Response MRA may be an unregistered Load or a registered Load Resource other than a Controllable Load Resource.
+Weather-Sensitive MRA 
+A type of Must-Run Alternative (MRA) Service in which a Demand Response MRA provides MRA Service only after meeting the qualification requirements for weather sensitivity set forth in paragraph (5) of Section 3.14.3.1, Emergency Response Service Procurement.
+
+[NPRR885:  Insert the following definition “Must-Run Alternative (MRA) Contracted Hour(s)” upon system implementation:]
+Must-Run Alternative (MRA) Contracted Hour(s)
+The hour(s) during which an MRA is contracted under an MRA Agreement to provide MRA Service.
+
+[NPRR885:  Insert the following definition “Must-Run Alternative (MRA) Contracted Month(s)” upon system implementation:]
+Must-Run Alternative (MRA) Contracted Month(s)
+The month(s) during which an MRA is contracted under an MRA Agreement to provide MRA Service.
+
+[NPRR885:  Insert the following definition “Must-Run Alternative (MRA) Service” upon system implementation:]
+Must-Run Alternative (MRA) Service
+The use by ERCOT, under contracts with Qualified Scheduling Entities (QSEs), of capacity and energy from MRAs as an alternative to Reliability Must-Run (RMR) Service.
+
+[NPRR885:  Insert the following definition “Must-Run Alternative (MRA) Site” upon system implementation:]
+Must-Run Alternative (MRA) Site
+An individually metered component of an aggregated MRA.
+MW Injection 
+The instantaneous Megawatt (MW) energy injected into the ERCOT System as measured at the Point of Interconnection (POI).
+[NPRR1077:  Replace the above definition “MW Injection” with the following upon system implementation:]
+MW Injection 
+The instantaneous Megawatt (MW) energy injected into the ERCOT System as measured at the Point of Interconnection (POI) or Point of Common Coupling (POCC).
+MW Withdrawal 
+The instantaneous Megawatt (MW) energy withdrawn from the ERCOT System as measured at the Point of Interconnection (POI).
+[NPRR1077:  Replace the above definition “MW Withdrawal” with the following upon system implementation:]
+MW Withdrawal 
+The instantaneous Megawatt (MW) energy withdrawn from the ERCOT System as measured at the Point of Interconnection (POI) or Point of Common Coupling (POCC).

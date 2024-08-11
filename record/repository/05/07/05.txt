@@ -1,0 +1,33 @@
+5.7.5	RUC Clawback Payment
+(1)	ERCOT shall pay the revenues from all RUC Clawback Charges, including amounts for RMR Units, in a 15-minute Settlement Interval to all QSEs, on an LRS basis, as the RUC Clawback Payment.  The RUC Clawback Payment is calculated as follows for each QSE for each 15-minute Settlement Interval: 
+LARUCCBAMTq,i	=	(-1) * (RUCCBAMTTOTh / 4 * LRSq,i)
+Where:
+	RUCCBAMTTOTh	=	RUCCBAMTq,r,h
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+LARUCCBAMTq,i
+$
+RUC Clawback Payment—The RUC make-whole clawback payment to a QSE to uplift RUC Make-Whole Clawback Charges received, for a 15-minute Settlement Interval.
+RUCCBAMTTOTh
+$
+RUC Clawback Charge Total —The sum of RUC Clawback Charges to all QSEs, including amounts for RMR Units, for the hour that includes the 15-minute Settlement Interval.
+LRSq,i
+none
+Load Ratio Share—The LRS for the 15-minute Settlement Interval.  See Section 6.6.2, Load Ratio Share.
+RUCCBAMTq,r,h
+$
+RUC Clawback Charge—The RUC Clawback Charge to the QSE q for the Resource r, for the hour that includes the 15-minute Settlement Interval.  When one or more Combined Cycle Generation Resources are committed by RUC, a charge is made to the Combined Cycle Train for all RUC-committed Combined Cycle Generation Resources.
+q
+None
+A QSE.
+i
+none
+A 15-minute Settlement Interval.
+h
+none
+The hour that includes the Settlement Interval i. 
+r
+none
+A RUC-committed Generation Resource.

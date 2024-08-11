@@ -1,0 +1,37 @@
+3.7.1	Resource Parameter Criteria
+3.7.1.1	Generation Resource Parameters
+(1)	Generation Resource Parameters that may be modified, with documented reason for change, by the QSE for immediate use upon ERCOT validation include:
+(a)	Normal Ramp Rate curve; 
+(b)	Emergency Ramp Rate curve; 
+(c)	Minimum On-Line time;
+(d)	Minimum Off-Line time;
+(e)	Maximum On-Line time;
+(f)	Maximum daily starts;
+(g)	Maximum weekly starts;
+(h)	Maximum weekly energy;
+(i)	Hot start time;
+(j)	Intermediate start time;
+(k)	Cold start time;
+(l)	Hot to intermediate time; and
+(m)	Intermediate to cold time.
+3.7.1.2	Load Resource Parameters
+(1)	Resource Parameters that may be modified, with documented reason for change, by the QSE for immediate use upon ERCOT validation, which may be adjusted to reflect Distribution Losses in accordance with Section 8.1.1.2, General Capacity Testing Requirements, include the following for each of its Load Resources that is a non-Controllable Load Resource:
+(a)	Maximum interruption time;
+(b)	Maximum daily deployments;
+(c)	Maximum weekly deployments;
+(d)	Maximum weekly energy;
+(e)	Minimum notice time;
+(f)	Minimum interruption time; and
+(g)	Minimum restoration time.
+(2)	Resource Parameters that may be modified, with documented reason for change, by the QSE for immediate use upon ERCOT validation, which may be adjusted to reflect Distribution Losses in accordance with Section 8.1.1.2, include the following for each of its Controllable Load Resources, including Aggregate Load Resources (ALRs):
+(a)	Normal Ramp Rate curve;
+(b)	Emergency Ramp Rate curve;
+(c)	Maximum deployment time; and 
+(d)	Maximum weekly energy.
+(3)	Resource Parameters submitted by a Resource Entity must also include, for each of its ALRs, mapping between the ALR and the individually metered Loads, by Electric Service Identifier (ESI ID) or, in the case of a Non-Opt-In Entity (NOIE), equivalent unique meter identifier, comprising the ALR.
+[NPRR1002 and NPRR1204:  Insert applicable portions of Section 3.7.1.3 below upon system implementation for NPRR1002; or upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1204:]
+3.7.1.3	 Energy Storage Resource Parameters
+(1)	Resource Parameters for an ESR that may be modified, with documented reason for change, by the QSE for immediate use upon ERCOT validation include:
+(a)	Normal Ramp Rate curve;
+(b)	Emergency Ramp Rate curve; and
+(c)	Round Trip Efficiency.

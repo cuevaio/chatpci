@@ -1,0 +1,2 @@
+3.22	Subsynchronous Resonance
+(1)	All series capacitors shall have automatic Subsynchronous Resonance (SSR) protective relays installed and shall have remote bypass capability.  The SSR protective relays shall remain in-service when the series capacitors are in-service.

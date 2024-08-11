@@ -1,0 +1,37 @@
+3.10.8	Dynamic Ratings
+(1)	ERCOT shall use Dynamic Ratings, where available, in the Network Operations Model and the CRR Network Models.
+(2)	ERCOT shall use Dynamic Ratings in place of the Normal Rating, Emergency Rating and 15-Minute Rating as applicable as provided under paragraphs (a) or (b) below for Transmission Elements established in the Network Operations Model.  
+(a)	A TSP may provide Dynamic Ratings via ICCP for implementation in the next Operating Hour.  ERCOT shall use the Dynamic Ratings in its Supervisory Control and Data Acquisition (SCADA) alarming, Real Time Security Analysis, and SCED process.  In addition, the TSP shall provide ERCOT with a table of equipment rating versus temperature for use in operational planning studies.
+(b)	Each TSP may alternatively elect to provide ERCOT with a table of equipment rating versus temperature and a temperature value in Real-Time for each Weather Zone in which the Transmission Element is located.  ERCOT shall apply the table of temperature and rating relationships and ERCOT’s current temperature measurements to determine the rating of each such designated piece of equipment for each Operating Hour.  ERCOT shall use the TSP-provided table in operational planning studies.
+(3)	Each Operating Hour, ERCOT shall post on the MIS Secure Area updated Dynamic Ratings adjusted for the current temperature.
+(4)	ERCOT may request that a TSP submit temperature-adjusted ratings on Transmission Elements that ERCOT identifies as contributing to significant congestion costs.  Each TSP shall provide the additional ratings within two months of such a request using one of the two mechanisms for supplying temperature-adjusted ratings identified above.  Ratings for Transmission Elements operated by multiple TSPs must be supplied by each TSP that has control.  ERCOT shall use the most limiting rating and report the circumstance to the IMM.
+3.10.8.1	Dynamic Ratings Delivered via ICCP
+(1)	The TSP shall supply the following, via ICCP, updated at least every ten minutes:
+(a)	Normal Rating; and
+(b)	Optionally Emergency Rating and/or 15-Minute Rating (required when Emergency Rating is provided).
+(2)	ERCOT shall link each provided line rating with the ERCOT Network Operations Model and implement the ratings for the next Operating Hour.  ERCOT shall use the Dynamic Ratings in its SCADA alarming, real-time Security Analysis, and SCED process.  When the telemetry is not operational, ERCOT shall use a temperature appropriate for current conditions, and employ the required Dynamic Rating lookup table to determine the appropriate rating. 
+3.10.8.2	Dynamic Ratings Delivered via Static Table and Telemetered Temperature
+(1)	ERCOT shall define a set of tables implementing the dynamic characteristics provided by the TSP(s) and as applicable, Resource Entity(s), of selected transmission lines, including:
+(a)	Line ID;
+(b)	From station;
+(c)	To station;
+(d)	Weather Zone(s);
+(e)	TSP(s) and Resource Entity(s); and
+(f)	Each of the three ratings: Normal Rating, Emergency Rating, and 15-Minute Rating.
+(2)	If a TSP is providing a current temperature for each applicable Weather Zone through SCADA telemetry then ERCOT shall determine the appropriate rating based upon the telemetered temperature, and adjust the Normal Rating, Emergency Rating, and 15-Minute Rating within five minutes of receipt for the next Operating Hour.  ERCOT shall use the Dynamic Ratings in its SCADA alarming, real-time Security Analysis, and SCED process.    
+3.10.8.3	Dynamic Rating Network Operations Model Change Requests
+(1)	ERCOT shall use the NOMCR process by which TSPs provide electronically to ERCOT the dynamic rating table described in Section 3.10.8.2, Dynamic Ratings Delivered via Static Table and Telemetered Temperature.   
+3.10.8.4	ERCOT Responsibilities Related to Dynamic Ratings
+(1)	ERCOT shall provide a system to accept and implement Dynamic Ratings or temperatures to be applied to rating tables for each hour in the Day-Ahead and in the Operating Hour.  ERCOT shall also:
+(a)	Provide software and processes that allow secure access for TSPs and Market Participants and that maintains a log of data provided and the actions of the TSP and ERCOT, to implement the Dynamic Ratings as described above; 
+(b)	Use Dynamic Ratings for alarming, compliance with ERCOT and NERC requirements, and SCED purposes in both Real-Time operations and operational planning;
+(c)	Approve or reject the new Dynamic Rating request within 24 hours of receipt;
+(d) 	Post Dynamic Ratings approved by ERCOT for each planned production load of the Network Operations Model on the MIS Secure Area.  The posting will include the Transmission Element name, approved thermal rating limits, and the planned effective date; and
+(e)	Implement the approved Dynamic Rating automatically within 24 hours of approval.  
+(2)	ERCOT shall provide a system to implement Dynamic Ratings and to obtain monthly expected ambient air temperatures to be applied to rating tables for the CRR Network Models. Temperatures applied to the rating tables shall be determined using the same method as described in item (3)(f) of Section 7.5.5.4, Simultaneous Feasibility Test.  Transmission Elements that have Dynamic Ratings implemented in the Network Operations Model must have Dynamic Ratings in the CRR Network Models.
+(3)	ERCOT shall identify additional Transmission Elements that have a high probability of providing significant added economic efficiency to the ERCOT market through Dynamic Rating and request such Dynamic Ratings from the associated TSP.  ERCOT shall post annually the list of the Transmission Elements and identify if the TSP has agreed to provide the rating on the MIS Secure Area.
+3.10.8.5	Transmission Service Provider Responsibilities Related to Dynamic Ratings
+(1)	Each TSP shall:
+(a)	Provide ERCOT with tables of ratings for different ambient temperatures for Transmission Elements, as requested by ERCOT.
+(b)	Submit within two months a temperature adjusted rating table when a request is received from ERCOT unless multiple requests are made by ERCOT within the two-month period or unusual circumstances prevent the request from being accommodated in a timely fashion.  Such circumstances must be explained to ERCOT in writing and must be posted by ERCOT on the MIS Secure Area within five Business Days of receipt.
+(c)	Provide Real-Time temperatures for each Weather Zone in which the TSP has existing dynamically rated transmission equipment, or alternatively provide rating updates for each temperature-adjusted line rating updated at least once every ten minutes.

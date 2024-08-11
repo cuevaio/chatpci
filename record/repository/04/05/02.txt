@@ -1,0 +1,18 @@
+4.5.2	Ancillary Service Insufficiency
+(1)	ERCOT shall determine if there is an insufficiency in Ancillary Service Offers.  If ERCOT receives insufficient Ancillary Service Offers in the DAM to procure one or more required Ancillary Service such that the Ancillary Service Plan is deficient and system security and reliability is threatened: 
+(a)	ERCOT shall declare an Ancillary Service insufficiency and issue a Watch under Section 6.5.9.3.3, Watch.
+(b)	ERCOT shall request additional Ancillary Service Offers.  
+(i)	A QSE may resubmit an offer for an Ancillary Service that it submitted before the Watch for the same Ancillary Service quantity block, but the resubmitted offer must meet the following criteria to be considered a valid offer:
+(A)	The offer quantity may not be less than the offer quantity submitted before the Watch, unless the resubmitted offer quantity is priced lower than the offer quantity submitted before the Watch; and
+(B)	For the amount of the offer quantity that is equal to or greater than the offer quantity submitted before the Watch, the offer must be priced equal to or less than the price of the offer submitted before the Watch. 
+(ii)	A QSE may submit an offer for an additional Ancillary Service quantity block that was not submitted before the Watch.  The incremental amount of the offer may be submitted at a price subject to the offer cap, provided the offer quantity of the Ancillary Service block from paragraph (i) above is not less than the offer quantity submitted before the Watch.
+(iii)	A QSE that did not submit an Ancillary Service Offer prior to the Watch may submit a new Ancillary Service Offer at a price subject to the offer cap.
+(c)	ERCOT shall not begin executing the DAM sooner than 30 minutes after issuing the Watch.  If the additional Ancillary Service Offers are still insufficient to supply the Ancillary Service required in the Day-Ahead Ancillary Service Plan, then ERCOT shall run the DAM by reducing the Ancillary Service Plan quantities only for purposes of the DAM by the amount of insufficiency. 
+(d)	When ERCOT must reduce the Ancillary Service Plan for purposes of the DAM due to insufficient Ancillary Service Offers, ERCOT shall preserve the Ancillary Service Plan in the DAM in the following order of priority:
+(i)	Regulation Up (Reg-Up);
+(ii)	Regulation Down (Reg-Down);
+(iii)	Responsive Reserve (RRS);
+(iv) 	ERCOT Contingency Reserve Service (ECRS); and
+(v)	Non-Spin.
+(2)	ERCOT shall procure the difference in capacity between the Day-Ahead Ancillary Service Plan and the DAM-reduced Ancillary Service Plan amounts using the Supplemental Ancillary Service Market (SASM) process in accordance with Section 6.4.9.2.2, SASM Clearing Process.  If the SASM process is insufficient, then ERCOT may acquire the insufficient amount of Ancillary Services from Hourly Reliability Unit Commitment (HRUC) Resources that are qualified to provide the needed Ancillary Service.  ERCOT may also issue a Watch and procure Ancillary Services in accordance with Section 6.5.9.3.3. 
+[NPRR1008:  Delete Section 4.5.2 above upon system implementation of the Real-Time Co-Optimization (RTC) project.]

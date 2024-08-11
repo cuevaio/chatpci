@@ -1,0 +1,2 @@
+9.14.8	Disputes for Settlement Application of Integrated Telemetry for Split Generation Resources
+(1)	Settlement and billing disputes related to application of integrated Real-Time telemetry of MW or MVAr from a Generation Resource that has been split to function as two or more Split Generation Resources require a signed affidavit by all QSEs representing associated Split Generation Resources.  Data values submitted with the affidavit must be integrated to the applicable Settlement Interval format related to the Settlement and billing charge type in dispute.

@@ -1,0 +1,4 @@
+9.1.3	Settlement Statement and Invoice Access 
+(1)	A Statement or Invoice Recipient may access its Settlement Statements or Invoices electronically, using either of the following methods:
+(a)	Secured entry on the Market Information System (MIS) Certified Area;
+(b)	eXtensible Markup Language (XML) access to the MIS Certified Area.

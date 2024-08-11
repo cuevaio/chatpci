@@ -1,0 +1,53 @@
+4.4.6	PTP Obligation Bids 
+(1)	A Point-to-Point (PTP) Obligation bid is a bid that specifies the source and sink, a range of hours, and a maximum price that the bidder is willing to pay (“Not-to-Exceed Price”). 
+(2)	PTP Obligations that are bought in the Day-Ahead Market (DAM) must be settled based on the applicable Real-Time Settlement Point Prices.
+(3)	A PTP Obligation with Links to an Option is held to be reflective of the Non-Opt-In Entity’s (NOIE’s) PTP Option if the source and sink pairs on both the NOIE’s PTP Obligation and the NOIE’s PTP Option are the same, and the MWs of the NOIE’s PTP Obligations are less than or equal to the number of MWs of the NOIE’s PTP Option.  There shall be no payment for PTP Obligations with Links to an Option acquired in the DAM.
+4.4.6.1	PTP Obligation Bid Criteria
+(1)	A PTP Obligation bid must be submitted by a QSE and must include the following:
+(a)	The name of the QSE submitting the PTP Obligation bid;
+(b)	The source Settlement Point and the sink Settlement Point for the PTP Obligation or block of PTP Obligations being bid;
+(c)	NOIE peak Load forecast for the Operating Day, if the PTP Obligation bid is a PTP Obligation with Links to an Option;
+(d)	The first hour and the last hour for which the PTP Obligation or block of PTP Obligations is being bid;
+(e)	The quantity of PTP Obligations in MW for which the Not-to-Exceed Price is effective; and
+(f)	A dollars per MW per hour for the Not-to-Exceed Price.
+[NPRR918:  Replace paragraph (1) above with the following upon system implementation:] 
+(1)	A PTP Obligation bid must be submitted by a QSE and must include the following:
+(a)	The name of the QSE submitting the PTP Obligation bid;
+(b)	The source Settlement Point and the sink Settlement Point for the PTP Obligation or block of PTP Obligations being bid;
+(c)	Hourly NOIE Load forecast for the Operating Day, if the PTP Obligation bid is a PTP Obligation with Links to an Option;
+(d)	The first hour and the last hour for which the PTP Obligation or block of PTP Obligations is being bid;
+(e)	The quantity of PTP Obligations in MW for which the Not-to-Exceed Price is effective; and
+(f)	A dollars per MW per hour for the Not-to-Exceed Price.
+(2)	If the PTP Obligation bid is for more than one PTP Obligation (which is one MW for one hour), the block bid must:
+(a) 	Include the same number of PTP Obligations in each hour of the block;
+(b) 	Be for PTP Obligations that have the same source and sink Settlement Points; and
+(c) 	Be for contiguous hours.
+(3)	A PTP Obligation bid shall not contain a source Settlement Point and a sink Settlement Point that are Electrically Similar Settlement Points.
+(4)	PTP Obligation bids shall not be submitted in combination with PTP Obligation bids or with DAM Energy-Only Offer Curves and DAM Energy Bids to create the net effect of a single PTP Obligation bid containing a source Settlement Point and a sink Settlement Point that are Electrically Similar Settlement Points for the QSE or for any combination of QSEs within the same Counter-Party.
+(5)	For each NOIE or QSE representing NOIEs that designated PTP Obligations with Links to an Option, the total of each hourly MW quantity designated to be settled in Real-Time as a PTP Option may not exceed the lesser of: 
+(a)	110% of that NOIE’s peak Load forecast for the Operating Day; or
+(b)	125% of the NOIE’s hourly Load forecast for the Operating Day. 
+[NPRR918:  Replace paragraph (5) above with the following upon system implementation:] 
+(5)	For each QSE representing NOIEs that designated PTP Obligations with Links to an Option, the total of each hourly MW quantity designated to be settled in Real-Time as a PTP Option may not exceed the lesser of: 
+(a)	110% of that NOIE’s peak Load forecast for the Operating Day; or
+(b)	125% of the NOIE’s Load forecast for the Operating Hour.
+(6)	PTP Obligations with Links to an Option shall be used for delivery of energy to a NOIE Load or a valid combination of Settlement Points that physically or contractually mitigates risk in supplying the NOIE Load.  This applies to each NOIE or QSE representing NOIEs.
+(7)	In addition to the criteria above for other PTP Obligations, PTP Obligations with Links to an Option must further include the following:
+(a)	The name of the CRR Account Holder that owns the CRRs being offered; and
+(b)	The unique identifier for each CRR being offered.
+(8)	For PTP Obligations with Links to an Option, the CRR Account Holder for whom the PTP Obligations with Links to an Option are being submitted must be shown in the ERCOT CRR registration system as the owner of the CRRs being linked to the PTP Obligation.
+(9)	The minimum amount for each PTP Obligation with Links to an Option is one-tenth of one MW.  The minimum amount for each PTP Obligation bid is one MW.
+4.4.6.2	PTP Obligation Bid Validation
+(1)	A validated PTP Obligation bid is a bid that ERCOT has determined meets the criteria listed in Section 4.4.6.1, PTP Obligation Bid Criteria, with the exception of paragraphs (3), (4), (5) and (6).  Bids that do not meet the criteria in paragraph (3) of Section 4.4.6.1 will not be awarded in the DAM. 
+[NPRR918:  Replace paragraph (1) above with the following upon system implementation:] 
+(1)	A validated PTP Obligation bid is a bid that ERCOT has determined meets the criteria listed in Section 4.4.6.1, PTP Obligation Bid Criteria, with the exception of paragraphs (3), (4), and (6).  Bids that do not meet the criteria in paragraph (3) of Section 4.4.6.1 will not be awarded in the DAM.
+(2)	ERCOT shall continuously display on the MIS Certified Area information that allows any QSE submitting a PTP Obligation bid to view its valid PTP Obligation bid. 
+(3)	As soon as practicable, ERCOT shall notify each QSE through the Messaging System of any of its PTP Obligation bids that are invalid.  The QSE may correct and resubmit any invalid PTP Obligation bid within the appropriate market timeline. 
+4.4.6.3	PTP Obligations with Links to an Option DAM Award Eligibility
+(1)	A bid for a PTP Obligation with Links to an Option will not be considered eligible for award for an Operating Hour if it sources at a Resource Node where the Generation Resource has a COP Resource Status of:
+      (a)	OUT for an Operating Hour; or
+(b)	OFF for an Operating Hour; and 
+(i)	The QSE representing the Resources has not submitted a valid Three-Part Supply Offer or Ancillary Service Offer to be considered by the DAM; and
+(ii)	The QSE representing the Resource has not submitted a valid Energy Only Offer at any Resource Node associated with the Resource.
+(2)	Where more than one Generation Resource is associated with a Resource Node, ERCOT will consider a PTP Obligation with Links to an Option bid eligible for award unless all Generation Resources associated with the Resource Node do not satisfy the COP Resource Status requirements in paragraph (1) above during the Operating Hour. 
+(3)	In order for ERCOT to award a bid for a PTP Obligation with Links to an Option under this section for an upcoming year, by October 1 of the prior year a NOIE must have provided ERCOT with an attestation that the Generation Resource for the Resource Node where the bid is sourced is owned or controlled by the NOIE, or has a contractual commitment for capacity and/or energy with the NOIE.  The attestation must be executed by an officer or executive with authority to bind the NOIE, and submitted to ERCOT.  ERCOT shall rely exclusively on the attestation provided by a NOIE in determining eligibility for bid awards under this section.  ERCOT shall issue a Market Notice by September 1 of each year reminding NOIEs of the October 1 deadline for submitting attestations for the upcoming year.

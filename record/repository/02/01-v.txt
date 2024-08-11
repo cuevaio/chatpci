@@ -1,0 +1,8 @@
+Verbal Dispatch Instruction (VDI)
+A Dispatch Instruction issued orally.
+Voltage Profile
+The set of normally desired Voltage Set Points for those Generation Resources or Energy Storage Resources (ESRs) specified in paragraph (2) of Section 3.15, Voltage Support, in the ERCOT System.
+Voltage Set Point
+The voltage that a Generation Resource or Energy Storage Resource (ESR) is required to maintain at its Point of Interconnection Bus (POIB) and that is initially communicated via the Voltage Profile but may be modified by a Real-Time instruction from ERCOT, the interconnecting Transmission Service Provider (TSP), or that TSP’s agent.
+Voltage Support Service (VSS)
+An Ancillary Service that is required to maintain transmission and distribution voltages on the ERCOT Transmission Grid within acceptable limits.

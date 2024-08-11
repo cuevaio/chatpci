@@ -1,0 +1,22 @@
+9.1.2	Settlement Calendar 
+(1)	ERCOT shall post and maintain on the ERCOT website a Settlement Calendar to denote, for each Operating Day, when:
+(a)	Each scheduled Settlement Statement for the DAM will be issued under Section 9.2.4, DAM Statement, and Section 9.2.5, DAM Resettlement Statement;  
+(b)	Each scheduled Settlement Statement for the RTM will be issued under Section 9.5.4, RTM Initial Statement, Section 9.5.5, RTM Final Statement, Section 9.5.6, RTM Resettlement Statement, and Section 9.5.8, RTM True-Up Statement; 
+(c)	Each Settlement Invoice will be issued under Section 9.6, Settlement Invoices for the Day-Ahead Market and Real-Time Market; 
+(d)	Payments for the Settlement Invoice are due under Section 9.7, Payment Process for the Settlement Invoices; 
+(e)	Each Default Uplift Invoice will be issued under Section 9.19, Partial Payments by Invoice Recipients;
+(f)	Payments for Default Uplift Invoices are due under Section 9.19.1, Default Uplift Invoices;
+(g)	Each Congestion Revenue Right (CRR) Auction Invoice will be issued under Section 9.8, CRR Auction Award Invoices; 
+(h)	Payments for CRR Auction Invoices are due under Section 9.9, Payment Process for CRR Auction Invoices;
+(i)	Each CRR Auction Revenue Distribution (CARD) Invoice will be issued under Section 9.10, CRR Auction Revenue Distribution Invoices;
+(j)	Payments for CARD Invoices are due under Section 9.11, Payment Process for CRR Auction Revenue Distribution;
+(k)	Each CRR Balancing Account (CRRBA) Invoice will be issued under Section 9.12, CRR Balancing Account Invoices; 
+(l)	Payments for CRRBA Invoices are due under Section 9.13, Payment Process for the CRR Balancing Account;
+(m)	Securitization Default Charge Invoices will be issued in accordance with Section 26.3, Securitization Default Charge Invoices; 
+(n)	Payments for Securitization Default Charge Invoices are due under Section 26.3.1, Payment Process for Securitization Default Charge Invoices;
+(o)	Each Securitization Uplift Charge Initial Invoice will be issued under Section 27.4.1, Securitization Uplift Charge Initial Invoices; 
+(p)	Payments for Securitization Uplift Charge Initial Invoices are due under Section 27.4.3, Payment Process for Securitization Uplift Charge Initial Invoices; 
+(q)	Each Securitization Uplift Charge Reallocation Invoice will be issued under Section 27.4.2, Securitization Uplift Charge Reallocation Invoices; 
+(r)	Payments for Securitization Uplift Charge Reallocation Invoices are due under Section 27.4.5, Payment Process for Securitization Uplift Charge Reallocation Invoices; and
+(s)	Settlement and billing disputes for each scheduled Settlement Statement of an Operating Day and Settlement Invoice must be submitted under Section 9.14, Settlement and Billing Dispute Process.
+(2)	ERCOT shall notify Market Participants if any of the aforementioned data will not be available on the date specified in the Settlement Calendar.

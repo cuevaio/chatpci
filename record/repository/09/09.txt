@@ -1,0 +1,11 @@
+9.9	Payment Process for CRR Auction Invoices
+(1)	Payments for the Congestion Revenue Right (CRR) Auction are due on a Business Day and Bank Business Day basis in a two-day, two-step process as detailed below.
+9.9.1	Invoice Recipient Payment to ERCOT for the CRR Auction
+(1)	The payment due date and time for the CRR Auction Invoice, with funds owed by an Invoice Recipient, is 1700 on the third Bank Business Day after the CRR Auction Invoice date, unless third Bank Business Day is not a Business Day.  If the third Bank Business Day is not a Business Day, the payment is due by 1700 on the next Bank Business Day after the third Bank Business Day that is also a Business Day.
+(2)	All CRR Auction Invoices due, with funds owed by an Invoice Recipient, must be paid to ERCOT in U.S. Dollars (USDs) by Electronic Funds Transfer (EFT) in immediately available or good funds (i.e., not subject to reversal) on or before the payment due date. 
+(3)	All CRR Auction Invoices must be paid in full on the Invoice due date.
+9.9.2	ERCOT Payment to Invoice Recipients for the CRR Auction
+(1)	CRR Auction Invoices with funds owed to an Invoice Recipient must be paid by ERCOT to the Invoice Recipient by 1700 on the next day that is both a Business Day and a Bank Business Day after the day that payments are due for that CRR Auction Invoice under Section 9.9.1, Invoice Recipient Payment to ERCOT for the CRR Auction, subject to ERCOT’s right to withhold payments under Section 16, Registration and Qualification of Market Participants or pursuant to the common law. 
+(2)	ERCOT shall give irrevocable instructions to the ERCOT financial institution to remit, to each Invoice Recipient for same day value the amounts owed to each Invoice Recipient.
+9.9.3	Enforcing the Security of a Short-Paying CRR Auction Invoice Recipient
+(1)	ERCOT shall make reasonable efforts to enforce the security of the short-paying Invoice Recipient (pursuant to Section 16.11.6, Payment Breach and Late Payments by Market Participants) to the extent necessary to cover the short-pay.  A short-paying Invoice Recipient shall restore the level of its security under Section 16, Registration and Qualification of Market Participants.

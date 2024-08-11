@@ -1,0 +1,2 @@
+3.3	Management of Changes to ERCOT Transmission Grid
+(1)	Additions and changes to the ERCOT System must be coordinated with ERCOT to accurately represent the ERCOT Transmission Grid.

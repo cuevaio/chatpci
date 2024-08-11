@@ -1,0 +1,14 @@
+4.4.3	Self-Schedules
+(1)	A Self-Schedule is the information that a QSE submits for Real-Time Settlement that specifies the amount of the QSE’s energy supply at a specified source Settlement Point to be used to meet the QSE’s energy obligation at a specified sink Settlement Point.
+(2)	A Self-Schedule may be submitted for any Settlement Interval before the end of the Adjustment Period for that Settlement Interval.
+(3)	As soon as practicable, ERCOT shall notify the QSE through the Messaging System of any of its Self-Schedules that are invalid Self-Schedules.  The QSE may correct and resubmit any invalid Self-Schedule within the appropriate market timeline.
+4.4.3.1	Self-Schedule Criteria
+(1)	Each Self-Schedule must be reported by a QSE and must include the following information:
+(a)	The name of the QSE;
+(b)	The quantity of MW for each 15-minute Settlement Interval of the schedule;
+(c)	The first and last 15-minute Settlement Intervals of the schedule;
+(d)	The source Settlement Point of the schedule; and
+(e)	The sink Settlement Point of the schedule.
+4.4.3.2	Self-Schedule Validation
+(1)	A validated Self-Schedule is a Self-Schedule that ERCOT has determined meets the criteria listed in Section 4.4.3.1, Self-Schedule Criteria.
+(2)	ERCOT shall continuously validate Self-Schedules and continuously display on the MIS Secure Area information that allows the QSE named in a Self-Schedule to view validated Self-Schedules.

@@ -1,0 +1,174 @@
+3.10.1	Time Line for Network Operations Model Changes
+(1)	ERCOT shall perform periodic updates to the Network Operations Model.  Market Participants may provide Network Operations Model updates to ERCOT to implement planned transmission and Resource construction one year before the required submittal date below.  TSPs and Resource Entities must timely submit Network Operations Model changes pursuant to the schedule in this Section to be included in the updates.
+[NPRR857:  Replace paragraph (1) above with the following upon system implementation and satisfying the following conditions: (1) Southern Cross provides ERCOT with funds to cover the entire estimated cost of the project; and (2) Southern Cross has signed an interconnection agreement with a TSP and the TSP gives ERCOT written notice that Southern Cross has provided it with:  (a) Notice to proceed with the construction of the interconnection; and (b) The financial security required to fund the interconnection facilities:]
+(1)	ERCOT shall perform periodic updates to the Network Operations Model.  Market Participants may provide Network Operations Model updates to ERCOT to implement planned transmission and Resource construction one year before the required submittal date below.  TSPs, DCTOs, and Resource Entities must timely submit Network Operations Model changes pursuant to the schedule in this Section to be included in the updates.
+(2)	For a facility addition, revision, or deletion to be included in any Network Operations Model update, all technical modeling information must be submitted to ERCOT pursuant to the ERCOT NOMCR process or the applicable Resource Registration process for Resource Entities.  If a Resource Entity is required to follow the generation interconnection process for a new Generation Resource or Settlement Only Generator (SOG) as described in Planning Guide Section 5, Generator Interconnection or Modification, it must meet the conditions of Planning Guide Section 6.9, Addition of Proposed Generation to the Planning Models, before submitting a change to the Network Operations Model to reflect the new Generation Resource or SOG.
+[NPRR995:  Replace paragraph (2) above with the following upon system implementation:]
+(2)	For a facility addition, revision, or deletion to be included in any Network Operations Model update, all technical modeling information must be submitted to ERCOT pursuant to the ERCOT NOMCR process or the applicable Resource Registration process for Resource Entities.  If a Resource Entity is required to follow the generation interconnection process for a new Generation Resource, Settlement Only Generator (SOG), or Settlement Only Energy Storage System (SOESS) as described in Planning Guide Section 5, Generator Interconnection or Modification, it must meet the conditions of Planning Guide Section 6.9, Addition of Proposed Generation to the Planning Models, before submitting a change to the Network Operations Model to reflect the new Generation Resource, SOG, or SOESS.
+(3)	TSPs and Resource Entities shall submit Network Operations Model updates at least three months prior to the physical equipment change.  ERCOT shall update the Network Operations Model according to the following table:
+Deadline to Submit Information to ERCOT 
+Note 1
+Model Complete and Available for Test 
+Note 2
+Updated Network Operations Model Testing Complete
+Note 3
+Paragraph (5)
+Update Network Operations Model Production Environment
+Target Physical Equipment included in Production Model 
+Note 4
+Jan 1
+Feb 15
+March 15
+April 1
+Month of April
+Feb 1
+March 15
+April 15
+May 1
+Month of May
+March 1
+April 15
+May 15
+June 1
+Month of June
+April 1
+May 15
+June 15
+July 1
+Month of July
+May 1
+June 15
+July 15
+August 1
+Month of August
+June 1
+July 15
+August 15
+September 1
+Month of September
+July 1
+August 15
+September 15
+October 1
+Month of October
+August 1
+September 15
+October 15
+November 1
+Month of November
+September 1
+October 15
+November 15
+December 1
+Month of December
+October 1
+November 15
+December 15
+January 1
+Month of January (the next year)
+November 1
+December 15
+January 15
+February 1
+Month of February (the next year)
+December 1
+January 15
+February 15
+March 1
+Month of March (the next year)
+Notes: 
+1.	TSP and Resource Entity data submissions complete per the NOMCR process or other ERCOT-prescribed process applicable to Resource Entities for inclusion in next update period.
+2.	Network Operations Model data changes and preliminary fidelity test complete by using the Network Operations Model test facility described in paragraph (3) of Section 3.10.4, ERCOT Responsibilities.  A test version of the Redacted Network Operations Model will be posted to the MIS Secure Area for Market Participants and Network Operations Model to the MIS Certified Area for TSPs as described in paragraph (9) of Section 3.10.4, for market review and further testing by Market Participants.
+3.	Testing of the Redacted Network Operations Model by Market Participants and Network Operations Model by TSPs is complete and ERCOT begins the Energy Management System (EMS) testing prior to placing the new model into the production environment.
+4.	Updates include changes starting at this date and ending within the same month.  The schedule for Operations Model load dates will be published by ERCOT on the ERCOT website.
+[NPRR857:  Replace paragraph (3) above with the following upon system implementation and satisfying the following conditions: (1) Southern Cross provides ERCOT with funds to cover the entire estimated cost of the project; and (2) Southern Cross has signed an interconnection agreement with a TSP and the TSP gives ERCOT written notice that Southern Cross has provided it with:  (a) Notice to proceed with the construction of the interconnection; and (b) The financial security required to fund the interconnection facilities:]
+(3)	TSPs, DCTOs, and Resource Entities shall submit Network Operations Model updates at least three months prior to the physical equipment change.  ERCOT shall update the Network Operations Model according to the following table:
+Deadline to Submit Information to ERCOT 
+Note 1
+Model Complete and Available for Test 
+Note 2
+Updated Network Operations Model Testing Complete
+Note 3
+Paragraph (5)
+Update Network Operations Model Production Environment
+Target Physical Equipment included in Production Model 
+Note 4
+Jan 1
+Feb 15
+March 15
+April 1
+Month of April
+Feb 1
+March 15
+April 15
+May 1
+Month of May
+March 1
+April 15
+May 15
+June 1
+Month of June
+April 1
+May 15
+June 15
+July 1
+Month of July
+May 1
+June 15
+July 15
+August 1
+Month of August
+June 1
+July 15
+August 15
+September 1
+Month of September
+July 1
+August 15
+September 15
+October 1
+Month of October
+August 1
+September 15
+October 15
+November 1
+Month of November
+September 1
+October 15
+November 15
+December 1
+Month of December
+October 1
+November 15
+December 15
+January 1
+Month of January (the next year)
+November 1
+December 15
+January 15
+February 1
+Month of February (the next year)
+December 1
+January 15
+February 15
+March 1
+Month of March (the next year)
+Notes: 
+1.	TSP, DCTO, and Resource Entity data submissions complete per the NOMCR process or other ERCOT-prescribed process applicable to Resource Entities for inclusion in next update period.
+2.	Network Operations Model data changes and preliminary fidelity test complete by using the Network Operations Model test facility described in paragraph (3) of Section 3.10.4, ERCOT Responsibilities.  A test version of the Redacted Network Operations Model will be posted to the MIS Secure Area for Market Participants and Network Operations Model to the MIS Certified Area for TSPs as described in paragraph (9) of Section 3.10.4, for market review and further testing by Market Participants.
+3.	Testing of the Redacted Network Operations Model by Market Participants and Network Operations Model by TSPs is complete and ERCOT begins the Energy Management System (EMS) testing prior to placing the new model into the production environment.
+4.	Updates include changes starting at this date and ending within the same month.  The schedule for Operations Model load dates will be published by ERCOT on the ERCOT website.
+(4)	ERCOT shall only approve energization requests when the Transmission Element is satisfactorily modeled in the Network Operations Model.  
+(5)	Changes to an existing NOMCR that modify only Inter-Control Center Communications Protocol (ICCP) data object names shall be provided 15 days prior to the Network Operations Model load date.  NOMCR modifications containing only ICCP data object names shall not be subject to interim update reporting to the Independent Market Monitor (IMM) and Public Utility Commission of Texas (PUCT) (reference Section 3.10.4), according to the following:
+NOMCR that contains ICCP Data and is submitted …
+ERCOT shall …
+Subject to IMM & PUC Reporting
+Beyond 90 days of the energization date
+Allow modification of only ICCP data for an existing NOMCR
+No
+Between 90 and 15 days prior to the scheduled database load.
+Allow modification of only ICCP data for an existing NOMCR 
+No
+Less than 15 days before scheduled database load.
+Require a new NOMCR to be submitted containing the ICCP data 
+Yes

@@ -1,0 +1,58 @@
+Partial Blackout (see Blackout)
+Participating Congestion Revenue Right (CRR) Account Holder (see Congestion Revenue Right (CRR) Account Holder)
+Peak Load Season
+Summer months are June, July, August, and September; winter months are December, January, and February.
+PhotoVoltaic (PV)
+Of or pertaining to a material or device in which electricity is generated as a result of exposure to light. 
+PhotoVoltaic Generation Resource (PVGR) (see Resource Category)
+PhotoVoltaic Generation Resource Production Potential (PVGRPP)
+The generation in MWh per hour from a PVGR that could be generated from all available units of that Resource allocated from the 80% probability of exceedance of the Total ERCOT PhotoVoltaic Power Forecast (TEPPF).
+Physical Responsive Capability (PRC)
+A representation of the total amount of frequency responsive Resource capability On-Line in Real-Time.
+Planned Outage (see Outage)
+Planning Reserve Margin (PRM)
+The net of total capacity for the Peak Load Season, less firm peak Load for the Peak Load Season, divided by the firm peak Load for the Peak Load Season (expressed as a percentage).
+[NPRR1077:  Insert the following definition “Point of Common Coupling (POCC)” upon system implementation:]
+Point of Common Coupling (POCC)
+Any point where a Distribution Service Provider’s (DSP’s) facilities are connected to the Facilities of a Customer or a Generation Entity.
+Point of Interconnection (POI)
+Any physical location where a Generation Entity’s Facilities electrically connect to the Transmission Service Provider’s (TSP’s) Facilities.
+[NPRR1098:  Replace the above definition “Point of Interconnection (POI)” with the following upon system implementation and satisfying the following conditions:  (1) Southern Cross Transmission LLC (Southern Cross) provides ERCOT with funds to cover the entire estimated cost of the project; and (2) Southern Cross has signed an interconnection agreement with a Transmission Service Provider (TSP) and the TSP gives ERCOT written notice that Southern Cross has provided it with:  (a) Notice to proceed with the construction of the interconnection; and (b) The financial security required to fund the interconnection facilities:]
+Point of Interconnection (POI)
+Any physical location where a Generation Entity’s Facilities or any Direct Current Tie (DC Tie) Facilities electrically connect to a Transmission Service Provider’s (TSP’s) Facilities.
+Point of Interconnection Bus (POIB)
+For a Generation Resource connecting to the ERCOT Transmission System through a Transmission Service Provider (TSP) substation, the Electrical Bus at that TSP substation that is electrically closest to the Generation Resource’s Point of Interconnection (POI), or any electrically equivalent Electrical Bus in that substation.  For a Generation Resource connecting to the ERCOT Transmission System through a non-TSP substation, the Electrical Bus at that non-TSP substation that is electrically closest to the Generation Resource’s POI, or any electrically equivalent Electrical Bus in that substation.
+[NPRR1098:  Replace the above definition “Point of Interconnection Bus (POIB)” with the following upon system implementation and satisfying the following conditions:  (1) Southern Cross Transmission LLC (Southern Cross) provides ERCOT with funds to cover the entire estimated cost of the project; and (2) Southern Cross has signed an interconnection agreement with a Transmission Service Provider (TSP) and the TSP gives ERCOT written notice that Southern Cross has provided it with:  (a) Notice to proceed with the construction of the interconnection; and (b) The financial security required to fund the interconnection facilities:]
+Point of Interconnection Bus (POIB)
+For a Generation Resource or Direct Current Tie (DC Tie) connecting to the ERCOT Transmission System through a Transmission Service Provider (TSP) substation, the Electrical Bus at that TSP substation that is electrically closest to the Generation Resource’s or DC Tie’s Point of Interconnection (POI), or any electrically equivalent Electrical Bus in that substation.  For a Generation Resource connecting to the ERCOT Transmission System through a non-TSP substation, the Electrical Bus at that non-TSP substation that is electrically closest to the Generation Resource’s POI, or any electrically equivalent Electrical Bus in that substation.
+Point-to-Point (PTP) Obligation (see Congestion Revenue Right (CRR))
+Point-to-Point (PTP) Obligation with Links to an Option (see Congestion Revenue Right (CRR))
+Point-to-Point (PTP) Option (see Congestion Revenue Right (CRR))
+Point-to-Point (PTP) Option Award Charge
+A charge placed on each PTP Option bid awarded where the clearing price for the PTP Option bid awarded is less than the Minimum PTP Option Bid Price as further described in Section 7.7.1, Determination of the PTP Option Award Charge.
+Power System Stabilizer (PSS)
+A device that is installed on Generation Resources to maintain synchronous operation of the ERCOT System under transient conditions.  
+Pre-Assigned Congestion Revenue Right (PCRR) Nomination Year
+The calendar year that is three years after the year containing a PCRR nomination process.
+Pre-Contingency Action Plan (PCAP) (see Constraint Management Plan)
+Premise
+A Service Delivery Point or combination of Service Delivery Points that is assigned a single ESI ID for Settlement and registration.
+Presidio Exception
+The losses associated with keeping the 69 kV line from the Gonzales substation to the ERCOT BLT Point at Presidio constantly energized in order to maintain connectivity and allow for rapid response to contingencies impacting the reliability for Customers in the Presidio area when there is no BLT of Load from the ERCOT Control Area to a non-ERCOT Control Area.  The TDSP responsible for the Presidio BLT Point metering shall witness and maintain records of meter verification no less than every four years.
+Primary Frequency Response
+The immediate proportional increase or decrease in real power output provided by Settlement Only Transmission Generators (SOTGs), Settlement Only Transmission Self-Generators (SOTSGs), Generation Resources, Energy Storage Resources (ESRs), Controllable Load Resources, and the natural real power dampening response provided by Load in response to system frequency deviations.  This response is in the direction that stabilizes frequency.
+[NPRR995:  Replace the above definition “Primary Frequency Response” with the following upon system implementation:]
+Primary Frequency Response
+The immediate proportional increase or decrease in real power output provided by Settlement Only Transmission Generators (SOTGs), Settlement Only Transmission Self-Generators (SOTSGs), Settlement Only Transmission Energy Storage Systems (SOTESSs), Generation Resources, Energy Storage Resources (ESRs), Controllable Load Resources, and the natural real power dampening response provided by Load in response to system frequency deviations.  This response is in the direction that stabilizes frequency.
+Prior Agreement
+Any previous Agreement between an Entity, its Affiliate, or its predecessor in interest and ERCOT about performance under the ERCOT Protocols.
+Private Microgrid Island (PMI)
+A temporary configuration in which a Resource provides electricity to Customer Load through privately-owned transmission and/or distribution infrastructure when the Resource and Customer Load are disconnected from the ERCOT System due to an Outage on the transmission and/or distribution system.   
+Private Use Network
+An electric network connected to the ERCOT Transmission Grid that contains Load that is not directly metered by ERCOT (i.e., Load that is typically netted with internal generation).  
+Program Administrator
+The Entity approved by the PUCT that is responsible for carrying out the administrative responsibilities for the Renewable Energy Credit Program as set forth in P.U.C. SUBST. R. 25.173.
+Protected Information
+Information protected from disclosure as described in Section 1, Overview.
+Provider of Last Resort (POLR)
+The designated CR as defined in the P.U.C. SUBST. R. 25.43, Provider of Last Resort (POLR), for default Customer service, and as further described in Section 15.1, Customer Switch of Competitive Retailer.

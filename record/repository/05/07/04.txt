@@ -1,0 +1,517 @@
+5.7.4	RUC Make-Whole Charges 
+(1)	All QSEs that were capacity-short in each RUC will be charged for that shortage, as described in Section 5.7.4.1, RUC Capacity-Short Charge.  If the revenues from the charges under Section 5.7.4.1 are not enough to cover all RUC Make-Whole Payments for a Settlement Interval, then the difference will be uplifted to all QSEs on a Load Ratio Share (LRS) basis, as described in Section 5.7.4.2, RUC Make-Whole Uplift Charge.
+(2)	On a monthly basis, within ten days after the Initial Settlement of the last day of the month has been completed, ERCOT shall post on the Market Information System (MIS) Secure Area the total RUC Make-Whole Charges and RUC Clawback Payment Amounts, by Settlement Interval, by QSE capacity-shortfall and by amount uplifted. 
+5.7.4.1	RUC Capacity-Short Charge
+(1)	The dollar amount charged to each QSE, due to capacity shortfalls for a particular RUC, for a 15-minute Settlement Interval, is the QSE’s shortfall ratio share multiplied by the total RUC Make-Whole Payments, including amounts for RMR Units, to all QSEs for that RUC, subject to a cap.  The cap on the charge to each QSE is two multiplied by the total RUC Make-Whole Payments, including amounts for RMR Units, for all QSEs multiplied by that QSE’s capacity shortfall for that RUC process divided by the total capacity of all RUC-committed Resources during that Settlement Interval for the RUC process.  That dollar amount charged to each QSE is calculated as follows:
+RUCCSAMT ruc, i, q	=	(-1) * Max [(RUCSFRS ruc, i, q * RUCMWAMTRUCTOT ruc, h), 
+(2 * RUCSF ruc, i, q * RUCMWAMTRUCTOT ruc, h / RUCCAPTOT ruc, h)] / 4
+Where:
+RUCMWAMTRUCTOT ruc, h 	=	RUCMWAMT ruc, q, r, h
+RUCCAPTOT ruc, h	    	 =	(RUCHSL ruc, h, r – RUCHSL ruc, h, beforeCCGR)
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+RUCCSAMT ruc, i, q
+$
+RUC Capacity-Short Amount—The charge to a QSE q, due to capacity shortfall for a particular RUC process ruc, for the 15-minute Settlement Interval i.
+RUCMWAMTRUCTOT ruc, h
+$
+RUC Make-Whole Amount Total per RUC—The sum of RUC Make-Whole Payments for a particular RUC process ruc, including amounts for RMR Units, for the hour h that includes the 15-minute Settlement Interval.
+RUCMWAMT ruc, q, r, h
+$
+RUC Make-Whole Payment—The RUC Make-Whole Payment to the QSE q for Resource r, for a particular RUC process ruc, for the hour h that includes the 15-minute Settlement Interval.  See Section 5.7.1, RUC Make-Whole Payment.  When one or more Combined Cycle Generation Resources are committed by RUC, payment is made to the Combined Cycle Train for all RUC-committed Combined Cycle Generation Resources.
+RUCSFRS ruc, i, q
+none
+RUC Shortfall Ratio Share—The ratio of the QSE q’s capacity shortfall to the sum of all QSEs’ capacity shortfalls for a particular RUC process ruc, for the 15-minute Settlement Interval i.  See Section 5.7.4.1.1, Capacity Shortfall Ratio Share.
+RUCSF ruc, i, q
+MW
+RUC Shortfall—The QSE q’s capacity shortfall for a particular RUC process ruc for the 15-minute Settlement Interval i.  See formula in Section 5.7.4.1.1.
+RUCCAPTOT ruc, h
+MW
+RUC Capacity Total—The sum of the High Sustained Limits (HSLs) of all RUC-committed Resources for a particular RUC process ruc, for the hour h that includes the 15-minute Settlement Interval.  See formula in Section 5.7.4.1.1. 
+RUCHSL ruc, q, r, h
+MW
+High Sustained Limit at RUC Snapshot—The HSL of Generation Resource r represented by QSE q for the hour h, according to the COP and Trades Snapshot for the RUC process ruc.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+ruc
+none
+The RUC process for which the RUC Capacity-Short Charge is calculated.
+i
+none
+A 15-minute Settlement Interval.
+q
+none
+A QSE.
+h
+none
+The hour that includes the Settlement Interval i. 
+r
+none
+A Generation Resource that is RUC-committed for the hour that includes the Settlement Interval i, as a result of a particular RUC process.
+beforeCCGR
+none
+The Combined Cycle Generation Resource that was QSE-committed in a RUCAC-Interval.
+5.7.4.1.1	Capacity Shortfall Ratio Share
+(1)	In calculating the amount short for each QSE, the available capacity of an IRR when determining responsibility for the corresponding RUC charges shall be the lessor of the HSL value as reflected in the COP and the Wind-powered Generation Resource Production Potential (WGRPP), as described in Section 4.2.2, Wind-Powered Generation Resource Production Potential, for a Wind-powered Generation Resource (WGR), or the PhotoVoltaic Generation Resource Production Potential (PVGRPP), as described in Section 4.2.3, PhotoVoltaic Generation Resource Production Potential, for a PhotoVoltaic Generation Resource (PVGR), at the time of RUC execution.  For an IRR, the HASLSNAP variable used below shall be equal to the minimum of the WGRPP or PVGRPP described above and the HSL value as reflected in the QSE’s COP, at the time of the RUC execution.  
+(2)	In calculating the amount short for each QSE, the QSE must be given a capacity credit for non-Intermittent Renewable Resources (IRRs) that were given notice of decommitment within the two hours before the Operating Hour as a result of the RUC process by setting the HASLSNAP and HASLADJ variables used below equal to the HASLSNAP value for the Resource immediately before the decommitment instruction was given.  
+(3)	In calculating the short amount for each QSE, if the High Ancillary Service Limit (HASL) for a Resource was credited to the QSE during the RUC snapshot but the Resource experiences a Forced Outage within two hours before the start of the Settlement Interval, then the HASL for that Resource is also credited to the QSE in the HASLADJ.
+(4)	In calculating the short amount for each QSE, if the DCIMPSNAP was credited to the QSE during the RUC snapshot but the entire Direct Current Tie (DC Tie) experiences a Forced Outage within two hours before the start of the Settlement Interval, then the DCIMPSNAP is also credited to the QSE in the DCIMPADJ.
+(5)	For Combined Cycle Generation Resources, if more than one Combined Cycle Generation Resource is shown On-Line in its COP for the same Settlement hour, then the provisions of paragraph (6)(a) of Section 3.9.1, Current Operating Plan (COP) Criteria, apply in the determination of the On-Line Combined Cycle Generation Resource for that Settlement hour.
+(6)	The capacity shortfall ratio share of a specific QSE for a particular RUC process is calculated, for a 15-minute Settlement Interval, as follows:
+RUCSFRS ruc, i, q	=	RUCSF ruc, i, q / RUCSFTOT ruc, i
+      Where:
+RUCSFTOT ruc, i	=	RUCSF ruc, i, q
+(7)	The RUC Shortfall in MW for one QSE for one 15-minute Settlement Interval is:
+RUCSF ruc, i, q	=	Max (0, Max (RUCSFSNAP ruc, q, i, RUCSFADJ ruc, q, i) – RUCCAPCREDIT q, i, z)
+(8)	The RUC Shortfall in MW for one QSE for one 15-minute Settlement Interval, as measured at the snapshot, is:
+RUCSFSNAP ruc ,q ,i	=	Max (0, ((RTAML q, p, i * 4) – RUCCAPSNAP ruc, q, i))
+(9)	The amount of capacity that a QSE had according to the RUC snapshot for a 15-minute Settlement Interval is:
+RUCCAPSNAP ruc, q, i =	HASLSNAP q, r, h + (RUCCPSNAP q, h – RUCCSSNAP q, h) + (DAEP q, p, h –DAES q, p, h) + (RTQQEPSNAP q, p, i – RTQQESSNAP q, p, i) +   DCIMPSNAP q, p, i
+(10)	The RUC Shortfall in MW for one QSE for one 15-minute Settlement Interval, as measured at Real-Time, but including capacity from IRRs as seen in the RUC snapshot, is:
+RUCSFADJ ruc, q, i	=	Max (0, ((RTAML q, p, i) *4) – (HASLSNAP ruc, q, r, h + RUCCAPADJ q, i))
+(11)	The amount of capacity that a QSE had in Real-Time for a 15-minute Settlement Interval, excluding capacity from IRRs, is:
+RUCCAPADJ q, i =	HASLADJ q, r, h + (RUCCPADJ q, h – RUCCSADJ q, h) + (DAEP q, p, h – DAES q, p, h) + (RTQQEPADJ q, p, i – RTQQESADJ q, p, i) +  DCIMPADJ q, p, i
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+RUCSFRS ruc, i, q
+none
+RUC Shortfall Ratio Share—The ratio of the QSE q’s capacity shortfall to the sum of all QSEs’ capacity shortfalls, for the RUC process ruc, for the 15-minute Settlement Interval i.
+RUCSF ruc, i, q
+MW
+RUC Shortfall—The QSE q’s capacity shortfall for the RUC process ruc for the 15-minute Settlement Interval i.
+RUCSFTOT ruc, i
+MW
+RUC Shortfall Total—The sum of all QSEs’ capacity shortfalls, for a RUC process ruc, for a 15-minute Settlement Interval i.
+RUCSFSNAP ruc, q, i
+MW
+RUC Shortfall at Snapshot—The QSE q’s capacity shortfall according to the snapshot for the RUC process ruc for the 15-minute Settlement Interval i.
+RUCSFADJ ruc, q, i
+MW
+RUC Shortfall at Adjustment Period—The QSE q’s Adjustment Period capacity shortfall, including capacity from IRRs as seen in the snapshot for the RUC process ruc, for the 15-minute Settlement Interval i.
+RUCCAPCREDIT q, i, z
+MW
+RUC Capacity Credit by QSE—The QSE q’s capacity credit resulting from capacity paid through the RUC Capacity-Short Amount for RUC process z for the 15-minute Settlement Interval i.
+RTAML q, p, i
+MWh
+Real-Time Adjusted Metered Load—The QSE q’s Adjusted Metered Load (AML) at the Settlement Point p for the 15-minute Settlement Interval i.
+RUCCAPSNAP ruc, q, i
+MW
+RUC Capacity Snapshot at time of RUC—The amount of the QSE q’s calculated capacity in the COP and Trades Snapshot for the RUC process ruc for a 15-minute Settlement Interval i.  
+HASLSNAP q, r, h
+MW
+High Ancillary Services Limit at Snapshot—The HASL of the Resource r represented by the QSE q, according to the COP and Trades Snapshot for the RUC process for the hour h that includes the 15-minute Settlement Interval.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+DCIMPADJ q, p, i
+MW
+DC Import per QSE per Settlement Point—The approved aggregated DC Tie Schedule submitted by QSE q as an importer into the ERCOT System through DC Tie p according to the Adjustment Period snapshot, for the 15-minute Settlement Interval i.
+DCIMPSNAP q, p, i
+MW
+DC Import per QSE per Settlement Point—The approved aggregated DC Tie Schedule submitted by QSE q as an importer into the ERCOT System through DC Tie p, according to the snapshot for the RUC process for the hour that includes the 15-minute Settlement Interval i.
+RUCCPSNAP q, h
+MW
+RUC Capacity Purchase at Snapshot—The QSE q’s capacity purchase, according to the COP and Trades Snapshot for the RUC process for the hour h that includes the 15-minute Settlement Interval.
+RUCCSSNAP q, h
+MW
+RUC Capacity Sale at Snapshot—The QSE q’s capacity sale, according to the COP and Trades Snapshot for the RUC process for the hour h that includes the 15-minute Settlement Interval.
+RUCCAPADJ q, i
+MW
+RUC Capacity Snapshot during Adjustment Period—The amount of the QSE q’s calculated capacity in the RUC according to the COP and Trades Snapshot, excluding capacity for IRRs, at the end of the Adjustment Period for a 15-minute Settlement Interval i.
+HASLADJ q, r, h
+MW
+High Ancillary Services Limit at Adjustment Period—The HASL of a non-IRR r represented by the QSE q, according to the Adjustment Period snapshot, for the hour h that includes the 15-minute Settlement Interval.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.  
+RUCCPADJ q, h
+MW
+RUC Capacity Purchase at Adjustment Period—The QSE q’s capacity purchase, according to the Adjustment Period COP and Trades Snapshot for the hour h that includes the 15-minute Settlement Interval.
+RUCCSADJ q, h
+MW
+RUC Capacity Sale at Adjustment Period—The QSE q’s capacity sale, according to the Adjustment Period COP and Trades Snapshot for the hour h that includes the 15-minute Settlement Interval.
+DAEP q, p, h
+MW
+Day-Ahead Energy Purchase—The QSE q’s energy purchased in the DAM at the Settlement Point p for the hour h that includes the 15-minute Settlement Interval.
+DAES q, p, h
+MW
+Day-Ahead Energy Sale—The QSE q’s energy sold in the DAM at the Settlement Point p for the hour h that includes the 15-minute Settlement Interval.
+RTQQEPSNAP q, p, i
+MW
+QSE-to-QSE Energy Purchase by QSE by point—The QSE q’s Energy Trades in which the QSE is the buyer at the delivery Settlement Point p for the 15-minute Settlement Interval i, in the COP and Trades Snapshot.
+RTQQESSNAP q, p, i
+MW
+QSE-to-QSE Energy Sale by QSE by point—The QSE q’s Energy Trades in which the QSE is the seller at the delivery Settlement Point p for the 15-minute Settlement Interval i, in the COP and Trades Snapshot.
+RTQQEPADJ q, p, i
+MW
+QSE-to-QSE Energy Purchase by QSE by point—The QSE q’s Energy Trades in which the QSE is the buyer at the delivery Settlement Point p for the 15-minute Settlement Interval i, in the last COP and Trades Snapshot at the end of the Adjustment Period for that Settlement Interval.
+RTQQESADJ q, p, i
+MW
+QSE-to-QSE Energy Sale by QSE by point—The QSE q’s Energy Trades in which the QSE is the seller at the delivery Settlement Point p for the 15-minute Settlement Interval i, in the last COP and Trades Snapshot at the end of the Adjustment Period for that Settlement Interval.
+q
+none
+A QSE.
+p
+none
+A Settlement Point.
+r
+none
+A Generation Resource that is QSE-committed or planning to operate as a Quick Start Generation Resource (QSGR) for the Settlement Interval as shown by the Resource Status of OFFQS in the COP and Trades Snapshot and/or Adjustment Period snapshot; or RUC-decommitted for the Settlement Interval (subject to paragraphs (1) and (2) above); or a Switchable Generation Resource (SWGR) released by a non-ERCOT Control Area Operator (CAO) to operate in the ERCOT Control Area due to an ERCOT RUC instruction for an actual or anticipated EEA condition.  If the Settlement Interval is a RUCAC-Interval, r represents the Combined Cycle Generation Resource that was QSE-committed at the time the RUCAC was issued.
+z
+none
+A previous RUC process for the Operating Day.
+i
+none
+A 15-minute Settlement Interval.
+h
+none
+The hour that includes the Settlement Interval i. 
+ruc
+none
+The RUC process for which this RUC Shortfall Ratio Share is calculated.
+[NPRR1009, NPRR1014, NPRR1029, and NPRR1032:  Replace applicable portions of Section 5.7.4.1.1 above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project for NPRR1009; or upon system implementation for NPRR1014, NPRR1029, or NPRR1032:]
+5.7.4.1.1	Capacity Shortfall Ratio Share
+(1)	In calculating the shortfall amount for each QSE, the Resource capacity shall be calculated for a Generation Resource or ESR that meets any of the following conditions: 
+      (a)	QSE-committed;  
+(b)	Planning to operate as a Quick Start Generation Resource (QSGR) for the Settlement Interval as shown by the COP Status of OFFQS in the RUC Snapshot for the RUC Process and/or Adjustment Period; or
+(c)	A Switchable Generation Resource (SWGR) that is released by a non-ERCOT Control Area Operator (CAO) to operate in the ERCOT Control Area due to an ERCOT RUC instruction for an actual or anticipated EEA condition and that is shown as On-Line in its COP; or 
+(d)	If the Settlement Interval is a RUCAC-Interval, the Combined Cycle Generation Resource that was QSE-committed at the time the RUCAC was issued, excluding the condition for SWGRs as describe in paragraph (c) above.
+(2)	In calculating the amount short for each QSE, the available capacity of an IRR when determining responsibility for the corresponding RUC charges shall be the lessor of the HSL value, as reflected in the COP, and the Wind-powered Generation Resource Production Potential (WGRPP), as described in Section 4.2.2, Wind-Powered Generation Resource Production Potential, for a Wind-powered Generation Resource (WGR), or the PhotoVoltaic Generation Resource Production Potential (PVGRPP), as described in Section 4.2.3, PhotoVoltaic Generation Resource Production Potential, for a PhotoVoltaic Generation Resource (PVGR), at the time of RUC execution.  For an IRR, the RCAPSNAP variable used below shall be equal to the minimum of the WGRPP or PVGRPP described above and the HSL value as reflected in the QSE’s COP, at the time of the RUC execution. 
+(3)	In calculating the amount short for each QSE, the QSE must be given a capacity credit for non-Intermittent Renewable Resources (IRRs) that were given notice of decommitment within the two hours before the Operating Hour as a result of the RUC process by setting the RCAPSNAP and RCAPADJ variables used below set equal to the RCAPSNAP value for the Resource immediately before the decommitment instruction was given.
+(4)	In calculating the short amount for each QSE, if the RCAPSNAP for a non-IRR was credited to the QSE during the RUC Snapshot but the Resource experiences a Forced Outage within two hours before the start of the Settlement Interval, then the RCAPSNAP for that Resource is also credited to the QSE in the RCAPADJ.
+(5)	In calculating the short amount for each QSE, if the DCIMPSNAP was credited to the QSE during the RUC Snapshot but the entire Direct Current Tie (DC Tie) experiences a Forced Outage within two hours before the start of the Settlement Interval, then the DCIMPSNAP is also credited to the QSE in the RTDCIMP.
+(6)	For Combined Cycle Generation Resources, if more than one Combined Cycle Generation Resource is shown On-Line in its COP for the same Settlement hour, then the provisions of paragraph (6)(a) of Section 3.9.1, Current Operating Plan (COP) Criteria, apply in the determination of the On-Line Combined Cycle Generation Resource for that Settlement hour.
+(7)	The capacity shortfall ratio share of a specific QSE for a particular RUC process is calculated, for a 15-minute Settlement Interval, as follows:
+RUCSFRS ruc, i, q	=	RUCSF ruc, i, q / RUCSFTOT ruc, i
+      Where:
+RUCSFTOT ruc, i	=	RUCSF ruc, i, q
+(8)	The RUC Shortfall in MW for one QSE for one 15-minute Settlement Interval is:
+RUCSF ruc, i, q	=	Max (0, Max (RUCSFSNAP ruc, q, i, RUCSFADJ ruc, q, i) – RUCCAPCREDIT q, i, z)
+(9)	The RUC Shortfall in MW for one QSE for one 15-minute Settlement Interval, as measured at the RUC Snapshot, is:
+RUCSFSNAP ruc ,q ,i	=	Max (RUCOSFSNAP ruc, q, i , RUCASFSNAP ruc, q, i)
+(10)	The overall shortfall in MW that a QSE had according to the RUC Snapshot for a 15-minute Settlement Interval is:
+RUCOSFSNAP ruc, q, i   =  Max (0, ((RTAML q, p, i * 4) + ASONPOSSNAP ruc, q, i  – RUCCAPSNAP ruc, q, i))
+The QSE’s On-Line Ancillary Service Position according to the RUC Snapshot for a 15-minute Settlement Interval is:
+ASONPOSSNAP ruc, q, i   =  RUPOSSNAP ruc, q, h  + RRPOSSNAP ruc, q, h +                                  Max (0, (ECRPOSSNAP ruc, q, h + NSPOSSNAP ruc, q, h –                  ASOFFOFRSNAP ruc, q, r, h))
+	The amount of capacity that a QSE had according to the RUC Snapshot for a 15-minute Settlement Interval is:
+RUCCAPSNAP ruc, q, i =	RCAPSNAP ruc, q, r, h + (RUCCPSNAP ruc, q, h – RUCCSSNAP ruc, q, h) + (DAEP q, p, h –DAES q, p, h) + (RTQQEPSNAP ruc, q, p, i – RTQQESSNAP ruc, q, p, i) +   DCIMPSNAP ruc, q, p, i + ASOFRLRSNAP ruc, q, r, h
+(11)	The Ancillary Service shortfall calculation compares the Ancillary Service capability of the QSE, measured by the submitted Ancillary Service Offers, to the Ancillary Service Position.  Because the same Resource capacity can be represented in Ancillary Offers for multiple products, the aggregated capability is accounted for by grouping Ancillary Service types in the calculation below.  The Ancillary Service shortfall in MW that a QSE had according to the RUC Snapshot for a 15-minute Settlement Interval is:
+RUCASFSNAP ruc, q, i   =  Max (0, ASCAP1SNAP ruc, q, i , ASCAP2SNAP ruc, q, i, ASCAP3SNAP ruc, q, i , ASCAP4SNAP ruc, q, i, ASCAP5SNAP ruc, q, i) + Max (0, ASCAP6SNAP ruc, q, i)
+Where:
+ASCAP1SNAP ruc, q, i   =  RUPOSSNAP ruc, q, h – ASOFR1SNAP ruc, q, r, h
+ASCAP2SNAP ruc, q, i   =  RRPOSSNAPruc, q, h –  ASOFR2SNAP ruc, q, r, h 
+ASCAP3SNAP ruc, q, i   =  (RUPOSSNAP ruc, q, h + RRPOSSNAP ruc, q, h) – ASOFR3SNAP ruc, q, r, h 
+ASCAP4SNAP ruc, q, i   =  (RUPOSSNAP ruc, q, h + RRPOSSNAP ruc, q, h  + ECRPOSSNAP ruc, q, h) – ASOFR4SNAP ruc, q, r, h 
+ASCAP5SNAP ruc, q, i   =  (RUPOSSNAP ruc, q, h + RRPOSSNAP ruc, q, h+ ECRPOSSNAP ruc, q, h + NSPOSSNAP ruc, q, h) – ASOFR5SNAP ruc, q, r, h 
+ASCAP6SNAP ruc, q, i  =  RDPOSSNAP ruc, q, h – ASOFR6SNAP ruc, q, r, h
+(12)	The RUC Shortfall in MW for one QSE for one 15-minute Settlement Interval, as measured at the end of the Adjustment Period, is:
+RUCSFADJ ruc, q, i	=	Max (RUCOSFADJ ruc, q, i, RUCASFADJ q, i )
+(13)	The overall shortfall in MW that a QSE had at the end of the Adjustment Period for a 15-minute Settlement Interval, but including capacity from IRRs as seen in the RUC Snapshot, is:
+RUCOSFADJ ruc, q, i  = Max (0, ((RTAML q, p, i *4) + ASONPOSADJ q, i – (RCAPSNAP ruc, q, r, h + RUCCAPADJ q, i)))
+Where:
+The On-Line Ancillary Service Position the QSE had at the end of the Adjustment Period for a 15-minute Settlement Interval is:
+ASONPOSADJ q ,i   =  RUPOSADJ q, h  + RRPOSADJ q, h +  Max (0, (ECRPOSADJ q, h + NSPOSADJ q,h – ASOFFOFRADJ  q, r, h ))
+	The amount of capacity that a QSE had at the end of the Adjustment Period for a 15-minute Settlement Interval, excluding capacity from IRRs, is:
+RUCCAPADJ q, i =	RCAPADJ q, r, h + (RUCCPADJ q, h – RUCCSADJ q, h) + (DAEP q, p, h – DAES q, p, h) + (RTQQEPADJ q, p, i – RTQQESADJ q, p, i) +  RTDCIMP q, p + ASOFRLRADJ  q, r, h
+(14)	The Ancillary Service shortfall calculation compares the Ancillary Service capability of the QSE, measured by the submitted Ancillary Service Offers, to the Ancillary Service Position.  Because the same Resource capacity can be represented in Ancillary Offers for multiple products, the aggregated capability is accounted for by grouping Ancillary Service types in the calculation below.  The Ancillary Service shortfall in MW that a QSE had at the end of the Adjustment Period for a 15-minute Settlement Interval is:
+RUCASFADJ q, i   =  Max (0, ASCAP1ADJ q, i , ASCAP2ADJ q, i , ASCAP3ADJ q, i , ASCAP4ADJ q, i , ASCAP5ADJ q, i) + Max (0, ASCAP6ADJ q, i )
+Where:
+ASCAP1ADJ q, i   =  RUPOSADJ q, h –  ASOFR1ADJ q, r, h 
+ASCAP2ADJ q, i   =  RRPOSADJ q, h –  ASOFR2ADJ q, r, h 
+ASCAP3ADJ q, i   =  (RUPOSADJ q, h + RRPOSADJ q, h ) –  ASOFR3ADJ q, r, h 
+ASCAP4ADJ q, i   =  (RUPOSADJ q, h + RRPOSADJ q, h + ECRPOSADJ q, h) –  ASOFR4ADJ q, r, h 
+ASCAP5ADJ q, i   =  (RUPOSADJ q, h + RRPOSADJ q, h + ECRPOSADJ q, h + NSPOSADJ q, h ) –  ASOFR5ADJ q, r, h 
+ASCAP6ADJ q, i   =  RDPOSADJ q, h –   ASOFR6ADJ q, r, h 
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+RUCSFRS ruc, i, q
+none
+RUC Shortfall Ratio Share—The ratio of the QSE q’s capacity shortfall to the sum of all QSEs’ capacity shortfalls, for the RUC process ruc, for the 15-minute Settlement Interval i.
+RUCSF ruc, i, q
+MW
+RUC Shortfall—The QSE q’s capacity shortfall for the RUC process ruc for the 15-minute Settlement Interval i.
+RUCSFTOT ruc, i
+MW
+RUC Shortfall Total—The sum of all QSEs’ capacity shortfalls, for a RUC process ruc, for a 15-minute Settlement Interval i.
+RUCSFSNAP ruc, q, i
+MW
+RUC Shortfall at Snapshot—The QSE q’s capacity shortfall will be the maximum of the QSE’s overall shortfall or Ancillary Service shortfall, as calculated for the RUC process ruc for the 15-minute Settlement Interval i.
+RUCSFADJ ruc, q, i
+MW
+RUC Shortfall at End of Adjustment Period—The QSE q’s end of Adjustment Period capacity shortfall will be the maximum of the QSE’s overall shortfall or Ancillary Service shortfall, as calculated for the RUC process ruc, for the 15-minute Settlement Interval i.
+RUCCAPCREDIT q, i, z
+MW
+RUC Capacity Credit—The QSE q’s capacity credit resulting from capacity paid through the RUC Capacity-Short Amount for RUC process z for the 15-minute Settlement Interval i.
+RUCOSFSNAP ruc, q, i
+MW
+RUC Overall Shortfall at Snapshot —The QSE q’s overall capacity shortfall according to the RUC Snapshot for the RUC process ruc for the 15-minute Settlement Interval i.
+RUCASFSNAP ruc, q, i
+MW
+RUC Ancillary Service Shortfall at Snapshot —The QSE q’s Ancillary Service capacity shortfall according to the RUC Snapshot for the RUC process ruc for the 15-minute Settlement Interval i.
+ASONPOSSNAP ruc ,q ,i
+MW
+Ancillary Service On-Line Position at Snapshot – The QSE q’s total On-Line Ancillary Service position according to the RUC Snapshot for the RUC process ruc for the 15-minute Settlement Interval i. 
+RUPOSSNAP ruc, q, h
+MW
+Regulation Up Position at Snapshot  The QSE q’s Real-Time Reg-Up Ancillary Service Position according to the RUC Snapshot for the RUC process ruc for the hour h that includes the 15-minute Settlement Interval.
+RRPOSSNAP ruc, q, h
+MW
+Responsive Reserve Service Position at Snapshot  The QSE q’s Real-Time RRS Ancillary Service Position according to the RUC Snapshot for the RUC process ruc for the hour h that includes the 15-minute Settlement Interval.
+ECRPOSSNAP ruc, q, h
+MW
+ERCOT Contingency Reserve Service Position at Snapshot  The QSE q’s Real-Time ECRS Ancillary Service Position according to the RUC Snapshot for the RUC process ruc for the hour h that includes the 15-minute Settlement Interval.
+NSPOSSNAP ruc, q, h
+MW
+Non-Spin Reserve Service Position at Snapshot  The QSE q’s Real-Time Non-Spin Ancillary Service Position according to the RUC Snapshot for the RUC process ruc for the hour h that includes the 15-minute Settlement Interval.
+RDPOSSNAP ruc, q, h
+MW
+Regulation Down Position at Snapshot  The QSE q’s Real-Time Regulation Down Service (Reg-Down) Ancillary Service Position according to the RUC Snapshot for the RUC process ruc for the hour h that includes the 15-minute Settlement Interval.
+ASOFFOFRSNAP ruc, q, r, h
+MW
+Ancillary Service Offline Offers at Snapshot –The capacity represented by validated Ancillary Service Offers for ECRS and Non-Spin for Resource r represented by QSE q according to the RUC Snapshot for the RUC process ruc for the hour h that includes the 15-minute Settlement Interval.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.  A Resource’s offered capacity is only included in the sum to the extent that the Resource’s COP Status and Ancillary Service Capability indicate it would be capable of providing the Ancillary Service during the hour h.
+ASOFRLRSNAP ruc, q, r, h
+MW
+Ancillary Service Offer per Load Resource at Snapshot – The capacity represented by validated Ancillary Service Offers for Reg-Up, Non-Spin, RRS, and ECRS for the Load Resource r represented by QSE q according to the RUC Snapshot for the RUC process ruc for the hour h that includes the 15-minute Settlement Interval.  A Resource’s offered capacity is only included in the sum to the extent that the Resource’s COP Status and Ancillary Service Capability indicate it would be capable of providing the Ancillary Service during the hour h.
+ASCAP1SNAP ruc, q, i
+MW
+Ancillary Service Net Capacity Level 1 at Snapshot   The net capacity for Reg-Up for QSE q, according to the RUC Snapshot for the RUC process ruc for the 15-minute Settlement Interval i.
+ASCAP2SNAP ruc, q, i
+MW
+Ancillary Service Net Capacity Level 2 at Snapshot  The net capacity for RRS for QSE q, according to the RUC Snapshot for the RUC process ruc for the 15-minute Settlement Interval i.
+ASCAP3SNAP ruc, q, i
+MW
+Ancillary Service Net Capacity Level 3 at Snapshot  The net capacity for Reg-Up and RRS for QSE q, according to the RUC Snapshot for the RUC process ruc for the 15-minute Settlement Interval i.
+ASCAP4SNAP ruc, q, i
+MW
+Ancillary Service Net Capacity Level 4 at Snapshot  The net capacity for Reg-Up, RRS, and ECRS for QSE q, according to the RUC Snapshot for the RUC process ruc for the 15-minute Settlement Interval i.
+ASCAP5SNAP ruc, q, i
+MW
+Ancillary Service Net Capacity Level 5 at Snapshot  The net capacity for Reg-Up, RRS, ECRS, and Non-Spinning Reserve (Non-Spin) for QSE q, according to the RUC Snapshot for the RUC process ruc for the 15-minute Settlement Interval i.
+ASCAP6SNAP ruc, q, i
+MW
+Ancillary Service Net Capacity Level 6 at Snapshot  The net capacity for Reg-Down for QSE q, according to the RUC Snapshot for the RUC process ruc for the 15-minute Settlement Interval i.
+ASOFR1SNAP ruc, q, r, h
+MW
+Ancillary Service Offer Level 1 at Snapshot – The capacity represented by validated Reg-Up Ancillary Service Offers for Resource r represented by QSE q according to the RUC Snapshot for the RUC process ruc for the hour h that includes the 15-minute Settlement Interval.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.  A Resource’s offered capacity is only included in the sum to the extent that the Resource’s COP Status and Ancillary Service Capability indicate it would be capable of providing the Ancillary Service during the hour h.
+ASOFR2SNAP ruc, q, r, h
+MW
+Ancillary Service Offer Level 2 at Snapshot – The capacity represented by validated RRS Ancillary Service Offers for Resource r represented by QSE q according to the RUC Snapshot for the RUC process ruc for the hour h that includes the 15-minute Settlement Interval.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.  A Resource’s offered capacity is only included in the sum to the extent that the Resource’s COP Status and Ancillary Service Capability indicate it would be capable of providing the Ancillary Service during the hour h.   
+ASOFR3SNAP ruc, q, r, h
+MW
+Ancillary Service Offer Level 3 at Snapshot – The capacity represented by validated Reg-Up and RRS Ancillary Service Offers for Resource r represented by QSE q according to the RUC Snapshot for the RUC process ruc for the hour h that includes the 15-minute Settlement Interval.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.  A Resource’s offered capacity is only included in the sum to the extent that the Resource’s COP Status and Ancillary Service Capability indicate it would be capable of providing the Ancillary Service during the hour h.
+ASOFR4SNAP ruc, q, r, h
+MW
+Ancillary Service Offer Level 4 at Snapshot – The capacity represented by validated Reg-Up, RRS, and ECRS Ancillary Service Offers for Resource r represented by QSE q according to the RUC Snapshot for the RUC process ruc for the hour h that includes the 15-minute Settlement Interval.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.  A Resource’s offered capacity is only included in the sum to the extent that the Resource’s COP Status and Ancillary Service Capability indicate it would be capable of providing the Ancillary Service during the hour h.
+ASOFR5SNAP ruc, q, r, h
+MW
+Ancillary Service Offer Level 5 at Snapshot – The capacity represented by validated Reg-Up, RRS, ECRS, and Non-Spin Ancillary Service Offers for Resource r represented by QSE q according to the RUC Snapshot for the RUC process ruc for the hour h that includes the 15-minute Settlement Interval.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.  A Resource’s offered capacity is only included in the sum to the extent that the Resource’s COP Status and Ancillary Service Capability indicate it would be capable of providing the Ancillary Service during the hour h.
+ASOFR6SNAP ruc, q, r, h
+MW
+Ancillary Service Offer Level 6 at Snapshot – The capacity represented by validated Reg-Down Ancillary Service Offers for Resource r represented by QSE q according to the RUC Snapshot for the RUC process ruc for the hour h that includes the 15-minute Settlement Interval.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.  A Resource’s offered capacity is only included in the sum to the extent that the Resource’s COP Status and Ancillary Service Capability indicate it would be capable of providing the Ancillary Service during the hour h.
+RUCOSFADJ ruc, q, i
+MW
+RUC Overall Shortfall at End of Adjustment Period —The QSE q’s overall capacity shortfall at the end of the Adjustment Period, including capacity from IRRs as seen in the RUC Snapshot for the RUC process ruc, for the 15-minute Settlement Interval i.
+RUCASFADJ q, i
+MW
+RUC Ancillary Service Shortfall at End of Adjustment Period —The QSE q’s Ancillary Service capacity shortfall at the end of the Adjustment Period for the 15-minute Settlement Interval i.
+ASONPOSADJ q ,i
+MW
+Ancillary Service On-Line Position at End of Adjustment Period – The QSE q’s total On-Line Ancillary Service position at the end of the Adjustment Period for the 15-minute Settlement Interval i.
+RUPOSADJ q, h
+MW
+Regulation Up Position at End of Adjustment Period  The QSE q’s Reg-Up Ancillary Service Position at the end of the Adjustment Period for the hour h that includes the 15-minute Settlement Interval.
+RRPOSADJ q, h
+MW
+Responsive Reserve Service Position at End of Adjustment Period  The QSE q’s RRS Ancillary Service Position at the end of the Adjustment Period for the hour h that includes the 15-minute Settlement Interval.
+ECRPOSADJ q, h
+MW
+ERCOT Contingency Reserve Service Position at End of Adjustment Period  The QSE q’s ECRS Ancillary Service Position at the end of the Adjustment Period for the hour h that includes the 15-minute Settlement Interval.
+NSPOSADJ q, h
+MW
+Non-Spin Reserve Service Position at End of Adjustment Period  The QSE q’s Non-Spin Ancillary Service Position at the end of the Adjustment Period for the hour h that includes the 15-minute Settlement Interval.
+RDPOSADJ q, h
+MW
+Regulation Down Position at End of Adjustment Period  The QSE q’s Reg-Down Ancillary Service Position at the end of the Adjustment period for the hour h that includes the 15-minute Settlement Interval.
+ASOFFOFRADJ  q, r, h
+MW
+Ancillary Service Offline Offers at End of Adjustment Period –The capacity represented by validated Ancillary Service Offers for ECRS and Non-Spin for Resource r represented by QSE q at the end of the Adjustment Period for the hour h that includes the 15-minute Settlement Interval.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.  A Resource’s offered capacity is only included in the sum to the extent that the Resource’s COP Status and Ancillary Service Capability indicate it would be capable of providing the Ancillary Service during the hour h.
+ASOFRLRADJ  q, r, h
+MW
+Ancillary Service Offer per Load Resource at End of Adjustment Period – The capacity represented by validated Ancillary Service Offers for Reg-Up, Non-Spin, RRS, and ECRS for the Load Resource r represented by QSE q at the end of the Adjustment Period for the hour h that includes the 15-minute Settlement Interval.  A Resource’s offered capacity is only included in the sum to the extent that the Resource’s COP Status and Ancillary Service Capability indicate it would be capable of providing the Ancillary Service during the hour h.
+ASCAP1ADJ q, i
+MW
+Ancillary Service Net Capacity Level 1 at End of Adjustment Period  The net capacity at the end of the Adjustment Period for Reg-Up for QSE q, for the 15-minute Settlement Interval i.
+ASCAP2ADJ q, i
+MW
+Ancillary Service Net Capacity Level 2 at End of Adjustment Period  The net capacity at the end of the Adjustment Period for RRS for QSE q, for the 15-minute Settlement Interval i.
+ASCAP3ADJ q, i
+MW
+Ancillary Service Net Capacity Level 3 at End of Adjustment Period   The net capacity at the end of the Adjustment Period for Reg-Up and RRS for QSE q, for the 15-minute Settlement Interval i.
+ASCAP4ADJ q, i
+MW
+Ancillary Service Net Capacity Level 4 at End of Adjustment Period  The net capacity at the end of the Adjustment Period for Reg-Up, RRS, and ECRS for QSE q, for the 15-minute Settlement Interval i.
+ASCAP5ADJ q, i
+MW
+Ancillary Service Net Capacity Level 5 at End of Adjustment Period  The net capacity at the end of the Adjustment Period for Reg-Up, RRS, ECRS, and Non-Spin for QSE q, for the 15-minute Settlement Interval i.
+ASCAP6ADJ q, i
+MW
+Ancillary Service Net Capacity Level 6 at End of Adjustment Period   The net capacity at the end of the Adjustment Period for Reg-Down for QSE q, for the 15-minute Settlement Interval i.
+ASOFR1ADJ q, r, h
+MW
+Ancillary Service Offer Level 1 at End of Adjustment Period – The capacity represented by validated Reg-Up Ancillary Service Offers for Resource r represented by QSE q at the end of the Adjustment Period for the hour h that includes the 15-minute Settlement Interval.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.  A Resource’s offered capacity is only included in the sum to the extent that the Resource’s COP status and Ancillary Service Capability indicate it would be capable of providing the Ancillary Service during the hour h.
+ASOFR2ADJ q, r, h
+MW
+Ancillary Service Offer Level 2 at End of Adjustment Period – The capacity represented by validated RRS Ancillary Service Offers for Resource r represented by QSE q at the end of the Adjustment Period for the hour h that includes the 15-minute Settlement Interval.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.  A Resource’s offered capacity is only included in the sum to the extent that the Resource’s COP status and Ancillary Service Capability indicate it would be capable of providing the Ancillary Service during the hour h.
+ASOFR3ADJ q, r, h
+MW
+Ancillary Service Offer Level 3 at End of Adjustment Period – The capacity represented by validated Reg-Up and RRS Ancillary Service Offers for Resource r represented by QSE q at the end of the Adjustment Period for the hour h that includes the 15-minute Settlement Interval.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.  A Resource’s offered capacity is only included in the sum to the extent that the Resource’s COP status and Ancillary Service Capability indicate it would be capable of providing the Ancillary Service during the hour h.
+ASOFR4ADJ q, r, h
+MW
+Ancillary Service Offer Level 4 at End of Adjustment Period – The capacity represented by validated Reg-Up, RRS, and ECRS Ancillary Service Offers for Resource r represented by QSE q at the end of the Adjustment Period for the hour h that includes the 15-minute Settlement Interval.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.  A Resource’s offered capacity is only included in the sum to the extent that the Resource’s COP status and Ancillary Service Capability indicate it would be capable of providing the Ancillary Service during the hour h.
+ASOFR5ADJ q, r, h
+MW
+Ancillary Service Offer Level 5 at End of Adjustment Period– The capacity represented by validated Reg-Up, RRS, ECRS, and Non-Spin Ancillary Service Offers for Resource r represented by QSE q at the end of the Adjustment Period for the hour h that includes the 15-minute Settlement Interval.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.  A Resource’s offered capacity is only included in the sum to the extent that the Resource’s COP status and Ancillary Service Capability indicate it would be capable of providing the Ancillary Service during the hour h.
+ASOFR6ADJ q, r, h
+MW
+Ancillary Service Offer Level 6 at End of Adjustment Period – The capacity represented by validated Reg-Down Ancillary Service Offers for Resource r represented by QSE q at the end of the Adjustment Period for the hour h that includes the 15-minute Settlement Interval.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.  A Resource’s offered capacity is only included in the sum to the extent that the Resource’s COP status and Ancillary Service Capability indicate it would be capable of providing the Ancillary Service during the hour h.
+RTAML q, p, i
+MWh
+Real-Time Adjusted Metered Load—The QSE q’s Adjusted Metered Load (AML) at the Settlement Point p for the 15-minute Settlement Interval i.
+RUCCAPSNAP ruc, q, i
+MW
+RUC Capacity Snapshot at time of RUC—The amount of the QSE q’s calculated capacity in the RUC Snapshot for the RUC process ruc for a 15-minute Settlement Interval i.  
+RCAPSNAP ruc, q, r, h
+MW
+Resource Capacity at Snapshot—The available capacity of Generation Resource or ESR r represented by the QSE q, according to the RUC Snapshot for the RUC process ruc for the hour h that includes the 15-minute Settlement Interval.  For ESRs and Generation Resources that are not IRRs, the available capacity shall be equal to HSL.  For WGRs and PVGRs, the available capacity shall be equal to the WGRPP and the PVGRPP, respectively.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train. 
+DCIMPSNAP ruc, q, p, i
+MW
+DC Import at Snapshot—The approved aggregated DC Tie Schedule submitted by QSE q as an importer into the ERCOT System through DC Tie p, according to the RUC Snapshot for the RUC process ruc for the 15-minute Settlement Interval i.
+RTDCIMP q, p
+MW
+Real-Time DC Import per QSE per Settlement Point—The aggregated final, approved DC Tie Schedule submitted by QSE q as an importer into the ERCOT System through DC Tie p, for the 15-minute Settlement Interval.
+RUCCPSNAP ruc, q, h
+MW
+RUC Capacity Purchase at Snapshot—The QSE q’s capacity purchase, according to the RUC Snapshot for the RUC process ruc for the hour h that includes the 15-minute Settlement Interval.
+RUCCSSNAP ruc, q, h
+MW
+RUC Capacity Sale at Snapshot—The QSE q’s capacity sale, according to the RUC Snapshot for the RUC process ruc for the hour h that includes the 15-minute Settlement Interval.
+RUCCAPADJ q, i
+MW
+RUC Capacity at End of Adjustment Period—The amount of the QSE q’s calculated capacity, excluding capacity for IRRs, at the end of the Adjustment Period for a 15-minute Settlement Interval i.
+RCAPADJ q, r, h
+MW
+Resource Capacity at End of Adjustment Period—The HSL of a non-IRR Generation Resource or ESR r represented by the QSE q at the end of the Adjustment Period, for the hour h that includes the 15-minute Settlement Interval.  Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train. 
+RUCCPADJ q, h
+MW
+RUC Capacity Purchase at End of Adjustment Period—The QSE q’s capacity purchase, at the end of Adjustment Period for the hour h that includes the 15-minute Settlement Interval.
+RUCCSADJ q, h
+MW
+RUC Capacity Sale at End of Adjustment Period—The QSE q’s capacity sale, at the end of Adjustment Period for the hour h that includes the 15-minute Settlement Interval.
+DAEP q, p, h
+MW
+Day-Ahead Energy Purchase—The QSE q’s energy purchased in the DAM at the Settlement Point p for the hour h that includes the 15-minute Settlement Interval.
+DAES q, p, h
+MW
+Day-Ahead Energy Sale—The QSE q’s energy sold in the DAM at the Settlement Point p for the hour h that includes the 15-minute Settlement Interval.
+RTQQEPSNAP ruc, q, p, i
+MW
+Real-Time QSE-to-QSE Energy Purchase at Snapshot—The QSE q’s Energy Trades in which the QSE is the buyer at the delivery Settlement Point p for the 15-minute Settlement Interval i, in the RUC Snapshot for the RUC process ruc.
+RTQQESSNAP ruc, q, p, i
+MW
+Real-Time QSE-to-QSE Energy Sale at Snapshot—The QSE q’s Energy Trades in which the QSE is the seller at the delivery Settlement Point p for the 15-minute Settlement Interval i, in the RUC Snapshot for the RUC process ruc.
+RTQQEPADJ q, p, i
+MW
+Real-Time QSE-to-QSE Energy Purchase at End of Adjustment Period—The QSE q’s Energy Trades in which the QSE is the buyer at the delivery Settlement Point p for the 15-minute Settlement Interval i, at the end of the Adjustment Period for that Settlement Interval.
+RTQQESADJ q, p, i
+MW
+Real-Time QSE-to-QSE Energy Sale at End of Adjustment Period—The QSE q’s Energy Trades in which the QSE is the seller at the delivery Settlement Point p for the 15-minute Settlement Interval i, at the end of the Adjustment Period for that Settlement Interval.
+q
+none
+A QSE.
+p
+none
+A Settlement Point.
+r
+none
+A Generation Resource, an ESR, or a Load Resource.
+z
+none
+A previous RUC process for the Operating Day.
+i
+none
+A 15-minute Settlement Interval.
+h
+none
+The hour that includes the Settlement Interval i. 
+ruc
+none
+The RUC process for which this RUC Shortfall Ratio Share is calculated.
+5.7.4.1.2	RUC Capacity Credit
+(1)	A QSE that is charged for a capacity shortfall in one RUC process gets a capacity credit equal to the minimum of the QSE’s RUC shortfall (MW) or the total RUC capacity purchased multiplied by the QSE’s shortfall ratio share.  The capacity credit to be used in future RUC processes for the same 15-minute Settlement Interval is calculated as follows:
+RUCCAPCREDITruc,i,q	=	Min [RUCSFruc,i,q, (RUCCAPTOTruc,h* RUCSFRSruc,i,q)]
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+RUCCAPCREDITruc,i,q
+MW
+RUC Capacity Credit by QSE—The capacity credit resulting from capacity paid through the RUC Capacity-Short Charge for the 15-minute Settlement Interval.  
+RUCSFruc,i,q
+MW
+RUC Shortfall—The QSE’s capacity shortfall for the RUC process for the 15-minute Settlement Interval.
+RUCSFRSruc,i,q
+none
+RUC Shortfall Ratio Share—The ratio of the QSE’s capacity shortfall to the sum of all QSEs’ capacity shortfalls, for the RUC process, for the 15-minute Settlement Interval.
+RUCCAPTOTruc,h
+MW
+RUC Capacity Total—The total capacity of all RUC-committed Resources during the RUC process, for the hour that includes the 15-minute Settlement Interval.  
+q
+none
+A QSE.
+i
+none
+A 15-minute Settlement Interval.
+h
+none
+The hour that includes the Settlement Interval i. 
+ruc
+none
+The RUC process for which this RUC Capacity Credit is calculated.
+5.7.4.2	RUC Make-Whole Uplift Charge
+(1)	If the revenues from the charges under Section 5.7.4.1, RUC Capacity-Short Charge, are not enough to cover all RUC Make-Whole Payments, including amounts for RMR Units, for a 15-minute Settlement Interval, then the difference will be uplifted to all QSEs on a Load Ratio Share basis, as a RUC Make-Whole Uplift Charge, calculated as follows: 
+LARUCAMTq,i	=	(-1) * ( RUCMWAMTTOTh / 4 + RUCCSAMTTOTi) * LRSq,i
+Where:
+	RUCMWAMTTOTh 		=	RUCMWAMTRUCTOTruc,h
+	RUCCSAMTTOTi	    	 =	RUCCSAMTruc,i,q
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+LARUCAMTq,i
+$
+RUC Make-Whole Uplift Charge—The amount owed from the QSE based on Load Ratio Share, for the 15-minute Settlement Interval.
+RUCMWAMTTOTh
+$
+RUC Make-Whole Amount Total—The sum of RUC Make-Whole Payments for all RUC processes, including amounts for RMR Units, for the hour that includes the 15-minute Settlement Interval.
+RUCMWAMTRUCTOTruc,h
+$
+RUC Make-Whole Amount Total per RUC—The sum of RUC Make-Whole Payments for a particular RUC process, including payments for RMR Units, for the hour that includes the 15-minute Settlement Interval.
+RUCCSAMTTOTi
+$
+RUC Capacity Amount Total—The sum of RUC Capacity-Short Charges for all QSEs and RUC processes, including payments for RMR Units, for the 15-minute Settlement Interval.
+RUCCSAMTruc,i,q
+$
+RUC Capacity-Short Amount—The charge to a QSE, due to capacity shortfall for a particular RUC process, for the 15-minute Settlement Interval.
+LRSq,i
+none
+Load Ratio Share—The ratio of Adjusted Metered Load to the total ERCOT Adjusted Metered Load for the 15-minute Settlement Interval.  See Section 6.6.2, Load Ratio Share, item (2).
+i
+none
+A 15-minute Settlement Interval.
+h
+none
+The hour that includes the Settlement Interval i. 
+ruc
+none
+A RUC Process.
+q
+none
+A QSE.

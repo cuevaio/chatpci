@@ -1,0 +1,4 @@
+9.15	Settlement Charges
+(1)	The calculations to be used for Settlement charges are contained in Section 4, Day-Ahead Operations, Section 5, Transmission Security Analysis and Reliability Unit Commitment, Section 6, Adjustment Period and Real-Time Operations, Section 7, Congestion Revenue Rights, and Section 9, Settlement and Billing.  
+9.15.1	Charge Type Matrix	
+(1)	ERCOT shall post a Charge Type Matrix on the ERCOT website that summarizes each Charge Type by variable name used in the Protocols, description, and Protocol section number reference.  ERCOT post changes to this Charge Type Matrix at least ten days before implementation of change.

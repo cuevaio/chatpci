@@ -1,0 +1,288 @@
+Rating
+Conductor/Transformer 2-Hour Rating
+The two-hour MVA rating of the conductor or transformer only, excluding substation terminal equipment in series with a conductor or transformer, at the applicable ambient temperature.  The conductor or transformer can operate at this rating for two hours without violation of National Electrical Safety Code (NESC) clearances or equipment failure.
+Emergency Rating 
+The two-hour MVA rating of a Transmission Element, including substation terminal equipment in series with a conductor or transformer, at the applicable ambient temperature.  The Transmission Element can operate at this rating for two hours without violation of NESC clearances or equipment failure.
+15-Minute Rating
+The 15-minute MVA rating of a Transmission Element, including substation terminal equipment in series with a conductor or transformer, at the applicable ambient temperature and with a step increase from a prior loading up to 90% of the Normal Rating.  The Transmission Element can operate at this rating for 15 minutes, assuming its pre-contingency loading up to 90% of the Normal Rating limit at the applicable ambient temperature, without violation of NESC clearances or equipment failure.  This rating takes advantage of the time delay associated with heating of a conductor or transformer following a sudden increase in current.  
+Normal Rating
+The continuous MVA rating of a Transmission Element, including substation terminal equipment in series with a conductor or transformer, at the applicable ambient temperature.  The Transmission Element can operate at this rating indefinitely without damage, or violation of NESC clearances.  
+Relay Loadability Rating
+The MVA rating below which no load-responsive phase-protection relay tripping is expected.  The Relay Loadability Rating is calculated based on the trip points of protective devices at the equipment terminals of the affected Transmission Element under a set of operating criteria defined by the Transmission Element owner.
+Reactive Power
+The product of voltage and the out-of-phase component of alternating current.  Reactive Power, usually measured in MVAr, is produced by capacitors, overexcited generators and other capacitive devices and is absorbed by reactors, under-excited generators and other inductive devices.
+Real-Time
+The current instant in time.
+[NPRR1013:  Insert the following definition “Real-Time Market (RTM)” upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+Real-Time Market (RTM)
+A Real-Time, co-optimized market in the Operating Day for Ancillary Service capacity and energy.
+Real-Time Market (RTM) Energy Bid
+A proposal to buy energy in the RTM at a monotonically non-increasing price with increasing quantity.
+Real-Time Market (RTM) Final Statement (see Settlement Statement)
+Real-Time Market (RTM) Initial Statement (see Settlement Statement)
+Real-Time Market (RTM) Resettlement Statement (see Settlement Statement)
+Real-Time Market (RTM) True-Up Statement (see Settlement Statement)
+Real-Time Off-Line Reserve Price Adder
+A Real-Time price adder that captures the value of the opportunity costs of Off-Line reserves based on the defined ORDC as detailed in Section 6.7.5, Real-Time Ancillary Service Imbalance Payment or Charge.
+[NPRR1013:  Delete the above definition “Real-Time Off-Line Reserve Price Adder” upon system implementation of the Real-Time Co-Optimization (RTC) project.]
+Real-Time On-Line Reliability Deployment Price
+A Real-Time price for each 15-minute Settlement Interval reflecting the impact of reliability deployments on energy prices that is calculated from the Real-Time On-Line Reliability Deployment Price Adder.
+[NPRR1013:  Delete the above definition “Real-Time On-Line Reliability Deployment Price” upon system implementation of the Real-Time Co-Optimization (RTC) project.]
+Real-Time On-Line Reliability Deployment Price Adder
+A Real-Time price adder that captures the impact of reliability deployments on energy prices for each Security-Constrained Economic Dispatch (SCED) process as detailed in Section 6.5.7.3.1, Determination of Real-Time On-Line Reliability Deployment Price Adder, and Section 6.7.5, Real-Time Ancillary Service Imbalance Payment or Charge.
+[NPRR1013:  Delete the above definition “Real-Time On-Line Reliability Deployment Price Adder” upon system implementation of the Real-Time Co-Optimization (RTC) project.]
+Real-Time On-Line Reserve Price Adder
+A Real-Time price adder that captures the value of the opportunity costs of On-Line reserves based on the defined ORDC as detailed in Section 6.7.5.
+[NPRR1013:  Delete the above definition “Real-Time On-Line Reserve Price Adder” upon system implementation of the Real-Time Co-Optimization (RTC) project.]
+
+[NPRR1013:  Insert the following definition “Real-Time Reliability Deployment Price” upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+Real-Time Reliability Deployment Price
+Real-Time Reliability Deployment Price for Ancillary Service
+A Real-Time price for each 15-minute Settlement Interval determined for each Ancillary Service reflecting the impact of reliability deployments on Ancillary service prices, which is calculated from the Real-Time Reliability Deployment Price Adder for Ancillary Service.
+Real-Time Reliability Deployment Price for Energy
+A Real-Time price for each 15-minute Settlement Interval reflecting the impact of reliability deployments on energy prices that is calculated from the Real-Time Reliability Deployment Price Adder for Energy.
+
+[NPRR1013:  Insert the following definition “Real-Time Reliability Deployment Price Adder” upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+Real-Time Reliability Deployment Price Adder
+Real-Time Reliability Deployment Price Adder for Ancillary Service 
+A Real-Time price adder that captures the impact of reliability deployments on prices for each Ancillary Service for each Security-Constrained Economic Dispatch (SCED) process, as detailed in Section 6.5.7.3.1, Determination of Real-Time Reliability Deployment Price Adders.
+Real-Time Reliability Deployment Price Adder for Energy
+A Real-Time price adder that captures the impact of reliability deployments on energy prices for each Security-Constrained Economic Dispatch (SCED) process as detailed in Section 6.5.7.3.1, Determination of Real-Time Reliability Deployment Price Adders.
+Real-Time Reserve Price for Off-Line Reserves
+A Real-Time price calculated for Off-Line reserves for each 15-minute Settlement Interval using the data and formulas as detailed in Section 6.7.5.
+[NPRR1013:  Delete the above definition “Real-Time Reserve Price for Off-Line Reserves” upon system implementation of the Real-Time Co-Optimization (RTC) project.]
+Real-Time Reserve Price for On-Line Reserves
+A Real-Time price calculated for On-Line reserves for each 15-minute Settlement Interval using the data and formulas as detailed in Section 6.7.5.
+[NPRR1013:  Delete the above definition “Real-Time Reserve Price for On-Line Reserves” upon system implementation of the Real-Time Co-Optimization (RTC) project.]
+
+[NPRR1013:  Insert the following definition “Real-Time System-Wide Offer Cap (RTSWCAP)” upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+Real-Time System-Wide Offer Cap (RTSWCAP)
+The RTSWCAP shall be determined in accordance with Public Utility Commission of Texas (PUCT) Substantive Rules.
+Redacted Network Operations Model 
+A version of the Network Operations Model, redacted to exclude Private Use Network Load data and the following defined Resource Parameters as applicable:  
+(a)	Normal Ramp Rate curve; 
+(b)	Emergency Ramp Rate curve; 
+(c)	Minimum On-Line time;
+(d)	Minimum Off-Line time;
+(e)	Hot start time;
+(f)	Intermediate start time; 
+(g)	Cold start time;
+(h)	Maximum weekly starts;
+(i)	Maximum On-Line time; 
+(j)	Maximum daily starts;
+(k)	Maximum weekly energy;
+(l)	Hot-to-intermediate time;
+(m)	Intermediate-to-cold time;
+(n)	Minimum interruption time;
+(o)	Minimum restoration time;
+(p)	Maximum weekly deployments;
+(q)	Maximum interruption time;
+(r)	Maximum daily deployments;
+(s)	Minimum notice time; and
+(t)	Maximum deployment time.   
+Regional Planning Group (RPG) Project Review
+The evaluation of a proposed transmission project pursuant to the process described in Section 3.11.4, Regional Planning Group Project Review Process.
+Regulation Down Service (Reg-Down) (see Regulation Service)
+Regulation Service
+An Ancillary Service that consists of either Regulation Down Service (Reg-Down) or Regulation Up Service (Reg-Up).
+Fast Responding Regulation Service (FRRS)
+A subset of Regulation Service that consists of either Fast Responding Regulation Down Service (FRRS-Down) or Fast Responding Regulation Up Service (FRRS-Up).  Except where otherwise specified, all requirements that apply to Regulation Service also apply to FRRS.
+[NPRR1013 and NPRR1014:  Delete the above definition “Fast Responding Regulation Service (FRRS)” upon system implementation of the Real-Time Co-Optimization (RTC) project; or upon system implementation of NPRR1014, respectively.]
+Regulation Down Service (Reg-Down)
+An Ancillary Service that provides capacity that can respond to signals from ERCOT within five seconds to respond to changes in system frequency.  Such capacity is the amount available below any Base Point but above the Low Sustained Limit (LSL) of a Generation Resource and may be called on to change output as necessary throughout the range of capacity available to maintain proper system frequency.  A Load Resource providing Reg-Down must be able to increase and decrease Load as deployed within its Ancillary Service Schedule for Reg-Down below the Load Resource’s Maximum Power Consumption (MPC) limit.
+[NPRR1013 and NPRR1014:  Replace applicable portions of the definition “Regulation Down Service (Reg-Down)” above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project; or upon system implementation of NPRR1014, respectively:]
+Regulation Down Service (Reg-Down)
+An Ancillary Service that provides capacity that can respond to signals from ERCOT within five seconds to respond to changes in system frequency.  Such capacity is the amount available below any Base Point but above the Low Sustained Limit (LSL) of a Generation Resource and may be called on to change output as necessary throughout the range of capacity available to maintain proper system frequency.  An Energy Storage Resource (ESR) providing Reg-Down must be able to modify its energy withdrawal or injection as deployed for Reg-Down across the full range of capacity available to maintain proper system frequency.  A Load Resource providing Reg-Down must be able to increase and decrease Load as deployed within its Ancillary Service award for Reg-Down below the Load Resource’s Maximum Power Consumption (MPC) limit.
+Fast Responding Regulation Down Service (FRRS-Down)
+A subset of Regulation Down Service (Reg-Down) in which the participating Resource provides Reg-Down capacity to ERCOT within 60 cycles of either its receipt of an ERCOT Dispatch Instruction or its detection of a trigger frequency independent of an ERCOT Dispatch Instruction.  Except where otherwise specified, all requirements that apply to Reg-Down also apply to FRRS-Down.
+[NPRR1013 and NPRR1014:  Delete the above definition “Fast Responding Regulation Down Service (FRRS-Down)” upon system implementation of the Real-Time Co-Optimization (RTC) project; or upon system implementation of NPRR1014, respectively.]
+Regulation Up Service (Reg-Up)
+An Ancillary Service that provides capacity that can respond to signals from ERCOT within five seconds to respond to changes in system frequency.  Such capacity is the amount available above any Base Point but below the High Sustained Limit (HSL) of a Generation Resource and may be called on to change output as necessary throughout the range of capacity available to maintain proper system frequency.  A Load Resource providing Reg-Up must be able to increase and decrease Load as deployed within its Ancillary Service Schedule for Reg-Up above the Load Resource’s Low Power Consumption (LPC) limit.  
+[NPRR1013 and NPRR1014:  Replace applicable portions of the definition “Regulation Up Service (Reg-Up)” above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project; or upon system implementation of NPRR1014, respectively:]
+Regulation Up Service (Reg-Up)
+An Ancillary Service that provides capacity that can respond to signals from ERCOT within five seconds to respond to changes in system frequency.  Such capacity is the amount available above any Base Point but below the High Sustained Limit (HSL) of a Generation Resource and may be called on to change output as necessary throughout the range of capacity available to maintain proper system frequency.  An Energy Storage Resource (ESR) providing Reg-Up must be able to modify its energy withdrawal or injection as deployed for Reg-Up across the full range of capacity available to maintain proper system frequency.  A Load Resource providing Reg-Up must be able to increase and decrease Load as deployed within its Ancillary Service award for Reg-Up above the Load Resource’s Low Power Consumption (LPC) limit.
+Fast Responding Regulation Up Service (FRRS-Up)
+A subset of Reg-Up in which the participating Resource provides Reg-Up capacity to ERCOT within 60 cycles of either its receipt of an ERCOT Dispatch Instruction or its detection of a trigger frequency independent of an ERCOT Dispatch Instruction.  Except where otherwise specified, all requirements that apply to Reg-Up also apply to FRRS-Up.
+[NPRR1013 and NPRR1014:  Delete the above definition “Fast Responding Regulation Up Service (FRRS-Up)” upon system implementation of the Real-Time Co-Optimization (RTC) project; or upon system implementation of NPRR1014, respectively.]
+Regulation Up Service (Reg-Up) (see Regulation Service)  
+Relay Loadability Rating (see Rating)
+Reliability Monitor
+An Entity selected by the Public Utility Commission of Texas (PUCT) to monitor compliance with all state reliability-related laws, rules, and ERCOT procedures, including Protocols, processes, and any other operating standards applicable to the ERCOT Region.
+Reliability Must-Run (RMR) Service
+An Ancillary Service provided from an RMR Unit under an Agreement with ERCOT.
+Reliability Must-Run (RMR) Unit
+A Generation Resource operated under the terms of an Agreement with ERCOT that would not otherwise be operated except that it is necessary to provide voltage support, stability or management of localized transmission constraints under Credible Single Contingency criteria where market solutions do not exist.
+Reliability Unit Commitment (RUC) 
+A process to ensure that there is adequate Resource capacity and Ancillary Service capacity committed in the proper locations to serve ERCOT forecasted Load. 
+Reliability Unit Commitment for Additional Capacity (RUCAC)-Hour
+An Operating Hour for which a Combined Cycle Generation Resource is Qualified Scheduling Entity (QSE)-committed and receives a Reliability Unit Commitment (RUC) instruction from ERCOT to transition to a configuration with additional capacity above the configuration that was QSE-committed.
+Reliability Unit Commitment for Additional Capacity (RUCAC)-Interval
+A Settlement Interval within the hour for which there is a Reliability Unit Commitment (RUC) instruction from ERCOT for a Combined Cycle Generation Resource to transition to a configuration with additional capacity above the configuration that was Qualified Scheduling Entity (QSE)-committed.
+Reliability Unit Commitment (RUC) Buy-Back Hour
+An Operating Hour for which a Resource that is not a Reliability Must-Run (RMR) Unit has been committed to come On-Line by a Day-Ahead Reliability Unit Commitment (DRUC) or Hourly Reliability Unit Commitment (HRUC) process and the Resource’s Qualified Scheduling Entity (QSE) has chosen to opt out of RUC Settlement in accordance with Section 5.5.2, Reliability Unit Commitment (RUC) Process.
+Reliability Unit Commitment (RUC) Cancellation
+An ERCOT instruction, prior to breaker close, to cancel a previously issued RUC instruction.
+Reliability Unit Commitment (RUC)-Committed Hour
+An Operating Hour for which a RUC has committed a Resource to be On-Line and the QSE has not designated a RUC Buy-Back Hour.
+Reliability Unit Commitment (RUC)-Committed Interval
+A Settlement Interval for which there is a RUC instruction to commit a Resource. 
+[NPRR1013:  Insert the following definition “Reliability Unit Commitment (RUC) Snapshot” upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+Reliability Unit Commitment (RUC) Snapshot
+A record of a Qualified Scheduling Entity’s (QSE’s) Capacity Trades, Energy Trades, Ancillary Service Positions, Ancillary Service Offers, Direct Current Tie (DC Tie) imports and most recent Current Operating Plan (COP) at the time the snapshot is taken.
+Reliability Unit Commitment (RUC) Study Period
+As defined under Section 5.1, Introduction.
+Remedial Action Plan (RAP) (see Constraint Management Plan)
+Remedial Action Scheme (RAS)
+A scheme designed to detect predetermined ERCOT System conditions and automatically take corrective actions on areas of the ERCOT System that are part of the Bulk Electric System, as that term is defined in the North American Electric Reliability Corporation (NERC) Glossary of Terms Used in NERC Reliability Standards.  These corrective actions include, but are not limited to, adjusting or tripping generation (MW and MVAr), tripping Load, or reconfiguring a System(s) to maintain a secure system.  RASs do not include under-frequency or under voltage Load shedding, the isolation of fault conditions, or out-of-step relaying (not designed as an integral part of an RAS).  RASs shall not be implemented on Interconnection Reliability Operating Limits (IROLs).  Additional criteria that are excluded from being classified as RAS are outlined in the Operating Guides.
+Limited Impact Remedial Action Scheme (RAS)
+A RAS that by inadvertent operation or failure to operate does not cause or contribute to ERCOT System cascading, uncontrolled separation, angular instability, voltage instability, voltage collapse, or unacceptably damped oscillations.
+Remedial Action Scheme (RAS) Entity
+Any Market Participant that owns Facilities that are included in a RAS.
+Renewable Energy Credit (REC)
+A tradable instrument that represents all of the renewable attributes associated with one MWh of production from a certified renewable generator.  
+Renewable Energy Credit (REC) Account
+An account maintained by ERCOT for the purpose of tracking the production, sale, transfer, purchase, and retirement of RECs or Compliance Premiums by a REC Account Holder.
+Renewable Energy Credit (REC) Account Holder
+An Entity registered with ERCOT to participate in the REC Trading Program.
+Renewable Energy Credit (REC) Trading Program
+The REC Trading Program, as described in Section 14, State of Texas Renewable Energy Credit Trading Program, and P.U.C. SUBST. R. 25.173, Renewable Energy Credit Program.
+Renewable Portfolio Standard (RPS)
+The amount of capacity required to meet the requirements of Public Utility Regulatory Act (PURA), TEX. UTIL. CODE ANN. § 39.904 (Vernon 1998 & Supp. 2007) and subsection (f) of P.U.C. SUBST. R. 25.173, Renewable Energy Credit Program.
+[NPRR1218:  Replace the definition “Renewable Portfolio Standard (RPS)” above with the following upon system implementation:]
+Solar Renewable Portfolio Standard (SRPS)
+The amount of solar capacity required to meet the requirements of subsection (f) of P.U.C. SUBST. R. 25.173, Renewable Energy Credit Program.
+Renewable Production Potential (RPP)
+The maximum generation in MWh per interval from an Intermittent Renewable Resource (IRR) that could be generated from all available units of that Resource.  The RPP depends on the renewable energy that can be generated from the available units (wind, solar radiation, or run-of-river water supply), current environmental conditions and the energy conversion characteristics of each unit. 
+Repowered Facility
+An existing facility that has been modernized or upgraded to use renewable energy technology to produce electricity consistent with P.U.C. SUBST. R. 25.173, Renewable Energy Credit Program.  
+Rescheduled Outage (see Outage)
+Reserve Discount Factor (RDF)
+A representation of the average amount of system-wide capability that, for whatever reason, is historically undeliverable during periods of high system demand.  The RDF will be verified by ERCOT and then approved by the Reliability and Operations Subcommittee (ROS).
+Resource
+The term is used to refer to an Energy Storage Resource (ESR), a Generation Resource, or a Load Resource.  The term “Resource” used by itself in these Protocols does not include a Settlement Only Generator (SOG) or an Emergency Response Service (ERS) Resource.
+[NPRR995:  Replace the above definition “Resource” with the following upon system implementation:]
+Resource
+The term is used to refer to an Energy Storage Resource (ESR), a Generation Resource, or a Load Resource.  The term “Resource” used by itself in these Protocols does not include a Settlement Only Generator (SOG), Settlement Only Energy Storage System (SOESS), or an Emergency Response Service (ERS) Resource.
+Energy Storage Resource (ESR)
+An Energy Storage System (ESS) registered with ERCOT for the purpose of providing energy and/or Ancillary Service to the ERCOT System.   
+[NPRR1029:  Insert the following definition “DC-Coupled Resource upon system implementation:]
+DC-Coupled Resource
+A type of Energy Storage Resource (ESR) in which an Energy Storage System (ESS) is combined with wind and/or solar generation in the same modeled generation station and interconnected at the same Point of Interconnection (POI), and where these technologies are interconnected within the site using direct current (DC) equipment.  The combined technologies are then connected to the ERCOT System using the same direct current-to-alternating current (DC-to-AC) inverter(s).  To be classified as a DC-Coupled Resource, the generator(s) and ESS(s) at a site must meet the following conditions: 
+(1)	The ESS component of the Resource must have a nameplate rating of at least ten MW and ten MWh, or the MW rating must equal or exceed 50% of the nameplate MW rating of the inverter; and  
+(2)	All intermittent renewable generators must meet the conditions for aggregation stated in paragraph (13) of Section 3.10.7.2, Modeling of Resources and Transmission Loads, except to the extent any such condition requires the generator to be a Resource.
+Distribution Energy Storage Resource (DESR)
+An Energy Storage Resource (ESR) connected to the Distribution System that is either: 
+(1)	Greater than ten MW and not registered with the Public Utility Commission of Texas (PUCT) as a self-generator; or
+(2)	Greater than one MW that chooses to register as a Resource with ERCOT to participate in the ERCOT markets.
+Generation Resource
+A generator capable of providing energy or Ancillary Service to the ERCOT System and is registered with ERCOT as a Generation Resource.  
+Distribution Generation Resource (DGR)
+A Generation Resource connected to the Distribution System that is either: 
+(1)	Greater than ten MW and not registered with the Public Utility Commission of Texas (PUCT) as a self-generator; or
+(2)	Greater than one MW that chooses to register as a Generation Resource to participate in the ERCOT markets.  
+Transmission Generation Resource (TGR)
+A Generation Resource connected to the ERCOT transmission system that is either: 
+(1)	Greater than ten MW and not registered with the Public Utility Commission of Texas (PUCT) as a self-generator; or 
+(2)	Greater than one MW that chooses to register as a Generation Resource to participate in the ERCOT markets.  
+Load Resource
+A Load capable of providing Ancillary Service to the ERCOT System and/or energy in the form of Demand response and registered with ERCOT as a Load Resource.
+Aggregate Load Resource (ALR)
+A Load Resource that is an aggregation of individual metered sites, each of which has less than ten MW of Demand response capability and all of which are located within a single Load Zone.
+[NPRR1131:  Replace the above definition “Aggregate Load Resource (ALR)” with the following upon system implementation:]
+Aggregate Load Resource (ALR)
+A Controllable Load Resource that is an aggregation of individual metered sites, each of which has less than ten MW of Demand response capability and all of which are located within a single Load Zone.
+Controllable Load Resource
+A Load Resource capable of controllably reducing or increasing consumption under Dispatch control by ERCOT.
+Settlement Only Generator (SOG)
+A generator that is settled for exported energy only, but may not participate in the Ancillary Services market, Reliability Unit Commitment (RUC), Security-Constrained Economic Dispatch (SCED), or make energy offers.  These units are comprised of:
+[NPRR995:  Delete the above definition “Settlement Only Generator (SOG)” upon system implementation.]
+Settlement Only Distribution Generator (SODG)
+A generator that is connected to the Distribution System with a rating of:
+(1)	One MW or less that chooses to register as an SODG; or 
+(2)	Greater than one and up to ten MW that is capable of providing a net export to the ERCOT System and does not register as a Distribution Generation Resource (DGR).
+SODGs must be registered with ERCOT in accordance with Planning Guide Section 6.8.2, Resource Registration Process, and will be modeled in ERCOT systems for reliability in accordance with Section 3.10.7.2, Modeling of Resources and Transmission Loads. 
+[NPRR995:  Delete the above definition “Settlement Only Distribution Generator (SODG)” upon system implementation.]
+Settlement Only Transmission Generator (SOTG)
+A generator that is connected to the ERCOT transmission system with a rating of ten MW or less and is registered with the Public Utility Commission of Texas (PUCT) as a power generation company.  SOTGs must be registered with ERCOT in accordance with Planning Guide Section 6.8.2, Resource Registration Process, and may be modeled in ERCOT systems for reliability in accordance with Section 3.10.7.2, Modeling of Resources and Transmission Loads.
+[NPRR995:  Delete the above definition “Settlement Only Transmission Generator (SOTG)” upon system implementation.]
+Settlement Only Transmission Self-Generator (SOTSG)
+A generator that is connected to the ERCOT transmission system with a rating of one MW or more and is registered with the Public Utility Commission of Texas (PUCT) as a self-generator.  SOTSGs must be registered with ERCOT in accordance with Planning Guide Section 6.8.2, Resource Registration Process, and will be modeled in ERCOT systems for reliability in accordance with Section 3.10.7.3, Modeling of Private Use Networks.
+[NPRR995:  Delete the above definition “Settlement Only Transmission Self-Generator (SOTSG)” upon system implementation.]
+Resource Attribute
+Specific qualities associated with various Resources (i.e., specific aspects of a Resource or the services the Resource is qualified to provide).
+Aggregate Generation Resource (AGR)
+A Generation Resource that is an aggregation of generators, with the exception of Intermittent Renewable Resources (IRRs) pursuant to paragraph (13) of Section 3.10.7.2, Modeling of Resources and Transmission Loads, each of which is less than 20 MW in output, which share identical operational characteristics and are located behind the same Main Power Transformer (MPT).
+Black Start Resource
+A Generation Resource under contract with ERCOT to provide Black Start Service (BSS).
+Combined Cycle Train
+The combinations of gas turbines and steam turbines in an electric generation plant that employs more than one thermodynamic cycle.  For example, a Combined Cycle Train refers to the combination of gas turbine generators (operating on the Brayton Cycle) with turbine exhaust waste heat boilers and steam turbine generators (operating on the Rankine Cycle) for the production of electric power.  In the ERCOT market, Combined Cycle Trains are each registered as a plant that can operate as a Generation Resource in one or more Combined Cycle Generation Resource configurations.
+Decommissioned Generation Resource
+A Generation Resource for which a Resource Entity has submitted a Notification of Suspension of Operations or a Notification of Change of Generation Resource Designation, for which ERCOT has declined to execute a Reliability Must-Run (RMR) Agreement, and which has been decommissioned and permanently retired.
+Dynamically Scheduled Resource (DSR)
+A Resource that has been designated by the Qualified Scheduling Entity (QSE), and approved by ERCOT, as a DSR status-type and that follows a DSR Load.
+[NPRR1000:  Delete the definition “Dynamically Scheduled Resource (DSR)” above upon system implementation.]
+Intermittent Renewable Resource (IRR)
+A Generation Resource that can only produce energy from variable, uncontrollable Resources, such as wind, solar, or run-of-the-river hydroelectricity.
+Intermittent Renewable Resource (IRR) Group
+A group of two or more IRRs whose performance in responding to Security-Constrained Economic Dispatch (SCED) Dispatch Instructions will be assessed as an aggregate for Generation Resource Energy Deployment Performance (GREDP) and Base Point Deviation.  An IRR Group cannot contain any IRRs that are Split Generation Resources.  Additionally, only IRRs that have the same Resource Node can be mapped to an IRR Group.  Resource Entities can choose to group IRRs and shall provide the grouping information in a timely manner for ERCOT review prior to the scheduled database loads.
+[NPRR1013:  Replace the definition “Intermittent Renewable Resource (IRR) Group” above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+Intermittent Renewable Resource (IRR) Group
+A group of two or more IRRs whose performance in responding to Security-Constrained Economic Dispatch (SCED) Dispatch Instructions will be assessed as an aggregate for Generation Resource Energy Deployment Performance (GREDP) and Set Point Deviation.  An IRR Group cannot contain any IRRs that are Split Generation Resources.  Additionally, only IRRs that have the same Resource Node can be mapped to an IRR Group.  Resource Entities can choose to group IRRs and shall provide the grouping information in a timely manner for ERCOT review prior to the scheduled database loads.
+Inverter-Based Resource (IBR)
+A Resource that is connected to the ERCOT System either completely or partially through a power electronic converter interface.
+Mothballed Generation Resource 
+A Generation Resource for which a Resource Entity has submitted a Notification of Suspension of Operations, for which ERCOT has declined to execute a Reliability Must-Run (RMR) Agreement, and which has not been decommissioned and retired. 
+Quick Start Generation Resource (QSGR)
+A Generation Resource that in its cold-temperature state can come On-Line within ten minutes of receiving ERCOT notice and has passed an ERCOT QSGR test that establishes an amount of capacity that can be deployed within a ten-minute period.
+Split Generation Resource
+Where a Generation Resource has been split to function as two or more independent Generation Resources in accordance with Section 10.3.2.1, Generation Resource Meter Splitting, and Section 3.10.7.2, Modeling of Resources and Transmission Loads, each such functionality independent Generation Resource is a Split Generation Resource.
+Switchable Generation Resource (SWGR)
+A Generation Resource that can be connected to either the ERCOT Transmission Grid or a non-ERCOT Control Area.
+Resource Category
+The generation technology category designated for a Generation Resource in its Resource Registration documentation.
+Combined Cycle Generation Resource
+A specified configuration of physical Generation Resources (gas and steam turbines), with a distinct set of operating parameters and physical constraints, in a Combined Cycle Train registered with ERCOT.
+PhotoVoltaic Generation Resource (PVGR)
+A Generation Resource that is powered by PhotoVoltaic (PV) equipment exposed to light.  PV equipment may be aggregated together to form a PVGR as set forth in paragraph (13) of Section 3.10.7.2, Modeling of Resources and Transmission Loads.
+Wind-powered Generation Resource (WGR)
+A Generation Resource that is powered by wind.  Wind turbines may be aggregated together to form a WGR as set forth in paragraph (13) of Section 3.10.7.2, Modeling of Resources and Transmission Loads.
+Resource Commissioning Date
+The date on which ERCOT declares that a Resource has completed all qualification testing administered by ERCOT as part of the Resource Interconnection process so that a Resource is approved for participation in ERCOT market operations.
+Resource Connectivity Node (see Electrical Bus)
+Resource Entity
+An Entity that owns or controls a Generation Resource, an Energy Storage Resource (ESR), a Settlement Only Generator (SOG), or a Load Resource and is registered with ERCOT as a Resource Entity.
+[NPRR995:  Replace the above definition “Resource Entity” with the following upon system implementation:]
+Resource Entity
+An Entity that owns or controls a Generation Resource, an Energy Storage Resource (ESR), a Settlement Only Generator (SOG), a Settlement Only Energy Storage System (SOESS), or a Load Resource and is registered with ERCOT as a Resource Entity.
+Resource ID (RID)
+A unique identifier assigned to each ERCOT-Polled Settlement (EPS) Meter or Settlement Only Generator (SOG) meter.  The RID for a SOG meter may be identical to the SOG’s Electric Service Identifier (ESI ID).
+Resource Node 
+Either a logical construct that creates a virtual pricing point required to model a Combined-Cycle Configuration or an Electrical Bus defined in the Network Operations Model, at which a Settlement Point Price for a Generation Resource or Energy Storage Resource (ESR) is calculated and used in Settlement.  All Resource Nodes shall be identified in accordance with the Other Binding Document titled “Procedure for Identifying Resource Nodes.”
+Resource Parameters
+Resource-specific parameters required for use in ERCOT business processes.  This is a subset of Resource Registration data that can be changed in the MIS in Real-Time.  
+Resource Registration
+Provision of information required by ERCOT to register Generation Resources, Settlement Only Generators (SOGs), Load Resources, and Energy Storage Resources (ESRs).
+[NPRR995:  Replace the above definition “Resource Registration” with the following upon system implementation:]
+Resource Registration
+Provision of information required by ERCOT to register Generation Resources, Settlement Only Generators (SOGs), Load Resources, Settlement Only Energy Storage Systems (SOESSs), and Energy Storage Resources (ESRs).
+Resource Status  
+The operational state of a Resource as provided in Section 3.9, Current Operating Plan (COP). 
+Responsive Reserve (RRS)
+An Ancillary Service that provides operating reserves that are intended to:
+(a) 	Arrest frequency decay within the first few seconds of a significant frequency deviation on the ERCOT Transmission Grid using Primary Frequency Response, Fast Frequency Response (FFR), and interruptible Load; 
+(b)	After the first few seconds of a significant frequency deviation, help arrest and stabilize frequency; and
+(c)	Provide energy or continued Load interruption during the implementation of the Energy Emergency Alert (EEA).
+Retail Business Day (see Business Day)
+Retail Business Hour
+Any hour within a Retail Business Day.
+Retail Electric Provider (REP)
+As defined in P.U.C. SUBST. R. 25.5, Definitions, an Entity that sells electric energy to retail Customers in Texas but does not own or operate generation assets and is not an MOU or EC.  
+Retail Entity
+An MOU, generation and transmission cooperative or distribution cooperative that offers Customer Choice; REP; or IOU that has not unbundled pursuant to Public Utility Regulatory Act (PURA), TEX. UTIL. CODE ANN. § 39.051 (Vernon 1998 & Supp. 2007). 
+Return of Settlement Funds (RSF)
+Procedures, outlined in Section 20, Alternative Dispute Resolution Procedure and Procedure for Return of Settlement Funds, for returning to ERCOT the overpayment of Settlement funds.
+Revenue Quality Meter
+For EPS Meters, a meter that complies with the Protocols and the Settlement Metering Operating Guide.  For TSP- or DSP-metered Entities, a meter that complies with Governmental Authority-approved meter standards, or the Protocols and the Operating Guides.
+[NPRR1204:  Insert the following definition “Round Trip Efficiency” upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+Round Trip Efficiency
+The percentage of electrical energy consumed by an Energy Storage Resource (ESR) (i.e., charging) that is later returned back to the grid (i.e., discharging).  The energy consumed by an ESR and energy returned back to the grid are measured at the Point of Interconnection (POI) or Point of Common Coupling (POCC).  The charging and discharging energy does not include the energy consumed by the auxiliary Load of the ESR.

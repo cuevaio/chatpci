@@ -1,0 +1,52 @@
+Bankrupt 
+The condition of an Entity that:
+(a)	Files a petition or otherwise commences a proceeding under any bankruptcy, insolvency, reorganization or similar law, or has any such petition filed or commenced against it;
+(b)	Makes an assignment or any general arrangement for the benefit of creditors;
+(c)	Has a liquidator, administrator, receiver, trustee, conservator, or similar official appointed with respect to it or any substantial portion of its property or assets; or
+(d)	Is generally unable to pay its debts as they fall due.
+
+Base Point
+The MW output level for a Resource produced by the Security-Constrained Economic Dispatch (SCED) process.
+
+Black Start Capable Resource
+A physical Resource that can start without support of the ERCOT Transmission Grid and that a Resource Entity believes can meet the Black Start capability tests in Section 8.1.1.2.1.5, System Black Start Capability Qualification and Testing, excluding the 72-hour Back-up Fuel requirement in paragraph (1)(g).
+
+Black Start Resource (see Resource Attribute)
+
+Black Start Service (BSS)
+An Ancillary Service provided by a Resource able to start without support of the ERCOT Transmission Grid.
+
+Black Start Service (BSS) Back-up Fuel
+Fuel that is stored on site at the location of a Black Start Resource and that is available at all times and contracted with ERCOT for the purpose of powering the Resource when following ERCOT or the local Transmission Operator (TO) instruction to start without support of the ERCOT Transmission Grid in response to a 
+
+
+Blackout
+A condition in which frequency for the entire ERCOT System has dropped to zero and Generation Resources are no longer serving Load.
+
+Partial Blackout
+A condition in which an uncontrolled separation of a portion of the ERCOT System occurs and frequency for that portion has dropped to zero and Generation Resources within that portion are no longer serving Load and restoration is dependent on either internal Black Start Plans or assistance for restoration is needed from neighboring Transmission Operator(s) (TO(s)) within the ERCOT System which requires ERCOT coordination.
+
+Block Load Transfer (BLT)
+A transfer system that isolates a group of Loads from the Control Area in which they normally are served and then connects them to another Control Area.  Such transfer systems involve either transferring Loads normally in the ERCOT Control Area to a non-ERCOT Control Area or transferring Loads normally in non-ERCOT Control Areas to the ERCOT Control Area.
+
+Bus Load Forecast
+A set of processes used by ERCOT to determine a forecast of the Load at each Electrical Bus in the ERCOT Transmission Grid.
+
+Business Day
+Monday through Friday, excluding observed holidays listed below:
+(a)	New Year’s Day;
+(b)	Martin Luther King, Jr. Day;
+(c)	Memorial Day;
+(d)	Independence Day;
+(e)	Labor Day;
+(f)	Thanksgiving Thursday and Friday; and
+(g)	Two days at Christmas, as designated from time to time by the ERCOT CEO.	
+
+Bank Business Day
+Any day during which the United States Federal Reserve Bank of New York is open for normal business activity.
+
+Retail Business Day
+Same as a Business Day, except in the case of retail transactions processed by a TSP or Distribution Service Provider (DSP), Competitive Retailers (CRs) shall substitute the TSP or DSP holidays for ERCOT holidays when determining the time available to the TSP or DSP to process the transaction.  For additional important information related to Retail Business Days, please refer to the Retail Market Guide.
+
+Business Hours
+08:00 to 17:00 Central Prevailing Time (CPT) on Business Days.

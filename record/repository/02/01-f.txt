@@ -1,0 +1,62 @@
+Facilities
+Equipment situated for the purpose of conducting service and/or business through use of the ERCOT System
+Facility Identification Number
+A number assigned to a renewable Resource facility by ERCOT. 
+Fast Frequency Response (FFR) 
+The automatic self-deployment and provision by a Resource of their obligated response within 15 cycles after frequency meets or drops below a preset threshold, or a deployment in response to an ERCOT Verbal Dispatch Instruction (VDI) within 10 minutes.  Resources capable of automatically self-deploying and providing their full Ancillary Service Resource Responsibility within 15 cycles after frequency meets or drops below a preset threshold and sustaining that full response for at least 15 minutes may provide Responsive Reserve (RRS).
+[NPRR1013:  Replace the definition “Fast Frequency Response (FFR)” above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+Fast Frequency Response (FFR) 
+The automatic self-deployment and provision by a Resource of their obligated response within 15 cycles after frequency meets or drops below a preset threshold, or a deployment in response to an ERCOT Verbal Dispatch Instruction (VDI) within 10 minutes.  Resources capable of automatically self-deploying and providing their full Ancillary Service Resource award within 15 cycles after frequency meets or drops below a preset threshold and sustaining that full response for at least 15 minutes may provide Responsive Reserve (RRS).
+Fast Responding Regulation Service (FRRS) (see Regulation Service)
+Fast Responding Regulation Down Service (FRRS-Down) (see Regulation Service)
+Fast Responding Regulation Up Service (FRRS-Up) (see Regulation Service)
+15-Minute Rating (see Rating)
+Financing Person
+The lender, security holder, investor, partner, multilateral institution, or other Entity providing financing or refinancing for the business of another Entity, including development, construction, ownership, operation and/or maintenance of a facility or any portion thereof, or any trustee or agent acting on behalf of any of the foregoing.
+Firm Fuel Supply Service (FFSS)  
+A service provided by certain Generation Resources in order to maintain Resource availability in the event of a natural gas curtailment or other fuel supply disruption.
+Firm Fuel Supply Service (FFSS) Qualified Contract 
+A form of Firm Gas Storage Agreement or Firm Transportation Agreement that has been submitted to ERCOT by a Generation Entity for certification that such agreement contains a Qualifying Force Majeure Provision, and otherwise meets the requirements as a Firm Gas Storage Agreement or Firm Transportation Agreement, as applicable, which agreement has in turn been so certified in writing by ERCOT pursuant to the ERCOT Protocols.
+Firm Fuel Supply Service (FFSS) Qualifying Pipeline 
+A pipeline that is:
+(a)	A natural gas pipeline subject to the jurisdiction of the Federal Energy Regulatory Commission (FERC) under the Natural Gas Act (15 U.S.C. § 717 et seq.), an intrastate natural gas pipeline that is not operated by a “gas utility” under Title 3, Gas Regulation, of the Texas Utilities Code, or an intrastate pipeline that is owned or operated by a “gas utility” under Title 3 of the Texas Utilities Code that has certified to the Generation Entity that it does not have any contracts for firm service on such pipeline with human needs customers or local distribution systems that serve human needs customers; and 
+(b)	A critical natural gas facility, as defined in subsection (c)(2) of P.U.C. SUBST. R. 25.52, Reliability and Continuity of Service.
+A pipeline operated by an Entity that participates in ERCOT’s Load Resource program, Emergency Response Service (ERS) program, or any Demand response programs with respect to any equipment that supports that pipeline will not be eligible to be an FFSS Qualifying Pipeline.
+Firm Fuel Supply Service Resource (FFSSR)
+A Generation Resource that has an obligation to provide Firm Fuel Supply Service (FFSS).  A primary Generation Resource that was awarded through the FFSS procurement process is the FFSSR unless the Qualified Scheduling Entity (QSE) representing the Generation Resource has met the requirements to change the FFSSR to an approved alternate Generation Resource to reflect the manner in which the FFSS obligation is being provided.
+Firm Gas Storage Agreement 
+An executed and enforceable contract (together with any associated statement of operating conditions) for Firm Service at a natural gas storage facility that:
+(a)	Contains a Qualifying Force Majeure Provision; 
+(b)	Provides the right to monitor daily balances of storage capacity; and 
+(c)	Requires the storage provider to make available a detailed accounting indicating a reasonable estimate ‎of daily and month-to-date receipts and deliveries of natural gas.
+Firm Service
+Natural gas transportation or storage service that is: 
+(a)	Described as firm under a contract, tariff, or statement of operating conditions; 
+(b)	The highest priority of service available; and 
+(c)	Available on demand and up to the contracted quantities.  
+Firm Transportation Agreement 
+An executed and enforceable contract (together with any associated statement of operating conditions) for Firm Service on a Firm Fuel Supply Service (FFSS) Qualifying Pipeline that:
+(a)	Contains a Qualifying Force Majeure Provision; 
+(b)	Provides the right to monitor daily balances of flowing natural gas; and 
+(c)	Requires the pipeline to make available a detailed accounting indicating a reasonable estimate ‎of daily and month-to-date receipts and deliveries of natural gas.
+Flowgate Right (FGR) (see Congestion Revenue Right (CRR))
+Force Majeure Event 
+Any event beyond the reasonable control of, and that occurs without the fault or negligence of, an Entity whose performance is prevented by the occurrence of such event.  Examples of such a Force Majeure Event may include the following, subject to the limitations of the above sentence:  an act of God, labor disturbance, act of the public enemy, war, insurrection, riot, fire, storm or flood, explosion, breakage or accident to machinery or equipment, or a curtailment, order, regulation or restriction imposed by governmental, military, or lawfully established civilian authorities.
+Forced Derate 
+The unavailability of a portion of a Resource’s capacity based on its Seasonal net max sustainable rating provided through the Resource Registration process.  For Qualified Scheduling Entities (QSEs) representing Intermittent Renewable Resources (IRRs), the loss of a portion of the capacity shall be due to the unavailability of a portion of the equipment and shall not include capacity changes due to changes in the power source (e.g., wind speed at the Wind-powered Generation Resource (WGR) facility for a WGR, or changes in solar irradiance at the PhotoVoltaic Generation Resource (PVGR) facility for a PVGR).  
+Forced Outage (see Outage)
+Frequency Measurable Event (FME)
+An event that results in a frequency deviation, identified at ERCOT’s sole discretion, and meeting one of the following conditions:
+(a) 	A frequency deviation that has a pre-perturbation [the 16-second period of time before t(0)] average frequency to post-perturbation [the 32-second period of time starting 20 seconds after t(0)] average frequency absolute deviation greater than 100 mHz (the 100 mHz value may be adjusted by ERCOT to capture 30 to 40 events per year); or
+(b)	A cumulative change in generating unit/generating facility, Direct Current Tie (DC Tie), and/or firm load pre-perturbation megawatt value to post-perturbation megawatt value absolute deviation greater than 550 MW (the 550 MW value may be adjusted by ERCOT to capture 30 to 40 events per year).
+[NPRR1013:  Insert the following definition “Frequency Responsive Capacity (FRC)” upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+Frequency Responsive Capacity (FRC)
+The telemetered portion of a Generation Resource’s total output that represents the fraction of the output provided from capacity that is capable of providing Primary Frequency Response.  Capacity not capable of providing Primary Frequency Response includes, but may not be limited to, capacity from duct firing, auxiliary boilers, and other methods that do not immediately respond, arrest, or stabilize frequency excursions following a disturbance without secondary frequency response or instructions from ERCOT.
+Fuel Index Price (FIP)
+The daily midpoint or average of the prices for natural gas fuel for the Katy area (Katy Hub), expressed in dollars per million British thermal units ($/MMBtu).  ERCOT shall issue a Market Notice disclosing the name of the ERCOT-selected source for the average daily index prices used to calculate FIP.  In the event that the ERCOT-selected source becomes unavailable, or ERCOT determines that the source has become unsuitable for the intended purpose, ERCOT may select a substitute source.  ERCOT shall issue a Market Notice disclosing its intent to use a substitute source and the name of the substitute source at least 60 days prior to the beginning of its use, or as soon as practicable.  
+The effective dates for daily index prices shall be as indicated by the ERCOT-selected source.  For validation of Three-Part Supply Offers in the Day-Ahead Market (DAM), Day-Ahead Reliability Unit Commitment (DRUC), and Hourly Reliability Unit Commitment (HRUC) occurring before midnight of the Operating Day, the FIP effective for the prior Operating Day will be used.  For all other purposes the effective FIP for the Operating Day will be used.  If the Katy Hub index is not available, the effective price for the most recent preceding Operating Day shall be used. 
+Fuel Oil Price (FOP)
+An average of the daily index prices for fuel oil for each Operating Day, plus five cents per gallon, for U.S. Gulf Coast, Houston pipeline No. 2 oil, converted to dollars per million British thermal units ($/MMBtu).  The conversion is 0.1385 MMBtu per gallon.  The effective dates for daily index prices shall be as indicated in the ERCOT-selected index.  In the event, at the time of settlement or calculation of generic costs, that the effective price for a particular Operating Day is not available, the effective price for the most recent preceding Operating Day shall be used. 
+ERCOT shall issue a Market Notice disclosing the name of the ERCOT-selected source for the average daily index prices used to calculate FOP.  In the event that the ERCOT-selected index becomes unavailable, or ERCOT determines that the index has become unsuitable for the intended purpose, ERCOT may select a substitute index source.  ERCOT shall issue a Market Notice disclosing its intent to use a substitute index source and the name of the substitute index source at least 60 days prior to the beginning of its use, or as soon as practicable.
+Full Interconnection Study (FIS)
+The set of studies conducted by a Transmission Service Provider (TSP) for the purpose of identifying any electric system improvements or enhancements required to reliably interconnect generation meeting the requirements of Planning Guide Section 5.2.1, Applicability.  These studies may include steady-state studies, system protection (short-circuit) studies, dynamic and transient stability studies, facility studies, and sub-synchronous oscillation studies.

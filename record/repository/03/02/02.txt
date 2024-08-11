@@ -1,0 +1,6 @@
+3.2.2	Demand Forecasts
+(1)	Monthly, ERCOT shall develop the weekly peak hour Demand forecast for the ERCOT Region and for the Forecast Zones based on the 36-Month Load Forecast as described in Section 3.12, Load Forecasting, for the following 36 months, starting with the second week.  During the development of this forecast, ERCOT may consult with Qualified Scheduling Entities (QSEs), Transmission Service Providers (TSPs), and other Market Participants that may have knowledge of potential Load growth.
+(2)	ERCOT may, at its discretion, publish on the MIS Secure Area, additional peak Demand analyses for periods beyond 36 months.
+(3)	ERCOT shall develop and publish hourly on the ERCOT website, peak Demand forecasts by Forecast Zone for each hour of the next seven days using the Seven-Day Load Forecast as described in Section 3.12.  
+(4)	For purposes of Demand forecasting, ERCOT may choose to use the same forecast as that used for the Load forecast.
+(5)	ERCOT shall publish procedures describing the forecasting process on the ERCOT website.

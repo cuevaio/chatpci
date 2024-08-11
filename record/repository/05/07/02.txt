@@ -1,0 +1,123 @@
+5.7.2	RUC Clawback Charge
+(1)	A QSE for a Resource shall pay a RUC Clawback Charge for the Operating Day if the RUC Guarantee is less than the sum of:
+(a)	RUC Minimum-Energy Revenue calculated in Section 5.7.1.2, RUC Minimum-Energy Revenue;
+(b)	Revenue Less Cost Above LSL During RUC-Committed Hours calculated in Section 5.7.1.3, Revenue Less Cost Above LSL During RUC-Committed Hours; and 
+(c)	Revenue Less Cost During QSE-Clawback Intervals calculated in Section 5.7.1.4, Revenue Less Cost During QSE Clawback Intervals. 
+(2)	The amount of the RUC Clawback Charge is 100% of the difference calculated in paragraph (1) above.
+[NPRR1172:  Delete paragraph (2) above upon system implementation and renumber accordingly.]
+(3)	The RUC Clawback Charge for a Resource, including RMR Units, for each Operating Day is allocated evenly over the RUC-Committed Hours for that Resource.  
+[NPRR1014:  Insert paragraph (4) below upon system implementation and renumber accordingly:]
+(4)	Energy Storage Resources (ESRs) are not subject to RUC Clawback Charges. 
+(4)	For each RUC-committed Resource, the RUC Clawback Charge for each RUC-Committed Hour of the Operating Day is calculated as follows:
+If (RUCMEREV q, r, d + RUCEXRR q, r, d – RUCACREV q, r, d – RUCG q, r, d) > 0, 
+Then,
+RUCCBAMT q, r, h	=	[(RUCMEREV q, r, d + RUCEXRR q, r, d – RUCACREV q, r, d – RUCG q, r, d) * RUCCBFR q, r, d + RUCEXRQC q, r, d * RUCCBFC q, r, d] / RUCHR q, r, d 
+Otherwise, 
+RUCCBAMT q, r, h 	=	[Max (0, RUCMEREV q, r, d + RUCEXRR q, r, d + RUCEXRQC q, r, d –  RUCACREV q, r, d – RUCG q, r, d) * RUCCBFC q, r, d] / RUCHR q, r, d
+Where, 
+The RUCAC revenue is calculated for a Combined Cycle Train as follows:
+RUCACREV q, r, d	=  Max{0, RUCMEREV96 q, r, i + Max(0, RUCEXRR96 q, r, i)}  
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+RUCCBAMT q, r, h
+$
+RUC Clawback Charge––The RUC Clawback Charge to a QSE for Resource r represented by QSE q as described in this Section, for each RUC-Committed Hour h of the Operating Day for that Resource.  When one or more Combined Cycle Generation Resources are committed by RUC, a charge is made to the Combined Cycle Train for all RUC-committed Combined Cycle Generation Resources.
+RUCG q, r, d
+$
+RUC Guarantee—The sum of eligible Startup Costs and Minimum-Energy Costs for Resource r represented by QSE q during all RUC-Committed Hours, for the Operating Day d.  See Section 5.7.1.1, RUC Guarantee.  When one or more Combined Cycle Generation Resources are committed by RUC, guaranteed costs are calculated for the Combined Cycle Train for all RUC-committed Combined Cycle Generation Resources.
+RUCMEREV q, r, d
+$
+RUC Minimum-Energy Revenue—The sum of the energy revenues for generation of Resource r represented by QSE q up to LSL during all RUC-Committed Hours, for the Operating Day d.  See Section 5.7.1.2.  When one or more Combined Cycle Generation Resources are committed by RUC, RUC Minimum-Energy Revenue is calculated for the Combined Cycle Train for all RUC-committed Combined Cycle Generation Resources.
+RUCEXRR q, r, d
+$
+Revenue Less Cost Above LSL During RUC-Committed Hours—The sum of the total revenue for Resource r represented by QSE q above the LSL less the cost during all RUC-Committed Hours, for the Operating Day d.  See Section 5.7.1.3.  When one or more Combined Cycle Generation Resources are committed by RUC, Revenue Less Cost Above LSL During RUC-Committed Hours is calculated for the Combined Cycle Train for all RUC-committed Combined Cycle Generation Resources.
+RUCEXRQC q, r, d
+$
+Revenue Less Cost from QSE-Clawback Intervals—The sum of the total revenue for Resource r represented by QSE q less the cost during all QSE-Clawback Intervals for the Operating Day d.  See Section 5.7.1.4.  When one or more Combined Cycle Generation Resources are committed by RUC, Revenue Less Cost from QSE-Clawback Intervals is calculated for the Combined Cycle Train for all Combined Cycle Generation Resources earning revenue in QSE Clawback Intervals.
+RUCACREV q, r, d
+$
+Revenue from RUCAC Hours—The net positive sum for the energy revenues for generation of Resource r represented by QSE q up to LSL and the total revenue for Resource r operating above its LSL less the cost during all RUCAC-Hours, for the Operating Day d.  When one or more Combined Cycle Generation Resources are RUCAC, revenue from RUCAC Hours is calculated for the Combined Cycle Train for all Combined Cycle Generation Resources that were RUC-committed during the RUCAC-Hours.
+RUCMEREV96 q, r, i
+$
+RUC Minimum-Energy Revenue by Interval—The energy revenues for generation of Resource r represented by QSE q up to LSL during all RUC-Committed Hours, for the Settlement Interval i.  When one or more Combined Cycle Generation Resources are committed by RUC, RUC Minimum-Energy Revenue is calculated for the Combined Cycle Train for all RUC-committed Combined Cycle Generation Resources.  During RUCAC-Intervals for a Combined Cycle Train, the minimum energy revenue is calculated as the difference between the minimum energy revenue of the RUC-committed configuration and the QSE-committed configuration.
+RUCEXRR96 q, r, i
+$
+Revenue Less Cost Above LSL During RUC-Committed Hours by Interval—The total revenue for Resource r represented by QSE q operating above its LSL less the cost during all RUC-Committed hours, for the Settlement Interval i.  When one or more Combined Cycle Generation Resources are committed by RUC, revenue less cost above LSL is calculated for the Combined Cycle Train for all RUC-committed Combined Cycle Generation Resources.
+RUCCBFR q, r, d
+none
+RUC Clawback Factor for RUC-Committed Hours—The Clawback Factor for Resource r represented by QSE q for RUC-Committed Hours, as specified in paragraph (2) above, for the Operating Day d.  When one or more Combined Cycle Generation Resources are committed by RUC, the RUC Clawback Factor for RUC-Committed Hours is determined for the Combined Cycle Train for all RUC-committed Combined Cycle Generation Resources.
+RUCCBFC q, r, d
+none
+RUC Clawback Factor for QSE Clawback Intervals—The Clawback Factor for Resource r represented by QSE q for QSE Clawback Intervals, as specified in paragraph (2) above, for the Operating Day d.  When one or more Combined Cycle Generation Resources are committed by RUC, the RUC Clawback Factor for QSE Clawback Intervals is determined for the Combined Cycle Train for all RUC-committed Combined Cycle Generation Resources.
+RUCHR q, r, d
+none
+RUC Hour—The total number of RUC-Committed Hours, for Resource r represented by QSE q for the Operating Day d.  When one or more Combined Cycle Generation Resources are committed by RUC, the total number of RUC-Committed Hours is calculated for the Combined Cycle Train for all RUC-committed Combined Cycle Generation Resources.
+q
+none
+A QSE.
+r
+none
+A RUC-committed Generation Resource.
+d
+none
+An Operating Day containing the RUC-commitment.
+h
+none
+An hour in the RUC-commitment period.
+i
+none
+A 15-minute Settlement Interval within the hour that includes a RUCAC instruction.
+[NPRR1172:  Replace paragraph (4) above with the following upon system implementation:]
+(4)	For each RUC-committed Resource, the RUC Clawback Charge for each RUC-Committed Hour of the Operating Day is calculated as follows:
+RUCCBAMT q, r, h 	=	Max (0, RUCMEREV q, r, d + RUCEXRR q, r, d + RUCEXRQC q, r, d –  RUCACREV q, r, d – RUCG q, r, d) / RUCHR q, r, d
+Where, 
+The RUCAC revenue is calculated for a Combined Cycle Train as follows:
+RUCACREV q, r, d	=  Max{0,  RUCMEREV96 q, r, i + Max(0, RUCEXRR96 q, r, i)}  
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+RUCCBAMT q, r, h
+$
+RUC Clawback Charge––The RUC Clawback Charge to a QSE for Resource r represented by QSE q as described in this Section, for each RUC-Committed Hour h of the Operating Day for that Resource.  When one or more Combined Cycle Generation Resources are committed by RUC, a charge is made to the Combined Cycle Train for all RUC-committed Combined Cycle Generation Resources.
+RUCG q, r, d
+$
+RUC Guarantee—The sum of eligible Startup Costs and Minimum-Energy Costs for Resource r represented by QSE q during all RUC-Committed Hours, for the Operating Day d.  See Section 5.7.1.1, RUC Guarantee.  When one or more Combined Cycle Generation Resources are committed by RUC, guaranteed costs are calculated for the Combined Cycle Train for all RUC-committed Combined Cycle Generation Resources.
+RUCMEREV q, r, d
+$
+RUC Minimum-Energy Revenue—The sum of the energy revenues for generation of Resource r represented by QSE q up to LSL during all RUC-Committed Hours, for the Operating Day d.  See Section 5.7.1.2.  When one or more Combined Cycle Generation Resources are committed by RUC, RUC Minimum-Energy Revenue is calculated for the Combined Cycle Train for all RUC-committed Combined Cycle Generation Resources.
+RUCEXRR q, r, d
+$
+Revenue Less Cost Above LSL During RUC-Committed Hours—The sum of the total revenue for Resource r represented by QSE q above the LSL less the cost during all RUC-Committed Hours, for the Operating Day d.  See Section 5.7.1.3.  When one or more Combined Cycle Generation Resources are committed by RUC, Revenue Less Cost Above LSL During RUC-Committed Hours is calculated for the Combined Cycle Train for all RUC-committed Combined Cycle Generation Resources.
+RUCEXRQC q, r, d
+$
+Revenue Less Cost from QSE-Clawback Intervals—The sum of the total revenue for Resource r represented by QSE q less the cost during all QSE-Clawback Intervals for the Operating Day d.  See Section 5.7.1.4.  When one or more Combined Cycle Generation Resources are committed by RUC, Revenue Less Cost from QSE-Clawback Intervals is calculated for the Combined Cycle Train for all Combined Cycle Generation Resources earning revenue in QSE Clawback Intervals.
+RUCACREV q, r, d
+$
+Revenue from RUCAC Hours—The net positive sum for the energy revenues for generation of Resource r represented by QSE q up to LSL and the total revenue for Resource r operating above its LSL less the cost during all RUCAC-Hours, for the Operating Day d.  When one or more Combined Cycle Generation Resources are RUCAC, revenue from RUCAC Hours is calculated for the Combined Cycle Train for all Combined Cycle Generation Resources that were RUC-committed during the RUCAC-Hours.
+RUCMEREV96 q, r, i
+$
+RUC Minimum-Energy Revenue by Interval—The energy revenues for generation of Resource r represented by QSE q up to LSL during all RUC-Committed Hours, for the Settlement Interval i.  When one or more Combined Cycle Generation Resources are committed by RUC, RUC Minimum-Energy Revenue is calculated for the Combined Cycle Train for all RUC-committed Combined Cycle Generation Resources.  During RUCAC-Intervals for a Combined Cycle Train, the minimum energy revenue is calculated as the difference between the minimum energy revenue of the RUC-committed configuration and the QSE-committed configuration.
+RUCEXRR96 q, r, i
+$
+Revenue Less Cost Above LSL During RUC-Committed Hours by Interval—The total revenue for Resource r represented by QSE q operating above its LSL less the cost during all RUC-Committed hours, for the Settlement Interval i.  When one or more Combined Cycle Generation Resources are committed by RUC, revenue less cost above LSL is calculated for the Combined Cycle Train for all RUC-committed Combined Cycle Generation Resources.
+RUCHR q, r, d
+none
+RUC Hour—The total number of RUC-Committed Hours, for Resource r represented by QSE q for the Operating Day d.  When one or more Combined Cycle Generation Resources are committed by RUC, the total number of RUC-Committed Hours is calculated for the Combined Cycle Train for all RUC-committed Combined Cycle Generation Resources.
+q
+none
+A QSE.
+r
+none
+A RUC-committed Generation Resource.
+d
+none
+An Operating Day containing the RUC-commitment.
+h
+none
+An hour in the RUC-commitment period.
+i
+none
+A 15-minute Settlement Interval within the hour that includes a RUCAC instruction.

@@ -1,0 +1,9 @@
+3.12.1	Seven-Day Load Forecast
+(1)	ERCOT shall use the Seven-Day Load Forecast to predict hourly Loads for the next 168 hours based on current weather forecast parameters within each Weather Zone.  Preparation for Day-Ahead Operations requires an accurate forecast of the Loads for which generation capacity must be secured.  The Seven-Day Load Forecast must have a “self-training” mode that allows ERCOT to review historic Load data and provide the ability to retrain the Seven-Day Load Forecast algorithm.
+[NPRR975:  Insert paragraphs (a) and (b) below upon system implementation:]
+(a) 	ERCOT will use a variety of Load forecast models and will select the Load forecast model that best fits the expected conditions for each hour of the next 168 hours as the Seven-Day Load Forecast for that hour and may update this selection as expected conditions change.    
+(b)	If the selected forecast used at the time of the Day-Ahead Reliability Unit Commitment (DRUC) for the peak Demand hour of any of the next seven days is above or below the average of the forecast models for that hour by the greater of 2000 MW or 4% of the average of the forecast models for that hour, ERCOT shall produce and post to the ERCOT website an explanation of why the outlier Load forecast model was selected for that hour.
+(2)	The inputs for the Seven-Day Load Forecast are as follows:
+(a)	Hourly forecasted weather parameters for the weather stations within the Weather Zones, which are updated at least once per hour; and
+(b)	Training information based on historic hourly integrated Weather Zone Loads.
+(3)	ERCOT shall review the forecast suggested by Seven-Day Load Forecast and shall use its judgment, if necessary, to modify the result prior to implementation in the Ancillary Service Capacity Monitor, Day-Ahead Reliability Unit Commitment (DRUC), Hour-Ahead Reliability Unit Commitment (HRUC), and Resource adequacy reporting.

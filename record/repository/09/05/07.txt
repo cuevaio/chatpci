@@ -1,0 +1,6 @@
+9.5.7	Notice of Resettlement for the Real-Time Market
+(1)	While maintaining confidentiality of all Market Participants, ERCOT shall send a Market Notice in conjunction with the resettlement, indicating the resettlement of a specific Operating Day and the date of issuance of the RTM Resettlement Statements.  ERCOT shall include the following information in the notice of resettlement:
+(a)	Detailed description of reason(s) for resettlement;
+(b)	Affected Operating Days;
+(c)	Affected settlement Charge Types; and
+(d)	Total resettled amount, by Charge Type.

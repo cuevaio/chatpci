@@ -1,0 +1,3 @@
+9.5.9	Notice of True-Up Settlement Timeline Changes for the Real-Time Market
+(1)	If the IDR Meter Data Threshold has not been met by the 180th day after the Operating Day (or, if the 180th day is not a Business Day, by the next day thereafter that is a Business Day), then ERCOT shall send a Market Notice about the delay of any RTM True-Up Statement issuance indicating the IDR Meter Data Threshold has not been met.
+(2)	For any delayed RTM True-Up Statement, ERCOT shall send a Market Notice indicating that it will issue an RTM True-Up Statement for a specific Operating Day within two Business Days after discovering the delay.  As soon as practicable, ERCOT shall send a Market Notice with the revised date on which the delayed RTM True-Up Statement will be issued.

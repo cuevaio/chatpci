@@ -1,0 +1,2 @@
+9.2.4	DAM Statement
+(1)	ERCOT shall produce a DAM Statement for each Statement Recipient for the given DAM on the second Business Day after the Operating Day.

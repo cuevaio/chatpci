@@ -1,0 +1,12 @@
+3.17.3	Non-Spinning Reserve Service
+(1)	Non-Spinning Reserve (Non-Spin) is provided by using:
+(a)	Generation Resources, whether On-Line or Off-Line, capable of: 
+(i)	Being synchronized and ramped to a specified output level within 30 minutes; and 
+(ii)	Running at a specified output level for at least four consecutive hours;
+(b)	Controllable Load Resources qualified for Dispatch by Security-Constrained Economic Dispatch (SCED) and capable of:
+(i)	Ramping to an ERCOT-instructed consumption level within 30 minutes; and 
+(ii)	Consuming at the ERCOT-instructed level for at least four consecutive hours; or 
+(c)	Load Resources that are not Controllable Load Resources and are qualified for deployment by the operator using the Ancillary Service Deployment Manager and capable of:
+(i)	Reducing consumption based on an ERCOT Extensible Markup Language (XML) instruction within 30 minutes; and 
+(ii)	Maintaining that deployment until recalled.
+(2)	The Non-Spin may be deployed by ERCOT to increase available reserves in Real-Time Operations.

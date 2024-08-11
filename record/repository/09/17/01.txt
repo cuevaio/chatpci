@@ -1,0 +1,30 @@
+9.17.1	Billing Determinant Data Elements
+(1)	ERCOT shall calculate and provide to Market Participants on the ERCOT website the following data elements annually to be used by TSPs and DSPs as billing determinants for transmission access service.  This data must be provided by December 1 of each year.  This calculation must be made under the requirements of P.U.C. SUBST. R. 25.192, Transmission Service Rates.  ERCOT shall use the most recent aggregate data produced by the ERCOT Settlement system to perform these calculations.
+(a)	The 4-Coincident Peak (4-CP) for each DSP and External Load Serving Entity (ELSE), as applicable;
+(b)	The ERCOT average 4-CP;
+(c)	The average 4-CP for each DSP and ELSE, as applicable, coincident to the ERCOT average 4-CP.
+(2)	ERCOT average 4-CP is defined as the average of the coincidental MW peaks occurring during the months of June, July, August, and September.
+(3)	Coincidental MW peak is defined as the highest monthly Settlement Interval 15-minute MW peak for the entire ERCOT Transmission Grid as calculated per the following formula:  The sum of all net energy produced by Generation Resources + Settlement Only Generators (SOGs) + Block Load Transfers (BLTs) from ERCOT to another Control Area that have been registered for Settlement purposes + actual Direct Current Tie (DC Tie) imports - BLTs to ERCOT from another Control Area that are not reflected in a Non-Opt-In Entity’s (NOIE’s) Load - actual DC Tie exports - Wholesale Storage Load (WSL).
+[NPRR995:  Replace paragraph (3) above with the following upon system implementation:]
+(3)	Coincidental MW peak is defined as the highest monthly Settlement Interval 15-minute MW peak for the entire ERCOT Transmission Grid as calculated per the following formula:  The sum of all net energy produced by Generation Resources + Settlement Only Generators (SOGs) + Settlement Only Energy Storage Systems (SOESSs) + Block Load Transfers (BLTs) from ERCOT to another Control Area that have been registered for Settlement purposes + actual Direct Current Tie (DC Tie) imports - BLTs to ERCOT from another Control Area that are not reflected in a Non-Opt-In Entity’s (NOIE’s) Load - actual DC Tie exports - Wholesale Storage Load (WSL).
+(4)	Any difference between the coincidental MW peak (converted to MWh) and the ERCOT Settlement volumes, excluding DC Tie exports, BLTs to ERCOT from another Control Area that are not reflected in a NOIE’s Load, and WSL, shall be allocated amongst all DSPs and ELSEs that are included in the ERCOT 4-CP Report on a pro rata basis as per the formula below:
+LTDSP_4CP tdsp = (PLTDSP4CPLRS tdsp * NLADJ) + PLTDSP4CP tdsp
+The above variables are defined as follows:
+Variable
+Unit
+Definition
+LTDSP_4CP tdsp
+MWh
+Load by TDSP for 4-CP - The load for each DSP and ELSE coincident to the coincidental MW peak adjusted for NLADJ
+PLTDSP4CPLRS tdsp
+%
+Preliminary Load by TDSP for 4-CP Load Ratio Share - The Load Ratio Share (LRS) for each DSP and ELSE coincident to the coincidental MW peak prior to adjusting for NLADJ
+NLADJ
+MWh
+Native Load Adjustment - The difference between the coincidental MW peak (converted to MWh) and the ERCOT settlement volumes, excluding DC Tie exports, BLTs to ERCOT from another Control Area that are not reflected in a NOIE’s Load, and WSL
+PLTDSP4CP tdsp
+MWh
+Preliminary Load by TDSP for 4CP - The Load for each DSP and ELSE coincident to the coincidental MW peak prior to adjusting for NLADJ
+tdsp
+None
+A DSP or ELSE

@@ -1,0 +1,18 @@
+Watch
+The third of three levels of communication issued by ERCOT in anticipation of a possible Emergency Condition.
+Weather Zone
+A geographic region designated by ERCOT in which climatological characteristics are similar for all areas within such region.  
+Weekly Reliability Unit Commitment (WRUC)
+An instruction issued by ERCOT prior to 1330 in the Day-Ahead for an Operating Day that reserves a Generation Resource that requires a longer lead time for startup than possible from the DRUC.
+Wholesale Customer
+A NOIE receiving service at wholesale points of delivery from an LSE other than itself.
+Wholesale Storage Load (WSL) (see Load)
+Wide Area Network (WAN)
+The WAN is a fully redundant, highly available network designed for Real-Time data transport and used by ERCOT and WAN Participants to communicate and exchange certain data as described in Nodal Operating Guide Section 7, Telemetry and Communication.
+Wide Area Network (WAN) Data
+Any data that has been received from or will be transmitted to ERCOT across the WAN in the format of Inter-Control Center Communication Protocol (ICCP) data or Resource-specific Extensible Markup Language (XML) data. 
+Wide Area Network (WAN) Participant
+A Transmission Operator (TO), Qualified Scheduling Entity (QSE) representing a Resource, QSE representing an Emergency Response Service (ERS) Resource, Data Agent-Only QSE (designated under ERCOT’s QSE Agency Agreement form), or other Market Participant that is required under the ERCOT Protocols to gather, transmit, or exchange Inter-Control Center Communication Protocol (ICCP) data, Resource-specific Extensible Markup Language (XML) data, or any of the operational voice data described in Nodal Operating Guide Section 7.1, ERCOT Wide Area Network.
+Wind-powered Generation Resource (WGR) (see Resource Category)
+Wind-powered Generation Resource Production Potential (WGRPP)
+The generation in MWh per hour from a WGR that could be generated from all available units of that Resource allocated from the 80% probability of exceedance of the Total ERCOT Wind Power Forecast (TEWPF).

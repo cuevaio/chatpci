@@ -1,0 +1,101 @@
+Adjusted Metered Load (AML)
+Retail Load usage data that has been adjusted for Unaccounted for Energy (UFE), Transmission Losses, Distribution Losses, and Direct Current Tie (DC Tie) exports.
+Adjusted Static Models
+Load Profiles that are generated from statistical models that are based on static historical Load data, and adjusted for conditions of the day (e.g., weather, Season, etc.).
+Adjustment Period
+For each Operating Hour, the time between 1800 in the Day-Ahead up to the start of the hour before that Operating Hour.
+Advance Action Notice (AAN)
+A type of Operating Condition Notice (OCN) that identifies a possible future Emergency Condition and describes future action ERCOT expects to take to address that condition unless the need for ERCOT action is alleviated by Qualified Scheduling Entity (QSE) and/or Transmission Service Provider (TSP) actions or by other system developments.
+Advanced Meter
+Any new or appropriately retrofitted meter that functions as part of a system that includes such meters and the associated hardware, software, and communications devices, that collects time-differentiated energy usage, and that is deployed pursuant to P.U.C. SUBST. R. 25.130, Advanced Metering.
+Advanced Metering System (AMS)
+A system, including Advanced Meters and the associated hardware, software, and communications devices, that collects time-differentiated energy usage and is deployed pursuant to P.U.C. SUBST. R. 25.130, Advanced Metering.
+Advisory
+The second of three levels of communication issued by ERCOT in anticipation of a possible Emergency Condition.
+Affiliate
+(1)	An Entity that directly or indirectly owns or holds at least 5% of the voting securities of a Market Participant; or
+(2)	An Entity in a chain of successive ownership of at least 5% of the voting securities of a Market Participant; or
+(3)	An Entity that has at least 5% of its voting securities owned or controlled, directly or indirectly, by a Market Participant; or
+(4)	An Entity that has at least 5% of its voting securities owned or controlled, directly or indirectly, by an Entity who directly or indirectly owns or controls at least 5% of the voting securities of a Market Participant or an Entity in a chain of successive ownership of at least 5% of the voting securities of a Market Participant; or
+(5)	A person who is an officer or director of a Market Participant or of a corporation in a chain of successive ownership of at least 5% of the voting securities of a Market Participant.
+(6)	Notwithstanding any part of this definition, any Entity that would be considered an Affiliate due to its participation in a chain of successive ownership of a Market Participant shall not for that reason be considered an Affiliate if: 
+(a)	It does not own 50% or more of the voting securities of any other Entity in the chain; or 
+(b)	Its participation in the chain is only as a successive owner of an Entity in the chain that does not own 50% or more of the voting securities of another Entity in that chain. 
+(7)	Provided that the Entity holding ownership or control of voting securities in a Market Participant does not hold such ownership or control for the purpose of exercising or influencing control of that Market Participant, then for the purposes of that relationship, the term "Entity," as used in this definition, shall not include:
+(a)	A broker or dealer registered under the Securities Exchange Act of 1934, 15 U.S.C. § 78;
+(b)	A bank or insurance company as defined under the Securities Exchange Act of 1934, 15 U.S.C. § 78;
+(c)	An investment adviser registered under state law or the Investment Advisers Act of 1940, 15 U.S.C. §§ 80b1-80b21; 
+(d)	An investment company registered under the Investment Company Act of 1940, 15 U.S.C. §§ 80a1-80a64; or
+(e)	An employee benefit plan, pension fund, endowment fund, or other similar entity.
+(8)	ERCOT may request either of the following as conclusive evidence of the purpose required in paragraph (7) above:
+(a)	An affidavit attesting to that purpose if such affidavit is signed by the Entity owning the securities; or 
+(b)	A report reflecting that purpose filed by the owning entity with the Securities and Exchange Commission.
+(9)	Notwithstanding any other provision of this Section 2.1, “Affiliate” includes any Entity determined by the Public Utility Commission of Texas (PUCT) to be an Affiliate.
+(10)	The Affiliate of a Lone Star Infrastructure Protection Act (LSIPA) Designated Company shall be determined under the definition of “LSIPA Affiliate.”
+Aggregate Generation Resource (AGR) (see Resource Attribute)
+Aggregate Load Resource (ALR) (see Resource)
+Agreement
+A signed written agreement between ERCOT and a Market Participant using one of the standard form agreements in Section 22, Attachments, including those agreements containing changes to the standard form, which changes have been approved by the ERCOT Board.
+Alternative Dispute Resolution (ADR)
+Procedures, outlined in Section 20, Alternative Dispute Resolution Procedure and Procedure for Return of Settlement Funds, for settling disputes by means other than litigation.
+Ancillary Service
+A service necessary to support the transmission of energy to Loads while maintaining reliable operation of the Transmission Service Provider’s (TSP’s) transmission system using Good Utility Practice. 
+[NPRR857:  Replace the above definition “Ancillary Service” with the following upon system implementation and satisfying the following conditions:  (1) Southern Cross provides ERCOT with funds to cover the entire estimated cost of the project; and (2) Southern Cross has signed an interconnection agreement with a TSP and the TSP gives ERCOT written notice that Southern Cross has provided it with:  (a) Notice to proceed with the construction of the interconnection; and (b) The financial security required to fund the interconnection facilities:]
+Ancillary Service
+A service necessary to support the transmission of energy to Loads while maintaining reliable operation of the transmission system using Good Utility Practice.
+Ancillary Service Assignment  
+Ancillary Service Resource Responsibility assigned to an On-Line Resource pursuant to paragraph (4) of Section 6.5.9.3.3, Watch.
+[NPRR1013:  Delete the above definition “Ancillary Service Assignment” upon system implementation of the Real-Time Co-Optimization (RTC) project.]
+Ancillary Service Capacity Monitor
+A set of processes described in Section 8.1.1.3, Ancillary Service Capacity Compliance Criteria, to determine the Real-Time capability of Resources to provide Ancillary Service.
+[NPRR1013:  Insert the following definition “Ancillary Service Demand Curve (ASDC)” upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+Ancillary Service Demand Curve (ASDC)
+A curve that reflects the value of each Ancillary Service product by price/quantity pairs for each hour of the Operating Day.
+
+[NPRR1204:  Insert the following definition “Ancillary Service Deployment Factors” upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+Ancillary Service Deployment Factors
+Hourly parameters for each Ancillary Service type between 0 and 1 (or 0% to 100%) that indicate an assumed Ancillary Service deployment and may be based on system conditions such as forecasts for Demand and Intermittent Renewable Resources (IRRs).  These factors are used in the Reliability Unit Commitment (RUC) studies.
+
+[NPRR1013:  Insert the following definition “Ancillary Service Imbalance” upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+Ancillary Service Imbalance 
+The difference between the amount of an Ancillary Service cleared in the Day-Ahead Market (DAM) and through trades and the amount of that Ancillary Service awarded in the Real-Time Market (RTM).
+Ancillary Service Obligation
+For each Ancillary Service, a Qualified Scheduling Entity’s (QSE’s) ERCOT-allocated share of total ERCOT System needs for that Ancillary Service.
+Ancillary Service Offer
+An offer to supply Ancillary Service capacity in the Day-Ahead Market (DAM) or a Supplemental Ancillary Service Market (SASM).
+[NPRR1013:  Replace the definition “Ancillary Service Offer” above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+Ancillary Service Offer
+An offer to supply Ancillary Service capacity in the Day-Ahead Market (DAM) or Real-Time Market (RTM).
+Resource-Specific Ancillary Service Offer
+A Resource-specific offer to supply Ancillary Service capacity in the Day-Ahead Market (DAM) or Real-Time Market (RTM).
+Ancillary Service Only Offer
+An offer to sell Ancillary Service capacity in the Day-Ahead Market (DAM) that is not associated with a specific Resource.
+Ancillary Service Plan
+A plan produced by ERCOT, as described in Section 4.2.1, Ancillary Service Plan and Ancillary Service Obligation, which identifies the types and amount of Ancillary Service necessary for each hour of the Operating Day.
+[NPRR1013:  Insert the following definition “Ancillary Service Position” upon system implementation of the Real-Time Co-Optimization (RTC) project:]
+Ancillary Service Position
+The net amount of Ancillary Service capacity to which a Qualified Scheduling Entity (QSE) has financially committed in the ERCOT market, as described in Section 5.4.1, Ancillary Service Positions.
+Ancillary Service Resource Responsibility
+The MW of an Ancillary Service that each Resource is obligated to provide in Real-Time rounded to the nearest MW. 
+[NPRR1013:  Delete the above definition “Ancillary Service Resource Responsibility” upon system implementation of the Real-Time Co-Optimization (RTC) project.]
+Ancillary Service Schedule
+The MW of each Ancillary Service that each Resource is providing in Real-Time and the MW of each Ancillary Service for each Resource for each hour in the Current Operating Plan (COP). 
+[NPRR1013:  Delete the above definition “Ancillary Service Schedule” upon system implementation of the Real-Time Co-Optimization (RTC) project.]
+Ancillary Service Supply Responsibility 
+The net amount of Ancillary Service capacity that a Qualified Scheduling Entity (QSE) is obligated to deliver to ERCOT, by hour and service type.
+[NPRR1013:  Delete the above definition “Ancillary Service Supply Responsibility” upon system implementation of the Real-Time Co-Optimization (RTC) project.]
+Ancillary Service Trade
+A QSE-to-QSE transaction that transfers an obligation to provide Ancillary Service capacity between a buyer and a seller.
+Applicable Legal Authority (ALA)
+A Texas or federal law, rule, regulation, or applicable ruling of the PUCT or any other regulatory authority having jurisdiction, an order of a court of competent jurisdiction, or a rule, regulation, applicable ruling, procedure, protocol, guide or guideline of the Independent Organization, or any Entity authorized by the Independent Organization to perform registration or settlement functions.
+Area Control Error (ACE)
+A calculation of the MW correction needed to control the actual system frequency to the scheduled system frequency.
+Authorized Representative
+The person(s) designated by an Entity during the registration process in Section 16, Registration and Qualification of Market Participants, who is responsible for authorizing all registration information required by ERCOT Protocols and ERCOT business processes, including any changes in the future, and will be the contact person(s) between the registered Entity and ERCOT for all business matters requiring authorization by ERCOT.
+Automatic Voltage Regulator (AVR)  
+A device on a Generation Resource or a control system at the Facility of a Generation Resource or Energy Storage Resource (ESR) used to automatically control the voltage to an established Voltage Set Point.
+Availability Plan
+An hourly representation of availability of Reliability Must-Run (RMR) Units or an hourly representation of the capability of Black Start Resources as submitted to ERCOT by 0600 in the Day-Ahead by Qualified Scheduling Entities (QSEs) representing RMR Units or Black Start Resources.  An hourly representation of availability of Firm Fuel Supply Service Resources (FFSSRs) as submitted to ERCOT 14 days prior to the Operating Day by QSEs representing FFSSRs.  QSEs must update the Availability Plan to reflect current operating conditions within 60 minutes after identifying the change in availability of the Resource.
+[NPRR885:  Replace the above definition “Availability Plan” with the following upon system implementation:]
+Availability Plan
+An hourly representation of availability of Reliability Must-Run (RMR) Units, Must-Run Alternatives (MRAs), or an hourly representation of the capability of Black Start Resources as submitted to ERCOT by 0600 in the Day-Ahead by Qualified Scheduling Entities (QSEs) representing RMR Units, MRAs, or Black Start Resources.  An hourly representation of availability of Firm Fuel Supply Service Resources (FFSSRs) as submitted to ERCOT 14 days prior to the Operating Day by QSEs representing FFSSRs.  QSEs must update the Availability Plan to reflect current operating conditions within 60 minutes after identifying the change in availability of the Resource.
