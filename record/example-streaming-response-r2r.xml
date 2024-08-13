@@ -1,0 +1,8 @@
+<function_call>
+  <name>search</name>
+  <arguments>{"query":"ERCOT charge codes"}</arguments>
+  <results>["{\"id\":\"90695926-a0f6-5cf3-9809-c53dff202094\",\"score\":1.0,\"metadata\":{\"text\":\"9.15.1\\tCharge Ty...\",\"title\":\"ercot-09.txt\",\"user_id\":\"2acb499e-8428-543b-bd85-0d9098718220\",\"document_id\":\"00266864-f69a-5709-9cc5-eca3872c8b68\",\"extraction_id\":\"01e829f9-93bc-56ec-89c4-6dd63a37a4e4\",\"associatedQuery\":\"ERCOT charge codes\"}}","{\"id\":\"490b0ca2-f0d4-5b8c-9cfb-6a24343f7379\",\"score\":1.0,\"metadata\":{\"text\":\"(o)\\tSection 6.6.3.8, Real-Time Pa...\",\"title\":\"ercot-09.txt\",\"user_id\":\"2acb499e-8428-543b-bd85-0d9098718220\",\"document_id\":\"00266864-f69a-5709-9cc5-eca3872c8b68\",\"extraction_id\":\"01e829f9-93bc-56ec-89c4-6dd63a37a4e4\",\"associatedQuery\":\"ERCOT charge codes\"}}]
+  </results>
+</function_call>
+  
+<completion>In the Electric Reliability Council of Texas (ERCOT), c...</completion>

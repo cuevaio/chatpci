@@ -1,33 +1,30 @@
 export async function POST(req: Request) {
   const { messages } = await req.json();
 
-  const res = await fetch(
-    "https://sciphi-6db55e6d-12a5-4cd8-a930-a7e4f4390f6e-qwpin2swwa-ue.a.run.app/v1/agent",
-    {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
+  const res = await fetch(process.env.R2R_API_URL + "/v1/agent", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      messages,
+      vector_search_settings: {
+        use_vector_search: true,
+        search_filters: {},
+        search_limit: 10,
+        do_hybrid_search: true,
       },
-      body: JSON.stringify({
-        messages,
-        vector_search_settings: {
-          use_vector_search: true,
-          search_filters: {},
-          search_limit: 10,
-          do_hybrid_search: true,
-        },
-        kg_search_settings: {
-          use_kg_search: true,
-        },
-        rag_generation_config: {
-          stream: true,
-          model: "openai/gpt-4o",
-          temperature: 0.7,
-        },
-        include_title_if_available: true,
-      }),
-    }
-  );
+      kg_search_settings: {
+        use_kg_search: true,
+      },
+      rag_generation_config: {
+        stream: true,
+        model: "openai/gpt-4o",
+        temperature: 0.7,
+      },
+      include_title_if_available: true,
+    }),
+  });
 
   let storedChunk = "";
 
