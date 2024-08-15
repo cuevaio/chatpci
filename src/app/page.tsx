@@ -4,7 +4,6 @@ import { ChatMessage } from "@/components/chat-message";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { useChat } from "ai/react";
 import * as React from "react";
-import Markdown from "react-markdown";
 
 export default function Chat() {
   const { messages, input, handleInputChange, handleSubmit, data } = useChat({
@@ -18,7 +17,7 @@ export default function Chat() {
       { id: string; document_id: string; text: string }
     >();
 
-    data?.forEach((x) => {
+    data?.forEach((x, idx) => {
       if (x && typeof x === "object" && !Array.isArray(x)) {
         if (x["results"] && Array.isArray(x["results"])) {
           (
@@ -62,6 +61,8 @@ export default function Chat() {
       <ThemeToggle />
       <div className="space-y-4">
         {data && <pre>{JSON.stringify(docs, undefined, 2)}</pre>}
+        {data && <pre>{JSON.stringify(chunks, undefined, 2)}</pre>}
+
         {messages.map((m) => (
           <ChatMessage key={m.id} message={m} />
         ))}

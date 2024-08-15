@@ -1,10 +1,12 @@
+import { env } from 'process';
+
 export async function POST(req: Request) {
   const { messages } = await req.json();
 
-  const res = await fetch(process.env.R2R_API_URL + "/v1/agent", {
-    method: "POST",
+  const res = await fetch(`${env.R2R_API_URL}/v1/agent`, {
+    method: 'POST',
     headers: {
-      "Content-Type": "application/json",
+      'Content-Type': 'application/json',
     },
     body: JSON.stringify({
       messages,
@@ -19,79 +21,77 @@ export async function POST(req: Request) {
       },
       rag_generation_config: {
         stream: true,
-        model: "openai/gpt-4o",
+        model: 'openai/gpt-4o',
         temperature: 0.7,
       },
       include_title_if_available: true,
     }),
   });
 
-  let storedChunk = "";
+  if (!res.body) {
+    throw new Error('Response body is null');
+  }
 
+  const transformStream = new TransformStream<Uint8Array, string>({
+    transform: createChunkTransformer(),
+  });
+
+  return new Response(res.body.pipeThrough(transformStream), {
+    headers: {
+      'Content-Type': 'text/plain; charset=utf-8',
+    },
+  });
+}
+
+function createChunkTransformer() {
+  let storedChunk = '';
   let streamedArguments = false;
   let streamedResults = false;
 
-  function parseChunk(chunk: Uint8Array) {
+  return function transform(chunk: Uint8Array, controller: TransformStreamDefaultController<string>) {
     const decoder = new TextDecoder();
     const decoded = decoder.decode(chunk);
-
     storedChunk += decoded;
 
+    const parsedChunk = parseChunk();
+    if (parsedChunk) {
+      controller.enqueue(parsedChunk);
+    }
+  };
+
+  function parseChunk(): string | null {
     if (!streamedArguments) {
-      // Check for <arguments>
       const argumentsMatch = storedChunk.match(/<arguments>(.*?)<\/arguments>/);
       if (argumentsMatch) {
-        const result = `2:[${argumentsMatch[1]}]\n`;
-        storedChunk = storedChunk.replace(argumentsMatch[0], "");
+        storedChunk = storedChunk.replace(argumentsMatch[0], '');
         streamedArguments = true;
-        return result;
+        return `2:[${argumentsMatch[1]}]\n`;
       }
     }
 
     if (!streamedResults) {
-      // Check for <results>
       const resultsMatch = storedChunk.match(/<results>(.*?)<\/results>/);
-
       if (resultsMatch) {
-        const data = [
-          {
-            results: JSON.parse(`[${resultsMatch[1]}]`).map((x: string) =>
-              JSON.parse(x)
-            ),
-          },
-        ];
-
-        const result = `2:${JSON.stringify(data)}\n`;
-        storedChunk = storedChunk.replace(resultsMatch[0], "");
-        return result;
+        const data = [{
+          results: JSON.parse(`[${resultsMatch[1]}]`).map((x: string) => JSON.parse(x)),
+        }];
+        storedChunk = storedChunk.replace(resultsMatch[0], '');
+        streamedResults = true;
+        return `2:${JSON.stringify(data)}\n`;
       }
     }
 
-    if (storedChunk.includes("<completion>")) {
-      const result = decoded
-        .replace(/(?<=^"|[^"])("?)(?!")(?=.*"$)/g, '\\"')
-        .replace(/\n/g, "\\n")
-        .replace("<completion>", "")
-        .replace("</completion>", "");
-
-      if (result.length > 0) {
-        return `0:"${result}"\n`;
+    if (storedChunk.includes('<completion>')) {
+      const completionMatch = storedChunk.match(/<completion>(.*?)<\/completion>/s);
+      if (completionMatch) {
+        const result = completionMatch[1]
+          .replace(/(?<=^"|[^"])("?)(?!")(?=.*"$)/g, '\\"')
+          .replace(/\n/g, '\\n');
+        storedChunk = storedChunk.replace(completionMatch[0], '');
+        return result.length > 0 ? `0:"${result}"\n` : null;
       }
-    } else {
-      return null;
     }
+
+    return null;
   }
-
-  const transformStream = new TransformStream<Uint8Array>({
-    transform(chunk, controller) {
-      const decoded = parseChunk(chunk);
-      decoded && controller.enqueue(decoded);
-    },
-  });
-
-  return new Response(res.body!.pipeThrough(transformStream), {
-    headers: {
-      "Content-Type": "text/plain; charset=utf-8",
-    },
-  });
 }
